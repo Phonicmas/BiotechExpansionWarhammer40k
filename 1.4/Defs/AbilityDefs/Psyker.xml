@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+      <defName>40KPSY_Doombolt</defName>
+      <label>flameball</label>
+      <description>Generate a small fragile pod of magma as the caster lobs the projectile away. Upon impact, the liquid bursts forth in a small radius.</description>
+      <iconPath>Abilities/Psyker/???</iconPath>
+      <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+      <castTime>30</castTime>
+      <range>30</range>
+      <radius>1</radius>
+      <targetMode>Pawn</targetMode>
+      <castSound>VPE_Flameball_Cast</castSound>
+      <modExtensions>
+        <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+          <path>40KPSY_Psyker</path>
+          <level>1</level>
+          <order>1</order>
+          <psyfocusCost>0.04</psyfocusCost>
+          <entropyGain>24</entropyGain>
+        </li>
+        <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+          <projectile>40KPSY_Doombolt</projectile>
+        </li>
+      </modExtensions>
+    </VFECore.Abilities.AbilityDef>
+</Defs>

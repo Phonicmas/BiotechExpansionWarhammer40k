@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>40KPSY_Doombolt</defName>
+		<label>doombolt</label>
+		<description>A ball of psychic energy launched by a psyker</description>
+		<thingClass>VanillaPsycastsExpanded.Graphics.Projectile_Pointing</thingClass>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Psyker/Fireball</texPath>
+			<ticksPerFrame>5</ticksPerFrame>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<drawerType>RealtimeOnly</drawerType>
+		<projectile>
+			<explosionRadius>1</explosionRadius>
+			<damageDef>Bullet</damageDef>
+			<speed>30</speed>
+            <damageAmountBase>10</damageAmountBase>
+            <!-- <armorPenetration>1</armorPenetration> Check om muligt-->
+			<arcHeightFactor>50</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</ThingDef>
+</Defs>

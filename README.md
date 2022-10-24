@@ -3,6 +3,7 @@
 # TODO
 1. Set up Powers for Vanilla Expanded Psycasts
 2. Set up Gene for Biotech
+3. Extend PsycasterPathDef into own class and override PawnCanUnlock
 
 # Planned Features:
 1. Psyker Gene for Biotech (Required for using Psycasts in this mod)
@@ -24,3 +25,4 @@
 
 # Misc things
 1. Check freesound.org for sounds?
+2. Use womble.ai for background generation of image for psycast path.
