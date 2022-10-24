@@ -4,8 +4,8 @@
     <defName>40KPSY_Psyker</defName>
     <label>psyker</label>
     <description>Psykers possess unhinged psychic prowess</description>
-    <background>UI/Backgrounds/???</background> <!-- CHANGE ??? TO ACTUAL GRAPHICS -->
-    <altBackground>UI/AlternativeBackgrounds/???</altBackground>
+    <background>UI/Backgrounds/PsykerPath</background> <!-- CHANGE ??? TO ACTUAL GRAPHICS -->
+    <altBackground>UI/AlternativeBackgrounds/PathBG_Psyker</altBackground>
     <tab>Psycasts</tab>
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>

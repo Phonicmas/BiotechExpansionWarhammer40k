@@ -6,7 +6,7 @@
 		<description>A ball of psychic energy launched by a psyker</description>
 		<thingClass>VanillaPsycastsExpanded.Graphics.Projectile_Pointing</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-			<texPath>Effects/Psyker/Fireball</texPath>
+			<texPath>Effects/Psyker/Doombolt</texPath>
 			<ticksPerFrame>5</ticksPerFrame>
 			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
 			<shaderType>MoteGlow</shaderType>
@@ -15,10 +15,11 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
 			<explosionRadius>1</explosionRadius>
-			<damageDef>Bullet</damageDef>
-			<speed>30</speed>
+			<damageDef>Crush</damageDef>
+			<speed>45</speed>
             <damageAmountBase>10</damageAmountBase>
-            <!-- <armorPenetration>1</armorPenetration> Check om muligt-->
+            <armorPenetrationBase>0.15</armorPenetrationBase>
+			<stoppingPower>1.5</stoppingPower>
 			<arcHeightFactor>50</arcHeightFactor>
 			<shadowSize>0.6</shadowSize>
 		</projectile>

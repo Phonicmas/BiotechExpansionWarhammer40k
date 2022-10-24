@@ -1,12 +1,15 @@
 # 40kPsykers
 
+# Ongoing
+1. Psycaster tree & abilities - ONGOING
+
 # TODO
-1. Set up Powers for Vanilla Expanded Psycasts
+1. Set up Powers and tree for Vanilla Expanded Psycasts
 2. Set up Gene for Biotech
-3. Extend PsycasterPathDef into own class and override PawnCanUnlock
+3. Extend PsycasterPathDef into own class and override PawnCanUnlock for gene requirement
 
 # Planned Features:
-1. Psyker Gene for Biotech (Required for using Psycasts in this mod)
+1. Psyker Gene for Biotech (Hopefully to be required for using Psycasts in this mod)
 2. Psycast tree for Vanilla Expanded Psycasts
 
 # Future Things?:
@@ -20,8 +23,6 @@
 5. Iron Arm - Increase Armor value and give strong blunt attack - Self	
 6. Warp Speed - Increase movement speed and dodge chance. - Self
 7. Misfortune - Reduce enemy armor value - Others
-
-
 
 # Misc things
 1. Check freesound.org for sounds?
