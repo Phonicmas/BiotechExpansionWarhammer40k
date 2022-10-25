@@ -14,13 +14,12 @@
 		<drawOffscreen>true</drawOffscreen>
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
-			<explosionRadius>1</explosionRadius>
 			<damageDef>Crush</damageDef>
 			<speed>45</speed>
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.15</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
-			<arcHeightFactor>50</arcHeightFactor>
+			<arcHeightFactor>15</arcHeightFactor>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
 	</ThingDef>
