@@ -3,7 +3,7 @@
 
   <!-- Psyker Path-->
 
-  <Psyker.PsycasterPathDef>
+  <VanillaPsycastsExpanded.PsycasterPathDef>
     <defName>40KPSY_Psyker</defName>
     <label>psyker</label>
     <description>Psykers possess unhinged psychic prowess</description>
@@ -12,10 +12,19 @@
     <tab>Psycasts</tab>
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
-    <requiredGene>
-      <li>
-        <GeneDef>40KPSY_Psyker</GeneDef>
+    <modExtensions>
+      <li Class="Psyker.PsykerPathDef">
+        <requiredGeneAny>
+          <li>
+            <GeneDef>40KPSY_Psyker</GeneDef>
+          </li>
+        </requiredGeneAny>
       </li>
-    </requiredGene>
-  </Psyker.PsycasterPathDef>
+    </modExtensions>
+    <!--<requiredGeneAny>
+      <li>
+        <GeneDef>40KPSY_Psyker</GeneDef>  
+      </li>
+    </requiredGeneAny>-->
+  </VanillaPsycastsExpanded.PsycasterPathDef>
 </Defs>

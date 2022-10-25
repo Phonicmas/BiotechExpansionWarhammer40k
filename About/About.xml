@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Warhammer 40k Psykers</name>
+	<name>Psykers</name>
 	<author>Phonicmas</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>Phonicmas.Psykers</packageId>
+	<packageId>Phonicmas.Psyker</packageId>
 	<description>
         A psycast tree for Vanilla Expanded Psycasts based on powers from Warhammer 40k.
     </description>
