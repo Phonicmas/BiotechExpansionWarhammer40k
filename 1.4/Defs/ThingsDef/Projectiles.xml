@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+	<!-- Doombolt Projectile -->
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>40KPSY_Doombolt</defName>
 		<label>doombolt</label>
@@ -16,11 +19,44 @@
 		<projectile>
 			<damageDef>Crush</damageDef>
 			<speed>45</speed>
-            <damageAmountBase>10</damageAmountBase>
-            <armorPenetrationBase>0.15</armorPenetrationBase>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<arcHeightFactor>15</arcHeightFactor>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
 	</ThingDef>
+
+	<!-- Smite Projectile -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>40KPSY_Smite</defName>
+		<label>smite</label>
+		<thingClass>VFECore.BeamProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Psyker/Smite</texPath>
+			<ticksPerFrame>5</ticksPerFrame>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>(5, 1)</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>EMP</damageDef>
+			<speed>500</speed>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<stoppingPower>1.5</stoppingPower>
+			<explosionRadius>3</explosionRadius>
+		</projectile>
+		<modExtensions>
+			<li Class="VFECore.ProjectileExtension">
+				<flashIntensity>100</flashIntensity>
+				<hitFleck>VPE_EyeBlast</hitFleck>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	
 </Defs>

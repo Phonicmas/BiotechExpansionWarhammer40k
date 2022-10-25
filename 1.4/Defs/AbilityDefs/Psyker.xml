@@ -1,36 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Doombolt -->
+  <!-- Doombolt -->
 
-    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-      <defName>40KPSY_Doombolt</defName>
-      <label>doombolt</label>
-      <description>Generate a small fragile pod of magma as the caster lobs the projectile away. Upon impact, the liquid bursts forth in a small radius.</description>
-      <iconPath>Abilities/Psyker/Doombolt</iconPath>
-      <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
-      <castTime>30</castTime>
-      <range>30</range>
-      <radius>1</radius>
-      <showUndrafted>false</showUndrafted>
-      <targetMode>Pawn</targetMode>
-      <castSound>VPE_Flameball_Cast</castSound>
-      <rangeStatFactors>
-        <PsychicSensitivity>1</PsychicSensitivity>
-      </rangeStatFactors>
-      <modExtensions>
-        <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-          <path>40KPSY_Psyker</path>
-          <level>1</level>
-          <order>1</order>
-          <psyfocusCost>0.04</psyfocusCost>
-          <entropyGain>24</entropyGain>
-        </li>
-        <li Class="VFECore.Abilities.AbilityExtension_Projectile">
-          <projectile>40KPSY_Doombolt</projectile>
-        </li>
-      </modExtensions>
-    </VFECore.Abilities.AbilityDef>
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>40KPSY_Doombolt</defName>
+    <label>doombolt</label>
+    <description>???</description>
+    <iconPath>Abilities/Psyker/Doombolt</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>20</castTime>
+    <range>30</range>
+    <radius>1</radius>
+    <showUndrafted>false</showUndrafted>
+    <targetMode>Pawn</targetMode>
+    <castSound>VPE_Flameball_Cast</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>40KPSY_Psyker</path>
+        <level>1</level>
+        <order>1</order>
+        <psyfocusCost>0.03</psyfocusCost>
+        <entropyGain>21</entropyGain>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>40KPSY_Doombolt</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
+  <!-- Smite -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>40KPSY_Smite</defName>
+    <label>smite</label>
+    <description>???</description>
+    <iconPath>Abilities/Psyker/Smite</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>30</castTime>
+    <range>45</range>
+    <radius>3</radius>
+    <targetMode>Pawn</targetMode>
+    <castSound>VPE_EyeBlast_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>VPE_Conflagrator</path>
+        <level>2</level>
+        <order>1</order>
+        <psyfocusCost>0.08</psyfocusCost>
+        <entropyGain>42</entropyGain>
+        <prerequisites>
+          <li>40KPSY_Doombolt</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>40KPSY_Smite</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
 
 
 </Defs>
