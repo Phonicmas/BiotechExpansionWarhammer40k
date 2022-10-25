@@ -4,7 +4,7 @@
     <!-- Psyker Gene-->
 
     <GeneDef ParentName="GenePsychicAbilityBase">
-        <defName>Psyker</defName>
+        <defName>40KPSY_Psyker</defName>
         <label>psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
         <iconPath>UI/Icons/Genes/GenePsyker</iconPath>

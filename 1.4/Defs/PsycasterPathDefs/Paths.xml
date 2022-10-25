@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <VanillaPsycastsExpanded.PsycasterPathDef>
+
+  <!-- Psyker Path-->
+
+  <VanillaPsycastsExpanded.PsycasterPathDef>
     <defName>40KPSY_Psyker</defName>
     <label>psyker</label>
     <description>Psykers possess unhinged psychic prowess</description>
-    <background>UI/Backgrounds/PsykerPath</background> <!-- CHANGE ??? TO ACTUAL GRAPHICS -->
+    <background>UI/Backgrounds/PsykerPath</background>
     <altBackground>UI/AlternativeBackgrounds/PathBG_Psyker</altBackground>
     <tab>Psycasts</tab>
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
-    <!--<requiredBackstoriesAny>
+    <!--<requiredGene>
       <li>
-        <categoryName>ImperialFighter</categoryName>
-        <slot>Childhood</slot>
+        <GeneDef>40KPSY_Psyker</GeneDef>
       </li>
-    </requiredBackstoriesAny>
-    
-    MAKE REQUIRED GENE
-
-    -->
+    </requiredGene>-->
   </VanillaPsycastsExpanded.PsycasterPathDef>
 </Defs>
