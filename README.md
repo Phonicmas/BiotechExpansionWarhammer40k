@@ -1,4 +1,4 @@
-# 40kPsykers
+# 40kPsykers for Rimworld
 
 # Ongoing
 1. Gene - DONE
