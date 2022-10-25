@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Psyker Gene-->
+
+    <GeneDef ParentName="GenePsychicAbilityBase">
+        <defName>Psyker</defName>
+        <label>psyker</label>
+        <description>Carriers of this gene are able to unlock their true psychic potential.</description>
+        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <marketValueFactor>1.5</marketValueFactor>
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <minAgeActive>6</minAgeActive>
+    </GeneDef>
+
+</Defs>

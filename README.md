@@ -25,5 +25,5 @@
 7. Misfortune - Reduce enemy armor value - Others
 
 # Misc things
-1. Check freesound.org for sounds?
-2. Use womble.ai for background generation of image for psycast path.
+1. Check freesound.org for sounds
+2. Use wombo.ai for background generation of image for psycast path.
