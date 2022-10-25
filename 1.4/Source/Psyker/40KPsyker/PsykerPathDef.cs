@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
 using UnityEngine;
@@ -13,8 +13,6 @@ namespace Psyker
 
         public override bool CanPawnUnlock(Pawn pawn) => PawnHasGene(pawn);
 
-        //private bool PawnHasGene (Pawn pawn) => true;
         private bool PawnHasGene(Pawn pawn) => requiredGeneAny == null || pawn.genes.HasXenogene(requiredGeneAny);
     }
 }
-

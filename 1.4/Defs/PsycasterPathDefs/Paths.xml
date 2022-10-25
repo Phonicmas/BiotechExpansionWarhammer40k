@@ -12,6 +12,7 @@
     <tab>Psycasts</tab>
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
+
     <modExtensions>
       <li Class="Psyker.PsykerPathDef">
         <requiredGeneAny>
@@ -21,10 +22,12 @@
         </requiredGeneAny>
       </li>
     </modExtensions>
+
     <!--<requiredGeneAny>
-      <li>
+      <li>s
         <GeneDef>40KPSY_Psyker</GeneDef>  
       </li>
     </requiredGeneAny>-->
+
   </VanillaPsycastsExpanded.PsycasterPathDef>
 </Defs>
