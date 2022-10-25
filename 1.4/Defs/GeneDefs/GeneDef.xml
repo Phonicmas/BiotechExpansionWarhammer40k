@@ -8,10 +8,15 @@
         <label>psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
         <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>1</displayOrderInCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
         <marketValueFactor>1.5</marketValueFactor>
-        <biostatCpx>0</biostatCpx>
-        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <PsychicSensitivity>0.6</PsychicSensitivity>
+            <MeditationFocusGain>0.25</MeditationFocusGain>
+            <PsychicEntropyRecoveryRate>0.4</PsychicEntropyRecoveryRate>
+          </statOffsets>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>-4</biostatMet>
         <minAgeActive>6</minAgeActive>
     </GeneDef>
 
