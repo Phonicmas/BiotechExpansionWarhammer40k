@@ -4,7 +4,7 @@
 https://forms.gle/5YpXFs7UgMokhvYa7
 
 # Ongoing
-1. Gene - DONE
+1. Genes - ONGOING
 2. Psycaster tree & abilities - ONGOING
 
 # TODO
@@ -14,9 +14,10 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 # Planned Features:
 1. Psyker Gene for Biotech (Hopefully to be required for using Psycasts in this mod)
 2. Psycast tree for Vanilla Expanded Psycasts
+3. All Space Marine gene-seeds
 
 # Future Things?:
-1. Make more trees for the different psychic disciplines. 
+1. Make more trees for the different psychic disciplines?
 
 # Genes
 1. Secondary Heart
@@ -29,6 +30,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 3. Biscopea
     *Increase health points by 15.
     *Increase carrying capacity by 100.
+    *Increase melee damage by 35%.
 4. Haemastamen
     *Increase breathing by 50%.
 5. Larraman's Organ
@@ -81,7 +83,3 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 5. Iron Arm - Increase Armor value and give strong blunt attack - Self - PLANNED
 6. Warp Speed - Increase movement speed and dodge chance. - Self - PLANNED
 7. Misfortune - Reduce enemy armor value - Others - PLANNED
-
-# Misc things
-1. Check freesound.org for sounds
-2. Use wombo.ai for background generation of image for psycast path.
