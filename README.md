@@ -1,5 +1,8 @@
 # 40kPsykers for Rimworld
 
+# Suggestions
+https://forms.gle/5YpXFs7UgMokhvYa7
+
 # Ongoing
 1. Gene - DONE
 2. Psycaster tree & abilities - ONGOING
