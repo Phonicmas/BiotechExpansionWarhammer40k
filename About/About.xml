@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Psykers</name>
+	<name>Biotech Expansion - Warhammer 40k</name>
 	<author>Phonicmas</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>Phonicmas.Psyker</packageId>
+	<packageId>Phonicmas.BiotechExpansionWarhammer40k</packageId>
 	<description>
-        A psycast tree for Vanilla Expanded Psycasts based on powers from Warhammer 40k.
+        An expansion for Biotech with focus on warhammer 40k.
     </description>
 	<modDependencies>
         <li>
