@@ -1,23 +1,362 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Gene Category -->
+
+    <GeneCategoryDef>
+        <defName>40KSpaceMarine</defName>
+        <label>space marine</label>
+        <displayPriorityInXenotype>540</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <!-- Parent Gene -->
+
+    <GeneDef Name="SpaceMarineParent" Abstract="True">
+        <displayCategory>40KSpaceMarine</displayCategory>
+        <marketValueFactor>1.5</marketValueFactor>
+    </GeneDef>
+
     <!-- Psyker Gene-->
 
-    <GeneDef ParentName="GenePsychicAbilityBase">
+    <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Psyker</defName>
         <label>psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
         <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
         <displayOrderInCategory>100</displayOrderInCategory>
-        <marketValueFactor>1.5</marketValueFactor>
         <statOffsets>
             <PsychicSensitivity>0.6</PsychicSensitivity>
             <MeditationFocusGain>0.25</MeditationFocusGain>
             <PsychicEntropyRecoveryRate>0.4</PsychicEntropyRecoveryRate>
-          </statOffsets>
+        </statOffsets>
         <biostatCpx>3</biostatCpx>
         <biostatMet>-4</biostatMet>
         <minAgeActive>6</minAgeActive>
+    </GeneDef>
+
+    <!-- Space Marine Genes-->
+
+    <!-- Secondary Heart-->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_SecondayHeart</defName>
+        <label>secondary heart</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <sterilize>true</sterilize>
+        <statOffsets>
+            <Fertility>0</Fertility>
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>14</minAgeActive>
+    </GeneDef>
+
+    <!-- Ossmodula -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Ossmodula</defName>
+        <label>ossmodula</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <prerequisite>40KPSY_SecondayHeart</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>12</minAgeActive>
+    </GeneDef>
+
+    <!-- Biscopea -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Biscopea</defName>
+        <label>biscopea</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <prerequisite>40KPSY_Ossmodula</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>12</minAgeActive>
+    </GeneDef>
+
+    <!-- Haemastamen -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Haemastamen</defName>
+        <label>haemastamen</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <prerequisite>40KPSY_Biscopea</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>14</minAgeActive>
+    </GeneDef>
+
+    <!-- Larraman's Organ  -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_LarramansOrgan </defName>
+        <label>larraman's organ</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <prerequisite>40KPSY_Haemastamen</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>13</minAgeActive>
+    </GeneDef>
+
+    <!-- Catalepsean Node -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_CatalepseanNode </defName>
+        <label>catalepsean node</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <prerequisite>40KPSY_LarramansOrgan</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>17</minAgeActive>
+    </GeneDef>
+
+    <!-- Preomnor -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Preomnor</defName>
+        <label>preomnor</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>7</displayOrderInCategory>
+        <prerequisite>40KPSY_CatalepseanNode</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Omophagea -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Omophagea</defName>
+        <label>omophagea</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>8</displayOrderInCategory>
+        <prerequisite>40KPSY_Preomnor</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Multi-lung -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Multi-lung</defName>
+        <label>multi-lung</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>9</displayOrderInCategory>
+        <prerequisite>40KPSY_Omophagea</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Occulobe -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Occulobe</defName>
+        <label>occulobe</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <prerequisite>40KPSY_Multi-lung</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Lyman's Ear -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_LymansEar</defName>
+        <label>lyman's ear</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <prerequisite>40KPSY_Occulobe</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Sus-an Membrane -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Sus-anMembrane</defName>
+        <label>sus-an membrane</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <prerequisite>40KPSY_LymansEar</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Melanochrome -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Melanochrome</defName>
+        <label>melanochrome</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <prerequisite>40KPSY_Sus-anMembrane</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Oolitic Kidney -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_OoliticKidney</defName>
+        <label>oolitic kidney</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <prerequisite>40KPSY_Melanochrome</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Neuroglottis -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Neuroglottis</defName>
+        <label>neuroglottis</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <prerequisite>40KPSY_OoliticKidney</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Mucranoid -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Mucranoid</defName>
+        <label>mucranoid</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>16</displayOrderInCategory>
+        <prerequisite>40KPSY_Neuroglottis</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>16</minAgeActive>
+    </GeneDef>
+
+    <!-- Betcher's Gland -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_BetchersGland</defName>
+        <label>betcher's gland</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>17</displayOrderInCategory>
+        <prerequisite>40KPSY_Mucranoid</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>17</minAgeActive>
+    </GeneDef>
+
+    <!-- Progenoid Glands -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_ProgenoidGlands</defName>
+        <label>progenoid glands</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <prerequisite>40KPSY_BetchersGland</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>18</minAgeActive>
+    </GeneDef>
+
+    <!-- Black Carapace -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_BlackCarapace</defName>
+        <label>black carapace</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>19</displayOrderInCategory>
+        <prerequisite>40KPSY_ProgenoidGlands</prerequisite>
+        <statOffsets>
+
+        </statOffsets>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <minAgeActive>19</minAgeActive>
     </GeneDef>
 
 </Defs>

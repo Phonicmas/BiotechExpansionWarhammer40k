@@ -7,8 +7,8 @@
     <ProjectGuid>{E3434838-69BC-458D-874B-02A0D793A825}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_40KPsyker</RootNamespace>
-    <AssemblyName>40KPsyker</AssemblyName>
+    <RootNamespace>Psyker</RootNamespace>
+    <AssemblyName>Psyker</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
