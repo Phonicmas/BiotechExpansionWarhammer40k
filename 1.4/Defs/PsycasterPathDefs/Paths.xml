@@ -13,7 +13,7 @@
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
 
-    <modExtensions>
+    <comps>
       <li Class="Psyker.PsykerPathDef">
         <requiredGeneAny>
           <li>
@@ -21,7 +21,7 @@
           </li>
         </requiredGeneAny>
       </li>
-    </modExtensions>
+    </comps>
 
     <!--<requiredGeneAny>
       <li>s

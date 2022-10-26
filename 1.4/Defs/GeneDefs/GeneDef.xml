@@ -16,24 +16,6 @@
         <marketValueFactor>1.5</marketValueFactor>
     </GeneDef>
 
-    <!-- Psyker Gene-->
-
-    <GeneDef ParentName="SpaceMarineParent">
-        <defName>40KPSY_Psyker</defName>
-        <label>psyker</label>
-        <description>Carriers of this gene are able to unlock their true psychic potential.</description>
-        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>100</displayOrderInCategory>
-        <statOffsets>
-            <PsychicSensitivity>0.6</PsychicSensitivity>
-            <MeditationFocusGain>0.25</MeditationFocusGain>
-            <PsychicEntropyRecoveryRate>0.4</PsychicEntropyRecoveryRate>
-        </statOffsets>
-        <biostatCpx>3</biostatCpx>
-        <biostatMet>-4</biostatMet>
-        <minAgeActive>6</minAgeActive>
-    </GeneDef>
-
     <!-- Space Marine Genes-->
 
     <!-- Secondary Heart-->
@@ -44,10 +26,15 @@
         <description>???</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
-        <sterilize>true</sterilize>
         <statOffsets>
-            <Fertility>0</Fertility>
+            <MaxHitPoints>15</MaxHitPoints>
         </statOffsets>
+        <capMods>
+            <li>
+                <capacity>BloodPumping</capacity>
+                <factor>1.5</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>14</minAgeActive>
@@ -62,9 +49,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
         <prerequisite>40KPSY_SecondayHeart</prerequisite>
+        <bodyType>Hulk</bodyType>
         <statOffsets>
-
+            <MaxHitPoints>30</MaxHitPoints>
         </statOffsets>
+        <statFactor>
+            <Mass>3</Mass>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>12</minAgeActive>
@@ -80,7 +71,8 @@
         <displayOrderInCategory>3</displayOrderInCategory>
         <prerequisite>40KPSY_Ossmodula</prerequisite>
         <statOffsets>
-
+            <CarryingCapacity>100</CarryingCapacity>
+            <MaxHitPoints>15</MaxHitPoints>
         </statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
@@ -96,9 +88,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>40KPSY_Biscopea</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>Breathing</capacity>
+                <factor>1.5</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>14</minAgeActive>
@@ -113,9 +109,9 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <prerequisite>40KPSY_Haemastamen</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statFactor>
+            <InjuryHealingFactor>8</InjuryHealingFactor>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>13</minAgeActive>
@@ -130,9 +126,9 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>6</displayOrderInCategory>
         <prerequisite>40KPSY_LarramansOrgan</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statFactor>
+            <RestFallRateFactor>0.25</RestFallRateFactor>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>17</minAgeActive>
@@ -147,9 +143,9 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>7</displayOrderInCategory>
         <prerequisite>40KPSY_CatalepseanNode</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statFactor>
+            <FoodPoisonChance>0</FoodPoisonChance>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -164,9 +160,9 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>8</displayOrderInCategory>
         <prerequisite>40KPSY_Preomnor</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statFactor>
+            <GlobalLearningFactor>1.35</GlobalLearningFactor>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -182,8 +178,14 @@
         <displayOrderInCategory>9</displayOrderInCategory>
         <prerequisite>40KPSY_Omophagea</prerequisite>
         <statOffsets>
-
+            <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
         </statOffsets>
+        <capMods>
+            <li>
+                <capacity>Breathing</capacity>
+                <factor>1.2</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -198,9 +200,14 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>10</displayOrderInCategory>
         <prerequisite>40KPSY_Multi-lung</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <ignoreDarkness>true</ignoreDarkness>
+        <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>Sight</capacity>
+                <factor>1.5</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -215,9 +222,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <prerequisite>40KPSY_Occulobe</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>Hearing</capacity>
+                <factor>1.5</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -232,9 +243,7 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>12</displayOrderInCategory>
         <prerequisite>40KPSY_LymansEar</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -249,9 +258,7 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
         <prerequisite>40KPSY_Sus-anMembrane</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -266,9 +273,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>14</displayOrderInCategory>
         <prerequisite>40KPSY_Melanochrome</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>BloodFiltration</capacity>
+                <factor>1.25</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -283,9 +294,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>15</displayOrderInCategory>
         <prerequisite>40KPSY_OoliticKidney</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>Eating</capacity>
+                <factor>1.5</factor>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -300,9 +315,7 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>16</displayOrderInCategory>
         <prerequisite>40KPSY_Neuroglottis</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <statOffsets></statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -317,9 +330,13 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>17</displayOrderInCategory>
         <prerequisite>40KPSY_Mucranoid</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <abilities>
+            <li>AcidSpray</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>AcidSpray</AbilityDef>
+        </descriptionHyperlinks>
+        <statOffsets></statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>17</minAgeActive>
@@ -334,9 +351,10 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>18</displayOrderInCategory>
         <prerequisite>40KPSY_BetchersGland</prerequisite>
-        <statOffsets>
-
-        </statOffsets>
+        <sterilize>true</sterilize>
+        <statFactor>
+            <Fertility>0</Fertility>
+        </statFactor>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>18</minAgeActive>
@@ -352,10 +370,75 @@
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>40KPSY_ProgenoidGlands</prerequisite>
         <statOffsets>
-
+            <MoveSpeed>1</MoveSpeed>
         </statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
+        <minAgeActive>19</minAgeActive>
+    </GeneDef>
+
+    <!-- Psyker Gene-->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Psyker</defName>
+        <label>psyker</label>
+        <description>Carriers of this gene are able to unlock their true psychic potential.</description>
+        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <statFactor>
+            <PsychicSensitivity>1.3</PsychicSensitivity>
+            <MeditationFocusGain>1.15</MeditationFocusGain>
+            <PsychicEntropyRecoveryRate>1.2</PsychicEntropyRecoveryRate>
+        </statFactor>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <minAgeActive>6</minAgeActive>
+    </GeneDef>
+
+    <!-- Primaris Genes-->
+
+    <!-- Sinew Coil -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_SinewCoil</defName>
+        <label>sinew coil</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>21</displayOrderInCategory>
+        <prerequisite>40KPsy_BlackCarapace</prerequisite>
+        <statOffsets></statOffsets>
+        <biostatCpx>4</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <minAgeActive>19</minAgeActive>
+    </GeneDef>
+
+    <!-- Magnificat -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_Magnificat</defName>
+        <label>magnificat</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <prerequisite>40KPsy_BlackCarapace</prerequisite>
+        <statOffsets></statOffsets>
+        <biostatCpx>4</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <minAgeActive>19</minAgeActive>
+    </GeneDef>
+
+    <!-- Belisarian Furnace -->
+
+    <GeneDef ParentName="SpaceMarineParent">
+        <defName>40KPSY_BelisarianFurnace</defName>
+        <label>belisarian furnace</label>
+        <description>???</description>
+        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <prerequisite>40KPsy_BlackCarapace</prerequisite>
+        <statOffsets></statOffsets>
+        <biostatCpx>4</biostatCpx>
+        <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
