@@ -295,7 +295,7 @@
         <defName>40KPSY_OoliticKidney</defName>
         <label>oolitic kidney</label>
         <description>Carriers possess an organ in the abdominal cavity and it becomes a part of their excretory system, an emergency detoxification organ that allows them to survive exposure through the respiration, tactile contact or ingestion of poisons, toxins and gases that are too powerful for even his rugged system to normally process without this organ's help.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/OoliticKidneyIcon</iconPath>
         <displayOrderInCategory>14</displayOrderInCategory>
         <prerequisite>40KPSY_Melanochrome</prerequisite>
         <statOffsets>
@@ -376,7 +376,7 @@
         <defName>40KPSY_ProgenoidGlands</defName>
         <label>progenoid glands</label>
         <description>Carriers possess these two organs, one implanted in the neck and another in the chest. The organs hormonally respond to the presence of the other Astartes gene-seed implants in the body by creating germ cells with DNA identical to that of those implants through a process very similar to cellular mitosis.</description>
-        <iconPath>UI/Icons/Genes/ProgenoidIcon</iconPath>
+        <iconPath>UI/Icons/Genes/ProgenoidsIcon</iconPath>
         <displayOrderInCategory>18</displayOrderInCategory>
         <prerequisite>40KPSY_BetchersGland</prerequisite>
         <minAgeActive>18</minAgeActive>
@@ -388,7 +388,7 @@
         <defName>40KPSY_BlackCarapace</defName>
         <label>black carapace</label>
         <description>???</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/BlackCarapaceIcon</iconPath>
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>40KPSY_ProgenoidGlands</prerequisite>
         <conditionalStatAffecters>
