@@ -22,10 +22,11 @@
             <warmupTime>1</warmupTime>
             <targetParams>
                 <canTargetAnimals>false</canTargetAnimals>
-                <canTargetSelf>true</canTargetSelf>
                 <canTargetBuildings>false</canTargetBuildings>
                 <canTargetMechs>false</canTargetMechs>
                 <canTargetBloodfeeders>true</canTargetBloodfeeders>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetSelf>true</canTargetSelf>
             </targetParams>
         </verbProperties>
         <comps>

@@ -17,7 +17,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 3. All Space Marine gene-seeds
 
 # Future Things?:
-1. Make more trees for the different psychic disciplines?
+1. Make more trees for the different psychic disciplines or for different psychic tiers?
+2. Phariah genes (blanks)?
 
 # Genes
 1. Secondary Heart
@@ -63,6 +64,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 12. Sus-an Membrane
     *Increases consciousness by 10%
     -Want to add an ability that allows them to enter an invurnable state where an item can recover them.
+    -Want to make their dead body no deteriorate - or have a lot of hp when dead?
 13. Melanochrome
     *Increase max health points by 40.
     *If Dubs Rimatronics is installed it grants radiation immunity.
@@ -89,6 +91,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Multiplies psychic sensitivity by 1.3
     *Multiplies medidation focus gain by 1.15
     *Multiplies entropy recovery rate by 1.2
+    -Add multiple tiers of psykers (as suggested by silver wolf 00)
 21. Sinew Coil
     *Increases blunt armor by 80%
     *Increases sharp armor by 80%
@@ -104,6 +107,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     -Want to make it increase actual drawn size
 23. Belisarian Furnace
     *Nothing so far.
+    -Make an ability like auto stimpack that heals when low on hp.
 
 # Psyker Tree (Name - Effect - Target - Current progress):
 1. Psychic Bolt (Doombolt) - Damage bolt - Others -  IN PROGRESS

@@ -28,6 +28,7 @@
     <GeneDef Name="SpaceMarineParent" Abstract="True">
         <displayCategory>40KSpaceMarine</displayCategory>
         <marketValueFactor>1.5</marketValueFactor>
+        <biostatCpx>2</biostatCpx>
     </GeneDef>
 
     <!-- Space Marine Genes-->
@@ -53,8 +54,6 @@
                 <postFactor>1.4</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>14</minAgeActive>
     </GeneDef>
 
@@ -74,8 +73,6 @@
         <statFactors>
             <Mass>3</Mass>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -96,8 +93,6 @@
             <MeleeDamageFactor>1.25</MeleeDamageFactor>
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -121,8 +116,6 @@
                 <offset>0.15</offset>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>14</minAgeActive>
     </GeneDef>
 
@@ -142,8 +135,6 @@
         <statFactors>
             <InjuryHealingFactor>5</InjuryHealingFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <customEffectDescriptions>
             <li>Bleeding wounds close very quickly.</li>
         </customEffectDescriptions>
@@ -162,8 +153,6 @@
         <statFactors>
             <RestFallRateFactor>0.35</RestFallRateFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>17</minAgeActive>
     </GeneDef>
 
@@ -181,8 +170,6 @@
             <FoodPoisonChance>0</FoodPoisonChance>
             <RawNutritionFactor>2</RawNutritionFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -198,8 +185,6 @@
         <statFactors>
             <GlobalLearningFactor>1.45</GlobalLearningFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -221,8 +206,6 @@
                 <postFactor>1.4</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -245,8 +228,6 @@
                 <postFactor>1.5</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -266,8 +247,6 @@
                 <postFactor>1.8</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -287,8 +266,6 @@
                 <offset>1.1</offset>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -304,8 +281,6 @@
         <statOffsets>
             <MaxHitPoints>40</MaxHitPoints>
         </statOffsets>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -330,8 +305,6 @@
                 <postFactor>1.25</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -354,8 +327,6 @@
                 <postFactor>1.5</postFactor>
             </li>
         </capMods>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -369,11 +340,9 @@
         <displayOrderInCategory>16</displayOrderInCategory>
         <prerequisite>40KPSY_Neuroglottis</prerequisite>
         <statOffsets>
-            <ComfyTemperatureMin>40</ComfyTemperatureMin>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
         </statOffsets>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -393,8 +362,6 @@
             <AbilityDef>AcidSpray</AbilityDef>
         </descriptionHyperlinks>
         <statOffsets></statOffsets>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>17</minAgeActive>
     </GeneDef>
 
@@ -407,8 +374,6 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>18</displayOrderInCategory>
         <prerequisite>40KPSY_BetchersGland</prerequisite>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>18</minAgeActive>
     </GeneDef>
 
@@ -431,8 +396,6 @@
         <statFactors>
             <IncomingDamageFactor>0.95</IncomingDamageFactor>
         </statFactors>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>-1</biostatMet>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
@@ -456,7 +419,6 @@
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
         <biostatCpx>4</biostatCpx>
-        <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
@@ -479,7 +441,6 @@
             <MeleeHitChance>1.4</MeleeHitChance>
         </statFactors>
         <biostatCpx>4</biostatCpx>
-        <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
@@ -494,7 +455,6 @@
         <prerequisite>40KPSY_BlackCarapace</prerequisite>
         <statOffsets></statOffsets>
         <biostatCpx>4</biostatCpx>
-        <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
