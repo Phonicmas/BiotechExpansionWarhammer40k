@@ -9,7 +9,7 @@
 		<description>A ball of psychic energy launched by a psyker</description>
 		<thingClass>VanillaPsycastsExpanded.Graphics.Projectile_Pointing</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-			<texPath>Effects/Psyker/Doombolt</texPath>
+			<texPath>Effects/ChaosPsyker/Doombolt</texPath>
 			<ticksPerFrame>5</ticksPerFrame>
 			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
 			<shaderType>MoteGlow</shaderType>
@@ -19,7 +19,7 @@
 		<projectile>
 			<damageDef>Crush</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
 			<armorPenetrationBase>0.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<arcHeightFactor>15</arcHeightFactor>
@@ -32,31 +32,31 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>40KPSY_Smite</defName>
 		<label>smite</label>
-		<thingClass>VFECore.BeamProjectile</thingClass>
+		<description>Lighting launched by a psykers hand</description>
+		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
 			<texPath>Effects/Psyker/Smite</texPath>
-			<ticksPerFrame>5</ticksPerFrame>
-			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
-			<shaderType>MoteGlow</shaderType>
-			<drawSize>(5, 1)</drawSize>
+			<graphicClass>Graphic_Flicker</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(2, 2)</drawSize>
 		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
+			<explosionRadius>1.9</explosionRadius>
 			<damageDef>EMP</damageDef>
-			<speed>500</speed>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<damageAmountBase>25</damageAmountBase>
+			<speed>200</speed>
+			<damageAmountBase>35</damageAmountBase>
 			<armorPenetrationBase>0.85</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
-			<explosionRadius>3</explosionRadius>
+			<shadowSize>0</shadowSize>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<amount>20</amount>
+				</li>
+			</extraDamages>
 		</projectile>
-		<modExtensions>
-			<li Class="VFECore.ProjectileExtension">
-				<flashIntensity>100</flashIntensity>
-				<hitFleck>VPE_EyeBlast</hitFleck>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
-	
 </Defs>

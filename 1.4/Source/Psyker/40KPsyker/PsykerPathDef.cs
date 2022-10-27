@@ -11,7 +11,7 @@ namespace Psyker
     {
         private GeneDef requiredGeneAny;
 
-        public override bool CanPawnUnlock(Pawn pawn) => PawnHasGene(pawn);
+        public override bool CanPawnUnlock(Pawn pawn) => base.CanPawnUnlock(pawn) && PawnHasGene(pawn);
 
         private bool PawnHasGene(Pawn pawn) => requiredGeneAny == null || pawn.genes.HasXenogene(requiredGeneAny);
     }

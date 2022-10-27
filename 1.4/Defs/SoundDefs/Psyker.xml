@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Doombolt -->
+
+    <SoundDef>
+        <defName>40KPSY_Doombolt</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <!--<li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Psyker/Psycast_Fireball_Cast_01a</clipPath>
+                    </li>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Psyker/Psycast_Fireball_Cast_01b</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>42</volumeRange>
+                <distRange>20~50</distRange>
+            </li>-->
+        </subSounds>
+    </SoundDef>
+
+    <!-- Smite -->
+
+    <SoundDef>
+        <defName>40KPSY_Smite</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <!--<li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Psyker/Psycast_Fireball_Cast_01a</clipPath>
+                    </li>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Psyker/Psycast_Fireball_Cast_01b</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>42</volumeRange>
+                <distRange>20~50</distRange>
+            </li>-->
+        </subSounds>
+    </SoundDef>
+
+</Defs>

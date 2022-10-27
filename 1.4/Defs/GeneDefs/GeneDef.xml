@@ -39,7 +39,7 @@
         <defName>40KPSY_SecondayHeart</defName>
         <label>secondary heart</label>
         <description>Carriers possess a secondary heart which function is to enhance the performance of an Astartes by supplying more oxygen and nutrients to the muscles by increasing blood flow well-beyond that capable for even the most fit normal human being.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/SecondaryHeartIcon</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
         <sterilize>true</sterilize>
         <statOffsets>
@@ -55,6 +55,11 @@
             </li>
         </capMods>
         <minAgeActive>14</minAgeActive>
+        <suppressedTraits>
+            <li>
+                <def>Wimp</def>
+            </li>
+        </suppressedTraits>
     </GeneDef>
 
     <!-- Ossmodula -->
@@ -63,7 +68,7 @@
         <defName>40KPSY_Ossmodula</defName>
         <label>ossmodula</label>
         <description>Carrier possess rapid growth of their skeletomuscular system which results in their superhuman strength and massive size compared to a baseline human male.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/OssmodulaIcon</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
         <prerequisite>40KPSY_SecondayHeart</prerequisite>
         <bodyType>Hulk</bodyType>
@@ -81,8 +86,8 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Biscopea</defName>
         <label>biscopea</label>
-        <description>Carrier possess a organs that enhance their physical combat ability and survivability to superhuman levels should they live to become a full Astartes of a Space Marine Chapter.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <description>Carrier possess a organs that is implanted into the chest cavity. It is small, approximately spherical and, like the Ossmodula, its primary action is hormonal. It enhance their physical combat ability and survivability to superhuman levels..</description>
+        <iconPath>UI/Icons/Genes/BiscopeaIcon</iconPath>
         <displayOrderInCategory>3</displayOrderInCategory>
         <prerequisite>40KPSY_Ossmodula</prerequisite>
         <statOffsets>
@@ -102,7 +107,7 @@
         <defName>40KPSY_Haemastamen</defName>
         <label>haemastamen</label>
         <description>Carriers have their blood turn a brighter shade of red than that of normal humans because of its greatly increased oxygen-carrying capacity.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/HaemastamenIcon</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>40KPSY_Biscopea</prerequisite>
         <statOffsets></statOffsets>
@@ -125,7 +130,7 @@
         <defName>40KPSY_LarramansOrgan</defName>
         <label>larraman's organ</label>
         <description>Carriers possess a small golf sized liver like organ that serves to clot the blood lost from wounds, but they act faster, more efficiently and more effectively being able to form scar tissue in a matter of seconds.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/LarramansOrganIcon</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <prerequisite>40KPSY_Haemastamen</prerequisite>
         <!--<abilities>

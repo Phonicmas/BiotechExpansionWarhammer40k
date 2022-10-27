@@ -6,25 +6,25 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>40KPSY_Doombolt</defName>
     <label>doombolt</label>
-    <description>???</description>
-    <iconPath>Abilities/Psyker/Doombolt</iconPath>
+    <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
+    <iconPath>Abilities/ChaosPsyker/Doombolt</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
     <range>30</range>
     <radius>1</radius>
     <showUndrafted>false</showUndrafted>
     <targetMode>Pawn</targetMode>
-    <castSound>VPE_Flameball_Cast</castSound>
+    <castSound>40KPSY_Doombolt</castSound>
     <rangeStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
     </rangeStatFactors>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-        <path>40KPSY_Psyker</path>
+        <path>40KPSY_ChaosPsyker</path>
         <level>1</level>
         <order>1</order>
         <psyfocusCost>0.03</psyfocusCost>
-        <entropyGain>21</entropyGain>
+        <entropyGain>18</entropyGain>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
         <projectile>40KPSY_Doombolt</projectile>
@@ -37,24 +37,21 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>40KPSY_Smite</defName>
     <label>smite</label>
-    <description>???</description>
+    <description>The Psyker shoots bolts of lightning from his finger-tips, rending his foes with psychic energy</description>
     <iconPath>Abilities/Psyker/Smite</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>30</castTime>
     <range>45</range>
     <radius>3</radius>
     <targetMode>Pawn</targetMode>
-    <castSound>VPE_EyeBlast_Cast</castSound>
+    <castSound>40KPSY_Smite</castSound>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>40KPSY_Psyker</path>
-        <level>2</level>
+        <level>1</level>
         <order>1</order>
         <psyfocusCost>0.08</psyfocusCost>
-        <entropyGain>42</entropyGain>
-        <prerequisites>
-          <li>40KPSY_Doombolt</li>
-        </prerequisites>
+        <entropyGain>34</entropyGain>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
         <projectile>40KPSY_Smite</projectile>
