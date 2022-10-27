@@ -36,5 +36,6 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>VanillaExpanded.VPsycastsE</li>
+		<li>Dubwise.Rimatomics</li>
 	</loadAfter>
 </ModMetaData>

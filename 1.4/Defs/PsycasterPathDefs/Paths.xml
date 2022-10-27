@@ -30,4 +30,22 @@
     </requiredGeneAny>-->
 
   </VanillaPsycastsExpanded.PsycasterPathDef>
+
+  <!--
+      <Psyker.PsycasterPathDef>
+    <defName>40KPSY_Psyker</defName>
+    <label>psyker</label>
+    <description>Psykers possess unhinged psychic prowess</description>
+    <background>UI/Backgrounds/PsykerPath</background>
+    <altBackground>UI/AlternativeBackgrounds/PathBG_Psyker</altBackground>
+    <tab>Psycasts</tab>
+    <tooltip>Powerful psyker psycasts</tooltip>
+    <lockedReason>Psykers only</lockedReason>
+    <requiredGeneAny>
+        <GeneDef>40KPSY_Psyker</GeneDef>
+    </requiredGeneAny>
+
+  </Psyker.PsycasterPathDef>
+  -->
+
 </Defs>

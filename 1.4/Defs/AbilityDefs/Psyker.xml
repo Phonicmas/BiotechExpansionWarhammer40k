@@ -47,7 +47,7 @@
     <castSound>VPE_EyeBlast_Cast</castSound>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-        <path>VPE_Conflagrator</path>
+        <path>40KPSY_Psyker</path>
         <level>2</level>
         <order>1</order>
         <psyfocusCost>0.08</psyfocusCost>
@@ -62,7 +62,6 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Smite -->
   <!-- Warp Time -->
   <!-- Prescience -->
   <!-- Iron Arm -->

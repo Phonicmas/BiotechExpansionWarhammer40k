@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!--     <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive> -->
+
+
+
     <!-- Gene Category -->
 
     <GeneCategoryDef>
@@ -23,16 +37,20 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_SecondayHeart</defName>
         <label>secondary heart</label>
-        <description>???</description>
+        <description>Carriers possess a secondary heart which function is to enhance the performance of an Astartes by supplying more oxygen and nutrients to the muscles by increasing blood flow well-beyond that capable for even the most fit normal human being.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
+        <sterilize>true</sterilize>
         <statOffsets>
-            <MaxHitPoints>15</MaxHitPoints>
+            <MaxHitPoints>20</MaxHitPoints>
         </statOffsets>
+        <statFactors>
+            <Fertility>0</Fertility>
+        </statFactors>
         <capMods>
             <li>
                 <capacity>BloodPumping</capacity>
-                <postFactor>1.5</postFactor>
+                <postFactor>1.4</postFactor>
             </li>
         </capMods>
         <biostatCpx>2</biostatCpx>
@@ -45,7 +63,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Ossmodula</defName>
         <label>ossmodula</label>
-        <description>???</description>
+        <description>Carrier possess rapid growth of their skeletomuscular system which results in their superhuman strength and massive size compared to a baseline human male.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
         <prerequisite>40KPSY_SecondayHeart</prerequisite>
@@ -66,16 +84,17 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Biscopea</defName>
         <label>biscopea</label>
-        <description>???</description>
+        <description>Carrier possess a organs that enhance their physical combat ability and survivability to superhuman levels should they live to become a full Astartes of a Space Marine Chapter.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>3</displayOrderInCategory>
         <prerequisite>40KPSY_Ossmodula</prerequisite>
         <statOffsets>
             <CarryingCapacity>100</CarryingCapacity>
-            <MaxHitPoints>15</MaxHitPoints>
+            <MaxHitPoints>30</MaxHitPoints>
         </statOffsets>
         <statFactors>
-            <MeleeDamageFactor>1.35</MeleeDamageFactor>
+            <MeleeDamageFactor>1.25</MeleeDamageFactor>
+            <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
@@ -87,15 +106,19 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Haemastamen</defName>
         <label>haemastamen</label>
-        <description>???</description>
+        <description>Carriers have their blood turn a brighter shade of red than that of normal humans because of its greatly increased oxygen-carrying capacity.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>40KPSY_Biscopea</prerequisite>
         <statOffsets></statOffsets>
         <capMods>
             <li>
+                <capacity>BloodPumping</capacity>
+                <offset>0.6</offset>
+            </li>
+            <li>
                 <capacity>Breathing</capacity>
-                <postFactor>1.5</postFactor>
+                <offset>0.15</offset>
             </li>
         </capMods>
         <biostatCpx>2</biostatCpx>
@@ -108,15 +131,22 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_LarramansOrgan</defName>
         <label>larraman's organ</label>
-        <description>???</description>
+        <description>Carriers possess a small golf sized liver like organ that serves to clot the blood lost from wounds, but they act faster, more efficiently and more effectively being able to form scar tissue in a matter of seconds.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <prerequisite>40KPSY_Haemastamen</prerequisite>
+        <!--<abilities>
+            <li>ReleaseLarramanCell</li>
+        </abilities>-->
+        <geneClass>Gene_Clotting</geneClass>
         <statFactors>
-            <InjuryHealingFactor>8</InjuryHealingFactor>
+            <InjuryHealingFactor>5</InjuryHealingFactor>
         </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
+        <customEffectDescriptions>
+            <li>Bleeding wounds close very quickly.</li>
+        </customEffectDescriptions>
         <minAgeActive>13</minAgeActive>
     </GeneDef>
 
@@ -125,12 +155,12 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_CatalepseanNode</defName>
         <label>catalepsean node</label>
-        <description>???</description>
+        <description>Carriers possess an organ in the back of the cerebrum, just above the brain stem. When deprived of sleep for a long period of time, the Catalepsean Node "cuts in" upon detecting a rise in their stress and fatigue hormones.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>6</displayOrderInCategory>
         <prerequisite>40KPSY_LarramansOrgan</prerequisite>
         <statFactors>
-            <RestFallRateFactor>0.25</RestFallRateFactor>
+            <RestFallRateFactor>0.35</RestFallRateFactor>
         </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
@@ -142,7 +172,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Preomnor</defName>
         <label>preomnor</label>
-        <description>???</description>
+        <description>Carriers possess a essentially a second or pre-stomach spliced into the human digestive system above the original stomach that allows them to eat otherwise poisonous or completely indigestible materials.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>7</displayOrderInCategory>
         <prerequisite>40KPSY_CatalepseanNode</prerequisite>
@@ -161,12 +191,12 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Omophagea</defName>
         <label>omophagea</label>
-        <description>???</description>
+        <description>Carriers possess an organ in between the thoracid vertebrae and the stomach wall and is designed to absorb genetic information and any DNA, RNA or protein sequences related to experience or memory.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>8</displayOrderInCategory>
         <prerequisite>40KPSY_Preomnor</prerequisite>
         <statFactors>
-            <GlobalLearningFactor>1.35</GlobalLearningFactor>
+            <GlobalLearningFactor>1.45</GlobalLearningFactor>
         </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
@@ -178,17 +208,17 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Multi-lung</defName>
         <label>multi-lung</label>
-        <description>???</description>
+        <description>Carriers possess a third lung in their pulmonary and circulatory systems in the chest cavity that is able to absorb oxygen from environments usually too poor in oxygen to allow normal human respiratory functioning.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>9</displayOrderInCategory>
         <prerequisite>40KPSY_Omophagea</prerequisite>
         <statOffsets>
-            <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+            <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
         </statOffsets>
         <capMods>
             <li>
                 <capacity>Breathing</capacity>
-                <postFactor>1.2</postFactor>
+                <postFactor>1.4</postFactor>
             </li>
         </capMods>
         <biostatCpx>2</biostatCpx>
@@ -201,12 +231,14 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Occulobe</defName>
         <label>occulobe</label>
-        <description>???</description>
+        <description>Carriers possess an organ that gives them visual acuity that is far superior to that of baseline humans and they can see in low-light conditions and near-darkness almost as well as in bright daylight.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>10</displayOrderInCategory>
         <prerequisite>40KPSY_Multi-lung</prerequisite>
         <ignoreDarkness>true</ignoreDarkness>
-        <statOffsets></statOffsets>
+        <statFactors>
+            <AimingDelayFactor>0.85</AimingDelayFactor>
+        </statFactors>
         <capMods>
             <li>
                 <capacity>Sight</capacity>
@@ -223,7 +255,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_LymansEar</defName>
         <label>lyman's ear</label>
-        <description>???</description>
+        <description>Carriers possess an organ that improves the inner ear structure to make them immune to dizziness or motion sickness but it also allows them to consciously filter out and greatly enhance certain sounds over the capabilities of normal human hearing.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <prerequisite>40KPSY_Occulobe</prerequisite>
@@ -231,7 +263,7 @@
         <capMods>
             <li>
                 <capacity>Hearing</capacity>
-                <postFactor>1.5</postFactor>
+                <postFactor>1.8</postFactor>
             </li>
         </capMods>
         <biostatCpx>2</biostatCpx>
@@ -244,11 +276,17 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Sus-anMembrane</defName>
         <label>sus-an membrane</label>
-        <description>???</description>
+        <description>Carriers possess an organ within the their cranium, this organ eventually produces a membrane comprised of genetically-engineered neural tissue that merges with the recipient's cerebrum, that allows them to enter a state of suspended animation, the organ will shut down all biological and psychic functions</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>12</displayOrderInCategory>
         <prerequisite>40KPSY_LymansEar</prerequisite>
         <statOffsets></statOffsets>
+        <capMods>
+            <li>
+                <capacity>Consciousness</capacity>
+                <offset>1.1</offset>
+            </li>
+        </capMods>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -259,11 +297,13 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Melanochrome</defName>
         <label>melanochrome</label>
-        <description>???</description>
+        <description>Carriers possess an organ is attached to the human lymphatic system and controls the amount of melanin in a their skin, that protects the them from forms of radiation.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
         <prerequisite>40KPSY_Sus-anMembrane</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <MaxHitPoints>40</MaxHitPoints>
+        </statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -274,11 +314,16 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_OoliticKidney</defName>
         <label>oolitic kidney</label>
-        <description>???</description>
+        <description>Carriers possess an organ in the abdominal cavity and it becomes a part of their excretory system, an emergency detoxification organ that allows them to survive exposure through the respiration, tactile contact or ingestion of poisons, toxins and gases that are too powerful for even his rugged system to normally process without this organ's help.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>14</displayOrderInCategory>
         <prerequisite>40KPSY_Melanochrome</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <ToxicResistance>0.5</ToxicResistance>
+        </statOffsets>
+        <statFactors>
+            <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+        </statFactors>
         <capMods>
             <li>
                 <capacity>BloodFiltration</capacity>
@@ -295,11 +340,14 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Neuroglottis</defName>
         <label>neuroglottis</label>
-        <description>???</description>
+        <description>Carriers possess an organ in their upper nasal passages and after it is functioning, chewing, tasting or smelling a substance allows them to biochemically test it for toxicity and nutritional content, essentially determining if the substance is edible or poisonous.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>15</displayOrderInCategory>
         <prerequisite>40KPSY_OoliticKidney</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <ToxicResistance>0.5</ToxicResistance>
+            <HuntingStealth>0.25</HuntingStealth>
+        </statOffsets>
         <capMods>
             <li>
                 <capacity>Eating</capacity>
@@ -316,11 +364,14 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Mucranoid</defName>
         <label>mucranoid</label>
-        <description>???</description>
+        <description>Carriers possess an organ within the central nervous system and responds to specific chemical stimuli in the environment, causing the Space Marine to secrete a waxy protein substance similar to mucus through his pores that seals his skin, insulating them and potentially protecting them from the vacuum of space.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>16</displayOrderInCategory>
         <prerequisite>40KPSY_Neuroglottis</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <ComfyTemperatureMin>40</ComfyTemperatureMin>
+            <ComfyTemperatureMax>40</ComfyTemperatureMax>
+        </statOffsets>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>16</minAgeActive>
@@ -331,7 +382,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_BetchersGland</defName>
         <label>betcher's gland</label>
-        <description>???</description>
+        <description>Carriers possess two glands in multiple locations inside a their mouth, including the inside of the lower lip, in the salivary glands or in the hard palate, these two glands working in tandem transform an Astartes' saliva into a corrosive, blinding acid when consciously triggered.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>17</displayOrderInCategory>
         <prerequisite>40KPSY_Mucranoid</prerequisite>
@@ -352,14 +403,10 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_ProgenoidGlands</defName>
         <label>progenoid glands</label>
-        <description>???</description>
+        <description>Carriers possess these two organs, one implanted in the neck and another in the chest. The organs hormonally respond to the presence of the other Astartes gene-seed implants in the body by creating germ cells with DNA identical to that of those implants through a process very similar to cellular mitosis.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>18</displayOrderInCategory>
         <prerequisite>40KPSY_BetchersGland</prerequisite>
-        <sterilize>true</sterilize>
-        <statFactors>
-            <Fertility>0</Fertility>
-        </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>18</minAgeActive>
@@ -374,9 +421,16 @@
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>40KPSY_ProgenoidGlands</prerequisite>
-        <statOffsets>
-            <MoveSpeed>1</MoveSpeed>
-        </statOffsets>
+        <conditionalStatAffecters>
+            <li Class="ConditionalStatAffecter_Clothed">
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                </statOffsets>
+            </li>
+        </conditionalStatAffecters>
+        <statFactors>
+            <IncomingDamageFactor>0.95</IncomingDamageFactor>
+        </statFactors>
         <biostatCpx>2</biostatCpx>
         <biostatMet>-1</biostatMet>
         <minAgeActive>19</minAgeActive>
@@ -389,11 +443,18 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_SinewCoil</defName>
         <label>sinew coil</label>
-        <description>???</description>
+        <description>Carriers sinews are reinforced with durametallic coil-cables that can contract with incredible force, magnifying his strength as well as giving his body another layer of defence.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>21</displayOrderInCategory>
         <prerequisite>40KPSY_BlackCarapace</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <CarryingCapacity>100</CarryingCapacity>
+        </statOffsets>
+        <statFactors>
+            <MeleeDamageFactor>1.55</MeleeDamageFactor>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
+            <StaggerDurationFactor>0.5</StaggerDurationFactor>
+        </statFactors>
         <biostatCpx>4</biostatCpx>
         <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
@@ -404,11 +465,19 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_Magnificat</defName>
         <label>magnificat</label>
-        <description>???</description>
+        <description>Carriers possess a small, thumbnail-sized lobe in the brain's cortex that make them physically even larger, stronger and with faster reaction times than his non-Primaris brethren.</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>22</displayOrderInCategory>
         <prerequisite>40KPSY_BlackCarapace</prerequisite>
-        <statOffsets></statOffsets>
+        <statOffsets>
+            <MeleeDodgeChance>20</MeleeDodgeChance>
+        </statOffsets>
+        <statFactors>
+            <AimingDelayFactor>0.8</AimingDelayFactor>
+            <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+            <RangedCooldownFactor>0.8</RangedCooldownFactor>
+            <MeleeHitChance>1.4</MeleeHitChance>
+        </statFactors>
         <biostatCpx>4</biostatCpx>
         <biostatMet>-2</biostatMet>
         <minAgeActive>19</minAgeActive>
@@ -419,7 +488,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>40KPSY_BelisarianFurnace</defName>
         <label>belisarian furnace</label>
-        <description>???</description>
+        <description>Carriers possess a dormant organ that connects to both Astartes hearts. In times of extreme stress, or should the warrior's body undergo violent, damaging trauma, it expels great blurts of self-synthesized chemicals - a hyper-cocktail that simulates the biological action of combat stimms while also aiding in the rapid regrowth of tissue, bone and muscle</description>
         <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
         <displayOrderInCategory>23</displayOrderInCategory>
         <prerequisite>40KPSY_BlackCarapace</prerequisite>
