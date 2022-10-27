@@ -152,7 +152,7 @@
         <defName>40KPSY_CatalepseanNode</defName>
         <label>catalepsean node</label>
         <description>Carriers possess an organ in the back of the cerebrum, just above the brain stem. When deprived of sleep for a long period of time, the Catalepsean Node "cuts in" upon detecting a rise in their stress and fatigue hormones.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/CatalepseanNodeIcon</iconPath>
         <displayOrderInCategory>6</displayOrderInCategory>
         <prerequisite>40KPSY_LarramansOrgan</prerequisite>
         <statFactors>
@@ -167,7 +167,7 @@
         <defName>40KPSY_Preomnor</defName>
         <label>preomnor</label>
         <description>Carriers possess a essentially a second or pre-stomach spliced into the human digestive system above the original stomach that allows them to eat otherwise poisonous or completely indigestible materials.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/PreomnorIcon</iconPath>
         <displayOrderInCategory>7</displayOrderInCategory>
         <prerequisite>40KPSY_CatalepseanNode</prerequisite>
         <dontMindRawFood>true</dontMindRawFood>
@@ -184,7 +184,7 @@
         <defName>40KPSY_Omophagea</defName>
         <label>omophagea</label>
         <description>Carriers possess an organ in between the thoracid vertebrae and the stomach wall and is designed to absorb genetic information and any DNA, RNA or protein sequences related to experience or memory.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/OmophageaIcon</iconPath>
         <displayOrderInCategory>8</displayOrderInCategory>
         <prerequisite>40KPSY_Preomnor</prerequisite>
         <statFactors>
@@ -199,7 +199,7 @@
         <defName>40KPSY_Multi-lung</defName>
         <label>multi-lung</label>
         <description>Carriers possess a third lung in their pulmonary and circulatory systems in the chest cavity that is able to absorb oxygen from environments usually too poor in oxygen to allow normal human respiratory functioning.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/Multi-LungIcon</iconPath>
         <displayOrderInCategory>9</displayOrderInCategory>
         <prerequisite>40KPSY_Omophagea</prerequisite>
         <statOffsets>
@@ -220,7 +220,7 @@
         <defName>40KPSY_Occulobe</defName>
         <label>occulobe</label>
         <description>Carriers possess an organ that gives them visual acuity that is far superior to that of baseline humans and they can see in low-light conditions and near-darkness almost as well as in bright daylight.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/OcculobeIcon</iconPath>
         <displayOrderInCategory>10</displayOrderInCategory>
         <prerequisite>40KPSY_Multi-lung</prerequisite>
         <ignoreDarkness>true</ignoreDarkness>
@@ -242,7 +242,7 @@
         <defName>40KPSY_LymansEar</defName>
         <label>lyman's ear</label>
         <description>Carriers possess an organ that improves the inner ear structure to make them immune to dizziness or motion sickness but it also allows them to consciously filter out and greatly enhance certain sounds over the capabilities of normal human hearing.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/LymansEarIcon</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <prerequisite>40KPSY_Occulobe</prerequisite>
         <statOffsets></statOffsets>
@@ -261,7 +261,7 @@
         <defName>40KPSY_Sus-anMembrane</defName>
         <label>sus-an membrane</label>
         <description>Carriers possess an organ within the their cranium, this organ eventually produces a membrane comprised of genetically-engineered neural tissue that merges with the recipient's cerebrum, that allows them to enter a state of suspended animation, the organ will shut down all biological and psychic functions</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/Sus-anMembraneIcon</iconPath>
         <displayOrderInCategory>12</displayOrderInCategory>
         <prerequisite>40KPSY_LymansEar</prerequisite>
         <statOffsets></statOffsets>
@@ -280,7 +280,7 @@
         <defName>40KPSY_Melanochrome</defName>
         <label>melanochrome</label>
         <description>Carriers possess an organ is attached to the human lymphatic system and controls the amount of melanin in a their skin, that protects the them from forms of radiation.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/MelanochromeIcon</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
         <prerequisite>40KPSY_Sus-anMembrane</prerequisite>
         <statOffsets>
@@ -319,7 +319,7 @@
         <defName>40KPSY_Neuroglottis</defName>
         <label>neuroglottis</label>
         <description>Carriers possess an organ in their upper nasal passages and after it is functioning, chewing, tasting or smelling a substance allows them to biochemically test it for toxicity and nutritional content, essentially determining if the substance is edible or poisonous.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/NeuroglottisIcon</iconPath>
         <displayOrderInCategory>15</displayOrderInCategory>
         <prerequisite>40KPSY_OoliticKidney</prerequisite>
         <statOffsets>
@@ -341,7 +341,7 @@
         <defName>40KPSY_Mucranoid</defName>
         <label>mucranoid</label>
         <description>Carriers possess an organ within the central nervous system and responds to specific chemical stimuli in the environment, causing the Space Marine to secrete a waxy protein substance similar to mucus through his pores that seals his skin, insulating them and potentially protecting them from the vacuum of space.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/MucranoidIcon</iconPath>
         <displayOrderInCategory>16</displayOrderInCategory>
         <prerequisite>40KPSY_Neuroglottis</prerequisite>
         <statOffsets>
@@ -357,7 +357,7 @@
         <defName>40KPSY_BetchersGland</defName>
         <label>betcher's gland</label>
         <description>Carriers possess two glands in multiple locations inside a their mouth, including the inside of the lower lip, in the salivary glands or in the hard palate, these two glands working in tandem transform an Astartes' saliva into a corrosive, blinding acid when consciously triggered.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/BetchersGlandIcon</iconPath>
         <displayOrderInCategory>17</displayOrderInCategory>
         <prerequisite>40KPSY_Mucranoid</prerequisite>
         <abilities>
@@ -376,7 +376,7 @@
         <defName>40KPSY_ProgenoidGlands</defName>
         <label>progenoid glands</label>
         <description>Carriers possess these two organs, one implanted in the neck and another in the chest. The organs hormonally respond to the presence of the other Astartes gene-seed implants in the body by creating germ cells with DNA identical to that of those implants through a process very similar to cellular mitosis.</description>
-        <iconPath>UI/Icons/Genes/GenePlaceholder</iconPath>
+        <iconPath>UI/Icons/Genes/ProgenoidIcon</iconPath>
         <displayOrderInCategory>18</displayOrderInCategory>
         <prerequisite>40KPSY_BetchersGland</prerequisite>
         <minAgeActive>18</minAgeActive>
