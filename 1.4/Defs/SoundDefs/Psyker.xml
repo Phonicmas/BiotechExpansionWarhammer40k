@@ -11,10 +11,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Psyker/Psycast_Fireball_Cast_01a</clipPath>
-                    </li>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Psyker/Psycast_Fireball_Cast_01b</clipPath>
+                        <clipPath>ChaosPsyker/Doombolt</clipPath>
                     </li>
                 </grains>
                 <volumeRange>42</volumeRange>
@@ -33,10 +30,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Psyker/Psycast_Bolt_Cast_01a</clipPath>
-                    </li>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Psyker/Psycast_Bolt_Cast_01b</clipPath>
+                        <clipPath>Psyker/Smite</clipPath>
                     </li>
                 </grains>
                 <volumeRange>42</volumeRange>

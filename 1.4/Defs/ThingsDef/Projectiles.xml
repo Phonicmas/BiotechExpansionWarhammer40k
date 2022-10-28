@@ -17,12 +17,13 @@
 		<drawOffscreen>true</drawOffscreen>
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
-			<damageDef>Crush</damageDef>
+			<soundImpact>BEWH_Doombolt</soundImpact>
+			<explosionRadius>0.1</explosionRadius>
+			<damageDef>Blunt</damageDef>
 			<speed>45</speed>
 			<damageAmountBase>20</damageAmountBase>
 			<armorPenetrationBase>0.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
-			<arcHeightFactor>15</arcHeightFactor>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
 	</ThingDef>
@@ -34,17 +35,17 @@
 		<label>smite</label>
 		<description>Lighting launched by a psykers hand</description>
 		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
-		<drawOffscreen>true</drawOffscreen>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
 			<texPath>Effects/Psyker/Smite</texPath>
 			<graphicClass>Graphic_Flicker</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>(2, 2)</drawSize>
 		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
 			<explosionRadius>1.9</explosionRadius>
-			<damageDef>EMP</damageDef>
+			<damageDef>Cut</damageDef>
 			<speed>200</speed>
 			<damageAmountBase>35</damageAmountBase>
 			<armorPenetrationBase>0.85</armorPenetrationBase>
