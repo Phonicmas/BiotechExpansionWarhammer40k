@@ -4,7 +4,7 @@
 	<!-- Doombolt Projectile -->
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>40KPSY_Doombolt</defName>
+		<defName>BEWH_Doombolt</defName>
 		<label>doombolt</label>
 		<description>A ball of psychic energy launched by a psyker</description>
 		<thingClass>VanillaPsycastsExpanded.Graphics.Projectile_Pointing</thingClass>
@@ -30,7 +30,7 @@
 	<!-- Smite Projectile -->
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>40KPSY_Smite</defName>
+		<defName>BEWH_Smite</defName>
 		<label>smite</label>
 		<description>Lighting launched by a psykers hand</description>
 		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>

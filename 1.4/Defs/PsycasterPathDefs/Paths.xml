@@ -4,7 +4,7 @@
   <!-- Psyker Path-->
 
   <Psyker.PsykerPathDef>
-    <defName>40KPSY_Psyker</defName>
+    <defName>BEWH_Psyker</defName>
     <label>sanctioned psyker</label>
     <description>Sanctioned psykers possess a rare willpower to control their abilities and not become a danger to others.</description>
     <background>UI/Backgrounds/PsykerPath</background>
@@ -13,14 +13,14 @@
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
-      <GeneDef>40KPSY_Psyker</GeneDef>
+      <GeneDef>BEWH_Psyker</GeneDef>
     </requiredGeneAny>
   </Psyker.PsykerPathDef>
 
   <!-- ChaosPsyker Path-->
 
   <Psyker.PsykerPathDef>
-    <defName>40KPSY_ChaosPsyker</defName>
+    <defName>BEWH_ChaosPsyker</defName>
     <label>chaos psyker</label>
     <description>Chaos psykers possess unhinged psychic prowess and is capable of various tasks such as summoning Daemons and unleashing devastating weaponised psychic powers upon the enemy.</description>
     <background>UI/Backgrounds/ChaosPsykerPath</background>
@@ -29,7 +29,7 @@
     <tooltip>Powerful chaos psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
-      <GeneDef>40KPSY_Psyker</GeneDef>
+      <GeneDef>BEWH_Psyker</GeneDef>
     </requiredGeneAny>
   </Psyker.PsykerPathDef>
 

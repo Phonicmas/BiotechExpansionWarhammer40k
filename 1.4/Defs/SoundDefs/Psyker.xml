@@ -4,7 +4,7 @@
     <!-- Doombolt -->
 
     <SoundDef>
-        <defName>40KPSY_Doombolt</defName>
+        <defName>BEWH_Doombolt</defName>
         <context>MapOnly</context>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
@@ -26,7 +26,7 @@
     <!-- Smite -->
 
     <SoundDef>
-        <defName>40KPSY_Smite</defName>
+        <defName>BEWH_Smite</defName>
         <context>MapOnly</context>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>

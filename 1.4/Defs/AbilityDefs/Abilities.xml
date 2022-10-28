@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <AbilityDef ParentName="AbilityTouchBase">
+    <!--<AbilityDef ParentName="AbilityTouchBase">
         <defName>ReleaseLarramanCell</defName>
         <label>release larraman's cell</label>
         <description>Space Marines are capable of releasing even more of Larraman's cell into his body, speeding up wound recovery even more.</description>
@@ -37,6 +37,6 @@
                 <capacity>Manipulation</capacity>
             </li>
         </comps>
-    </AbilityDef>
+    </AbilityDef>-->
 
 </Defs>

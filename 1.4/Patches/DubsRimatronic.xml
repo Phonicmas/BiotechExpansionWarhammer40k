@@ -7,7 +7,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/GeneDef[defName = "40KPSY_Melanochrome"]</xpath>
+					<xpath>Defs/GeneDef[defName = "BEWH_Melanochrome"]</xpath>
 					<value>
 						<statFactors>
 							<Radiation>0</Radiation>
