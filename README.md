@@ -8,7 +8,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 2. Psycaster tree & abilities - ONGOING
 
 # TODO
-1. Set up Powers or Vanilla Expanded Psycasts
+1. Set up Powers for Vanilla Psycasts Expanded
 
 # Planned Features:
 1. Psyker Gene for Biotech is required for using Psycasts in this mod
@@ -89,7 +89,6 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Multiplies psychic sensitivity by 1.3
     *Multiplies medidation focus gain by 1.15
     *Multiplies entropy recovery rate by 1.2
-    -Add multiple tiers of psykers (as suggested by silver wolf 00)
 21. Sinew Coil
     *Increases blunt armor by 80%
     *Increases sharp armor by 80%
