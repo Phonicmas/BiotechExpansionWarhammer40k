@@ -22,9 +22,13 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 # Genes
 1. Secondary Heart
     *Multiplies blood pumping by 1.5.
+    
     *Increase max health points by 20.
+    
     *Makes you sterile and sets fertility to 0.
+    
     -Want to add similar effect as Deathless gene got, so that losing the heart will not kill you outright.
+    
 2. Ossmodula
     *Set body type to Hulk.
     *Increase health points by 30.
