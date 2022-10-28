@@ -192,9 +192,9 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     
     
     
-asd
 
-#Psychis paths
+
+# Psychis paths
 
 1. Chaos psyker
 
