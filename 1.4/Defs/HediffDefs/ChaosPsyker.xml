@@ -148,4 +148,55 @@
 		</comps>
 	</HediffDef>
 
+
+	<!-- Nurgle's Rot -->
+
+	<HediffDef ParentName="PsycastHediffBase">
+		<defName>BEWH_NurglesRot</defName>
+		<label>NurglesRot</label>
+		<description>Maybe he IS my friend after all...</description>
+		<initialSeverity>0.1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<statFactors>
+
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<statFactors>
+
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<statFactors>
+
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<statFactors>
+
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<statFactors>
+
+				</statFactors>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>18</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>VPE_Bliss</stateEffecter>
+			</li>
+		</comps>
+	</HediffDef>
+
 </Defs>

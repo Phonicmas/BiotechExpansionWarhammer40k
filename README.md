@@ -143,7 +143,9 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     
 18. Progenoid Glands
 
-    *Nothing so far
+    *Adds immunity to flu, malaria, sleeping sickness, plague, wound infection, lung rot.
+
+    *Prevents them for getting the following hediffs: carcinoma, heart attack, bad back, frail, cataract, dementia, alzheimers, asthma, heart artery blockage
     
     -Want to add some sort of reproductive system with this
    
@@ -199,7 +201,22 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
    *Doombolt
 
+   *Warptime
+   
+   *Shattertime
+   
+   *Mindscourge
+
    *Bolt of Change - want to make it scramble genes?
+
+   *Acquiescence
+
+   *Lash of Slaanesh
+
+   *Lash of Submission
+   
+
+
    
 2. Sanctioned psyker
 
@@ -207,19 +224,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
    
 3. Planned
 
-   *Warptime
-   
-   *Shattertime
-   
-   *Mindscourge
-   
    *Infernal Gateway
-   
-   *Lash of Submission
-
-   *Lash of Slaanesh
-
-   *Acquiescence
 
    *Inviolable Flesh
 

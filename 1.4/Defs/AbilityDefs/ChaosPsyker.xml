@@ -48,11 +48,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
+        <level>3</level>
         <order>1</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>30</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Doombolt</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Warptime</hediff>
@@ -115,10 +118,11 @@
         <path>BEWH_ChaosPsyker</path>
         <level>3</level>
         <order>2</order>
-        <psyfocusCost>0.1</psyfocusCost>
+        <psyfocusCost>0.05</psyfocusCost>
         <entropyGain>36</entropyGain>
         <prerequisites>
           <li>BEWH_Doombolt</li>
+          <li>BEWH_Mindscourge</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -146,9 +150,9 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
+        <level>1</level>
         <order>2</order>
-        <psyfocusCost>0.06</psyfocusCost>
+        <psyfocusCost>0.07</psyfocusCost>
         <entropyGain>24</entropyGain>
         <psychic>true</psychic>
       </li>
@@ -188,8 +192,8 @@
         <path>BEWH_ChaosPsyker</path>
         <level>1</level>
         <order>3</order>
-        <psyfocusCost>0.01</psyfocusCost>
-        <entropyGain>24</entropyGain>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>26</entropyGain>
         <psychic>true</psychic>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -218,13 +222,13 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
+        <level>5</level>
         <order>3</order>
-        <psyfocusCost>0.08</psyfocusCost>
-        <entropyGain>18</entropyGain>
+        <psyfocusCost>0.20</psyfocusCost>
+        <entropyGain>80</entropyGain>
         <psychic>true</psychic>
         <prerequisites>
-          <li>BEWH_Acquiescence</li>
+          <li>BEWH_LashOfSlaanesh</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -235,7 +239,34 @@
   </VFECore.Abilities.AbilityDef>
 
   <!-- Lash of Slaanesh -->
-  <!-- Damagaging ability -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_LashOfSlaanesh</defName>
+    <label>lash of slaanesh</label>
+    <description>???</description>
+    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>15</castTime>
+    <range>24.9</range>
+    <radius>3</radius>
+    <targetMode>Pawn</targetMode>
+    <castSound>VPE_EyeBlast_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>3</level>
+        <order>3</order>
+        <psyfocusCost>0.05</psyfocusCost>
+        <entropyGain>45</entropyGain>
+        <prerequisites>
+          <li>BEWH_Acquiescence</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>BEWH_LashOfSlaanesh</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
 
 

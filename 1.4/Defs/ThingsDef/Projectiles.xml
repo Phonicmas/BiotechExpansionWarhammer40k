@@ -22,7 +22,7 @@
 			<damageDef>BEWH_doom</damageDef>
 			<speed>45</speed>
 			<damageAmountBase>20</damageAmountBase>
-			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<armorPenetrationBase>1.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
@@ -47,10 +47,34 @@
 			<explosionRadius>0.6</explosionRadius>
 			<damageDef>BEWH_doom</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>40</damageAmountBase>
-			<armorPenetrationBase>1.1</armorPenetrationBase>
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>2.3</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</ThingDef>
+
+	<!-- Lash of Slaanesh Projectile -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BEWH_LashOfSlaanesh</defName>
+		<label>lash of slaanesh</label>
+		<thingClass>VFECore.BeamProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<texPath>Effects/ChaosPsyker/Doombolt/Proj_DoomboltA</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 1)</drawSize>
+		</graphicData>
+		<projectile>
+			<explosionRadius>0</explosionRadius>
+			<damageDef>BEWH_doom</damageDef>
+			<speed>100000</speed>
+			<damageAmountBase>73</damageAmountBase>
+			<armorPenetrationBase>0.27</armorPenetrationBase>
+			<stoppingPower>2</stoppingPower>
+			<shadowSize>0.4</shadowSize>
 		</projectile>
 	</ThingDef>
 
