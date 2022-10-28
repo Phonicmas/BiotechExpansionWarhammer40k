@@ -12,7 +12,7 @@
         <hediff>Shredded</hediff>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
-        <soundExplosion>NoSound</soundExplosion>
+        <soundExplosion>BEWH_NoSound</soundExplosion>
         <armorCategory>Blunt</armorCategory>
         <defaultDamage>20</defaultDamage>
         <defaultArmorPenetration>0.7</defaultArmorPenetration>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Smite -->
+    <!-- Doombolt -->
 
     <SoundDef>
-        <defName>BEWH_Smite</defName>
+        <defName>BEWH_Doombolt</defName>
         <context>MapOnly</context>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Psyker/Smite</clipPath>
+                        <clipPath>ChaosPsyker/Doombolt</clipPath>
                     </li>
                 </grains>
                 <volumeRange>42</volumeRange>

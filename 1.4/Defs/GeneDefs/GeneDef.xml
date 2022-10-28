@@ -36,7 +36,7 @@
     <!-- Secondary Heart-->
 
     <GeneDef ParentName="SpaceMarineParent">
-        <defName>BEWH_SecondayHeart</defName>
+        <defName>BEWH_SecondaryHeart</defName>
         <label>secondary heart</label>
         <description>Carriers possess a secondary heart which function is to enhance the performance of an Astartes by supplying more oxygen and nutrients to the muscles by increasing blood flow well-beyond that capable for even the most fit normal human being.</description>
         <iconPath>UI/Icons/Genes/SecondaryHeartIcon</iconPath>
@@ -70,7 +70,7 @@
         <description>Carrier possess rapid growth of their skeletomuscular system which results in their superhuman strength and massive size compared to a baseline human male.</description>
         <iconPath>UI/Icons/Genes/OssmodulaIcon</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
-        <prerequisite>BEWH_SecondayHeart</prerequisite>
+        <prerequisite>BEWH_SecondaryHeart</prerequisite>
         <bodyType>Hulk</bodyType>
         <statOffsets>
             <MaxHitPoints>30</MaxHitPoints>

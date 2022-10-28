@@ -4,11 +4,12 @@
 https://forms.gle/5YpXFs7UgMokhvYa7
 
 # Ongoing
-1. Genes - ONGOING
+1. Genes - ONGOING - Missing abilities
 2. Psycaster tree & abilities - ONGOING
 
 # TODO
 1. Set up Powers for Vanilla Psycasts Expanded
+2. Add archite requirement for primaris genes.
 
 # Planned Features:
 1. Psyker Gene for Biotech is required for using Psycasts in this mod
@@ -191,8 +192,6 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     -Make an ability like auto stimpack that heals when low on hp.
     
     
-    
-
 
 # Psychis paths
 
