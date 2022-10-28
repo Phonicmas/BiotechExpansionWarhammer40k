@@ -36,7 +36,7 @@
 		<description>A ball of psychic energy launched by a psyker</description>
 		<thingClass>VanillaPsycastsExpanded.Graphics.Projectile_Pointing</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-			<texPath>Effects/ChaosPsyker/Doombolt</texPath>
+			<texPath>Effects/ChaosPsyker/BoltOfChange</texPath>
 			<ticksPerFrame>5</ticksPerFrame>
 			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
 			<shaderType>MoteGlow</shaderType>

@@ -7,7 +7,7 @@
     <defName>BEWH_Doombolt</defName>
     <label>doombolt</label>
     <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
-    <iconPath>Abilities/ChaosPsyker/Doombolt</iconPath>
+    <iconPath>Abilities/ChaosPsyker/DoomboltIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
     <range>30</range>
@@ -37,7 +37,7 @@
     <defName>BEWH_BoltOfChange</defName>
     <label>bolt of change</label>
     <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
-    <iconPath>Abilities/ChaosPsyker/Doombolt</iconPath>
+    <iconPath>Abilities/ChaosPsyker/BoltOfChangeIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
     <range>30</range>
