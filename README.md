@@ -210,13 +210,23 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
    *Warptime
    
-   *Prescience
+   *Shattertime
    
-   *Iron Arm
+   *Mindscourge
    
-   *Warp Speed
+   *Infernal Gateway
    
-   *Misfortune
+   *Lash of Submission
+
+   *Lash of Slaanesh
+
+   *Acquiescence
+
+   *Inviolable Flesh
+
+   *Nurgle's Rot
+
+   *Vile Contagion
 
 
 # Other things to add

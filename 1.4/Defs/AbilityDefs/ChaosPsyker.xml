@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+  <!-- Unaligned -->
   <!-- Doombolt -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
@@ -31,6 +32,14 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
+  <!-- Warptime -->
+  <!-- Increase melee hit, ranged hit and move speed depending on psychic sensitivity -->
+  <!-- Shattertime -->
+  <!-- Increase melee hit, ranged hit and move speed depending on psychic sensitivity - stronger than warptime -->
+
+
+
+  <!-- Tzeentch -->
   <!-- Bolt of Change -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
@@ -51,7 +60,7 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>2</level>
-        <order>1</order>
+        <order>2</order>
         <psyfocusCost>0.1</psyfocusCost>
         <entropyGain>28</entropyGain>
         <prerequisites>
@@ -63,5 +72,30 @@
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
+
+  <!-- Mindscourge -->
+  <!-- Completely mess up their mind - reducing conciousness permanently -->
+  <!-- Infernal Gateway -->
+  <!-- Stationary gateway that destroys (removes) any pawn within reach -->
+
+
+
+  <!-- Slaanesh -->
+  <!-- Lash of Submission -->
+  <!-- Take control of pawn -->
+  <!-- Lash of Slaanesh -->
+  <!-- Damagaging ability -->
+  <!-- Acquiescence -->
+  <!-- Stun or make pawn unconsious -->
+
+
+
+  <!-- Nurgle -->
+  <!-- Inviolable Flesh -->
+  <!-- Increase armor values + hp? -->
+  <!-- Nurgle's Rot -->
+  <!-- Gives custom hediff disease that hurts a lot -->
+  <!-- Vile Contagion -->
+  <!-- Apply Nurgle's Rot on every with radius of someone already infected -->
 
 </Defs>
