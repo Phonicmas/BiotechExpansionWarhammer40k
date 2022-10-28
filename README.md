@@ -121,9 +121,13 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Multiplies immunity gain speed by 1.5
   
 15. Neuroglottis
+
     *Multiplies eating by 1.5.
+    
     *Increases toxic resistance by 50%
+    
     *Increases hunting stealth by 25%
+    
 16. Mucranoid
 
     *Increases max comfy temperature by 40
