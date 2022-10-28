@@ -31,4 +31,37 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
+  <!-- Bolt of Change -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_BoltOfChange</defName>
+    <label>bolt of change</label>
+    <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
+    <iconPath>Abilities/ChaosPsyker/Doombolt</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>20</castTime>
+    <range>30</range>
+    <radius>1</radius>
+    <targetMode>Pawn</targetMode>
+    <castSound>BEWH_Doombolt</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>2</level>
+        <order>1</order>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>28</entropyGain>
+        <prerequisites>
+          <li>BEWH_Doombolt</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>BEWH_BoltOfChange</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
 </Defs>

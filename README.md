@@ -199,6 +199,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 1. Chaos psyker
 
    *Doombolt
+
+   *Bolt of Change - want to make it scramble genes?
    
 2. Sanctioned psyker
 
