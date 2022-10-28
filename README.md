@@ -215,3 +215,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
    *Warp Speed
    
    *Misfortune
+
+
+# Other things to add
+Xenotype and faction?
