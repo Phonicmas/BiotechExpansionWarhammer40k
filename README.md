@@ -1,4 +1,4 @@
-# 40kPsykers for Rimworld
+# Biotech Expansion - Warhammer 40k for rimworld
 
 # Suggestions
 https://forms.gle/5YpXFs7UgMokhvYa7
@@ -8,13 +8,12 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 2. Psycaster tree & abilities - ONGOING
 
 # TODO
-1. Set up Powers and tree for Vanilla Expanded Psycasts
-2. Extend PsycasterPathDef into own class and override PawnCanUnlock for gene requirement
+1. Set up Powers or Vanilla Expanded Psycasts
 
 # Planned Features:
-1. Psyker Gene for Biotech (Hopefully to be required for using Psycasts in this mod)
+1. Psyker Gene for Biotech is required for using Psycasts in this mod
 2. Psycast tree for Vanilla Expanded Psycasts
-3. All Space Marine gene-seeds
+3. All Space Marine gene-seeds & Primaris genes
 
 # Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
@@ -25,7 +24,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Multiplies blood pumping by 1.5.
     *Increase max health points by 20.
     *Makes you sterile and sets fertility to 0.
-    -Want to add similar effect as Deathless gene got, except it's that losing the heart will not kill you outright.
+    -Want to add similar effect as Deathless gene got, so that losing the heart will not kill you outright.
 2. Ossmodula
     *Set body type to Hulk.
     *Increase health points by 30.
@@ -42,7 +41,6 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 5. Larraman's Organ
     *Multiplies healing factor by 5.
     *Possesses the superclotting ability, closing wounds fast.
-    *Grant the ability to heal a wound on yourself - ONGOING
 6. Catalepsean Node
     *Reduce sleep needed by 75%.
     -Add ability that fills sleep bar a bit.
@@ -64,7 +62,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 12. Sus-an Membrane
     *Increases consciousness by 10%
     -Want to add an ability that allows them to enter an invurnable state where an item can recover them.
-    -Want to make their dead body no deteriorate - or have a lot of hp when dead?
+    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is easier)?
 13. Melanochrome
     *Increase max health points by 40.
     *If Dubs Rimatronics is installed it grants radiation immunity.
@@ -108,12 +106,15 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 23. Belisarian Furnace
     *Nothing so far.
     -Make an ability like auto stimpack that heals when low on hp.
-
-# Psyker Tree (Name - Effect - Target - Current progress):
-1. Psychic Bolt (Doombolt) - Damage bolt - Others -  IN PROGRESS
-2. Smite - Larger damage bolt - Others - IN PROGRESS
-3. Warptime - Increased accuracy with both melee and ranged - Self - PLANNED
-4. Prescience - Same as above but lesser - Self or Ally -PLANNED
-5. Iron Arm - Increase Armor value and give strong blunt attack - Self - PLANNED
-6. Warp Speed - Increase movement speed and dodge chance. - Self - PLANNED
-7. Misfortune - Reduce enemy armor value - Others - PLANNED
+    
+#Psychis paths
+1. Chaos psyker
+   *Doombolt
+2. Sanctioned psyker
+   *Smite
+3. Planned
+   *Warptime
+   *Prescience
+   *Iron Arm
+   *Warp Speed
+   *Misfortune
