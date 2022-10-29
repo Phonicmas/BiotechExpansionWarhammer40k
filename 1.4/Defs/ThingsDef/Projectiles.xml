@@ -62,7 +62,7 @@
 		<thingClass>VFECore.BeamProjectile</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<graphicData>
-			<texPath>Effects/ChaosPsyker/Doombolt/Proj_DoomboltA</texPath>
+			<texPath>Effects/ChaosPsyker/LashOfSlaanesh/LashOfSlaanesh</texPath>
 			<shaderType>MoteGlow</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5, 1)</drawSize>

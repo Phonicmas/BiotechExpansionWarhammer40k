@@ -244,7 +244,7 @@
     <defName>BEWH_LashOfSlaanesh</defName>
     <label>lash of slaanesh</label>
     <description>???</description>
-    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <iconPath>Abilities/ChaosPsyker/LashOfSlaaneshIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>15</castTime>
     <range>24.9</range>
