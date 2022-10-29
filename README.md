@@ -18,6 +18,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 3. Faction?
 4. Event? (big baddie coming to hurt you)
 5. Different tiers of psychic potential
+6. Patch a power armor mod?
 
 # Genes
 
@@ -166,6 +167,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Increase movement speed by 1 if clothed
     
     *Multiplies incoming damage by 0.95
+    
+    -Want to make it so the movement only apply if wearing power armor and only removes the negative move speed the armor gives
     
 20. Psyker
 
