@@ -5,20 +5,18 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
 # Ongoing
 1. Genes - ONGOING - Missing abilities
-2. Psycaster tree & abilities - ONGOING
-
-# TODO
-1. Set up Powers for Vanilla Psycasts Expanded
-2. Add archite requirement for primaris genes.
+2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
 # Planned Features:
-1. Psyker Gene for Biotech is required for using Psycasts in this mod
-2. Psycast tree for Vanilla Expanded Psycasts
-3. All Space Marine gene-seeds & Primaris genes
+1. Psyker Gene for Biotech is required for using Psycasts in this mod - DONE
+2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
+3. All Space Marine gene-seeds & Primaris genes - ONGOING
 
 # Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
 2. Phariah genes (blanks)?
+3. Faction?
+4. Event? (big baddie coming to hurt you)
 
 # Genes
 1. Secondary Heart
@@ -225,14 +223,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
    *Lash of Submission
    
-
-
-   
-2. Sanctioned psyker
-
-   *Smite
-   
-3. Planned
+1.1. Planned
 
    *Infernal Gateway
 
@@ -241,7 +232,13 @@ https://forms.gle/5YpXFs7UgMokhvYa7
    *Nurgle's Rot
 
    *Vile Contagion
+   
+   
+2. Sanctioned psyker
+
+   *Smite
+   
 
 
-# Other things to add
-Faction?
+# Other things
+Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
