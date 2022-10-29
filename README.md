@@ -17,8 +17,12 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 2. Phariah genes (blanks)?
 3. Faction?
 4. Event? (big baddie coming to hurt you)
+5. Different tiers of psychic potential
 
 # Genes
+
+First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
+
 1. Secondary Heart
 
     *Multiplies blood pumping by 1.4
@@ -111,7 +115,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     
     -Want to add an ability that allows them to enter an invurnable state where an item can recover them.
     
-    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is easier)?
+    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is less harmful)?
     
 13. Melanochrome
 
