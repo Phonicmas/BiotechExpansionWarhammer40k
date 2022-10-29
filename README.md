@@ -20,6 +20,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 4. Event? (big baddie coming to hurt you)
 5. Different tiers of psychic potential
 6. Patch a power armor mod?
+7. Persona traits?
 
 # Genes
 
