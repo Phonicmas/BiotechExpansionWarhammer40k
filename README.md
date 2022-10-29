@@ -223,7 +223,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
    *Lash of Submission
    
-1.1. Planned
+   
+2. Planned chaos powers
 
    *Infernal Gateway
 
@@ -234,9 +235,14 @@ https://forms.gle/5YpXFs7UgMokhvYa7
    *Vile Contagion
    
    
-2. Sanctioned psyker
+3. Sanctioned psyker
 
    *Smite
+   
+   
+4. Planned Sanctioned powers
+
+   *No clue
    
 
 
