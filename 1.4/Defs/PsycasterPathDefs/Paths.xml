@@ -9,7 +9,7 @@
     <description>Sanctioned psykers possess a rare willpower to control their abilities and not become a danger to others.</description>
     <background>UI/Backgrounds/PsykerPath</background>
     <altBackground>UI/AlternativeBackgrounds/PathBG_Psyker</altBackground>
-    <tab>Psycasts</tab>
+    <tab>Psyker</tab>
     <tooltip>Powerful psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
@@ -25,7 +25,7 @@
     <description>Chaos psykers possess unhinged psychic prowess and is capable of various tasks such as summoning Daemons and unleashing devastating weaponised psychic powers upon the enemy.</description>
     <background>UI/Backgrounds/ChaosPsykerPath</background>
     <altBackground>UI/AlternativeBackgrounds/PathBG_ChaosPsyker</altBackground>
-    <tab>Psycasts</tab>
+    <tab>Psyker</tab>
     <tooltip>Powerful chaos psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
