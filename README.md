@@ -28,6 +28,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Increase max health points by 20
     
     *Makes you sterile and sets fertility to 0
+
+    -Suppresses: Kind and slowpoke
     
     -Want to add similar effect as Deathless gene got, so that losing the heart will not kill you outright
     
@@ -38,6 +40,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Increase health points by 30
     
     *Triples pawn mass
+
+    -Suppresses: Delicate and wimp
     
     -Want to make it increase actual drawn size
     
@@ -56,6 +60,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Increase blood pumping by 60%
     
     *Increase breathing by 15%
+
+    -Suppresses: Lazy and slothful
     
 5. Larraman's Organ
 
@@ -66,6 +72,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 6. Catalepsean Node
 
     *Reduce sleep needed by 65%.
+
+    -Suppresses: Nervous and volatile
     
     -Add ability that fills sleep bar a bit.
     
@@ -120,6 +128,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Increases toxic resistance by 50%
     
     *Multiplies immunity gain speed by 1.5
+
+    -Suppresses: Sickly
   
 15. Neuroglottis
 
@@ -234,4 +244,4 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
 
 # Other things to add
-Xenotype and faction?
+Faction?

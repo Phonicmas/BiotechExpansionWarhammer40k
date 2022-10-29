@@ -50,7 +50,11 @@
         <minAgeActive>14</minAgeActive>
         <suppressedTraits>
             <li>
-                <def>Wimp</def>
+                <def>Kind</def>
+            </li>
+            <li>
+                <def>SpeedOffset</def>
+                <degree>-1</degree>
             </li>
         </suppressedTraits>
     </GeneDef>
@@ -71,6 +75,14 @@
         <statFactors>
             <Mass>3</Mass>
         </statFactors>
+        <suppressedTraits>
+            <li>
+                <def>Delicate</def>
+            </li>
+            <li>
+                <def>Wimp</def>
+            </li>
+        </suppressedTraits>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -114,6 +126,16 @@
                 <offset>0.15</offset>
             </li>
         </capMods>
+        <suppressedTraits>
+            <li>
+                <def>Industriousness</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Industriousness</def>
+                <degree>-2</degree>
+            </li>
+        </suppressedTraits>
         <minAgeActive>14</minAgeActive>
     </GeneDef>
 
@@ -126,9 +148,6 @@
         <iconPath>UI/Icons/Genes/LarramansOrganIcon</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <prerequisite>BEWH_Haemastamen</prerequisite>
-        <!--<abilities>
-            <li>ReleaseLarramanCell</li>
-        </abilities>-->
         <geneClass>Gene_Clotting</geneClass>
         <statFactors>
             <InjuryHealingFactor>5</InjuryHealingFactor>
@@ -151,6 +170,16 @@
         <statFactors>
             <RestFallRateFactor>0.35</RestFallRateFactor>
         </statFactors>
+        <suppressedTraits>
+            <li>
+                <def>Nerves</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Nervse</def>
+                <degree>-2</degree>
+            </li>
+        </suppressedTraits>
         <minAgeActive>17</minAgeActive>
     </GeneDef>
 
@@ -304,6 +333,12 @@
             </li>
         </capMods>
         <biostatMet>3</biostatMet>
+        <suppressedTraits>
+            <li>
+                <def>Immunity</def>
+                <degree>-1</degree>
+            </li>
+        </suppressedTraits>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -489,6 +524,16 @@
         </statFactors>
         <biostatCpx>3</biostatCpx>
         <biostatMet>-4</biostatMet>
+        <suppressedTraits>
+            <li>
+                <def>PsychicSensitivity</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>PsychicSensitivity</def>
+                <degree>-2</degree>
+            </li>
+        </suppressedTraits>
         <minAgeActive>6</minAgeActive>
     </GeneDef>
 
