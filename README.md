@@ -11,6 +11,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 1. Psyker Gene for Biotech is required for using Psycasts in this mod - DONE
 2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
 3. All Space Marine gene-seeds & Primaris genes - ONGOING
+4. Make genes require progenoid gland germ cells or whatever to be able to use genes, like the archite requirement.
 
 # Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
