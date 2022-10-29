@@ -5,22 +5,25 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
 # Ongoing
 1. Genes - ONGOING - Missing abilities
-2. Psycaster tree & abilities - ONGOING
-
-# TODO
-1. Set up Powers for Vanilla Psycasts Expanded
-2. Add archite requirement for primaris genes.
+2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
 # Planned Features:
-1. Psyker Gene for Biotech is required for using Psycasts in this mod
-2. Psycast tree for Vanilla Expanded Psycasts
-3. All Space Marine gene-seeds & Primaris genes
+1. Psyker Gene for Biotech is required for using Psycasts in this mod - DONE
+2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
+3. All Space Marine gene-seeds & Primaris genes - ONGOING
 
 # Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
 2. Phariah genes (blanks)?
+3. Faction?
+4. Event? (big baddie coming to hurt you)
+5. Different tiers of psychic potential
+6. Patch a power armor mod?
 
 # Genes
+
+First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
+
 1. Secondary Heart
 
     *Multiplies blood pumping by 1.4
@@ -113,7 +116,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     
     -Want to add an ability that allows them to enter an invurnable state where an item can recover them.
     
-    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is easier)?
+    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is less harmful)?
     
 13. Melanochrome
 
@@ -164,6 +167,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
     *Increase movement speed by 1 if clothed
     
     *Multiplies incoming damage by 0.95
+    
+    -Want to make it so the movement only apply if wearing power armor and only removes the negative move speed the armor gives
     
 20. Psyker
 
@@ -225,14 +230,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
    *Lash of Submission
    
-
-
    
-2. Sanctioned psyker
-
-   *Smite
-   
-3. Planned
+2. Planned chaos powers
 
    *Infernal Gateway
 
@@ -241,7 +240,18 @@ https://forms.gle/5YpXFs7UgMokhvYa7
    *Nurgle's Rot
 
    *Vile Contagion
+   
+   
+3. Sanctioned psyker
+
+   *Smite
+   
+   
+4. Planned Sanctioned powers
+
+   *No clue
+   
 
 
-# Other things to add
-Faction?
+# Other things
+Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
