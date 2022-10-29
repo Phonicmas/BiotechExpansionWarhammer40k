@@ -176,7 +176,7 @@
                 <degree>-1</degree>
             </li>
             <li>
-                <def>Nervse</def>
+                <def>Nerves</def>
                 <degree>-2</degree>
             </li>
         </suppressedTraits>
@@ -471,6 +471,16 @@
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
+        <suppressedTraits>
+            <li>
+                <def>Beauty</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Beauty</def>
+                <degree>-2</degree>
+            </li>
+        </suppressedTraits>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 
