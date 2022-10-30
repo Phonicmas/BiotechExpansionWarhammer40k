@@ -57,6 +57,11 @@
                 <degree>-1</degree>
             </li>
         </suppressedTraits>
+        <!--<modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidExtension">
+                <biostatGCell>1</biostatGCell>
+            </li>
+        </modExtensions>-->
     </GeneDef>
 
     <!-- Ossmodula -->
