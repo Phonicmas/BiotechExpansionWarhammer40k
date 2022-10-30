@@ -8,7 +8,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
 # Planned Features:
-1. Psyker Gene for Biotech is required for using Psycasts in this mod - DONE
+1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
 2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
 3. All Space Marine gene-seeds & Primaris genes - ONGOING
 4. Make genes require progenoid gland germ cells or whatever to be able to use genes, like the archite requirement.
@@ -161,6 +161,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Adds immunity to flu, malaria, sleeping sickness, plague, wound infection, lung rot.
 
     *Prevents them for getting the following hediffs: carcinoma, heart attack, bad back, frail, cataract, dementia, alzheimers, asthma, heart artery blockage
+
+    *Stop aging after the age of 21
     
     -Want to add some sort of reproductive system with this
    
@@ -231,15 +233,15 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Lash of Slaanesh
 
    *Lash of Submission
-   
-   
-2. Planned chaos powers
-
-   *Infernal Gateway
 
    *Inviolable Flesh
 
    *Nurgle's Rot
+   
+   
+2. Planned chaos powers
+
+   *Infernal Gateway   
 
    *Vile Contagion
    

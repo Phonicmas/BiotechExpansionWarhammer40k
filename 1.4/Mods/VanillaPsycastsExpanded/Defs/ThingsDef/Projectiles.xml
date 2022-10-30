@@ -20,8 +20,8 @@
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
 			<damageDef>BEWH_doom</damageDef>
-			<speed>45</speed>
-			<damageAmountBase>20</damageAmountBase>
+			<speed>90</speed>
+			<damageAmountBase>21</damageAmountBase>
 			<armorPenetrationBase>1.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
@@ -46,8 +46,8 @@
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
 			<damageDef>BEWH_doom</damageDef>
-			<speed>45</speed>
-			<damageAmountBase>45</damageAmountBase>
+			<speed>90</speed>
+			<damageAmountBase>49</damageAmountBase>
 			<armorPenetrationBase>2.3</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
@@ -70,7 +70,7 @@
 		<projectile>
 			<explosionRadius>0</explosionRadius>
 			<damageDef>BEWH_doom</damageDef>
-			<speed>100000</speed>
+			<speed>10000</speed>
 			<damageAmountBase>73</damageAmountBase>
 			<armorPenetrationBase>0.27</armorPenetrationBase>
 			<stoppingPower>2</stoppingPower>

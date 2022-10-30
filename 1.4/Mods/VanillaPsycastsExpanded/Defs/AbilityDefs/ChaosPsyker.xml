@@ -23,7 +23,7 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>1</level>
-        <order>1</order>
+        <order>2</order>
         <psyfocusCost>0.03</psyfocusCost>
         <entropyGain>16</entropyGain>
       </li>
@@ -48,14 +48,11 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
-        <order>1</order>
+        <level>2</level>
+        <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>30</entropyGain>
         <psychic>true</psychic>
-        <prerequisites>
-          <li>BEWH_Doombolt</li>
-        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Warptime</hediff>
@@ -79,8 +76,8 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>5</level>
-        <order>1</order>
+        <level>3</level>
+        <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>60</entropyGain>
         <psychic>true</psychic>
@@ -116,13 +113,12 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
+        <level>2</level>
         <order>2</order>
         <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>36</entropyGain>
+        <entropyGain>45</entropyGain>
         <prerequisites>
           <li>BEWH_Doombolt</li>
-          <li>BEWH_Mindscourge</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -136,7 +132,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_Mindscourge</defName>
     <label>Mindscourge</label>
-    <description>Momentarily disrupts motor function in the target's brain, preventing any movement. This lasts for a few seconds and is considered a hostile action.</description>
+    <description>The psyker, having placed a sliver of psychic energy in the victim's mind, will inflict debilitating pain as in moves through the victim's psyche.</description>
     <iconPath>Abilities/ChaosPsyker/MindscourgeIcon</iconPath>
     <targetMode>Pawn</targetMode>
     <targetingParameters>
@@ -151,7 +147,7 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>1</level>
-        <order>2</order>
+        <order>1</order>
         <psyfocusCost>0.07</psyfocusCost>
         <entropyGain>24</entropyGain>
         <psychic>true</psychic>
@@ -190,11 +186,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>1</level>
-        <order>3</order>
+        <level>2</level>
+        <order>1</order>
         <psyfocusCost>0.1</psyfocusCost>
         <entropyGain>26</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Mindscourge</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Acquiescence</hediff>
@@ -222,7 +221,7 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>5</level>
+        <level>4</level>
         <order>3</order>
         <psyfocusCost>0.20</psyfocusCost>
         <entropyGain>80</entropyGain>
@@ -255,9 +254,9 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>3</level>
-        <order>3</order>
+        <order>2</order>
         <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>45</entropyGain>
+        <entropyGain>36</entropyGain>
         <prerequisites>
           <li>BEWH_Acquiescence</li>
         </prerequisites>
@@ -273,12 +272,64 @@
   <!-- Nurgle -->
 
   <!-- Inviolable Flesh -->
-  <!-- Increase armor values + hp? -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_InviolableFlash</defName>
+    <label>inviolable flesh</label>
+    <description>The psyker's flesh twist and changes to resemble the blessed effluents of he Plague God, becoming crusted with filth and foulness such that the blows of the enemy do no cut so deep.</description>
+    <iconPath>Abilities/ChaosPsyker/InviolableFleshIcon</iconPath>
+    <targetMode>Self</targetMode>
+    <castTime>15</castTime>
+    <durationTime>3600</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castSound>BEWH_NoSound</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>1</level>
+        <order>3</order>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>23</entropyGain>
+        <psychic>true</psychic>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_InviolableFlash</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
 
-  
   <!-- Nurgle's Rot -->
-  <!-- Gives custom hediff disease that hurts a lot -->
+
+    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_NurglesRot</defName>
+    <label>nurgle's rot</label>
+    <description>The grandest and most infamous of Nurgle's contagions, nurgles rot has left countless worlds desolated by this terrible daemonic pathogen.</description>
+    <iconPath>Abilities/ChaosPsyker/NurglesRotIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>120</castTime>
+    <castSound>BEWH_NoSound</castSound>
+    <durationTime>24000</durationTime>
+    <targetMode>Humanlike</targetMode>
+    <range>47</range>
+    <cooldownTime>600</cooldownTime>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>3</level>
+        <order>1</order>
+        <psyfocusCost>0.12</psyfocusCost>
+        <entropyGain>107</entropyGain>
+        <psychic>true</psychic>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_NurglesRot</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
   <!-- Vile Contagion -->
   <!-- Apply Nurgle's Rot on every with radius of someone already infected -->
 

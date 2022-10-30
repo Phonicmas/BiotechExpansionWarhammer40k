@@ -67,7 +67,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.20</offset>
+						<offset>-0.16</offset>
 					</li>
 				</capMods>
 			</li>
@@ -76,7 +76,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.35</offset>
+						<offset>-0.24</offset>
 					</li>
 				</capMods>
 			</li>
@@ -85,7 +85,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.50</offset>
+						<offset>-0.32</offset>
 					</li>
 				</capMods>
 			</li>
@@ -94,7 +94,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.65</offset>
+						<offset>-0.40</offset>
 					</li>
 				</capMods>
 			</li>
@@ -103,7 +103,34 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.80</offset>
+						<offset>-0.48</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.56</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.64</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.72</offset>
 					</li>
 				</capMods>
 			</li>
@@ -148,50 +175,380 @@
 		</comps>
 	</HediffDef>
 
+	<!-- Inviolable Flesh -->
+
+	<HediffDef ParentName="PsycastHediffBase">
+		<defName>BEWH_InviolableFlash</defName>
+		<label>inviolable flesh</label>
+		<description>Crusted with filth and foulness, you're more able to withstand attacks.</description>
+		<stages>
+			<li>
+				<statFactors>
+					<MaxHitPoints>1.35</MaxHitPoints>
+					<Beauty>0.1</Beauty>
+					<FilthRate>3</FilthRate>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!-- Nurgle's Rot -->
 
 	<HediffDef ParentName="PsycastHediffBase">
 		<defName>BEWH_NurglesRot</defName>
-		<label>NurglesRot</label>
-		<description>Maybe he IS my friend after all...</description>
+		<label>nurgle's rot</label>
+		<description>Nurgle's Rot is slowly decaying this body.</description>
 		<initialSeverity>0.1</initialSeverity>
+		<makesSickThought>true</makesSickThought>
 		<hediffClass>HediffWithComps</hediffClass>
 		<stages>
 			<li>
 				<minSeverity>0.1</minSeverity>
-				<statFactors>
-
-				</statFactors>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.9</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
 			</li>
 			<li>
 				<minSeverity>0.2</minSeverity>
-				<statFactors>
-
-				</statFactors>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.83</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.88</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.9</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.85</postFactor>
+					</li>
+				</capMods>
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
-				<statFactors>
-
-				</statFactors>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.76</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.81</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.83</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.78</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.77</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.65</postFactor>
+					</li>
+				</capMods>
 			</li>
 			<li>
 				<minSeverity>0.4</minSeverity>
-				<statFactors>
-
-				</statFactors>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.69</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.74</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.76</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.71</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.73</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.7</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.58</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.83</postFactor>
+					</li>
+				</capMods>
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
-				<statFactors>
-
-				</statFactors>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.62</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.67</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.69</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.64</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.66</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.63</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.51</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.68</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.76</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.77</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.55</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.60</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.62</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.57</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.59</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.56</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.44</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.61</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.69</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.70</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.24</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.26</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.27</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.25</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.26</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.24</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.17</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.27</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.31</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.32</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.12</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.13</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.14</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.12</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.13</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.12</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.08</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.13</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.16</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.16</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<postFactor>0.06</postFactor>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.07</postFactor>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<postFactor>0.07</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.06</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>0.06</postFactor>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<postFactor>0.06</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.04</postFactor>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<postFactor>0.07</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.08</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.08</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.99</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
 			</li>
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>18</severityPerDay>
+				<severityPerDay>9</severityPerDay>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>VPE_Bliss</stateEffecter>

@@ -428,6 +428,11 @@
             <li>HeartArteryBlockage</li>
         </hediffGiversCannotGive>
         <minAgeActive>18</minAgeActive>
+        <biologicalAgeTickFactorFromAgeCurve>
+            <points>
+                <li>(21, 0)</li>
+            </points>
+        </biologicalAgeTickFactorFromAgeCurve>
     </GeneDef>
 
     <!-- Black Carapace -->
