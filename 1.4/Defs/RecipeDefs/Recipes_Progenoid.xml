@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Initiate Progenoid Growth -->
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>BEWH_InitiateProgenoidGrowth</defName>
+        <label>Initiate Progenoid Growth</label>
+        <description>Initiate growth in progenoid glands, allowing them to generate germ cells for future making of new gene-seeds.</description>
+        <workerClass>Recipe_AddHediff</workerClass>
+        <jobString>???</jobString>
+        <workAmount>1500</workAmount>
+        <hideBodyPartNames>true</hideBodyPartNames>
+        <targetsBodyPart>false</targetsBodyPart>
+        <addsHediff>BEWH_ProgenoidGlandsGrowth</addsHediff>
+        <incompatibleWithHediffTags>
+            <li>BEWH_ProgenoidGlands</li>
+        </incompatibleWithHediffTags>
+        <modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidExtension">
+                <hasGene>BEWH_ProgenoidGlands</hasGene>
+            </li>
+        </modExtensions>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+</Defs>

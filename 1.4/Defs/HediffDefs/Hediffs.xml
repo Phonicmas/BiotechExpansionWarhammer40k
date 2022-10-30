@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Progenoid Gland -->
+
+	<HediffDef>
+		<defName>BEWH_ProgenoidGlandsGrowth</defName>
+		<label>progenoid glands</label>
+		<description>Your progenoid glands are currently making germ cells for making new gene-seeds.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

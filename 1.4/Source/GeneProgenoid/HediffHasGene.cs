@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace GeneProgenoidExtension
+namespace GeneProgenoid
 {
-    public class GeneDef : DefModExtension
+    public class GeneProgenoidExtension : DefModExtension
     {
-        public int biostatGCell;
+        public GeneDef hasGene;
     }
 }

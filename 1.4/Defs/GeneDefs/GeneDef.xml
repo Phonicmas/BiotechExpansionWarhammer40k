@@ -432,12 +432,17 @@
             <li>Asthma</li>
             <li>HeartArteryBlockage</li>
         </hediffGiversCannotGive>
-        <minAgeActive>18</minAgeActive>
         <biologicalAgeTickFactorFromAgeCurve>
             <points>
                 <li>(21, 0)</li>
             </points>
         </biologicalAgeTickFactorFromAgeCurve>
+        <minAgeActive>18</minAgeActive>
+        <!--<modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidExtension">
+                <giveHediff>BEWH_ProgenoidGlands</giveHediff>
+            </li>
+        </modExtensions>-->
     </GeneDef>
 
     <!-- Black Carapace -->
