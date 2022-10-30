@@ -10,24 +10,9 @@
         An expansion for Biotech with focus on warhammer 40k.
     </description>
 	<modDependencies>
-        <li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
-
-		</li>
-        <li>
-			<packageId>VanillaExpanded.VPsycastsE</packageId>
-			<displayName>Vanilla Psycasts Expanded</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659</steamWorkshopUrl>
-		</li>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
-		</li>
-		<li>
-			<packageId>Ludeon.RimWorld.Royalty</packageId>
-			<displayName>Royalty</displayName>
 		</li>
 	</modDependencies>
     <loadAfter>
