@@ -53,8 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GCellAddition.cs" />
-    <Compile Include="HediffHasGene.cs" />
+    <Compile Include="GeneDefModExtension.cs" />
+    <Compile Include="ProgenoidWorkerClass.cs" />
+    <Compile Include="ProgenoidRemovalWorkerClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

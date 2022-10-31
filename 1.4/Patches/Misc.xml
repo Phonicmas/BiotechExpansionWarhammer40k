@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
-        <value>
-            <li>BEWH_InitiateProgenoidGrowth</li>
-        </value>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>Test1Def</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>Test2Def</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_InitiateProgenoidGrowth</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_RemoveProgenoidCells</li>
+                </value>
+            </li>
+        </operations>
     </Operation>
 </Patch>

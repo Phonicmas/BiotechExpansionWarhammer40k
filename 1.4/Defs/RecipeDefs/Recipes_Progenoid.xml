@@ -5,20 +5,18 @@
 
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>BEWH_InitiateProgenoidGrowth</defName>
-        <label>Initiate Progenoid Growth</label>
+        <label>initiate progenoid growth</label>
         <description>Initiate growth in progenoid glands, allowing them to generate germ cells for future making of new gene-seeds.</description>
-        <workerClass>Recipe_AddHediff</workerClass>
+        <workerClass>GeneProgenoid.GeneProgenoidWorkerClass</workerClass>
         <jobString>???</jobString>
         <workAmount>1500</workAmount>
         <hideBodyPartNames>true</hideBodyPartNames>
-        <targetsBodyPart>false</targetsBodyPart>
         <addsHediff>BEWH_ProgenoidGlandsGrowth</addsHediff>
-        <incompatibleWithHediffTags>
-            <li>BEWH_ProgenoidGlands</li>
-        </incompatibleWithHediffTags>
+        <targetsBodyPart>false</targetsBodyPart>
+        <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
         <modExtensions>
-            <li Class="GeneProgenoid.GeneProgenoidExtension">
-                <hasGene>BEWH_ProgenoidGlands</hasGene>
+            <li Class="GeneProgenoid.GeneProgenoidDefExtension">
+                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
             </li>
         </modExtensions>
         <ingredients>
@@ -36,6 +34,75 @@
                 <li>Medicine</li>
             </categories>
         </fixedIngredientFilter>
+    </RecipeDef>
+
+    <!-- Remove Progenoid Cells -->
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>BEWH_RemoveProgenoidCells</defName>
+        <label>remove cells from progenoid glands</label>
+        <description>???</description>
+        <workerClass>Recipe_RemoveHediff</workerClass>
+        <jobString>???</jobString>
+        <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s progenoid gland cells.</successfullyRemovedHediffMessage>
+        <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
+        <!--<modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidDefExtension">
+                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
+                <requriedSeverity>0.999</requriedSeverity>
+            </li>
+        </modExtensions>-->
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MedicineIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>Test1Def</defName>
+        <label>perform Test1Def</label>
+        <description>test</description>
+        <workerClass>Recipe_AddHediff</workerClass>
+        <jobString>test</jobString>
+        <successfullyRemovedHediffMessage>test1done</successfullyRemovedHediffMessage>
+        <addsHediff>Test3Def</addsHediff>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MedicineIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>Test2Def</defName>
+        <label>reverse Test2Def</label>
+        <description>test</description>
+        <workerClass>Recipe_RemoveHediff</workerClass>
+        <jobString>test</jobString>
+        <successfullyRemovedHediffMessage>test2done</successfullyRemovedHediffMessage>
+        <removesHediff>Test3Def</removesHediff>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MedicineIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
     </RecipeDef>
 
 </Defs>
