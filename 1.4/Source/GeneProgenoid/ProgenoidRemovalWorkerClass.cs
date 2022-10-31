@@ -14,11 +14,17 @@ namespace GeneProgenoid
         {
             if (!base.AvailableOnNow(thing, part) || !(thing is Pawn pawn))
                 return false;
+            if (!pawn.genes.HasXenogene(this.recipe.GetModExtension<GeneProgenoidDefExtension>()?.requiredGeneAny))
+                return false;
             List<Hediff> hediffs = pawn.health.hediffSet.hediffs;
             for (int index = 0; index < hediffs.Count; ++index)
             {
                 if ((!this.recipe.targetsBodyPart || hediffs[index].Part != null) && hediffs[index].def == this.recipe.removesHediff && hediffs[index].Visible)
-                    return true;
+                {
+                    if (hediffs[index].Severity >= this.recipe.GetModExtension<GeneProgenoidDefExtension>()?.requriedSeverity)
+                        return true;
+                }
+
             }
             return false;
         }

@@ -6,10 +6,10 @@
 	<HediffDef>
 		<defName>BEWH_ProgenoidGlandsGrowth</defName>
 		<label>progenoid glands</label>
-		<!--<hediffClass>HediffWithComps</hediffClass>-->
+		<hediffClass>HediffWithComps</hediffClass>
 		<description>Your progenoid glands are currently producing germ cells for new gene-seeds.</description>
 		<everCurableByItem>false</everCurableByItem>
-		<!--<initialSeverity>0.001</initialSeverity>
+		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
@@ -28,18 +28,7 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>18</severityPerDay>
 			</li>
-		</comps>-->
-	</HediffDef>
-
-
-	<HediffDef>
-		<defName>Test3Def</defName>
-		<label>Test3Deft</label>
-		<description>???</description>
-		<everCurableByItem>false</everCurableByItem>
-		<tags>
-			<li>ReversibleSterilized</li>
-		</tags>
+		</comps>
 	</HediffDef>
 
 </Defs>
