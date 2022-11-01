@@ -60,7 +60,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies melee damage by 1.35
    
-    *reduces staggering by 50%
+    *Reduces staggering by 50%
     
 4. Haemastamen
 
@@ -206,10 +206,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     -Want to make it increase actual drawn size
     
 23. Belisarian Furnace
-
-    *Nothing so far.
     
-    -Make an ability like auto stimpack that heals when low on hp.
+    *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
     
     
 

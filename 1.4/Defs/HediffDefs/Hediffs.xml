@@ -75,8 +75,38 @@
 			</li>
 		</stages>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>1</severityPerDay>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<!-- Belisarian Furnace Boost -->
+
+	<HediffDef>
+		<defName>BEWH_BelisarianFurnaceBoost</defName>
+		<label>belisarian furnace boost</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>A hyper-cocktail aiding in the rapid regrowth of tissue, bone and muscle.</description>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.20</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<PainShockThreshold>10</PainShockThreshold>
+					<InjuryHealingFactor>2000</InjuryHealingFactor>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
 			</li>
 		</comps>
 	</HediffDef>

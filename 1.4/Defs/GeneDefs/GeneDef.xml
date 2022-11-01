@@ -124,7 +124,7 @@
                 <offset>0.6</offset>
             </li>
             <li>
-                <capacity>BloodPumping      </capacity>
+                <capacity>BloodPumping</capacity>
                 <postFactor>1.15</postFactor>
             </li>
         </capMods>
@@ -527,6 +527,12 @@
         <iconPath>UI/Icons/Genes/BelisarianFurnaceIcon</iconPath>
         <displayOrderInCategory>23</displayOrderInCategory>
         <prerequisite>BEWH_BlackCarapace</prerequisite>
+        <abilities>
+            <li>BEWH_BelisarianFurnaceBoost</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>BEWH_BelisarianFurnaceBoost</AbilityDef>
+        </descriptionHyperlinks>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 

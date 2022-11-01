@@ -112,6 +112,11 @@
 
   <!-- Catalepsean Node Unsleeping -->
 
+  <AbilityGroupDef>
+    <defName>BEWH_CNU</defName>
+    <cooldownTicks>120000</cooldownTicks>
+  </AbilityGroupDef>
+
   <AbilityDef>
     <defName>BEWH_CatalepseanNodeUnsleeping</defName>
     <label>catalepsean node unsleeping</label>
@@ -125,6 +130,7 @@
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <groupDef>BEWH_CNU</groupDef>
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
@@ -157,6 +163,11 @@
 
   <!-- Sus-an Membrane Stasis -->
 
+  <AbilityGroupDef>
+    <defName>BEWH_SAMS</defName>
+    <cooldownTicks>60000</cooldownTicks>
+  </AbilityGroupDef>
+
   <AbilityDef>
     <defName>BEWH_Sus_anMembraneStasis</defName>
     <label>sus-an membrane stasis</label>
@@ -170,10 +181,11 @@
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <groupDef>BEWH_SAMS</groupDef>
     <uiOrder>4</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>300</Ability_Duration>
+      <Ability_Duration>1000</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -194,6 +206,58 @@
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
         <hediffDef>BEWH_Sus_anMembraneStasis</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <!-- Belisarian Furnace -->
+
+  <AbilityGroupDef>
+    <defName>BEWH_BFB</defName>
+    <cooldownTicks>240000</cooldownTicks>
+  </AbilityGroupDef>
+  
+
+  <AbilityDef>
+    <defName>BEWH_BelisarianFurnaceBoost</defName>
+    <label>belisarian furnace boost</label>
+    <description>???</description>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>False</targetRequired>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <showPsycastEffects>False</showPsycastEffects>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <groupDef>BEWH_BFB</groupDef>
+    <uiOrder>4</uiOrder>
+    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <statBases>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>0</range>
+      <drawAimPie>False</drawAimPie>
+      <requireLineOfSight>False</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>BEWH_BelisarianFurnaceBoost</hediffDef>
         <onlyApplyToSelf>True</onlyApplyToSelf>
         <replaceExisting>true</replaceExisting>
       </li>
