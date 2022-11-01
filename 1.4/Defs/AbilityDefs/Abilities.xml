@@ -124,7 +124,7 @@
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <iconPath>UI/Abilities/CatalepseanNodeUnsleeping</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
@@ -132,7 +132,7 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_CNU</groupDef>
     <uiOrder>3</uiOrder>
-    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <warmupStartSound>NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>300</Ability_Duration>
     </statBases>
@@ -175,7 +175,7 @@
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <iconPath>UI/Abilities/StasisIcon</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
@@ -183,9 +183,9 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_SAMS</groupDef>
     <uiOrder>4</uiOrder>
-    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <warmupStartSound>NoSound</warmupStartSound>
     <statBases>
-      <Ability_Duration>1000</Ability_Duration>
+      <Ability_Duration>2000</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -218,7 +218,6 @@
     <defName>BEWH_BFB</defName>
     <cooldownTicks>240000</cooldownTicks>
   </AbilityGroupDef>
-  
 
   <AbilityDef>
     <defName>BEWH_BelisarianFurnaceBoost</defName>
@@ -227,7 +226,7 @@
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <iconPath>UI/Abilities/BelisarianFurnaceBoost</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
@@ -235,7 +234,7 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_BFB</groupDef>
     <uiOrder>4</uiOrder>
-    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <warmupStartSound>NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>60</Ability_Duration>
     </statBases>
