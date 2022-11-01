@@ -66,7 +66,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Increase blood pumping by 60%
     
-    *Increase breathing by 15%
+    *Multiplies blood pumping by 1.15
 
     *Suppresses: Lazy and slothful
     
@@ -82,7 +82,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Suppresses: Nervous and volatile
     
-    *Add ability that multiplies sleep needs by 90% and decrease conciousness by -10% for a day.
+    *Adds ability that multiplies sleep needs by 90% and decrease conciousness by -10% for a day.
     
 7. Preomnor
 
@@ -118,7 +118,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Multiplies mental break threshold by 0.40
     
-    *Adda ability that allows them to enter an invurnable state, setting their consiousness to max 20% and makes them invurnable to damage until resurrected via a surgery.
+    *Adds ability that allows them to enter an invurnable state, setting their consiousness to max 20% and makes them invurnable to damage until resurrected via a surgery.
     
 13. Melanochrome
 
