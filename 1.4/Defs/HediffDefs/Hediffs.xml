@@ -98,10 +98,10 @@
 					</li>
 				</capMods>
 				<statFactors>
-					<PainShockThreshold>10</PainShockThreshold>
 					<InjuryHealingFactor>2000</InjuryHealingFactor>
 					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 				</statFactors>
+				<painFactor>0</painFactor>
 			</li>
 		</stages>
 		<comps>

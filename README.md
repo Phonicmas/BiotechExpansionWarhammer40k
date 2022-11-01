@@ -4,14 +4,13 @@
 https://forms.gle/5YpXFs7UgMokhvYa7
 
 # Ongoing
-1. Genes - ONGOING - Missing abilities
+1. Genes - MOSTLY DONE - Missing few abilities
 2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
 # Planned Features:
 1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
 2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
-3. All Space Marine gene-seeds & Primaris genes - ONGOING
-4. Make genes require progenoid gland germ cells or whatever to be able to use genes, like the archite requirement.
+3. All Space Marine gene-seeds & Primaris genes - MOSTLY DONE
 
 # Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
@@ -94,7 +93,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Multiplies global learning factor by 1.45
     
-    -Want to add ability to eat corpse to gain skill depending on their highest stat.
+    -Want to add ability to eat corpse to gain skill depending on their highest stat or maybe just a simple ability to increase global learning factor a bit more for a period.
     
 9. Multi-Lung
 
@@ -163,7 +162,6 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Stop aging after the age of 21
 
     *Pawns with this gene can have a surgery done on them that initiates progenoid gland growths that once complete, allows them to harvest a germ-cell, this can be done every 3rd day, these germ-cells can then be used to make genepacks containing a space marine gene-seed. This means every year you should have enough gene-seeds to make a new space marine.
-
    
 19. Black Carapace
 
@@ -208,7 +206,6 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 23. Belisarian Furnace
     
     *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
-    
     
 
 # Psychis paths

@@ -22,18 +22,13 @@
         <ingredients>
             <li>
                 <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
+                    <thingDefs>
+                        <li>MedicineUltratech</li>
+                    </thingDefs>
                 </filter>
                 <count>1</count>
             </li>
         </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-        </fixedIngredientFilter>
     </RecipeDef>
 
     <!-- Remove Progenoid Cells -->
@@ -80,14 +75,14 @@
         <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
         <targetsBodyPart>false</targetsBodyPart>
         <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
-        <ingredients Inherit="False">
+        <ingredients Inherit="true">
             <li>
                 <filter>
                     <thingDefs>
-                        <li>MedicineIndustrial</li>
+                        <li>MedicineUltratech</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>1</count>
             </li>
         </ingredients>
     </RecipeDef>
@@ -377,6 +372,74 @@
         </modExtensions>
     </RecipeDef>
 
+    <!-- Make primaris geneseed base -->
+
+    <RecipeDef Abstract="True" Name="MakePrimarisGeneseed" ParentName="SurgeryFlesh">
+        <workerClass>GeneProgenoid.GeneProgenoidRemovalWorkerClass</workerClass>
+        <jobString>creating primaris gene-seed from progenoid glands</jobString>
+        <successfullyRemovedHediffMessage>{0} has successfully created primaris gene-seed from {1}'s progenoid glands.</successfullyRemovedHediffMessage>
+        <workAmount>4200</workAmount>
+        <hideBodyPartNames>true</hideBodyPartNames>
+        <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
+        <targetsBodyPart>false</targetsBodyPart>
+        <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+        <ingredients Inherit="true">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MedicineUltratech</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+    </RecipeDef>
+
+    <!-- Sinew Coil -->
+
+    <RecipeDef ParentName="MakePrimarisGeneseed">
+        <defName>BEWH_SinewCoil</defName>
+        <label>Make sinew coil genepack</label>
+        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
+        <modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidDefExtension">
+                <requiredGeneAny>BEWH_SinewCoil</requiredGeneAny>
+                <wantedGene>BEWH_SinewCoil</wantedGene>
+                <requriedSeverity>0.999</requriedSeverity>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!-- Magnificat -->
+
+    <RecipeDef ParentName="MakePrimarisGeneseed">
+        <defName>BEWH_Magnificat</defName>
+        <label>Make magnificat genepack</label>
+        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
+        <modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidDefExtension">
+                <requiredGeneAny>BEWH_Magnificat</requiredGeneAny>
+                <wantedGene>BEWH_Magnificat</wantedGene>
+                <requriedSeverity>0.999</requriedSeverity>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!-- Belisarian Furnace -->
+
+    <RecipeDef ParentName="MakePrimarisGeneseed">
+        <defName>BEWH_BelisarianFurnace</defName>
+        <label>Make belisarian furnace genepack</label>
+        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
+        <modExtensions>
+            <li Class="GeneProgenoid.GeneProgenoidDefExtension">
+                <requiredGeneAny>BEWH_BelisarianFurnace</requiredGeneAny>
+                <wantedGene>BEWH_BelisarianFurnace</wantedGene>
+                <requriedSeverity>0.999</requriedSeverity>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
     <!-- Stasis Resurrection -->
 
     <RecipeDef ParentName="SurgeryFlesh">
@@ -395,7 +458,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>MedicineIndustrial</li>
+                        <li>MedicineUltratech</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>

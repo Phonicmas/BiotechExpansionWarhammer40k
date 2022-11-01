@@ -125,6 +125,24 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
                 <value>
+                    <li>BEWH_SinewCoil</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Magnificat</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_BelisarianFurnace</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
                     <li>BEWH_StasisWake</li>
                 </value>
             </li>

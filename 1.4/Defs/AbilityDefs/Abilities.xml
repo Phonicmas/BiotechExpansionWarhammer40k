@@ -134,7 +134,7 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>NoSound</warmupStartSound>
     <statBases>
-      <Ability_Duration>300</Ability_Duration>
+      <Ability_Duration>600</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -184,9 +184,6 @@
     <groupDef>BEWH_SAMS</groupDef>
     <uiOrder>4</uiOrder>
     <warmupStartSound>NoSound</warmupStartSound>
-    <statBases>
-      <Ability_Duration>2000</Ability_Duration>
-    </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.5</warmupTime>
@@ -236,7 +233,7 @@
     <uiOrder>4</uiOrder>
     <warmupStartSound>NoSound</warmupStartSound>
     <statBases>
-      <Ability_Duration>60</Ability_Duration>
+      <Ability_Duration>120</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
