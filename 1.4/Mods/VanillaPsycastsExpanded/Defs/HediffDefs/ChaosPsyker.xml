@@ -178,7 +178,7 @@
 	<!-- Inviolable Flesh -->
 
 	<HediffDef ParentName="PsycastHediffBase">
-		<defName>BEWH_InviolableFlash</defName>
+		<defName>BEWH_InviolableFlesh</defName>
 		<label>inviolable flesh</label>
 		<description>Crusted with filth and foulness, you're more able to withstand attacks.</description>
 		<stages>

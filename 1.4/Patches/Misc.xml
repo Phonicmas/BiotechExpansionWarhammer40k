@@ -11,7 +11,121 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
                 <value>
-                    <li>BEWH_RemoveProgenoidCells</li>
+                    <li>BEWH_SecondaryHeart</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Ossmodula</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Biscopea</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Haemastamen</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_LarramansOrgan</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_CatalepseanNode</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Preomnor</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Omophagea</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Multi-lung</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Occulobe</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_LymansEar</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Sus-anMembrane</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Melanochrome</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_OoliticKidney</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Neuroglottis</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_Mucranoid</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_BetchersGland</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_ProgenoidGlands</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_BlackCarapace</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+                <value>
+                    <li>BEWH_StasisWake</li>
                 </value>
             </li>
         </operations>

@@ -276,7 +276,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_InviolableFlash</defName>
     <label>inviolable flesh</label>
-    <description>The psyker's flesh twist and changes to resemble the blessed effluents of he Plague God, becoming crusted with filth and foulness such that the blows of the enemy do no cut so deep.</description>
+    <description>The psyker's flesh twist and changes to resemble the blessed effluents of the Plague God, becoming crusted with filth and foulness such that the blows of the enemy do no cut so deep.</description>
     <iconPath>Abilities/ChaosPsyker/InviolableFleshIcon</iconPath>
     <targetMode>Self</targetMode>
     <castTime>15</castTime>

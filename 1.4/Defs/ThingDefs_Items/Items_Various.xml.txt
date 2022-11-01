@@ -4,12 +4,12 @@
   <!-- Progenoid Gland Germ Cell-->
 
   <ThingDef>
-    <defName>BEWH_GCell</defName>
+    <defName>BEWH_PGProduct</defName>
     <label>germ cells</label>
     <description>These gem cells, acquired from a progenoid gland, can be used to create any of the 19 gene-seeds.</description>
     <thingClass>ThingWithComps</thingClass>
     <graphicData>
-      <texPath>Things/Item/Resource/Placeholder</texPath>
+      <texPath>Things/Item/Resource/Biscopea</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -19,8 +19,7 @@
       <Flammability>0</Flammability>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>Xenogerm</ThingDef>
-      <ThingDef>GeneAssembler</ThingDef>
+      <ThingDef>Genepack</ThingDef>
     </descriptionHyperlinks>
     <thingCategories>
       <li>ItemsMisc</li>

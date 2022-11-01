@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--<AbilityDef Name="AbilityTouchBase" Abstract="True">
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+  </AbilityDef>
+
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>Coagulate</defName>
+    <label>coagulate</label>
+    <description>Use special glands in the wrists to quickly tend someone's wounds.</description>
+    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupMote>Mote_CoagulateStencil</warmupMote>
+    <warmupEffecter>Coagulate</warmupEffecter>
+    <warmupStartSound>Coagulate_Cast</warmupStartSound>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <category>Sanguophage</category>
+    <displayOrder>400</displayOrder>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>1</warmupTime>
+      <targetParams>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBloodfeeders>true</canTargetBloodfeeders>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHemogenCost">
+        <hemogenCost>0.2</hemogenCost>
+      </li>
+      <li Class="CompProperties_AbilityCoagulate">
+        <tendQualityRange>0.4~0.8</tendQualityRange>
+      </li>
+      <li Class="CompProperties_AbilityRequiresCapacity">
+        <capacity>Manipulation</capacity>
+      </li>
+    </comps>
+  </AbilityDef>-->
+
+  <AbilityCategoryDef>
+    <defName>SpaceMarine</defName>
+    <displayOrder>999</displayOrder>
+  </AbilityCategoryDef>
+
+  <!-- Betcher's Spit -->
+
+  <AbilityDef>
+    <defName>BEWH_BetchersSpit</defName>
+    <label>betcher's spit</label>
+    <description>Using betcher's gland their saliva into a corrosive, blinding acid when consciously triggered</description>
+    <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <cooldownTicksRange>30000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <category>SpaceMarine</category>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>26</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>BEWH_SpitProjectile</projectileDef>
+        <numCellsToHit>9</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- Betcher's Spit Projectile-->
+  <ThingDef>
+    <defName>BEWH_SpitProjectile</defName>
+    <label>betcher's acid</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>AcidBurn</damageDef>
+      <speed>35</speed>
+      <damageAmountBase>52</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.92</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+    </projectile>
+  </ThingDef>
+
+  <!-- Catalepsean Node Unsleeping -->
+
+  <AbilityDef>
+    <defName>BEWH_CatalepseanNodeUnsleeping</defName>
+    <label>catalepsean node unsleeping</label>
+    <description>Using their catalepsean node they can consciously "switch off" sections of the brain sequentially, while remaining awake and alert</description>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>False</targetRequired>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <showPsycastEffects>False</showPsycastEffects>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <uiOrder>3</uiOrder>
+    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <statBases>
+      <Ability_Duration>300</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>0</range>
+      <drawAimPie>False</drawAimPie>
+      <requireLineOfSight>False</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>BEWH_CatalepseanNodeUnsleeping</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <!-- Sus-an Membrane Stasis -->
+
+  <AbilityDef>
+    <defName>BEWH_Sus_anMembraneStasis</defName>
+    <label>sus-an membrane stasis</label>
+    <description>???</description>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>False</targetRequired>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <showPsycastEffects>False</showPsycastEffects>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <uiOrder>4</uiOrder>
+    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+    <statBases>
+      <Ability_Duration>300</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>0</range>
+      <drawAimPie>False</drawAimPie>
+      <requireLineOfSight>False</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>BEWH_Sus_anMembraneStasis</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

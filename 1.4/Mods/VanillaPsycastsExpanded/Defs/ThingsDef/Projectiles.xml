@@ -84,7 +84,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>BEWH_Smite</defName>
 		<label>smite</label>
-		<description>Lighting launched by a psykers hand</description>
+		<description>Lightning launched by a psykers hand</description>
 		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
 			<texPath>Effects/Psyker/Smite</texPath>

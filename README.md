@@ -21,6 +21,8 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 5. Different tiers of psychic potential
 6. Patch a power armor mod?
 7. Persona traits?
+8. Marks of chaos? (genes?)
+9. Astropaths & navigators?
 
 # Genes
 
@@ -34,19 +36,19 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Makes you sterile and sets fertility to 0
 
-    -Suppresses: Kind and slowpoke
-    
-    -Want to add similar effect as Deathless gene got, so that losing the heart will not kill you outright
+    *Suppresses: Kind and slowpoke
     
 2. Ossmodula
 
     *Set body type to Hulk
     
-    *Increase health points by 30
+    *Increase health points by 40
     
     *Triples pawn mass
 
-    -Suppresses: Delicate and wimp
+    *Increases sharp and blunt armor by 30 and heat armor by 15
+
+    *Suppresses: Delicate and wimp
     
     -Want to make it increase actual drawn size
     
@@ -66,7 +68,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Increase breathing by 15%
 
-    -Suppresses: Lazy and slothful
+    *Suppresses: Lazy and slothful
     
 5. Larraman's Organ
 
@@ -76,11 +78,11 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 6. Catalepsean Node
 
-    *Reduce sleep needed by 65%.
+    *Reduce sleep needed by 15%.
 
-    -Suppresses: Nervous and volatile
+    *Suppresses: Nervous and volatile
     
-    -Add ability that fills sleep bar a bit.
+    *Add ability that multiplies sleep needs by 90% and decrease conciousness by -10% for a day.
     
 7. Preomnor
 
@@ -114,11 +116,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 12. Sus-an Membrane
 
-    *Increases consciousness by 10%
+    *Multiplies mental break threshold by 0.40
     
-    -Want to add an ability that allows them to enter an invurnable state where an item can recover them.
-    
-    -Want to make their dead body no deteriorate - or have a lot of hp when dead (such that resurrector resurreciton is less harmful)?
+    *Adda ability that allows them to enter an invurnable state, setting their consiousness to max 20% and makes them invurnable to damage until resurrected via a surgery.
     
 13. Melanochrome
 
@@ -134,7 +134,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies immunity gain speed by 1.5
 
-    -Suppresses: Sickly
+    *Suppresses: Sickly
   
 15. Neuroglottis
 
@@ -152,9 +152,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 17. Betcher's Gland
 
-    *Gives acid spray ability.
-    
-    -Want to make a new and stronger version.
+    *Gives betcher's spit ability (stronger variant of acid spray).
     
 18. Progenoid Glands
 
@@ -163,8 +161,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Prevents them for getting the following hediffs: carcinoma, heart attack, bad back, frail, cataract, dementia, alzheimers, asthma, heart artery blockage
 
     *Stop aging after the age of 21
-    
-    -Want to add some sort of reproductive system with this
+
+    *Pawns with this gene can have a surgery done on them that initiates progenoid gland growths that once complete, allows them to harvest a germ-cell, this can be done every 3rd day, these germ-cells can then be used to make genepacks containing a space marine gene-seed. This means every year you should have enough gene-seeds to make a new space marine.
+
    
 19. Black Carapace
 
@@ -237,6 +236,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Inviolable Flesh
 
    *Nurgle's Rot
+
+   -Fix psytrainer quest reward giving access without psyker gene.
    
    
 2. Planned chaos powers

@@ -12,6 +12,8 @@ namespace GeneProgenoid
     public class GeneProgenoidDefExtension : DefModExtension
     {
         public GeneDef requiredGeneAny;
+        public GeneDef wantedGene;
         public float requriedSeverity;
+
     }
 }

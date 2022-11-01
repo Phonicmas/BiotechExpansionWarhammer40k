@@ -57,11 +57,6 @@
                 <degree>-1</degree>
             </li>
         </suppressedTraits>
-        <!--<modExtensions>
-            <li Class="GeneProgenoid.GeneProgenoidExtension">
-                <biostatGCell>1</biostatGCell>
-            </li>
-        </modExtensions>-->
     </GeneDef>
 
     <!-- Ossmodula -->
@@ -75,7 +70,10 @@
         <prerequisite>BEWH_SecondaryHeart</prerequisite>
         <bodyType>Hulk</bodyType>
         <statOffsets>
-            <MaxHitPoints>30</MaxHitPoints>
+            <MaxHitPoints>40</MaxHitPoints>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
         </statOffsets>
         <statFactors>
             <Mass>3</Mass>
@@ -120,7 +118,6 @@
         <iconPath>UI/Icons/Genes/HaemastamenIcon</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>BEWH_Biscopea</prerequisite>
-        <statOffsets></statOffsets>
         <capMods>
             <li>
                 <capacity>BloodPumping</capacity>
@@ -172,8 +169,14 @@
         <iconPath>UI/Icons/Genes/CatalepseanNodeIcon</iconPath>
         <displayOrderInCategory>6</displayOrderInCategory>
         <prerequisite>BEWH_LarramansOrgan</prerequisite>
+        <abilities>
+            <li>BEWH_CatalepseanNodeUnsleeping</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>BEWH_CatalepseanNodeUnsleeping</AbilityDef>
+        </descriptionHyperlinks>
         <statFactors>
-            <RestFallRateFactor>0.35</RestFallRateFactor>
+            <RestFallRateFactor>0.85</RestFallRateFactor>
         </statFactors>
         <suppressedTraits>
             <li>
@@ -272,7 +275,6 @@
         <iconPath>UI/Icons/Genes/LymansEarIcon</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <prerequisite>BEWH_Occulobe</prerequisite>
-        <statOffsets></statOffsets>
         <capMods>
             <li>
                 <capacity>Hearing</capacity>
@@ -291,14 +293,16 @@
         <iconPath>UI/Icons/Genes/Sus-anMembraneIcon</iconPath>
         <displayOrderInCategory>12</displayOrderInCategory>
         <prerequisite>BEWH_LymansEar</prerequisite>
-        <statOffsets></statOffsets>
-        <capMods>
-            <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.1</offset>
-            </li>
-        </capMods>
+        <statFactors>
+            <MentalBreakThreshold>0.40</MentalBreakThreshold>
+        </statFactors>
         <minAgeActive>16</minAgeActive>
+        <abilities>
+            <li>BEWH_Sus_anMembraneStasis</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>BEWH_Sus_anMembraneStasis</AbilityDef>
+        </descriptionHyperlinks>
     </GeneDef>
 
     <!-- Melanochrome -->
@@ -395,12 +399,11 @@
         <displayOrderInCategory>17</displayOrderInCategory>
         <prerequisite>BEWH_Mucranoid</prerequisite>
         <abilities>
-            <li>AcidSpray</li>
+            <li>BEWH_BetchersSpit</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>AcidSpray</AbilityDef>
+            <AbilityDef>BEWH_BetchersSpit</AbilityDef>
         </descriptionHyperlinks>
-        <statOffsets></statOffsets>
         <minAgeActive>17</minAgeActive>
     </GeneDef>
 
@@ -438,11 +441,6 @@
             </points>
         </biologicalAgeTickFactorFromAgeCurve>
         <minAgeActive>18</minAgeActive>
-        <!--<modExtensions>
-            <li Class="GeneProgenoid.GeneProgenoidExtension">
-                <giveHediff>BEWH_ProgenoidGlands</giveHediff>
-            </li>
-        </modExtensions>-->
     </GeneDef>
 
     <!-- Black Carapace -->
@@ -529,8 +527,6 @@
         <iconPath>UI/Icons/Genes/BelisarianFurnaceIcon</iconPath>
         <displayOrderInCategory>23</displayOrderInCategory>
         <prerequisite>BEWH_BlackCarapace</prerequisite>
-        <statOffsets></statOffsets>
-
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 

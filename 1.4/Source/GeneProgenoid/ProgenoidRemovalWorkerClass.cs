@@ -49,7 +49,11 @@ namespace GeneProgenoid
 
         protected override void OnSurgerySuccess(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
         {
-            if (GenPlace.TryPlaceThing(ThingMaker.MakeThing(ThingDefOf.ArchiteCapsule), pawn.PositionHeld, pawn.MapHeld, ThingPlaceMode.Near))
+            Genepack genepack = (Genepack)ThingMaker.MakeThing(ThingDefOf.Genepack);
+            List<GeneDef> genedef = new List<GeneDef>();
+            genedef.Add(this.recipe.GetModExtension<GeneProgenoidDefExtension>()?.wantedGene);
+            genepack.Initialize(genedef);
+            if (GenPlace.TryPlaceThing(((Thing)genepack), pawn.PositionHeld, pawn.MapHeld, ThingPlaceMode.Near))
                 return;
             Log.Error("Could not drop item near " + (object)pawn.PositionHeld);
         }
