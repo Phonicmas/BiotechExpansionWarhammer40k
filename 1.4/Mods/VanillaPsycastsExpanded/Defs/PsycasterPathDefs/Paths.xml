@@ -10,7 +10,7 @@
     <background>UI/Backgrounds/PsykerPath</background>
     <altBackground>UI/AlternativeBackgrounds/PathBG_Psyker</altBackground>
     <tab>Psyker Disciplines</tab>
-    <tooltip>Powerful psyker psycasts</tooltip>
+    <tooltip>Powerful sanctioned psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
       <GeneDef>BEWH_Psyker</GeneDef>

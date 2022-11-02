@@ -92,6 +92,8 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
+
+
   <!-- Tzeentch -->
 
   <!-- Bolt of Change -->
@@ -163,6 +165,39 @@
   </VFECore.Abilities.AbilityDef>
 
   <!-- Infernal Gateway -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>VPE_FireBeam</defName>
+    <label>fire beam</label>
+    <description>Attempts to recreate the power of a star inside a concentrated column of almost liquidized oxygen. The resulting emission of plasma is so powerful that only the most advanced weapons systems can hope to compare. The long, intense concentration ends with the caster falling into a 6-hour coma.</description>
+    <iconPath>Abilities/Conflagrator/FireBeam</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_OrbitalStrike</abilityClass>
+    <castTime>300</castTime>
+    <durationTime>180</durationTime>
+    <range>45.9</range>
+    <radius>15</radius>
+    <targetMode>Location</targetMode>
+    <castSound>VPE_FireBeam_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>VPE_Conflagrator</path>
+        <level>5</level>
+        <order>1</order>
+        <psyfocusCost>0.5</psyfocusCost>
+        <entropyGain>90</entropyGain>
+        <prerequisites>
+          <li>VPE_EyeBlast</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>VPE_FireBeam</projectile>
+      </li>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_PsychicComa">
+        <hours>6</hours>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
   <!-- Stationary gateway that destroys (removes) any pawn within reach -->
 
 
@@ -274,7 +309,7 @@
   <!-- Inviolable Flesh -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-    <defName>BEWH_InviolableFlash</defName>
+    <defName>BEWH_InviolableFlesh</defName>
     <label>inviolable flesh</label>
     <description>The psyker's flesh twist and changes to resemble the blessed effluents of the Plague God, becoming crusted with filth and foulness such that the blows of the enemy do no cut so deep.</description>
     <iconPath>Abilities/ChaosPsyker/InviolableFleshIcon</iconPath>
@@ -293,16 +328,15 @@
         <psychic>true</psychic>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
-        <hediff>BEWH_InviolableFlash</hediff>
+        <hediff>BEWH_InviolableFlesh</hediff>
         <durationMultiplier>PsychicSensitivity</durationMultiplier>
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-
   <!-- Nurgle's Rot -->
 
-    <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_NurglesRot</defName>
     <label>nurgle's rot</label>
     <description>The grandest and most infamous of Nurgle's contagions, nurgles rot has left countless worlds desolated by this terrible daemonic pathogen.</description>
