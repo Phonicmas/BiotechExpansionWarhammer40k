@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Crush with explosion -->
+    <!-- Doombolt -->
 
     <DamageDef>
-        <defName>BEWH_doom</defName>
+        <defName>BEWH_Doom</defName>
         <label>crush</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been crushed to death.</deathMessage>
-        <hediff>Shredded</hediff>
+        <hediff>Crush</hediff>
+        <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
         <soundExplosion>BEWH_NoSound</soundExplosion>
@@ -19,33 +20,39 @@
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
+    <!-- Bolt of Change -->
+
     <DamageDef>
-        <defName>BEWH_change</defName>
-        <label>crush</label>
+        <defName>BEWH_Change</defName>
+        <label>mutation</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been mutated to death.</deathMessage>
         <hediff>Shredded</hediff>
+        <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
         <soundExplosion>BEWH_NoSound</soundExplosion>
-        <defaultDamage>20</defaultDamage>
-        <defaultArmorPenetration>0.7</defaultArmorPenetration>
+        <defaultDamage>30</defaultDamage>
+        <defaultArmorPenetration>1.1</defaultArmorPenetration>
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
+    <!-- Lash -->
+
     <DamageDef>
-        <defName>BEWH_lash</defName>
+        <defName>BEWH_Lash</defName>
         <label>lash</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been whipped to death.</deathMessage>
         <hediff>Shredded</hediff>
+        <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
         <soundExplosion>BEWH_NoSound</soundExplosion>
-        <defaultDamage>20</defaultDamage>
-        <defaultArmorPenetration>0.7</defaultArmorPenetration>
+        <defaultDamage>40</defaultDamage>
+        <defaultArmorPenetration>0.2</defaultArmorPenetration>
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 

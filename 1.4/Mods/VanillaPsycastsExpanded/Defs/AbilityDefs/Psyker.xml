@@ -31,4 +31,17 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
+  <!-- Weaken Resolve - make them flee -->
+  <!-- The Gate of Infinity - teleportation -->
+  <!-- Machine Curse - permanent disable/cripple mech really badly -->
+  <!-- Might of Heroes - targetted buff-->
+  <!-- Wings of Sanguinis - Jump pack ability for some time with no cooldwn -->
+  <!-- Force Barrier - barrier around user -->
+  <!-- Stonebane - instantly destroy any wall/building -->
+  <!-- Bone Breaker - does damage and inflicts manipulation and movement penalties via hediff -->
+  <!-- Hammerhand - damage buff -->
+  <!-- Scourging - Fire beam esque lightning ability -->
+  <!-- Psychic Barrage - high tier high pen high damage ability -->
+
+
 </Defs>

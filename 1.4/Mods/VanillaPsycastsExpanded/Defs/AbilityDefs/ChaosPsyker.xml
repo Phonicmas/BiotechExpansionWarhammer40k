@@ -96,7 +96,6 @@
   </VFECore.Abilities.AbilityDef>
 
 
-
   <!-- Tzeentch -->
 
   <!-- Mindscourge -->
@@ -180,9 +179,12 @@
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>
     <radius>20</radius>
-    <targetMode>Self</targetMode>
+    <targetMode>Location</targetMode>
     <castSound>VPE_SelfExplosion_Cast</castSound>
     <castFleck>PsycastPsychicEffect</castFleck>
+    <targetFlecks>
+      <li>BEWH_ChangeExplosion</li>
+    </targetFlecks>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
@@ -196,12 +198,12 @@
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Explosion">
         <explosionRadius>14.9</explosionRadius>
-        <onCaster>true</onCaster>
-        <explosionDamageDef>Flame</explosionDamageDef>
+        <onCaster>False</onCaster>
+        <explosionDamageDef>BEWH_change</explosionDamageDef>
+        <casterImmune>true</casterImmune>
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
-
 
 
   <!-- Slaanesh -->
@@ -302,7 +304,6 @@
   </VFECore.Abilities.AbilityDef>
 
 
-
   <!-- Nurgle -->
 
   <!-- Inviolable Flesh -->
@@ -363,7 +364,6 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Vile Contagion -->
-  <!-- Apply Nurgle's Rot on every with radius of someone already infected -->
+  <!-- Vile Contagion - Maybe? -->
 
 </Defs>
