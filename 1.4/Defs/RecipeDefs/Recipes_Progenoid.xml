@@ -447,7 +447,7 @@
         <label>resurrect from stasis</label>
         <description>Ressurects pawn from self-induced stasis</description>
         <workerClass>Recipe_RemoveHediff</workerClass>
-        <jobString>creating gene-seed from progenoid glands</jobString>
+        <jobString>resurrecting {0} from stasis</jobString>
         <successfullyRemovedHediffMessage>{0} has successfully awoken {1} from stasis.</successfullyRemovedHediffMessage>
         <workAmount>2200</workAmount>
         <hideBodyPartNames>true</hideBodyPartNames>

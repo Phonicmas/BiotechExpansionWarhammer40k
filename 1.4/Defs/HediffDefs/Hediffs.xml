@@ -13,15 +13,11 @@
 		<maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
-				<label>minor growth</label>
-			</li>
-			<li>
-				<minSeverity>0.65</minSeverity>
-				<label>major growth</label>
+				<label>Growing</label>
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>done growing</label>
+				<label>Done growing</label>
 			</li>
 		</stages>
 		<comps>
@@ -49,6 +45,7 @@
 				<statFactors>
 					<IncomingDamageFactor>0</IncomingDamageFactor>
 				</statFactors>
+				<totalBleedFactor>0</totalBleedFactor>
 			</li>
 		</stages>
 	</HediffDef>

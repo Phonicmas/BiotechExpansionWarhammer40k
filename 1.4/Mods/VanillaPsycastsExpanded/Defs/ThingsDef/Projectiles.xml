@@ -45,7 +45,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
-			<damageDef>BEWH_doom</damageDef>
+			<damageDef>BEWH_change</damageDef>
 			<speed>90</speed>
 			<damageAmountBase>49</damageAmountBase>
 			<armorPenetrationBase>2.3</armorPenetrationBase>
@@ -69,7 +69,7 @@
 		</graphicData>
 		<projectile>
 			<explosionRadius>0</explosionRadius>
-			<damageDef>BEWH_doom</damageDef>
+			<damageDef>BEWH_lash</damageDef>
 			<speed>10000</speed>
 			<damageAmountBase>73</damageAmountBase>
 			<armorPenetrationBase>0.27</armorPenetrationBase>
@@ -77,6 +77,8 @@
 			<shadowSize>0.4</shadowSize>
 		</projectile>
 	</ThingDef>
+
+
 
 	<!-- SANCTIONED PSYKER -->
 	<!-- Smite Projectile -->

@@ -19,4 +19,34 @@
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
+    <DamageDef>
+        <defName>BEWH_change</defName>
+        <label>crush</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been mutated to death.</deathMessage>
+        <hediff>Shredded</hediff>
+        <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+        <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+        <soundExplosion>BEWH_NoSound</soundExplosion>
+        <defaultDamage>20</defaultDamage>
+        <defaultArmorPenetration>0.7</defaultArmorPenetration>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+    </DamageDef>
+
+    <DamageDef>
+        <defName>BEWH_lash</defName>
+        <label>lash</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been whipped to death.</deathMessage>
+        <hediff>Shredded</hediff>
+        <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+        <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+        <soundExplosion>BEWH_NoSound</soundExplosion>
+        <defaultDamage>20</defaultDamage>
+        <defaultArmorPenetration>0.7</defaultArmorPenetration>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+    </DamageDef>
+
 </Defs>

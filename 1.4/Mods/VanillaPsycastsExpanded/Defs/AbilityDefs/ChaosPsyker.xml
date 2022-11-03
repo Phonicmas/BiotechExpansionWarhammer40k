@@ -23,7 +23,7 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>1</level>
-        <order>2</order>
+        <order>1</order>
         <psyfocusCost>0.03</psyfocusCost>
         <entropyGain>16</entropyGain>
       </li>
@@ -53,6 +53,9 @@
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>30</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_InviolableFlesh</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Warptime</hediff>
@@ -96,39 +99,6 @@
 
   <!-- Tzeentch -->
 
-  <!-- Bolt of Change -->
-
-  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-    <defName>BEWH_BoltOfChange</defName>
-    <label>bolt of change</label>
-    <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
-    <iconPath>Abilities/ChaosPsyker/BoltOfChangeIcon</iconPath>
-    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
-    <castTime>20</castTime>
-    <range>30</range>
-    <radius>1</radius>
-    <targetMode>Pawn</targetMode>
-    <castSound>BEWH_Doombolt</castSound>
-    <rangeStatFactors>
-      <PsychicSensitivity>1</PsychicSensitivity>
-    </rangeStatFactors>
-    <modExtensions>
-      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-        <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
-        <order>2</order>
-        <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>45</entropyGain>
-        <prerequisites>
-          <li>BEWH_Doombolt</li>
-        </prerequisites>
-      </li>
-      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
-        <projectile>BEWH_BoltOfChange</projectile>
-      </li>
-    </modExtensions>
-  </VFECore.Abilities.AbilityDef>
-
   <!-- Mindscourge -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
@@ -148,11 +118,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>1</level>
-        <order>1</order>
+        <level>2</level>
+        <order>2</order>
         <psyfocusCost>0.07</psyfocusCost>
         <entropyGain>24</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Acquiescence</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Minscourge</hediff>
@@ -164,41 +137,70 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Infernal Gateway -->
+  <!-- Bolt of Change -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-    <defName>VPE_FireBeam</defName>
-    <label>fire beam</label>
-    <description>Attempts to recreate the power of a star inside a concentrated column of almost liquidized oxygen. The resulting emission of plasma is so powerful that only the most advanced weapons systems can hope to compare. The long, intense concentration ends with the caster falling into a 6-hour coma.</description>
-    <iconPath>Abilities/Conflagrator/FireBeam</iconPath>
-    <abilityClass>VFECore.Abilities.Ability_OrbitalStrike</abilityClass>
-    <castTime>300</castTime>
-    <durationTime>180</durationTime>
-    <range>45.9</range>
-    <radius>15</radius>
-    <targetMode>Location</targetMode>
-    <castSound>VPE_FireBeam_Cast</castSound>
+    <defName>BEWH_BoltOfChange</defName>
+    <label>bolt of change</label>
+    <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
+    <iconPath>Abilities/ChaosPsyker/BoltOfChangeIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>20</castTime>
+    <range>30</range>
+    <radius>1</radius>
+    <targetMode>Pawn</targetMode>
+    <castSound>BEWH_Doombolt</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-        <path>VPE_Conflagrator</path>
-        <level>5</level>
+        <path>BEWH_ChaosPsyker</path>
+        <level>3</level>
         <order>1</order>
-        <psyfocusCost>0.5</psyfocusCost>
-        <entropyGain>90</entropyGain>
+        <psyfocusCost>0.05</psyfocusCost>
+        <entropyGain>45</entropyGain>
         <prerequisites>
-          <li>VPE_EyeBlast</li>
+          <li>BEWH_Doombolt</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
-        <projectile>VPE_FireBeam</projectile>
-      </li>
-      <li Class="VanillaPsycastsExpanded.AbilityExtension_PsychicComa">
-        <hours>6</hours>
+        <projectile>BEWH_BoltOfChange</projectile>
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Stationary gateway that destroys (removes) any pawn within reach -->
+  <!-- Storm of Change -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_StormOfChange</defName>
+    <label>storm of change</label>
+    <description>???</description>
+    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
+    <castTime>40</castTime>
+    <radius>20</radius>
+    <targetMode>Self</targetMode>
+    <castSound>VPE_SelfExplosion_Cast</castSound>
+    <castFleck>PsycastPsychicEffect</castFleck>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>5</level>
+        <order>1</order>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>136</entropyGain>
+        <prerequisites>
+          <li>BEWH_BoltOfChange</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Explosion">
+        <explosionRadius>14.9</explosionRadius>
+        <onCaster>true</onCaster>
+        <explosionDamageDef>Flame</explosionDamageDef>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
 
 
@@ -221,53 +223,17 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
-        <order>1</order>
+        <level>1</level>
+        <order>2</order>
         <psyfocusCost>0.1</psyfocusCost>
         <entropyGain>26</entropyGain>
         <psychic>true</psychic>
-        <prerequisites>
-          <li>BEWH_Mindscourge</li>
-        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Acquiescence</hediff>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_ThoughtOnTarget">
         <thoughtDef>BEWH_Acquiescence</thoughtDef>
-      </li>
-    </modExtensions>
-  </VFECore.Abilities.AbilityDef>
-
-  <!-- Lash of Submission -->
-
-  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-    <defName>BEWH_LashOfSubmission</defName>
-    <label>lash of submission</label>
-    <description>The psyker projects a lurid, glowing cord of energy that wraps itself around his enemies, worming itself into thier mind and overwhelming their will for some time gaining control over them.</description>
-    <iconPath>Abilities/ChaosPsyker/LashOfSubmissionIcon</iconPath>
-    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
-    <castTime>60</castTime>
-    <castSound>VPE_MindControl_Cast</castSound>
-    <durationTime>2400</durationTime>
-    <targetMode>Humanlike</targetMode>
-    <range>16.9</range>
-    <cooldownTime>600</cooldownTime>
-    <modExtensions>
-      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
-        <path>BEWH_ChaosPsyker</path>
-        <level>4</level>
-        <order>3</order>
-        <psyfocusCost>0.20</psyfocusCost>
-        <entropyGain>80</entropyGain>
-        <psychic>true</psychic>
-        <prerequisites>
-          <li>BEWH_LashOfSlaanesh</li>
-        </prerequisites>
-      </li>
-      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
-        <hediff>BEWH_LashOfSubmission</hediff>
-        <durationMultiplier>PsychicSensitivity</durationMultiplier>
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
@@ -291,13 +257,46 @@
         <level>3</level>
         <order>2</order>
         <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>36</entropyGain>
+        <entropyGain>57</entropyGain>
         <prerequisites>
-          <li>BEWH_Acquiescence</li>
+          <li>BEWH_Doombolt</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
         <projectile>BEWH_LashOfSlaanesh</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
+  <!-- Lash of Submission -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_LashOfSubmission</defName>
+    <label>lash of submission</label>
+    <description>The psyker projects a lurid, glowing cord of energy that wraps itself around his enemies, worming itself into thier mind and overwhelming their will for some time gaining control over them.</description>
+    <iconPath>Abilities/ChaosPsyker/LashOfSubmissionIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>60</castTime>
+    <castSound>VPE_MindControl_Cast</castSound>
+    <durationTime>2400</durationTime>
+    <targetMode>Humanlike</targetMode>
+    <range>16.9</range>
+    <cooldownTime>600</cooldownTime>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>5</level>
+        <order>2</order>
+        <psyfocusCost>0.20</psyfocusCost>
+        <entropyGain>80</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_LashOfSlaanesh</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_LashOfSubmission</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
       </li>
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
@@ -351,8 +350,8 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
-        <order>1</order>
+        <level>4</level>
+        <order>3</order>
         <psyfocusCost>0.12</psyfocusCost>
         <entropyGain>107</entropyGain>
         <psychic>true</psychic>

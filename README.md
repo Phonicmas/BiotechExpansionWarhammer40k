@@ -117,7 +117,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Multiplies mental break threshold by 0.40
     
-    *Adds ability that allows them to enter an invurnable state, setting their consiousness to max 20% and makes them invurnable to damage until resurrected via a surgery.
+    *Adds ability that allows them to enter an invurnable state, setting their consiousness to max 20%, stops bleeding out and makes them invurnable to damage until resurrected via a surgery.
     
 13. Melanochrome
 

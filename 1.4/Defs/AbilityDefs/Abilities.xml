@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--<AbilityDef Name="AbilityTouchBase" Abstract="True">
-    <stunTargetWhileCasting>true</stunTargetWhileCasting>
-    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
-    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-    <jobDef>CastAbilityOnThingMelee</jobDef>
-  </AbilityDef>
-
-  <AbilityDef ParentName="AbilityTouchBase">
-    <defName>Coagulate</defName>
-    <label>coagulate</label>
-    <description>Use special glands in the wrists to quickly tend someone's wounds.</description>
-    <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
-    <stunTargetWhileCasting>true</stunTargetWhileCasting>
-    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
-    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-    <warmupMote>Mote_CoagulateStencil</warmupMote>
-    <warmupEffecter>Coagulate</warmupEffecter>
-    <warmupStartSound>Coagulate_Cast</warmupStartSound>
-    <jobDef>CastAbilityOnThingMelee</jobDef>
-    <category>Sanguophage</category>
-    <displayOrder>400</displayOrder>
-    <verbProperties>
-      <verbClass>Verb_CastAbilityTouch</verbClass>
-      <drawAimPie>false</drawAimPie>
-      <range>-1</range>
-      <warmupTime>1</warmupTime>
-      <targetParams>
-        <canTargetAnimals>true</canTargetAnimals>
-        <canTargetSelf>false</canTargetSelf>
-        <canTargetBuildings>false</canTargetBuildings>
-        <canTargetMechs>false</canTargetMechs>
-        <canTargetBloodfeeders>true</canTargetBloodfeeders>
-      </targetParams>
-    </verbProperties>
-    <comps>
-      <li Class="CompProperties_AbilityHemogenCost">
-        <hemogenCost>0.2</hemogenCost>
-      </li>
-      <li Class="CompProperties_AbilityCoagulate">
-        <tendQualityRange>0.4~0.8</tendQualityRange>
-      </li>
-      <li Class="CompProperties_AbilityRequiresCapacity">
-        <capacity>Manipulation</capacity>
-      </li>
-    </comps>
-  </AbilityDef>-->
-
   <AbilityCategoryDef>
     <defName>SpaceMarine</defName>
     <displayOrder>999</displayOrder>
@@ -58,7 +11,7 @@
   <AbilityDef>
     <defName>BEWH_BetchersSpit</defName>
     <label>betcher's spit</label>
-    <description>Using betcher's gland their saliva into a corrosive, blinding acid when consciously triggered</description>
+    <description>Carriers of the betcher's gland can turn their saliva into a corrosive, blinding acid when consciously triggered</description>
     <iconPath>UI/Abilities/AcidSpray</iconPath>
     <cooldownTicksRange>30000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
@@ -120,7 +73,7 @@
   <AbilityDef>
     <defName>BEWH_CatalepseanNodeUnsleeping</defName>
     <label>catalepsean node unsleeping</label>
-    <description>Using their catalepsean node they can consciously "switch off" sections of the brain sequentially, while remaining awake and alert</description>
+    <description>Carriers of the catalepsean node can consciously "switch off" sections of the brain sequentially, while remaining awake and alert</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -171,7 +124,7 @@
   <AbilityDef>
     <defName>BEWH_Sus_anMembraneStasis</defName>
     <label>sus-an membrane stasis</label>
-    <description>???</description>
+    <description>Carriers of the sus-an membrane can enter a state of suspended animation, keeping the them alive for years, even if they has suffered otherwise mortal wounds</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -218,8 +171,8 @@
 
   <AbilityDef>
     <defName>BEWH_BelisarianFurnaceBoost</defName>
-    <label>belisarian furnace boost</label>
-    <description>???</description>
+    <label>belisarian furnace revitaliser</label>
+    <description>Carriers of the belisarian furnace can produce a hyper-cocktail to boost their regrowth of tissue, bone and muscle</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
