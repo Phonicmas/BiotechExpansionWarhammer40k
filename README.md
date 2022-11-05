@@ -212,34 +212,31 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
 1. Chaos psyker
 
-   *Doombolt
+   *Doombolt - Does low-medium damage with high pen
 
-   *Warptime
+   *Warptime - Increases hit chance for melee and ranged, and melee dodge chance
    
-   *Shattertime
+   *Shattertime - Decrease melee and ranged cooldown, and increases move speed
    
-   *Mindscourge
+   *Mindscourge - Sets target max conscious to 35% and giving them a -40 mood buff
 
-   *Bolt of Change - want to make it scramble genes?
+   *Bolt of Change - Does medium-high damage with very high pen, planned extra features to scramble genes hopefully
+   
+   *Storm of Change - Slighty stronger version of bolt of change that hits in aoe.
 
-   *Acquiescence
+   *Acquiescence - Decreases consciousness over a small period untill unconsciousness, and gives a +40 mood buff
 
-   *Lash of Slaanesh
+   *Lash of Slaanesh - Takes control of the target and decreases their consciousness by 30%
 
-   *Lash of Submission
+   *Lash of Submission - Does very high damage with low pen
 
-   *Inviolable Flesh
+   *Inviolable Flesh - Increase max health points and filth rate, decrease incoming damage and beauty
 
-   *Nurgle's Rot
+   *Nurgle's Rot - Gives the nurgle's rot disease that slowly wears the victim down untill they die
+   
+   *Rot Burst - Explosion on self that damages enemies around (plan to make it apply nurgle rot debuff)
 
    -Fix psytrainer quest reward giving access without psyker gene.
-   
-   
-2. Planned chaos powers
-
-   *Infernal Gateway   
-
-   *Vile Contagion
    
    
 3. Sanctioned psyker
@@ -249,9 +246,13 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    
 4. Planned Sanctioned powers
 
-   *No clue
+   *Machine Curse
    
-
-
+   *Stonebane
+   
+   *Gates of Infinity 
+   
+   *Might of Heroes
+  
 # Other things
 Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
