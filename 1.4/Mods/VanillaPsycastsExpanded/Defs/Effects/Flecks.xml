@@ -6,7 +6,7 @@
         <fadeOutTime>0.1</fadeOutTime>
         <altitudeLayer>MoteOverhead</altitudeLayer>
         <graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-            <texPath>Effects/ChoasPsyker/Placholder</texPath>
+            <texPath>Effects/ChaosPsyker/StormOfChange</texPath>
             <ticksPerFrame>7</ticksPerFrame>
             <graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Fleck_Animated</graphicClass>
             <shaderType>MoteGlow</shaderType>

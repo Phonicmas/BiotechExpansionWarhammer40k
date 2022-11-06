@@ -31,17 +31,169 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Weaken Resolve - make them flee -->
+  <!-- Might of Heroes -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_MightOfHeroes</defName>
+    <label>might of heroes</label>
+    <description>The sanctioned psyker calls upon the power of the Warp to heighten the speed and strength of himself or another to unimaginable levels.</description>
+    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <targetMode>Self</targetMode>
+    <castTime>15</castTime>
+    <durationTime>3600</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castSound>BEWH_NoSound</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>1</level>
+        <order>2</order>
+        <psyfocusCost>0.15</psyfocusCost>
+        <entropyGain>36</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Smite</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_MightOfHeroes</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
+  <!-- Machine Curse -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_MachineCurse</defName>
+    <label>machine curse</label>
+    <description>???</description>
+    <targetMode>Pawn</targetMode>
+    <targetingParametersList>
+      <li>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetHumans>False</canTargetHumans>
+        <canTargetAnimals>False</canTargetAnimals>
+        <canTargetMechs>True</canTargetMechs>
+        <canTargetBuildings>False</canTargetBuildings>
+      </li>
+    </targetingParametersList>
+    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>15</castTime>
+    <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+    <durationTime>7500</durationTime>
+    <range>20</range>
+    <cooldownTime>300</cooldownTime>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>2</level>
+        <order>1</order>
+        <psyfocusCost>0.025</psyfocusCost>
+        <entropyGain>36</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_MightOfHeroes</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_MachineCurse</hediff>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
   <!-- The Gate of Infinity - teleportation -->
-  <!-- Machine Curse - permanent disable/cripple mech really badly -->
-  <!-- Might of Heroes - targetted buff-->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_GateOfInfinity</defName>
+    <label>gate of infinity</label>
+    <description>Teleport the target to a desired position not too far from his starting point.</description>
+    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <abilityClass>VanillaPsycastsExpanded.Skipmaster.Ability_Teleport</abilityClass>
+    <targetCount>2</targetCount>
+    <range>999999</range>
+    <castTime>30</castTime>
+    <needsTicking>true</needsTicking>
+    <targetModes>
+      <li>Self</li>
+      <li>Location</li>
+    </targetModes>
+    <targetingParametersList>
+      <li>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetBuildings>False</canTargetBuildings>
+        <canTargetItems>true</canTargetItems>
+      </li>
+      <li Class="VFECore.Abilities.TargetingParametersForAoE">
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetBlockedLocations>false</canTargetBlockedLocations>
+      </li>
+    </targetingParametersList>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>2</level>
+        <order>2</order>
+        <psyfocusCost>0.02</psyfocusCost>
+        <entropyGain>25</entropyGain>
+        <prerequisites>
+          <li>BEWH_MachineCurse</li>
+        </prerequisites>
+      </li>
+      <li Class="VanillaPsycastsExpanded.Skipmaster.AbilityExtension_Clamor">
+        <clamorType>Ability</clamorType>
+        <clamorRadius>10</clamorRadius>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
+  <!-- Weaken Resolve - make them flee -->
+
   <!-- Wings of Sanguinis - Jump pack ability for some time with no cooldwn -->
+
   <!-- Force Barrier - barrier around user -->
+
   <!-- Stonebane - instantly destroy any wall/building -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_Stonebane</defName>
+    <label>stonebane</label>
+    <description>???</description>
+    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+    <castTime>20</castTime>
+    <range>30</range>
+    <radius>1</radius>
+    <targetMode>Thing</targetMode>
+    <castSound>BEWH_Doombolt</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>4</level>
+        <order>1</order>
+        <psyfocusCost>0.05</psyfocusCost>
+        <entropyGain>45</entropyGain>
+        <prerequisites>
+          <li>BEWH_GateOfInfinity</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
+        <projectile>BEWH_Stonebane</projectile>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
   <!-- Bone Breaker - does damage and inflicts manipulation and movement penalties via hediff -->
-  <!-- Hammerhand - damage buff -->
+
   <!-- Scourging - Fire beam esque lightning ability -->
+
   <!-- Psychic Barrage - high tier high pen high damage ability -->
+
 
 
 </Defs>

@@ -19,7 +19,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
-			<damageDef>BEWH_doom</damageDef>
+			<damageDef>BEWH_Doom</damageDef>
 			<speed>90</speed>
 			<damageAmountBase>21</damageAmountBase>
 			<armorPenetrationBase>1.7</armorPenetrationBase>
@@ -45,7 +45,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
-			<damageDef>BEWH_change</damageDef>
+			<damageDef>BEWH_Change</damageDef>
 			<speed>90</speed>
 			<damageAmountBase>49</damageAmountBase>
 			<armorPenetrationBase>2.3</armorPenetrationBase>
@@ -69,7 +69,7 @@
 		</graphicData>
 		<projectile>
 			<explosionRadius>0</explosionRadius>
-			<damageDef>BEWH_lash</damageDef>
+			<damageDef>BEWH_Lash</damageDef>
 			<speed>10000</speed>
 			<damageAmountBase>73</damageAmountBase>
 			<armorPenetrationBase>0.27</armorPenetrationBase>
@@ -108,6 +108,34 @@
 				<li>
 					<def>Flame</def>
 					<amount>20</amount>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<!-- Stonebane Projectile -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BEWH_Stonebane</defName>
+		<label>stonebane</label>
+		<description>???</description>
+		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Psyker/Smite</texPath>
+			<graphicClass>Graphic_Flicker</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<drawerType>RealtimeOnly</drawerType>
+		<projectile>
+			<explosionRadius>1.9</explosionRadius>
+			<damageDef>Thump</damageDef>
+			<speed>200</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<amount>99999</amount>
 				</li>
 			</extraDamages>
 		</projectile>

@@ -8,14 +8,14 @@
 	<packageId>Phonicmas.BiotechExpansionWarhammer40k</packageId>
 	<description>
         An expansion for Biotech with focus on warhammer 40k.
-    </description>
+	</description>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
 	</modDependencies>
-    <loadAfter>
+	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Biotech</li>

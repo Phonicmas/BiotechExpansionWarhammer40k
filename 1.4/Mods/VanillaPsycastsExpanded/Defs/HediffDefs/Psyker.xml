@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Might of Heroes -->
+
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>BEWH_MightOfHeroes</defName>
+        <label>might of heroes</label>
+        <description>The might of ancient heroes strengthens you.</description>
+        <stages>
+            <li>
+                <statFactors>
+                    <MeleeDamageFactor>1.5</MeleeDamageFactor>
+                    <MeleeHitChance>2</MeleeHitChance>
+                    <MoveSpeed>2</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Machine Curse -->
+
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>BEWH_MachineCurse</defName>
+        <label>machine curse</label>
+        <description>Bep bop.</description>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.35</setMax>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+                    <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                    <ArmorRating_Heat>0.5</ArmorRating_Heat>
+                    <MoveSpeed>0.5</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

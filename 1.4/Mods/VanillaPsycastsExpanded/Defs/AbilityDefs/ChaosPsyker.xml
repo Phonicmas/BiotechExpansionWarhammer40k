@@ -48,13 +48,13 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>2</level>
-        <order>3</order>
+        <level>1</level>
+        <order>2</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>30</entropyGain>
         <psychic>true</psychic>
         <prerequisites>
-          <li>BEWH_InviolableFlesh</li>
+          <li>BEWH_Doombolt</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -79,7 +79,7 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
+        <level>1</level>
         <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>60</entropyGain>
@@ -118,12 +118,12 @@
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
         <level>2</level>
-        <order>2</order>
+        <order>1</order>
         <psyfocusCost>0.07</psyfocusCost>
         <entropyGain>24</entropyGain>
         <psychic>true</psychic>
         <prerequisites>
-          <li>BEWH_Acquiescence</li>
+          <li>BEWH_Doombolt</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -155,12 +155,12 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
+        <level>4</level>
         <order>1</order>
         <psyfocusCost>0.05</psyfocusCost>
         <entropyGain>45</entropyGain>
         <prerequisites>
-          <li>BEWH_Doombolt</li>
+          <li>BEWH_Mindscourge</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -178,9 +178,10 @@
     <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>
-    <radius>20</radius>
+    <range>30</range>
+    <radius>15</radius>
     <targetMode>Location</targetMode>
-    <castSound>VPE_SelfExplosion_Cast</castSound>
+    <castSound>VPE_Explosion</castSound>
     <castFleck>PsycastPsychicEffect</castFleck>
     <targetFlecks>
       <li>BEWH_ChangeExplosion</li>
@@ -199,7 +200,7 @@
       <li Class="VFECore.Abilities.AbilityExtension_Explosion">
         <explosionRadius>14.9</explosionRadius>
         <onCaster>False</onCaster>
-        <explosionDamageDef>BEWH_change</explosionDamageDef>
+        <explosionDamageDef>BEWH_Change</explosionDamageDef>
         <casterImmune>true</casterImmune>
       </li>
     </modExtensions>
@@ -225,11 +226,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>1</level>
+        <level>2</level>
         <order>2</order>
         <psyfocusCost>0.1</psyfocusCost>
         <entropyGain>26</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Doombolt</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_Acquiescence</hediff>
@@ -256,12 +260,12 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>3</level>
+        <level>4</level>
         <order>2</order>
         <psyfocusCost>0.05</psyfocusCost>
         <entropyGain>57</entropyGain>
         <prerequisites>
-          <li>BEWH_Doombolt</li>
+          <li>BEWH_Acquiescence</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -321,11 +325,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
-        <level>1</level>
+        <level>2</level>
         <order>3</order>
         <psyfocusCost>0.1</psyfocusCost>
         <entropyGain>23</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Doombolt</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_InviolableFlesh</hediff>
@@ -356,6 +363,9 @@
         <psyfocusCost>0.12</psyfocusCost>
         <entropyGain>107</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_InviolableFlesh</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_NurglesRot</hediff>
@@ -364,6 +374,41 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Vile Contagion - Maybe? -->
+  <!-- Rot Burst -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_RotBurst</defName>
+    <label>rot burst</label>
+    <description>???</description>
+    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
+    <castTime>40</castTime>
+    <range>30</range>
+    <radius>15</radius>
+    <targetMode>Self</targetMode>
+    <castSound>VPE_ConsumeBodies_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_ChaosPsyker</path>
+        <level>5</level>
+        <order>3</order>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>0</entropyGain>
+        <prerequisites>
+          <li>BEWH_NurglesRot</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_NurglesRot</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Explosion">
+        <explosionRadius>14.9</explosionRadius>
+        <onCaster>False</onCaster>
+        <explosionDamageDef>BEWH_CorpseBurst</explosionDamageDef>
+        <casterImmune>true</casterImmune>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
 </Defs>

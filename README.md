@@ -22,6 +22,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 7. Persona traits?
 8. Marks of chaos? (genes?)
 9. Astropaths & navigators?
+10. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 
 # Genes
 

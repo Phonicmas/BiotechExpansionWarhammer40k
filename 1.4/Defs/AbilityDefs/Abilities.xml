@@ -85,7 +85,7 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_CNU</groupDef>
     <uiOrder>3</uiOrder>
-    <warmupStartSound>NoSound</warmupStartSound>
+    <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>600</Ability_Duration>
     </statBases>
@@ -136,7 +136,7 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_SAMS</groupDef>
     <uiOrder>4</uiOrder>
-    <warmupStartSound>NoSound</warmupStartSound>
+    <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.5</warmupTime>
@@ -184,7 +184,7 @@
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_BFB</groupDef>
     <uiOrder>4</uiOrder>
-    <warmupStartSound>NoSound</warmupStartSound>
+    <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>120</Ability_Duration>
     </statBases>

@@ -20,7 +20,7 @@
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
-    <!-- Bolt of Change -->
+    <!-- X of Change -->
 
     <DamageDef>
         <defName>BEWH_Change</defName>
@@ -28,13 +28,13 @@
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been mutated to death.</deathMessage>
-        <hediff>Shredded</hediff>
+        <hediff>Misc</hediff>
         <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
         <soundExplosion>BEWH_NoSound</soundExplosion>
-        <defaultDamage>30</defaultDamage>
-        <defaultArmorPenetration>1.1</defaultArmorPenetration>
+        <defaultDamage>67</defaultDamage>
+        <defaultArmorPenetration>2.7</defaultArmorPenetration>
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
@@ -53,6 +53,25 @@
         <soundExplosion>BEWH_NoSound</soundExplosion>
         <defaultDamage>40</defaultDamage>
         <defaultArmorPenetration>0.2</defaultArmorPenetration>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+    </DamageDef>
+
+    <!-- Corpse Burst -->
+
+    <DamageDef>
+        <defName>BEWH_CorpseBurst</defName>
+        <label>corpse rot</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been rotted to death.</deathMessage>
+        <hediff>VPE_Rot</hediff>
+        <hediffSkin>VPE_Rot</hediffSkin>
+        <hediffSolid>VPE_Rot</hediffSolid>
+        <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+        <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+        <soundExplosion>BEWH_NoSound</soundExplosion>
+        <defaultDamage>30</defaultDamage>
+        <defaultArmorPenetration>0.5</defaultArmorPenetration>
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
