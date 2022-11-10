@@ -475,7 +475,7 @@
         <description>Carriers sinews are reinforced with durametallic coil-cables that can contract with incredible force, magnifying his strength as well as giving his body another layer of defence.</description>
         <iconPath>UI/Icons/Genes/SinewCoilIcon</iconPath>
         <displayOrderInCategory>21</displayOrderInCategory>
-        <prerequisite>BEWH_BlackCarapace</prerequisite>
+        <prerequisite>BEWH_Biscopea</prerequisite>
         <statOffsets>
             <CarryingCapacity>100</CarryingCapacity>
         </statOffsets>
@@ -494,7 +494,7 @@
                 <degree>-2</degree>
             </li>
         </suppressedTraits>
-        <minAgeActive>19</minAgeActive>
+        <minAgeActive>13</minAgeActive>
     </GeneDef>
 
     <!-- Magnificat -->
@@ -505,7 +505,7 @@
         <description>Carriers possess a small, thumbnail-sized lobe in the brain's cortex that make them physically even larger, stronger and with faster reaction times than his non-Primaris brethren.</description>
         <iconPath>UI/Icons/Genes/MagnificatIcon</iconPath>
         <displayOrderInCategory>22</displayOrderInCategory>
-        <prerequisite>BEWH_BlackCarapace</prerequisite>
+        <prerequisite>BEWH_Biscopea</prerequisite>
         <statOffsets>
             <MeleeDodgeChance>20</MeleeDodgeChance>
         </statOffsets>
@@ -515,7 +515,7 @@
             <RangedCooldownFactor>0.8</RangedCooldownFactor>
             <MeleeHitChance>1.4</MeleeHitChance>
         </statFactors>
-        <minAgeActive>19</minAgeActive>
+        <minAgeActive>13</minAgeActive>
     </GeneDef>
 
     <!-- Belisarian Furnace -->
@@ -526,14 +526,14 @@
         <description>Carriers possess a dormant organ that connects to both Astartes hearts. In times of extreme stress, or should the warrior's body undergo violent, damaging trauma, it expels great blurts of self-synthesized chemicals - a hyper-cocktail that simulates the biological action of combat stimms while also aiding in the rapid regrowth of tissue, bone and muscle</description>
         <iconPath>UI/Icons/Genes/BelisarianFurnaceIcon</iconPath>
         <displayOrderInCategory>23</displayOrderInCategory>
-        <prerequisite>BEWH_BlackCarapace</prerequisite>
+        <prerequisite>BEWH_Biscopea</prerequisite>
         <abilities>
             <li>BEWH_BelisarianFurnaceBoost</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>BEWH_BelisarianFurnaceBoost</AbilityDef>
         </descriptionHyperlinks>
-        <minAgeActive>19</minAgeActive>
+        <minAgeActive>13</minAgeActive>
     </GeneDef>
 
     <!-- Psyker Gene-->
