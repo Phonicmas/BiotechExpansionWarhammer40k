@@ -241,23 +241,23 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    
 ### Sanctioned psyker
 
-   *Smite
+   *Smite - Does low-medium damage with high pen
 
-   *Machine Curse
+   *Machine Curse - Cripples mech by a lot
    
-   *Stonebane
+   *Stonebane - Does insanely high damge to buildings
    
-   *Gates of Infinity 
+   *Gates of Infinity - Teleport to anywhere on the current map
    
-   *Might of Heroes
+   *Might of Heroes - Increases melee damage, melee hit chance and move speed
    
-   *Weaken Resolve
+   *Weaken Resolve - Makes all enemies in an area flee
    
-   *Force Barrier
+   *Force Barrier - Protecs caster an everyone in an area from bullets
    
-   *Scourging
+   *Scourging - Does medium-high damage with high pen in an area
    
-   *Bone Breaker
+   *Bone Breaker - Does low damage and applies manipulation and move speed malus
   
 ## Other things
 Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
