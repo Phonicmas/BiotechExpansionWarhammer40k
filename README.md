@@ -1,18 +1,18 @@
 # Biotech Expansion - Warhammer 40k for rimworld
 
-# Suggestions
+## Suggestions
 https://forms.gle/5YpXFs7UgMokhvYa7
 
-# Ongoing
+## Ongoing
 1. Genes - MOSTLY DONE - Missing few abilities
 2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
-# Planned Features:
+## Planned Features:
 1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
 2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
 3. All Space Marine gene-seeds & Primaris genes - MOSTLY DONE
 
-# Future Things?:
+## Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
 2. Phariah genes (blanks)?
 3. Faction?
@@ -23,7 +23,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 8. Marks of chaos? (genes?)
 9. Astropaths & navigators?
 
-# Genes
+## Genes
 
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
 
@@ -208,9 +208,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
     
 
-# Psychis paths
+## Psychis paths
 
-1. Chaos psyker
+### Chaos psyker
 
    *Doombolt - Does low-medium damage with high pen
 
@@ -239,12 +239,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    -Fix psytrainer quest reward giving access without psyker gene.
    
    
-3. Sanctioned psyker
+### Sanctioned psyker
 
    *Smite
-   
-   
-4. Planned Sanctioned powers
 
    *Machine Curse
    
@@ -253,6 +250,14 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Gates of Infinity 
    
    *Might of Heroes
+   
+   *Weaken Resolve
+   
+   *Force Barrier
+   
+   *Scourging
+   
+   *Bone Breaker
   
-# Other things
+## Other things
 Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
