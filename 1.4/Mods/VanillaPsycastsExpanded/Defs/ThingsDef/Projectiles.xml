@@ -121,7 +121,7 @@
 		<description>???</description>
 		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-			<texPath>Effects/Psyker/Smite</texPath>
+			<texPath>Effects/Psyker/NoTex</texPath>
 			<graphicClass>Graphic_Flicker</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>(2, 2)</drawSize>
@@ -131,11 +131,39 @@
 		<projectile>
 			<explosionRadius>1.9</explosionRadius>
 			<damageDef>Thump</damageDef>
-			<speed>200</speed>
+			<speed>99999</speed>
 			<extraDamages>
 				<li>
 					<def>Flame</def>
 					<amount>99999</amount>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<!-- Bone breaker Projectile -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BEWH_Bonebreaker</defName>
+		<label>bone breaker</label>
+		<description>???</description>
+		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Psyker/NoTex</texPath>
+			<graphicClass>Graphic_Flicker</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<drawerType>RealtimeOnly</drawerType>
+		<projectile>
+			<explosionRadius>0.5</explosionRadius>
+			<damageDef>BEWH_Bonebreak</damageDef>
+			<speed>99999</speed>
+			<extraDamages>
+				<li>
+					<def>BEWH_Bonebreak</def>
+					<amount>15</amount>
 				</li>
 			</extraDamages>
 		</projectile>

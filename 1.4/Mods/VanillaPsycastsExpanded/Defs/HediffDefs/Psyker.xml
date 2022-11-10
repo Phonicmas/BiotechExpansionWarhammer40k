@@ -42,4 +42,13 @@
         </stages>
     </HediffDef>
 
+    <!-- Force Barrier -->
+
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>BEWH_ForceBarrier</defName>
+        <label>force barrier</label>
+        <description>A barrier protects this pawn from incoming bullets</description>
+        <hediffClass>VanillaPsycastsExpanded.Hediff_Overshield</hediffClass>
+    </HediffDef>
+
 </Defs>
