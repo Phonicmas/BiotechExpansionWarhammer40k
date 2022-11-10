@@ -1,18 +1,18 @@
 # Biotech Expansion - Warhammer 40k for rimworld
 
-# Suggestions
+## Suggestions
 https://forms.gle/5YpXFs7UgMokhvYa7
 
-# Ongoing
+## Ongoing
 1. Genes - MOSTLY DONE - Missing few abilities
 2. Psycaster tree & abilities - ONGOING - Missing rest of psycasts
 
-# Planned Features:
+## Planned Features:
 1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
 2. Psycast tree for Vanilla Expanded Psycasts - ONGOING
 3. All Space Marine gene-seeds & Primaris genes - MOSTLY DONE
 
-# Future Things?:
+## Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
 2. Phariah genes (blanks)?
 3. Faction?
@@ -24,7 +24,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 9. Astropaths & navigators?
 10. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 
-# Genes
+## Genes
 
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
 
@@ -209,50 +209,56 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
     
 
-# Psychis paths
+## Psychis paths
 
-1. Chaos psyker
+### Chaos psyker
 
-   *Doombolt
+   *Doombolt - Does low-medium damage with high pen
 
-   *Warptime
+   *Warptime - Increases hit chance for melee and ranged, and melee dodge chance
    
-   *Shattertime
+   *Shattertime - Decrease melee and ranged cooldown, and increases move speed
    
-   *Mindscourge
+   *Mindscourge - Sets target max conscious to 35% and giving them a -40 mood buff
 
-   *Bolt of Change - want to make it scramble genes?
+   *Bolt of Change - Does medium-high damage with very high pen, planned extra features to scramble genes hopefully
+   
+   *Storm of Change - Slighty stronger version of bolt of change that hits in aoe.
 
-   *Acquiescence
+   *Acquiescence - Decreases consciousness over a small period untill unconsciousness, and gives a +40 mood buff
 
-   *Lash of Slaanesh
+   *Lash of Slaanesh - Takes control of the target and decreases their consciousness by 30%
 
-   *Lash of Submission
+   *Lash of Submission - Does very high damage with low pen
 
-   *Inviolable Flesh
+   *Inviolable Flesh - Increase max health points and filth rate, decrease incoming damage and beauty
 
-   *Nurgle's Rot
+   *Nurgle's Rot - Gives the nurgle's rot disease that slowly wears the victim down untill they die
+   
+   *Rot Burst - Explosion on self that damages enemies around (plan to make it apply nurgle rot debuff)
 
    -Fix psytrainer quest reward giving access without psyker gene.
    
    
-2. Planned chaos powers
+### Sanctioned psyker
 
-   *Infernal Gateway   
+   *Smite - Does low-medium damage with high pen
 
-   *Vile Contagion
+   *Machine Curse - Cripples mech by a lot
    
+   *Stonebane - Does insanely high damge to buildings
    
-3. Sanctioned psyker
-
-   *Smite
+   *Gates of Infinity - Teleport to anywhere on the current map
    
+   *Might of Heroes - Increases melee damage, melee hit chance and move speed
    
-4. Planned Sanctioned powers
-
-   *No clue
+   *Weaken Resolve - Makes all enemies in an area flee
    
-
-
-# Other things
+   *Force Barrier - Protecs caster an everyone in an area from bullets
+   
+   *Scourging - Does medium-high damage with high pen in an area
+   
+   *Bone Breaker - Does low damage and applies manipulation and move speed malus
+  
+## Other things
 Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
