@@ -7,7 +7,7 @@
     <defName>BEWH_Smite</defName>
     <label>smite</label>
     <description>The psyker shoots bolts of lightning from his finger-tips, rending his foes with psychic energy</description>
-    <iconPath>Abilities/Psyker/Smite</iconPath>
+    <iconPath>Abilities/Psyker/SmiteIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>30</castTime>
     <range>45</range>
@@ -37,7 +37,7 @@
     <defName>BEWH_MightOfHeroes</defName>
     <label>might of heroes</label>
     <description>The psyker calls upon the power of the Warp to heighten the speed and strength of himself or another to unimaginable levels.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/MightOfHeroesIcon</iconPath>
     <targetMode>Self</targetMode>
     <castTime>15</castTime>
     <durationTime>3600</durationTime>
@@ -75,7 +75,7 @@
         <canTargetBuildings>False</canTargetBuildings>
       </li>
     </targetingParametersList>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/MachineCurseIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <castTime>15</castTime>
     <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
@@ -103,7 +103,7 @@
     <defName>BEWH_GateOfInfinity</defName>
     <label>gate of infinity</label>
     <description>The psyker is able to create a safe passageway through the Warp, allowing him and his battle-brothers to teleport to any location on the battlefield.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/GateOfInfinityIcon</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Skipmaster.Ability_Teleport</abilityClass>
     <targetCount>2</targetCount>
     <range>999999</range>
@@ -149,7 +149,7 @@
     <defName>BEWH_WeakenResolve</defName>
     <label>weaken resolve</label>
     <description>The psyker scares his enemies and forces them back.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/WeakenResolveIcon</iconPath>
     <distanceToTarget>6</distanceToTarget>
     <durationTime>1800</durationTime>
     <goodwillImpact>-15</goodwillImpact>
@@ -184,7 +184,7 @@
     <defName>BEWH_ForceBarrier</defName>
     <label>force barrier</label>
     <description>The psyker creates a shimmering psychic shield that protects hima nd his allies from enemy attack.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/ForceBarrierIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <targetMode>Self</targetMode>
     <radius>30</radius>
@@ -228,7 +228,7 @@
     <defName>BEWH_Stonebane</defName>
     <label>stonebane</label>
     <description>The Psyker channels the will of Dorn into an attack so terrible that no wall or fortification will be left standing, dealing massive damage instantly destroying all but the toughes buildings.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/StonebaneIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
     <range>30</range>
@@ -258,7 +258,7 @@
     <defName>BEWH_Scourging</defName>
     <label>scourging</label>
     <description>The psyker splits the air apart as bright arcs of soul-lightning destroys anything in its path.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/ScourgingIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <range>35</range>
     <rangeStatFactors>
@@ -298,7 +298,7 @@
     <defName>BEWH_BoneBreaker</defName>
     <label>bone breaker</label>
     <description>The psyker focuses his might and will into the blows he rains down on his enemies pulping flesh and breaking bones.</description>
-    <iconPath>Abilities/Psyker/Placeholder</iconPath>
+    <iconPath>Abilities/Psyker/BoneBreakerIcon</iconPath>
     <targetMode>Pawn</targetMode>
     <range>35</range>
     <castTime>15</castTime>

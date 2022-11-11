@@ -106,6 +106,12 @@
             <MeleeDamageFactor>1.25</MeleeDamageFactor>
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
+        <capMods>
+            <li>
+                <capacity>Manipulation</capacity>
+                <postFactor>1.4</postFactor>
+            </li>
+        </capMods>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -383,8 +389,8 @@
         <displayOrderInCategory>16</displayOrderInCategory>
         <prerequisite>BEWH_Neuroglottis</prerequisite>
         <statOffsets>
-            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-            <ComfyTemperatureMax>40</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+            <ComfyTemperatureMax>60</ComfyTemperatureMax>
         </statOffsets>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
@@ -401,6 +407,12 @@
         <abilities>
             <li>BEWH_BetchersSpit</li>
         </abilities>
+        <capMods>
+            <li>
+                <capacity>Talking</capacity>
+                <postFactor>1.35</postFactor>
+            </li>
+        </capMods>
         <descriptionHyperlinks>
             <AbilityDef>BEWH_BetchersSpit</AbilityDef>
         </descriptionHyperlinks>
@@ -453,15 +465,16 @@
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>BEWH_ProgenoidGlands</prerequisite>
         <conditionalStatAffecters>
-            <li Class="ConditionalStatAffecter_Clothed">
+            <li Class="GeneProgenoid.ConditionalStatAffecter_PowerArmor">
                 <statOffsets>
-                    <MoveSpeed>1</MoveSpeed>
+                    <MoveSpeed>1.5</MoveSpeed>
                 </statOffsets>
             </li>
         </conditionalStatAffecters>
         <statFactors>
             <IncomingDamageFactor>0.95</IncomingDamageFactor>
         </statFactors>
+        <painFactor>0.65</painFactor>
         <minAgeActive>19</minAgeActive>
     </GeneDef>
 

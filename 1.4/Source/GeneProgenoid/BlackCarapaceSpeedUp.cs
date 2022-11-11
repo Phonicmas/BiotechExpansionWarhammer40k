@@ -9,9 +9,9 @@ using Verse;
 
 namespace GeneProgenoid
 {
-    public class ConditionalStatAffecter_AAPowerArmor : ConditionalStatAffecter
+    public class ConditionalStatAffecter_PowerArmor : ConditionalStatAffecter
     {
-        public override string Label => (string)"StatsReport_Clothed".Translate();
+        public override string Label => (string)"Wearing power armor";
 
         public override bool Applies(StatRequest req)
         {
@@ -19,7 +19,7 @@ namespace GeneProgenoid
                 return false;
             foreach (Thing thing2 in thing1.apparel.WornApparel)
             {
-                if (thing2.def.apparel.countsAsClothingForNudity) //Change to check for apparel tag of AAPowerArmor
+                if (thing2.def.apparel.tags.Contains("PowerArmor"))
                     return true;
             }
             return false;

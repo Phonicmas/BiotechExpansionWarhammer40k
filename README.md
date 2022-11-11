@@ -61,6 +61,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Multiplies melee damage by 1.35
    
     *Reduces staggering by 50%
+
+    *Multiplies Manipulation by 1.4
     
 4. Haemastamen
 
@@ -146,13 +148,17 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 16. Mucranoid
 
-    *Increases max comfy temperature by 40
+    *Increases max comfy temperature by 60
     
-    *Increases min comfy temperature by -40
+    *Increases min comfy temperature by -60
+
+    -Want to make it ignore vacuum for SOS2 when updated?
     
 17. Betcher's Gland
 
     *Gives betcher's spit ability (stronger variant of acid spray).
+
+    *Multiplies talking by 1.35
     
 18. Progenoid Glands
 
@@ -165,12 +171,12 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Pawns with this gene can have a surgery done on them that initiates progenoid gland growths that once complete, allows them to harvest a germ-cell, this can be done every 3rd day, these germ-cells can then be used to make genepacks containing a space marine gene-seed. This means every year you should have enough gene-seeds to make a new space marine.
    
 19. Black Carapace
-
-    *Increase movement speed by 1 if clothed
     
     *Multiplies incoming damage by 0.95
     
-    -Want to make it so the movement only apply if wearing power armor and only removes the negative move speed the armor gives
+    *Increases move speed by 1.5 when power armor is worn (Marine, Recon, Cataphract)
+
+    *Reduces pain by about 35%
     
 20. Psyker
 
