@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlackCarapaceSpeedUp.cs" />
     <Compile Include="GeneDefModExtension.cs" />
     <Compile Include="ProgenoidWorkerClass.cs" />
     <Compile Include="ProgenoidRemovalWorkerClass.cs" />
