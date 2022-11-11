@@ -4,12 +4,11 @@
 https://forms.gle/5YpXFs7UgMokhvYa7
 
 ## Ongoing
-1. Genes - MOSTLY DONE - Missing few abilities
-2. Psycaster tree & abilities - MOSTLY DONE - Missing some textures
+1. Genes - MOSTLY DONE - Missing one abilities
 
 ## Planned Features:
 1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
-2. Psycast tree for Vanilla Expanded Psycasts - MOSTLY DONE
+2. Psycast tree for Vanilla Expanded Psycasts - DONE (May redo icons or add more)
 3. All Space Marine gene-seeds & Primaris genes - MOSTLY DONE
 
 ## Future Things?:
