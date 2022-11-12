@@ -19,7 +19,7 @@ namespace GeneProgenoid
                 return false;
             foreach (Thing thing2 in thing1.apparel.WornApparel)
             {
-                if (thing2.def.apparel.tags.Contains("PowerArmor"))
+                if (thing2.def.apparel.tags.Contains("PowerArmor") || thing2.def.apparel.tags.Contains("AAPowerArmor") || thing2.def.apparel.tags.Contains("AAScoutArmor") || thing2.def.apparel.tags.Contains("AATerminatorArmor"))
                     return true;
             }
             return false;

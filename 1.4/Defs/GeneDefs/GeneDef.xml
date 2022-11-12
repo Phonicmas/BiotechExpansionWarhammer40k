@@ -467,7 +467,7 @@
         <conditionalStatAffecters>
             <li Class="GeneProgenoid.ConditionalStatAffecter_PowerArmor">
                 <statOffsets>
-                    <MoveSpeed>1.5</MoveSpeed>
+                    <MoveSpeed>2</MoveSpeed>
                 </statOffsets>
             </li>
         </conditionalStatAffecters>
