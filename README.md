@@ -49,7 +49,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Suppresses: Delicate and wimp
     
-    -Want to make it increase actual drawn size
+    *If Body Size Genes is installed increases size by 1.15
     
 3. Biscopea
 
@@ -207,7 +207,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies melee hit chance by 1.4
     
-    -Want to make it increase actual drawn size
+    *If Body Size Genes is installed increases size by 1.2
     
 23. Belisarian Furnace
     
