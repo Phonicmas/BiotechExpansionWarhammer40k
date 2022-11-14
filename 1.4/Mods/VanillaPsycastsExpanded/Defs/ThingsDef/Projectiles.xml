@@ -20,12 +20,20 @@
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
 			<damageDef>BEWH_Doom</damageDef>
-			<speed>90</speed>
+			<speed>45</speed>
 			<damageAmountBase>21</damageAmountBase>
 			<armorPenetrationBase>1.7</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
+		<comps>
+			<li Class="VFECore.CompProperties_HomingProjectile">
+				<homingDistanceFractionPassed>15</homingDistanceFractionPassed>
+				<homingCorrectionTickRate>5</homingCorrectionTickRate>
+				<initialDispersionFromTarget>0</initialDispersionFromTarget>
+				<hitSound>BEWH_NoSound</hitSound>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<!-- Bolt of Change Projectile -->
@@ -46,12 +54,20 @@
 		<projectile>
 			<explosionRadius>0.6</explosionRadius>
 			<damageDef>BEWH_Change</damageDef>
-			<speed>90</speed>
+			<speed>45</speed>
 			<damageAmountBase>49</damageAmountBase>
 			<armorPenetrationBase>2.3</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
+		<comps>
+			<li Class="VFECore.CompProperties_HomingProjectile">
+				<homingDistanceFractionPassed>15</homingDistanceFractionPassed>
+				<homingCorrectionTickRate>5</homingCorrectionTickRate>
+				<initialDispersionFromTarget>0</initialDispersionFromTarget>
+				<hitSound>BEWH_NoSound</hitSound>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<!-- Lash of Slaanesh Projectile -->
