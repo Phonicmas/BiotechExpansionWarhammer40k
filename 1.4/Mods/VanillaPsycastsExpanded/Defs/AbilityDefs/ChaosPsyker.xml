@@ -141,7 +141,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_BoltOfChange</defName>
     <label>bolt of change</label>
-    <description>A bolt made of raw chaos energy are launched by the psyker against his enemies. Made from dark energy of the coalesced spite and loathing of the psyker.</description>
+    <description>The psyker focuses his will and his wrath into a searing bolt of warp-flame, that mutates enemies, altering their genes.</description>
     <iconPath>Abilities/ChaosPsyker/BoltOfChangeIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
@@ -169,13 +169,13 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- Storm of Change -->
+  <!-- Storm of Change (Make it work like meteor shower???) -->
 
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_StormOfChange</defName>
     <label>storm of change</label>
-    <description>???</description>
-    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <description>The psyker focuses his will and his wrath into an arial warp-flame that descends upon his enemies that mutates them, altering their genes.</description>
+    <iconPath>Abilities/ChaosPsyker/StormofChangeIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>
     <range>30</range>
@@ -249,7 +249,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_LashOfSlaanesh</defName>
     <label>lash of slaanesh</label>
-    <description>???</description>
+    <description>The psyker draws upon slaanesh power to conjure her lash to inflict suffering.</description>
     <iconPath>Abilities/ChaosPsyker/LashOfSlaaneshIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>15</castTime>
@@ -379,8 +379,8 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_RotBurst</defName>
     <label>rot burst</label>
-    <description>???</description>
-    <iconPath>Abilities/ChaosPsyker/Placeholder</iconPath>
+    <description>The psyker draws from nurgles power to draw out rot from a corpse and inflict filth on every enemy nearby.</description>
+    <iconPath>Abilities/ChaosPsyker/RotBurstIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>
     <range>30</range>
@@ -393,7 +393,7 @@
         <level>5</level>
         <order>3</order>
         <psyfocusCost>0.1</psyfocusCost>
-        <entropyGain>0</entropyGain>
+        <entropyGain>173</entropyGain>
         <prerequisites>
           <li>BEWH_NurglesRot</li>
         </prerequisites>
