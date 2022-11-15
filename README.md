@@ -1,27 +1,17 @@
-# Biotech Expansion - Warhammer 40k for rimworld
+# Warhammer 40k - Genes and Psycasts for rimworld
 
 ## Suggestions
 https://forms.gle/5YpXFs7UgMokhvYa7
 
-## Ongoing
-1. Genes - MOSTLY DONE - Missing one abilities
-
-## Planned Features:
-1. Psyker Gene for Biotech is required for using VPE Psycasts in this mod - DONE
-2. Psycast tree for Vanilla Expanded Psycasts - DONE (May redo icons or add more)
-3. All Space Marine gene-seeds & Primaris genes - MOSTLY DONE
-
 ## Future Things?:
 1. Make more trees for the different psychic disciplines or for different psychic tiers?
 2. Phariah genes (blanks)?
-3. Faction?
-4. Event? (big baddie coming to hurt you)
-5. Different tiers of psychic potential
-6. Patch a power armor mod?
-7. Persona traits?
-8. Marks of chaos? (genes?)
-9. Astropaths & navigators?
-10. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
+3. Event? (big baddie coming to hurt you)
+4. Different tiers of psychic potential
+5. Persona traits?
+6. Marks of chaos? (genes?)
+7. Astropaths & navigators?
+8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 
 ## Genes
 
@@ -266,4 +256,5 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Bone Breaker - Does low damage and applies manipulation and move speed malus
   
 ## Other things
-Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
+    *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs) 
+    *Mod contains a faction containing all three above mentioned xenotypes.
