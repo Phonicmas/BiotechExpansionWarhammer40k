@@ -28,7 +28,7 @@
 		</projectile>
 		<comps>
 			<li Class="VFECore.CompProperties_HomingProjectile">
-				<homingDistanceFractionPassed>15</homingDistanceFractionPassed>
+				<homingDistanceFractionPassed>0</homingDistanceFractionPassed>
 				<homingCorrectionTickRate>5</homingCorrectionTickRate>
 				<initialDispersionFromTarget>0</initialDispersionFromTarget>
 				<hitSound>BEWH_NoSound</hitSound>
@@ -62,7 +62,7 @@
 		</projectile>
 		<comps>
 			<li Class="VFECore.CompProperties_HomingProjectile">
-				<homingDistanceFractionPassed>15</homingDistanceFractionPassed>
+				<homingDistanceFractionPassed>0</homingDistanceFractionPassed>
 				<homingCorrectionTickRate>5</homingCorrectionTickRate>
 				<initialDispersionFromTarget>0</initialDispersionFromTarget>
 				<hitSound>BEWH_NoSound</hitSound>

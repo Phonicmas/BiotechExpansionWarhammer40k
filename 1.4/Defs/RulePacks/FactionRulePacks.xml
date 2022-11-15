@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Name of faction -->
+
+    <RulePackDef>
+        <defName>BEWH_FactionNameMaker</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->The Imperium</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- Name of settlements -->
+
+    <RulePackDef>
+        <defName>BEWH_SettlementNameMaker</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->Outpost [Letters]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>Letters</keyword>
+                    <path>NameBanks/BEWH_SettlementNames</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>
+  

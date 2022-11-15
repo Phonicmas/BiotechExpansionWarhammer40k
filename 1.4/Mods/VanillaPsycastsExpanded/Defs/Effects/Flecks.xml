@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+    <!-- Storm of Change -->
+
     <FleckDef ParentName="FleckBase">
         <defName>BEWH_ChangeExplosion</defName>
         <solidTime>0.3</solidTime>
@@ -13,4 +16,21 @@
             <drawSize>(20, 20)</drawSize>
         </graphicData>
     </FleckDef>
+
+    <!-- Rot Burst -->
+
+    <FleckDef ParentName="FleckBase">
+        <defName>BEWH_RotBustExplosion</defName>
+        <solidTime>0.3</solidTime>
+        <fadeOutTime>0.1</fadeOutTime>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+            <texPath>Effects/ChaosPsyker/StormOfChange</texPath>
+            <ticksPerFrame>7</ticksPerFrame>
+            <graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Fleck_Animated</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>(20, 20)</drawSize>
+        </graphicData>
+    </FleckDef>
+
 </Defs>

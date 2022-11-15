@@ -574,6 +574,11 @@
                 <degree>-2</degree>
             </li>
         </suppressedTraits>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Psyker</backgroundPathXenogenes>
+            </li>
+        </modExtensions>
         <minAgeActive>6</minAgeActive>
     </GeneDef>
 

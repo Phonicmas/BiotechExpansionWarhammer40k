@@ -379,7 +379,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_RotBurst</defName>
     <label>rot burst</label>
-    <description>The psyker draws from nurgles power to draw out rot from a corpse and inflict filth on every enemy nearby.</description>
+    <description>The psyker draws from nurgles power to draw out rot and inflict filth on every enemy nearby.</description>
     <iconPath>Abilities/ChaosPsyker/RotBurstIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>

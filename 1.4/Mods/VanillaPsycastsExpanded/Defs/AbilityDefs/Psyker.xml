@@ -6,7 +6,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_Smite</defName>
     <label>smite</label>
-    <description>The psyker shoots bolts of lightning from his finger-tips, rending his foes with psychic energy</description>
+    <description>The psyker shoots bolts of lightning from his finger-tips, rending his foes with psychic energy.</description>
     <iconPath>Abilities/Psyker/SmiteIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>30</castTime>
@@ -36,7 +36,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_MightOfHeroes</defName>
     <label>might of heroes</label>
-    <description>The psyker calls upon the power of the Warp to heighten the speed and strength of himself or another to unimaginable levels.</description>
+    <description>The psyker calls upon the power of the Warp to heighten the speed and strength of himself to unimaginable levels.</description>
     <iconPath>Abilities/Psyker/MightOfHeroesIcon</iconPath>
     <targetMode>Self</targetMode>
     <castTime>15</castTime>
@@ -148,7 +148,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_WordOfAbilityBase">
     <defName>BEWH_WeakenResolve</defName>
     <label>weaken resolve</label>
-    <description>The psyker scares his enemies and forces them back.</description>
+    <description>The psyker imbues terror in his and forces them back.</description>
     <iconPath>Abilities/Psyker/WeakenResolveIcon</iconPath>
     <distanceToTarget>6</distanceToTarget>
     <durationTime>1800</durationTime>
@@ -163,8 +163,8 @@
         <path>BEWH_Psyker</path>
         <level>5</level>
         <order>2</order>
-        <psyfocusCost>0.1</psyfocusCost>
-        <entropyGain>8</entropyGain>
+        <psyfocusCost>0.25</psyfocusCost>
+        <entropyGain>167</entropyGain>
         <prerequisites>
           <li>BEWH_Stonebane</li>
         </prerequisites>
@@ -278,7 +278,7 @@
         <level>5</level>
         <order>1</order>
         <psyfocusCost>0.06</psyfocusCost>
-        <entropyGain>30</entropyGain>
+        <entropyGain>130</entropyGain>
         <prerequisites>
           <li>BEWH_BoneBreaker</li>
         </prerequisites>
@@ -311,7 +311,7 @@
         <level>3</level>
         <order>1</order>
         <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>36</entropyGain>
+        <entropyGain>47</entropyGain>
         <psychic>true</psychic>
         <prerequisites>
           <li>BEWH_Smite</li>
