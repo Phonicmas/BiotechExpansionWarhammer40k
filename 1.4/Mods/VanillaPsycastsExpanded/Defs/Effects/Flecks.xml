@@ -25,7 +25,7 @@
         <fadeOutTime>0.1</fadeOutTime>
         <altitudeLayer>MoteOverhead</altitudeLayer>
         <graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-            <texPath>Effects/ChaosPsyker/StormOfChange</texPath>
+            <texPath>Effects/Necropath/ParalysisPulse</texPath>
             <ticksPerFrame>7</ticksPerFrame>
             <graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Fleck_Animated</graphicClass>
             <shaderType>MoteGlow</shaderType>

@@ -43,6 +43,7 @@
 		<description>aaAAAAAAAAAHHHHHHHHhhhh.</description>
 		<stages>
 			<li>
+				<painOffset>0.666</painOffset>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -195,15 +196,32 @@
 
 	<!-- Nurgle's Rot -->
 
-	<HediffDef ParentName="PsycastHediffBase">
+	<HediffDef ParentName="InfectionBase">
 		<defName>BEWH_NurglesRot</defName>
 		<label>nurgle's rot</label>
-		<description>Nurgle's Rot is slowly decaying this body.</description>
+		<description>Nurgle's Rot is decaying this body.</description>
 		<initialSeverity>0.1</initialSeverity>
 		<makesSickThought>true</makesSickThought>
 		<hediffClass>HediffWithComps</hediffClass>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>4</baseTendDurationHours>
+				<severityPerDayTended>-11</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>9</severityPerDayNotImmune>
+				<immunityPerDaySick>0</immunityPerDaySick>
+				<severityPerDayImmune>-99</severityPerDayImmune>
+				<immunityPerDayNotSick>0</immunityPerDayNotSick>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>VPE_Liferot</stateEffecter>
+			</li>
+		</comps>
 		<stages>
 			<li>
+				<label>initial</label>
 				<minSeverity>0.1</minSeverity>
 				<capMods>
 					<li>
@@ -217,6 +235,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>minor</label>
 				<minSeverity>0.2</minSeverity>
 				<capMods>
 					<li>
@@ -238,6 +257,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>minor</label>
 				<minSeverity>0.3</minSeverity>
 				<capMods>
 					<li>
@@ -271,6 +291,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>minor</label>
 				<minSeverity>0.4</minSeverity>
 				<capMods>
 					<li>
@@ -312,6 +333,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>severe</label>
 				<minSeverity>0.5</minSeverity>
 				<capMods>
 					<li>
@@ -357,6 +379,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>severe</label>
 				<minSeverity>0.6</minSeverity>
 				<capMods>
 					<li>
@@ -402,6 +425,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>severe</label>
 				<minSeverity>0.7</minSeverity>
 				<capMods>
 					<li>
@@ -447,6 +471,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>major</label>
 				<minSeverity>0.8</minSeverity>
 				<capMods>
 					<li>
@@ -492,6 +517,7 @@
 				</capMods>
 			</li>
 			<li>
+				<label>major</label>
 				<minSeverity>0.9</minSeverity>
 				<capMods>
 					<li>
@@ -546,14 +572,6 @@
 				</capMods>
 			</li>
 		</stages>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>9</severityPerDay>
-			</li>
-			<li Class="HediffCompProperties_Effecter">
-				<stateEffecter>VPE_Bliss</stateEffecter>
-			</li>
-		</comps>
 	</HediffDef>
 
 </Defs>

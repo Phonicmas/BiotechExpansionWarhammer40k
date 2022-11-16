@@ -20,7 +20,7 @@
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>
 
-    <!-- X of Change -->
+    <!-- Bolt of Change -->
 
     <DamageDef>
         <defName>BEWH_Change</defName>
@@ -28,12 +28,30 @@
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been mutated to death.</deathMessage>
-        <hediff>Misc</hediff>
+        <hediff>BEWH_Mutate</hediff>
         <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
         <soundExplosion>BEWH_NoSound</soundExplosion>
-        <defaultDamage>67</defaultDamage>
+        <defaultDamage>47</defaultDamage>
+        <defaultArmorPenetration>2.7</defaultArmorPenetration>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+    </DamageDef>
+
+    <!-- Storm of Change -->
+
+    <DamageDef>
+        <defName>BEWH_ChangeStorm</defName>
+        <label>mutation</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been mutated to death.</deathMessage>
+        <hediff>BEWH_Mutate</hediff>
+        <hediffSolid>Crack</hediffSolid>
+        <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+        <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+        <soundExplosion>BEWH_NoSound</soundExplosion>
+        <defaultDamage>33</defaultDamage>
         <defaultArmorPenetration>2.7</defaultArmorPenetration>
         <makesAnimalsFlee>true</makesAnimalsFlee>
     </DamageDef>

@@ -19,7 +19,7 @@
             </li>
         </comps>
         <injuryProps>
-            <painPerSeverity>0.0125</painPerSeverity>
+            <painPerSeverity>0.02</painPerSeverity>
             <bleedRate>0.06</bleedRate>
             <canMerge>false</canMerge>
             <destroyedLabel>Destroyed</destroyedLabel>
@@ -44,7 +44,7 @@
             </li>
         </comps>
         <injuryProps>
-            <painPerSeverity>0.0125</painPerSeverity>
+            <painPerSeverity>0.05</painPerSeverity>
             <bleedRate>0.06</bleedRate>
             <canMerge>false</canMerge>
             <destroyedLabel>Destroyed</destroyedLabel>
@@ -62,6 +62,29 @@
                 </capMods>
             </li>
         </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="InjuryBase">
+        <defName>BEWH_Mutate</defName>
+        <label>mutated</label>
+        <labelNoun>an injury</labelNoun>
+        <description>Mutated body part.</description>
+        <comps>
+            <li Class="HediffCompProperties_TendDuration">
+                <labelTendedWell>bandaged</labelTendedWell>
+                <labelTendedWellInner>sutured</labelTendedWellInner>
+                <labelSolidTendedWell>set</labelSolidTendedWell>
+            </li>
+            <li Class="HediffCompProperties_GetsPermanent">
+                <permanentLabel>scar</permanentLabel>
+            </li>
+        </comps>
+        <injuryProps>
+            <painPerSeverity>0.01</painPerSeverity>
+            <bleedRate>0.02</bleedRate>
+            <canMerge>false</canMerge>
+            <destroyedLabel>Destroyed</destroyedLabel>
+        </injuryProps>
     </HediffDef>
 
 </Defs>

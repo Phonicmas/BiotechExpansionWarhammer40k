@@ -49,7 +49,7 @@
         <level>1</level>
         <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
-        <entropyGain>36</entropyGain>
+        <entropyGain>55</entropyGain>
         <psychic>true</psychic>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -64,7 +64,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_MachineCurse</defName>
     <label>machine curse</label>
-    <description>The psyker curses a target mech's machine spirit to malfunction.</description>
+    <description>The psyker curses a target mech's machine spirit to cause malfunctions, severely reducing it's capabilities.</description>
     <targetMode>Pawn</targetMode>
     <targetingParametersList>
       <li>
@@ -102,7 +102,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_GateOfInfinity</defName>
     <label>gate of infinity</label>
-    <description>The psyker is able to create a safe passageway through the Warp, allowing him and his battle-brothers to teleport to any location on the battlefield.</description>
+    <description>The psyker is able to create a safe passageway through the Warp, allowing him to teleport to any location on the battlefield.</description>
     <iconPath>Abilities/Psyker/GateOfInfinityIcon</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Skipmaster.Ability_Teleport</abilityClass>
     <targetCount>2</targetCount>
@@ -130,8 +130,8 @@
         <path>BEWH_Psyker</path>
         <level>5</level>
         <order>3</order>
-        <psyfocusCost>0.02</psyfocusCost>
-        <entropyGain>25</entropyGain>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>89</entropyGain>
         <prerequisites>
           <li>BEWH_ForceBarrier</li>
         </prerequisites>
@@ -183,7 +183,7 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>BEWH_ForceBarrier</defName>
     <label>force barrier</label>
-    <description>The psyker creates a shimmering psychic shield that protects hima nd his allies from enemy attack.</description>
+    <description>The psyker creates a shimmering psychic shield that protects him and his allies from enemy attack.</description>
     <iconPath>Abilities/Psyker/ForceBarrierIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <targetMode>Self</targetMode>
@@ -210,8 +210,8 @@
         <path>BEWH_Psyker</path>
         <level>3</level>
         <order>3</order>
-        <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>20</entropyGain>
+        <psyfocusCost>0.15</psyfocusCost>
+        <entropyGain>67</entropyGain>
         <prerequisites>
           <li>BEWH_MightOfHeroes</li>
         </prerequisites>
@@ -240,8 +240,8 @@
         <path>BEWH_Psyker</path>
         <level>3</level>
         <order>2</order>
-        <psyfocusCost>0.05</psyfocusCost>
-        <entropyGain>45</entropyGain>
+        <psyfocusCost>0.03</psyfocusCost>
+        <entropyGain>20</entropyGain>
         <prerequisites>
           <li>BEWH_MachineCurse</li>
         </prerequisites>
@@ -277,7 +277,7 @@
         <path>BEWH_Psyker</path>
         <level>5</level>
         <order>1</order>
-        <psyfocusCost>0.06</psyfocusCost>
+        <psyfocusCost>0.16</psyfocusCost>
         <entropyGain>130</entropyGain>
         <prerequisites>
           <li>BEWH_BoneBreaker</li>
@@ -327,6 +327,6 @@
 
   <!-- ??? -->
 
-
+  <!-- ??? -->
 
 </Defs>

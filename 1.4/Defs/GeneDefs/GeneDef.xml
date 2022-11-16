@@ -112,6 +112,11 @@
                 <postFactor>1.4</postFactor>
             </li>
         </capMods>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <caravanCarryingFactor>1.5</caravanCarryingFactor>
+            </li>
+        </modExtensions>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -497,6 +502,11 @@
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <caravanCarryingFactor>2</caravanCarryingFactor>
+            </li>
+        </modExtensions>
         <suppressedTraits>
             <li>
                 <def>Beauty</def>
