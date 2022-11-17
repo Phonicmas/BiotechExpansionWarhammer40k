@@ -12,10 +12,12 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 6. Marks of chaos? (genes?)
 7. Astropaths & navigators?
 8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
+9. A path for each chaos god (except khorne obviously)
 
 ## To do
 1. Fix psytrainer quest reward giving access without psyker gene.
-2. Add actual secondary heart to secondary heart?
+2. Add actual secondary heart to secondary heart? - PAUSED
+3. Make psyker spawn with psycasts
 
 ## Genes
 

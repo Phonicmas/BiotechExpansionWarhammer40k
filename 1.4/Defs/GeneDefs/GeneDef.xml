@@ -57,6 +57,20 @@
                 <degree>-1</degree>
             </li>
         </suppressedTraits>
+        <!--<modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <hediffsToBodyParts>
+                    <li>
+                        <hediff>BEWH_SecondaryHeart</hediff>
+                        <bodyparts>
+                            <li>
+                                <BodyPartDef>BEWH_SHPart</BodyPartDef>
+                            </li>
+                        </bodyparts>
+                    </li>
+                </hediffsToBodyParts>
+            </li>
+        </modExtensions>-->
     </GeneDef>
 
     <!-- Ossmodula -->

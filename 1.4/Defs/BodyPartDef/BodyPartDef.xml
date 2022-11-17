@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Secondary Heart Spot -->
+
+  <!--<BodyPartDef>
+    <defName>BEWH_SHPart</defName>
+    <label>secondary heart cavity</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <destroyableByDamage>false</destroyableByDamage>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <canScarify>false</canScarify>
+  </BodyPartDef>-->
+
+</Defs>

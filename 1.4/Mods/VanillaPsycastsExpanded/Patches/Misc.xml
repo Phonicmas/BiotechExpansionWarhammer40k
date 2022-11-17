@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/PawnKindDef[defName = "BEWH_SpaceMarinePsyker"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VanillaPsycastsExpanded.PawnKindAbilityExtension_Psycasts">
+                            <implantDef>VPE_PsycastAbilityImplant</implantDef>
+                            <initialLevel>10</initialLevel>
+                            <statUpgradePoints>2~6</statUpgradePoints>
+                            <unlockedPaths>
+                                <BEWH_Psyker>1~5|3~9</BEWH_Psyker>
+                            </unlockedPaths>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

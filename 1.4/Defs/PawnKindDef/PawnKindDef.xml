@@ -12,7 +12,7 @@
         <invNutrition>2.55</invNutrition>
         <backstoryCryptosleepCommonality>1.0</backstoryCryptosleepCommonality>
         <fixedGender>Male</fixedGender>
-        <minGenerationAge>20</minGenerationAge>
+        <minGenerationAge>19</minGenerationAge>
         <maxGenerationAge>21</maxGenerationAge>
         <itemQuality>Good</itemQuality>
         <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
