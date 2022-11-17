@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneProgenoid", "GeneProgenoid.csproj", "{7FED8F4B-10DB-4B7A-8C0E-6824A55CF2C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEWH", "BEWH.csproj", "{7FED8F4B-10DB-4B7A-8C0E-6824A55CF2C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -64,8 +64,9 @@
         </stages>
     </HediffDef>
 
-    <HediffDef ParentName="InjuryBase">
-        <defName>BEWH_Mutate</defName>
+    <!-- Mutate base -->
+
+    <HediffDef Name="BEWH_Mutate" ParentName="InjuryBase" Abstract="True">
         <label>mutated</label>
         <labelNoun>an injury</labelNoun>
         <description>Mutated body part.</description>
@@ -85,6 +86,28 @@
             <canMerge>false</canMerge>
             <destroyedLabel>Destroyed</destroyedLabel>
         </injuryProps>
+    </HediffDef>
+
+    <!-- Bolt -->
+
+    <HediffDef ParentName="BEWH_Mutate">
+        <defName>BEWH_BoltChange</defName>
+        <comps>
+            <li Class="BEWH.HediffCompPropertiesGeneScramble">
+                <scrambleAmount>8</scrambleAmount>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- Storm -->
+
+    <HediffDef ParentName="BEWH_Mutate">
+        <defName>BEWH_StormChange</defName>
+        <comps>
+            <li Class="BEWH.HediffCompPropertiesGeneScramble">
+                <scrambleAmount>3</scrambleAmount>
+            </li>
+        </comps>
     </HediffDef>
 
 </Defs>

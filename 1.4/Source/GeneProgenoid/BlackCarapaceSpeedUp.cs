@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Verse;
 
 
-namespace GeneProgenoid
+namespace BEWH
 {
     public class ConditionalStatAffecter_PowerArmor : ConditionalStatAffecter
     {

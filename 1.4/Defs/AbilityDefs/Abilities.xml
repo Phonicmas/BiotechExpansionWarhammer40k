@@ -72,7 +72,7 @@
 
   <AbilityDef>
     <defName>BEWH_CatalepseanNodeUnsleeping</defName>
-    <label>catalepsean node unsleeping</label>
+    <label>unsleeping</label>
     <description>Carriers of the catalepsean node can consciously "switch off" sections of the brain sequentially, while remaining awake and alert</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
@@ -84,7 +84,8 @@
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_CNU</groupDef>
-    <uiOrder>3</uiOrder>
+    <category>SpaceMarine</category>
+    <uiOrder>2</uiOrder>
     <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>600</Ability_Duration>
@@ -123,7 +124,7 @@
 
   <AbilityDef>
     <defName>BEWH_Sus_anMembraneStasis</defName>
-    <label>sus-an membrane stasis</label>
+    <label>stasis</label>
     <description>Carriers of the sus-an membrane can enter a state of suspended animation, keeping the them alive for years, even if they has suffered otherwise mortal wounds</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
@@ -135,7 +136,8 @@
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_SAMS</groupDef>
-    <uiOrder>4</uiOrder>
+    <category>SpaceMarine</category>
+    <uiOrder>3</uiOrder>
     <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -164,7 +166,47 @@
 
   <!-- Omophagea -->
 
-  
+  <AbilityGroupDef>
+    <defName>BEWH_OPA</defName>
+    <cooldownTicks>60000</cooldownTicks>
+  </AbilityGroupDef>
+
+  <AbilityDef>
+    <defName>BEWH_OmophageaCorpseEat</defName>
+    <label>remembrance</label>
+    <description>Carriers of the omophagea can eat dead pawns to acquire a fragment of all their knowledge</description>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <iconPath>UI/Abilities/OmophageaRemembrance</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
+    <showPsycastEffects>False</showPsycastEffects>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <groupDef>BEWH_OPA</groupDef>
+    <category>SpaceMarine</category>
+    <uiOrder>4</uiOrder>
+    <warmupStartSound>BEWH_NoSound</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>2</warmupTime>
+      <range>3</range>
+      <drawAimPie>True</drawAimPie>
+      <requireLineOfSight>True</requireLineOfSight>
+      <targetParams>
+        <canTargetCorpses>true</canTargetCorpses>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetBloodfeeders>false</canTargetBloodfeeders>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="BEWH.RemembranceCompProp">
+      </li>
+    </comps>
+  </AbilityDef>
 
   <!-- Belisarian Furnace -->
 
@@ -175,7 +217,7 @@
 
   <AbilityDef>
     <defName>BEWH_BelisarianFurnaceBoost</defName>
-    <label>belisarian furnace revitaliser</label>
+    <label>revitaliser</label>
     <description>Carriers of the belisarian furnace can produce a hyper-cocktail to boost their regrowth of tissue, bone and muscle</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
@@ -187,7 +229,8 @@
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <groupDef>BEWH_BFB</groupDef>
-    <uiOrder>4</uiOrder>
+    <category>SpaceMarine</category>
+    <uiOrder>5</uiOrder>
     <warmupStartSound>BEWH_NoSound</warmupStartSound>
     <statBases>
       <Ability_Duration>120</Ability_Duration>

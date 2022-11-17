@@ -28,7 +28,7 @@
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been mutated to death.</deathMessage>
-        <hediff>BEWH_Mutate</hediff>
+        <hediff>BEWH_BoltChange</hediff>
         <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
@@ -46,7 +46,7 @@
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been mutated to death.</deathMessage>
-        <hediff>BEWH_Mutate</hediff>
+        <hediff>BEWH_StormChange</hediff>
         <hediffSolid>Crack</hediffSolid>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
         <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>

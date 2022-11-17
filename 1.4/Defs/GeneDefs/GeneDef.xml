@@ -231,6 +231,12 @@
         <statFactors>
             <GlobalLearningFactor>1.45</GlobalLearningFactor>
         </statFactors>
+        <abilities>
+            <li>BEWH_OmophageaCorpseEat</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>BEWH_OmophageaCorpseEat</AbilityDef>
+        </descriptionHyperlinks>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -470,7 +476,7 @@
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>BEWH_ProgenoidGlands</prerequisite>
         <conditionalStatAffecters>
-            <li Class="GeneProgenoid.ConditionalStatAffecter_PowerArmor">
+            <li Class="BEWH.ConditionalStatAffecter_PowerArmor">
                 <statOffsets>
                     <MoveSpeed>2</MoveSpeed>
                 </statOffsets>

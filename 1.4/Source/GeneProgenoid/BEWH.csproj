@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlackCarapaceSpeedUp.cs" />
+    <Compile Include="RemembranceProperties.cs" />
+    <Compile Include="Remembrance.cs" />
+    <Compile Include="GeneExtension.cs" />
+    <Compile Include="HediffCompPropertiesGeneScramble.cs" />
+    <Compile Include="HediffCompGeneScramble.cs" />
     <Compile Include="GeneDefModExtension.cs" />
     <Compile Include="ProgenoidWorkerClass.cs" />
     <Compile Include="ProgenoidRemovalWorkerClass.cs" />

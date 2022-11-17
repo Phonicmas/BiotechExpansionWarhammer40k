@@ -13,6 +13,10 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 7. Astropaths & navigators?
 8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 
+## To do
+1. Fix psytrainer quest reward giving access without psyker gene.
+2. Add actual secondary heart to secondary heart?
+
 ## Genes
 
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
@@ -85,7 +89,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Multiplies global learning factor by 1.45
     
-    -Want to add ability to eat corpse to gain skill depending on their highest stat or maybe just a simple ability to increase global learning factor a bit more for a period.
+    *Adds ability that allows the carrier to eat a dead corpse and acquire 15% of all exp of each skill.
     
 9. Multi-Lung
 
@@ -216,9 +220,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    
    *Mindscourge - Sets target max conscious to 35% and giving them a -40 mood buff
 
-   *Bolt of Change - Does medium-high damage with very high pen, planned extra features to scramble genes hopefully
+   *Bolt of Change - Does medium-high damage with very high pen, applies gene mutations on pawns, does nothing to animals or mechs
    
-   *Storm of Change - Slighty stronger version of bolt of change that hits in aoe.
+   *Storm of Change - Slighty weaker version of bolt of change that hits in aoe, potentially dealing more damage, applies gene mutations on pawns, does nothing to animals or mechs
 
    *Acquiescence - Decreases consciousness over a small period untill unconsciousness, and gives a +40 mood buff
 
@@ -230,10 +234,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
    *Nurgle's Rot - Gives the nurgle's rot disease that slowly wears the victim down untill they die
    
-   *Rot Burst - Explosion on self that damages enemies around (plan to make it apply nurgle rot debuff)
-
-   -Fix psytrainer quest reward giving access without psyker gene.
-   
+   *Rot Burst - Explosion on self that damages enemies around (plan to make it apply nurgle rot debuff)  
    
 ### Sanctioned psyker
 

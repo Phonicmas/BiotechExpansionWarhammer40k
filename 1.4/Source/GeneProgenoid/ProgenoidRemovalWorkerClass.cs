@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace GeneProgenoid
+namespace BEWH
 {
     public class GeneProgenoidRemovalWorkerClass : Recipe_Surgery
     {
