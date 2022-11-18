@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BodyDef[defName = "Human"]/corePart/parts/li[def="Neck"]/parts/li[def="Head"]/parts/li[def="Skull"]/parts/li[def="Brain"]</xpath>
+                <value>
+                    <parts>
+                        <li>
+                            <def>BEWH_Anima</def>
+                            <customLabel>anima</customLabel>
+                            <coverage>0.020</coverage>
+                            <depth>Inside</depth>
+                            <groups>
+                                <li>UpperHead</li>
+                            </groups>
+                        </li>
+                    </parts>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

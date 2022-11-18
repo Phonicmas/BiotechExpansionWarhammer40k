@@ -34,6 +34,11 @@
 		<label>sus-an membrane stasis</label>
 		<description>Suspended in sus-an membrane stasis</description>
 		<everCurableByItem>false</everCurableByItem>
+		<disablesNeeds>
+			<li>Food</li>
+			<li>Rest</li>
+			<li>Joy</li>
+		</disablesNeeds>
 		<stages>
 			<li>
 				<capMods>
@@ -44,6 +49,7 @@
 				</capMods>
 				<statFactors>
 					<IncomingDamageFactor>0</IncomingDamageFactor>
+
 				</statFactors>
 				<totalBleedFactor>0</totalBleedFactor>
 			</li>
@@ -106,6 +112,60 @@
 				<showRemainingTime>True</showRemainingTime>
 			</li>
 		</comps>
+	</HediffDef>
+
+	<!-- Iota Psyker -->
+
+	<HediffDef>
+		<defName>BEWH_IotaPsyker</defName>
+		<label>Iota Psyker</label>
+		<labelNoun>Iota Psyker</labelNoun>
+		<description>???</description>
+	</HediffDef>
+
+	<!-- Epsilon Psyker -->
+
+	<HediffDef>
+		<defName>BEWH_EpsilonPsyker</defName>
+		<label>Epsilon Psyker</label>
+		<labelNoun>Epsilon Psyker</labelNoun>
+		<description>???</description>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+			<li>
+				<label>Epsilon Psyker</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- Delta Psyker -->
+
+	<HediffDef>
+		<defName>BEWH_DeltaPsyker</defName>
+		<label>Delta Psyker</label>
+		<labelNoun>Delta Psyker</labelNoun>
+		<description>???</description>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+			<li>
+				<label>Delta Psyker</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- Beta Psyker -->
+
+	<HediffDef>
+		<defName>BEWH_BetaPsyker</defName>
+		<label>Beta Psyker</label>
+		<labelNoun>Beta Psyker</labelNoun>
+		<description>???</description>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+			<li>
+				<label>Beta Psyker</label>
+			</li>
+		</stages>
 	</HediffDef>
 
 </Defs>
