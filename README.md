@@ -17,9 +17,11 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 ## To do
 1. Fix psytrainer quest reward giving access without psyker gene.
 2. Add actual secondary heart to secondary heart - meaning second blood pumping source? - PAUSED
-3. Make psyker spawn with psycasts
+3. Make psyker spawn with psycasts (vanilla)
 4. Fix culture/ideo part
 5. Patch other mods
+6. Make psyker tier icons
+
 
 ## Genes
 
