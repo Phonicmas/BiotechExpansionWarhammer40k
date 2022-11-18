@@ -6,7 +6,7 @@
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>BEWH_InitiateProgenoidGrowth</defName>
         <label>initiate progenoid glands growth</label>
-        <description>Initiate growth in progenoid glands, allowing them to generate germ cells for future making of new gene-seeds.</description>
+        <description>Initiate growth in progenoid glands, allowing them to generate cells for future making of new gene-seeds.</description>
         <workerClass>BEWH.GeneProgenoidWorkerClass</workerClass>
         <jobString>initiating cell making in progenoid glands</jobString>
         <workAmount>1500</workAmount>
@@ -64,7 +64,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_SecondaryHeart</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -79,7 +79,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Ossmodula</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -94,7 +94,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Biscopea</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -109,7 +109,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Haemastamen</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -124,7 +124,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_LarramansOrgan</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -139,7 +139,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_CatalepseanNode</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -154,7 +154,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Preomnor</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -169,7 +169,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Omophagea</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -184,7 +184,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Multi-lung</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -199,7 +199,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Occulobe</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -214,7 +214,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_LymansEar</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -229,7 +229,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Sus-anMembrane</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -244,7 +244,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Melanochrome</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -259,7 +259,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_OoliticKidney</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -274,7 +274,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Neuroglottis</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -289,7 +289,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_Mucranoid</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -304,7 +304,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_BetchersGland</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -319,7 +319,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_ProgenoidGlands</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -334,7 +334,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
                 <wantedGene>BEWH_BlackCarapace</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -372,7 +372,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_SinewCoil</requiredGeneAny>
                 <wantedGene>BEWH_SinewCoil</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -387,7 +387,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_Magnificat</requiredGeneAny>
                 <wantedGene>BEWH_Magnificat</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>
@@ -402,7 +402,7 @@
             <li Class="BEWH.GeneProgenoidDefExtension">
                 <requiredGeneAny>BEWH_BelisarianFurnace</requiredGeneAny>
                 <wantedGene>BEWH_BelisarianFurnace</wantedGene>
-                <requriedSeverity>0.999</requriedSeverity>
+                <requriedSeverity>1</requriedSeverity>
             </li>
         </modExtensions>
     </RecipeDef>

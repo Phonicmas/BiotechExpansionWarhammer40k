@@ -146,20 +146,6 @@
                     <li>BEWH_StasisWake</li>
                 </value>
             </li>
-            <!--<li Class="PatchOperationAdd">
-                <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
-                <value>
-                    <li>
-                        <def>BEWH_SHPart</def>
-                        <customLabel>secondary heart cavity</customLabel>
-                        <coverage>0.005</coverage>
-                        <depth>Inside</depth>
-                        <groups>
-                            <li>Torso</li>
-                        </groups>
-                    </li>
-                </value>
-            </li>-->
         </operations>
     </Operation>
 </Patch>

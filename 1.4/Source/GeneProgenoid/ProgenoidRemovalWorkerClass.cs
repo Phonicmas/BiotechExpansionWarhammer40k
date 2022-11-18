@@ -24,7 +24,6 @@ namespace BEWH
                     if (hediffs[index].Severity >= this.recipe.GetModExtension<GeneProgenoidDefExtension>()?.requriedSeverity)
                         return true;
                 }
-
             }
             return false;
         }

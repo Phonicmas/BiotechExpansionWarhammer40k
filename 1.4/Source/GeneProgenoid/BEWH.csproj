@@ -7,8 +7,8 @@
     <ProjectGuid>{7FED8F4B-10DB-4B7A-8C0E-6824A55CF2C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeneProgenoid</RootNamespace>
-    <AssemblyName>GeneProgenoid</AssemblyName>
+    <RootNamespace>BEWH</RootNamespace>
+    <AssemblyName>BEWH</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -60,7 +60,6 @@
     <Compile Include="BlackCarapaceSpeedUp.cs" />
     <Compile Include="RemembranceProperties.cs" />
     <Compile Include="Remembrance.cs" />
-    <Compile Include="GeneExtension.cs" />
     <Compile Include="HediffCompPropertiesGeneScramble.cs" />
     <Compile Include="HediffCompGeneScramble.cs" />
     <Compile Include="GeneDefModExtension.cs" />

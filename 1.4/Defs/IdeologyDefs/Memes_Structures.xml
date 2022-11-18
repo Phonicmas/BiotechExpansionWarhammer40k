@@ -47,10 +47,10 @@
     </descriptionMaker>
     <symbolPacks>
       <li>
-        <ideoName>Faith</ideoName>
+        <ideoName>Imperial</ideoName>
         <theme>faith</theme>
-        <adjective>faithful</adjective>
-        <member>faithholder</member>
+        <adjective>imperialistic</adjective>
+        <member>imperial</member>
       </li>
     </symbolPacks>
   </MemeDef>

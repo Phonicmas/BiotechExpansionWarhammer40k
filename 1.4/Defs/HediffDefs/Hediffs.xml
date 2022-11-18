@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<!-- Secondary Heart -->
-
-	<!--<HediffDef>
-		<defName>BEWH_SecondaryHeart</defName>
-		<label>secondary heart</label>
-		<labelNoun>secondary heart</labelNoun>
-		<description>???</description>
-	</HediffDef>-->
-
-	<!-- Secondary Heart Blank -->
-
-	<!--<HediffDef>
-		<defName>BEWH_SecondaryHeartBlank</defName>
-		<label>secondary heart</label>
-		<labelNoun>secondary heart</labelNoun>
-		<description>???</description>
-	</HediffDef>-->
-
 	<!-- Progenoid Gland -->
 
 	<HediffDef>
