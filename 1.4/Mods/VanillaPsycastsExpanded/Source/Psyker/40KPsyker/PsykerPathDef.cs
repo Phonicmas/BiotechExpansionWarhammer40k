@@ -8,33 +8,23 @@ using RimWorld.Planet;
 
 namespace Psyker
 {
-    public class RemembranceAbility : Ability_TargetCorpse
+    public class PsykerPathDef : PsycasterPathDef
     {
-        public override void Cast(params GlobalTargetInfo[] targets)
+        private List<GeneDef> requiredGeneAny;
+
+        public override bool CanPawnUnlock(Pawn pawn)
         {
-            base.Cast(targets);
-            Hediff_CorpseTalk hediff_CorpseTalk = ApplyHediff(pawn) as Hediff_CorpseTalk;
-            if (hediff_CorpseTalk.skillXPDifferences != null)
+            return base.CanPawnUnlock(pawn) && PawnHasGene(pawn);
+        }
+
+        private bool PawnHasGene(Pawn pawn)
+        {
+            foreach (var gene in requiredGeneAny)
             {
-                hediff_CorpseTalk.ResetSkills();
+                if (pawn.genes.HasXenogene(gene))
+                    return true;
             }
-            else
-            {
-                hediff_CorpseTalk.skillXPDifferences = new Dictionary<SkillDef, int>();
-            }
-            Corpse corpse = targets[0].Thing as Corpse;
-            foreach (SkillDef allDef in DefDatabase<SkillDef>.AllDefs)
-            {
-                SkillRecord skill = pawn.skills.GetSkill(allDef);
-                SkillRecord skill2 = corpse.InnerPawn.skills.GetSkill(allDef);
-                int num = skill2.Level - skill.Level;
-                if (num > 0)
-                {
-                    int level = skill.Level;
-                    skill.Level = Mathf.Min(20, skill.Level + num);
-                    hediff_CorpseTalk.skillXPDifferences[allDef] = skill.Level - level;
-                }
-            }
+            return false;
         }
     }
 }

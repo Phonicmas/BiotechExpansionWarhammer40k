@@ -13,7 +13,10 @@
     <tooltip>Powerful sanctioned psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
-      <GeneDef>BEWH_Psyker</GeneDef>
+      <li>BEWH_Psyker</li>
+      <li>BEWH_IotaPsyker</li>
+      <li>BEWH_DeltaPsyker</li>
+      <li>BEWH_BetaPsyker</li>
     </requiredGeneAny>
   </Psyker.PsykerPathDef>
 
@@ -29,7 +32,10 @@
     <tooltip>Powerful chaos psyker psycasts</tooltip>
     <lockedReason>Psykers only</lockedReason>
     <requiredGeneAny>
-      <GeneDef>BEWH_Psyker</GeneDef>
+      <li>BEWH_Psyker</li>
+      <li>BEWH_IotaPsyker</li>
+      <li>BEWH_DeltaPsyker</li>
+      <li>BEWH_BetaPsyker</li>
     </requiredGeneAny>
   </Psyker.PsykerPathDef>
 
