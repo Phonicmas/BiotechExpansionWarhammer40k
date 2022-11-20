@@ -13,6 +13,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 7. Astropaths & navigators?
 8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 9. A path for each chaos god (except khorne obviously)
+10. Genestealer?
 
 ## To do
 1. Fix psytrainer quest reward giving access without psyker gene.
@@ -21,6 +22,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 4. Fix culture/ideo part
 5. Patch other mods
 6. Make psyker tier icons
+7. Caravans, visits ect.
 
 
 ## Genes

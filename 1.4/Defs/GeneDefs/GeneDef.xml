@@ -619,16 +619,7 @@
         <minAgeActive>6</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <hediffsToBodyParts>
-                    <li>
-                        <hediff>BEWH_IotaPsyker</hediff>
-                        <bodyparts>
-                            <li>
-                                <BodyPartDef>BEWH_Anima</BodyPartDef>
-                            </li>
-                        </bodyparts>
-                    </li>
-                </hediffsToBodyParts>
+                <hediffToWholeBody>BEWH_IotaPsyker</hediffToWholeBody>
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Psyker</backgroundPathXenogenes>
             </li>
         </modExtensions>
@@ -651,16 +642,7 @@
         <minAgeActive>6</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <hediffsToBodyParts>
-                    <li>
-                        <hediff>BEWH_EpsilonPsyker</hediff>
-                        <bodyparts>
-                            <li>
-                                <BodyPartDef>BEWH_Anima</BodyPartDef>
-                            </li>
-                        </bodyparts>
-                    </li>
-                </hediffsToBodyParts>
+                <hediffToWholeBody>BEWH_EpsilonPsyker</hediffToWholeBody>
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Psyker</backgroundPathXenogenes>
             </li>
         </modExtensions>
@@ -683,16 +665,7 @@
         <minAgeActive>6</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <hediffsToBodyParts>
-                    <li>
-                        <hediff>BEWH_DeltaPsyker</hediff>
-                        <bodyparts>
-                            <li>
-                                <BodyPartDef>BEWH_Anima</BodyPartDef>
-                            </li>
-                        </bodyparts>
-                    </li>
-                </hediffsToBodyParts>
+                <hediffToWholeBody>BEWH_DeltaPsyker</hediffToWholeBody>
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Psyker</backgroundPathXenogenes>
             </li>
         </modExtensions>
@@ -715,16 +688,7 @@
         <minAgeActive>6</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <hediffsToBodyParts>
-                    <li>
-                        <hediff>BEWH_BetaPsyker</hediff>
-                        <bodyparts>
-                            <li>
-                                <BodyPartDef>BEWH_Anima</BodyPartDef>
-                            </li>
-                        </bodyparts>
-                    </li>
-                </hediffsToBodyParts>
+                <hediffToWholeBody>BEWH_BetaPsyker</hediffToWholeBody>
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Psyker</backgroundPathXenogenes>
             </li>
         </modExtensions>
