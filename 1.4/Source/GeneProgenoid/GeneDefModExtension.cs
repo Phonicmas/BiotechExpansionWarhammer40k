@@ -14,6 +14,5 @@ namespace BEWH
         public GeneDef requiredGeneAny;
         public GeneDef wantedGene;
         public float requriedSeverity;
-
     }
 }

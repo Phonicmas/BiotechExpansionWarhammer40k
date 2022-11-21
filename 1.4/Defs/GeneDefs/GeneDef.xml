@@ -52,7 +52,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_SecondaryHeart</defName>
         <label>secondary heart</label>
-        <description>It is both the first and the easiest of the gene-seed that is implanted on a neophyte allowing not only to survive the loss of his original heart but to exceed its performance in combat and low oxygen environments in case of a hull breach and while it occupies little space in the chest cavity (because the neophyte at this point is not a hulking mass) it is still a very efficient organ compared to its baseline counterpart, its design almost a work of art by the Emperor. The first prototype of the secondary heart was used in the Proto-Legionaires primordial strain and it was one of the few organs that were already stable, its simplicity combined with its performance make the secondary heart a drastical boost without much of a risk, if at all... such is its low risk of implantation that it is usually implanted with the ossmodula and the biscopea at the same time.</description>
+        <description>It is both the first and the easiest of the gene-seed that is implanted on a neophyte, allowing not only to survive the loss of his original heart but to exceed its performance in combat, and survive low oxygen environments in case of a hull breach. While it occupies little space in the chest cavity (because the neophyte at this point is not a hulking mass) it is still a very efficient organ compared to its baseline counterpart, its design almost a work of art by the Emperor. The first prototype of the secondary heart was used in the Proto-Legionaires primordial strain and it was one of the few organs that were already stable, its simplicity combined with its performance make the secondary heart a drastical boost without much of a risk, if at all, such is its low risk of implantation that it is usually implanted with the ossmodula and the biscopea at the same time.</description>
         <iconPath>UI/Icons/Genes/SecondaryHeartIcon</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
         <sterilize>true</sterilize>
@@ -77,20 +77,6 @@
                 <degree>-1</degree>
             </li>
         </suppressedTraits>
-        <!--<modExtensions>
-            <li Class="VanillaGenesExpanded.GeneExtension">
-                <hediffsToBodyParts>
-                    <li>
-                        <hediff>BEWH_SecondaryHeart</hediff>
-                        <bodyparts>
-                            <li>
-                                <BodyPartDef>BEWH_SHPart</BodyPartDef>
-                            </li>
-                        </bodyparts>
-                    </li>
-                </hediffsToBodyParts>
-            </li>
-        </modExtensions>-->
     </GeneDef>
 
     <!-- Ossmodula -->
@@ -98,7 +84,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_Ossmodula</defName>
         <label>ossmodula</label>
-        <description>The ossmodula is a small gland located between the hypophysis and the hypothalamus, both of which are the main regulator of the human hormones, from gonades to growth.. It is by a chain of negative and positive feedbacks that the hypothalamus control the hypophysis and its hormonal synthesis and that's where the ossmodula comes in. As a man-in-the-middle organ, the ossmodula modifies the input and output of the hypothalamus and boosts the synthesis capabilities of the hypophysis, while also creating its own kind of growth hormone that supercedes the normal HGH and gives the astartes their iconic size and durability... As its name implies, Oss (from ossium, bone) and modula (from modulatus, to regulate), it regulates bone growth and coupled with a specific diet it gives the neophyte, after a couple years, a very dense skeletal system with ceramite infused in it plus a bullet-proof fused ribcage that coupled with the biscopea, will be surrounded by stronger muscle.</description>
+        <description>The ossmodula is a small gland located between the hypophysis and the hypothalamus, both of which are the main regulator of the human hormones, from gonades to growth.. It is by a chain of negative and positive feedbacks that the hypothalamus control the hypophysis and its hormonal synthesis and that's where the ossmodula comes in. As a man-in-the-middle organ, the ossmodula modifies the input and output of the hypothalamus and boosts the synthesis capabilities of the hypophysis, while also creating its own kind of growth hormone that supercedes the normal HGH and gives the astartes their iconic size and durability... As its name implies, Oss (from ossium, bone) and modula (from modulatus, to regulate), it regulates bone growth and coupled with a specific diet it gives the neophyte, after a couple years, a very dense skeletal system with ceramite infused in it, plus a bullet-proof fused ribcage that coupled with the biscopea, will be surrounded by stronger muscle.</description>
         <iconPath>UI/Icons/Genes/OssmodulaIcon</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
         <prerequisite>BEWH_SecondaryHeart</prerequisite>
@@ -110,7 +96,7 @@
             <ArmorRating_Heat>0.15</ArmorRating_Heat>
         </statOffsets>
         <statFactors>
-            <Fertility>0</Fertility> <!-- Changed from heart to ossmodula because it is what makes sense -->
+            <Fertility>0</Fertility>
             <Mass>3</Mass>
         </statFactors>
         <suppressedTraits>
@@ -160,7 +146,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_Haemastamen</defName>
         <label>haemastamen</label>
-        <description>Hemoglobin is the molecule used by humans to carry oxygen and carbon dioxide, a complex protein with four groups called Heme that use iron to bond to O2 and CO2 and transport it. The Haemastamen is an organ inserted right into a main blood vessel that acts as a filter to the Eritrocites that the neophyte produces and modifies them to have a better version of hemoglobin, which causes superior O2 carrying capacity and brigher red blood due to it. It also changes the affinity so that the heme groups won't get polluted with carbon monoxide and similar. The improved affinity for O2 allows for more nutrition while the affinity for CO2 allows in its elimination and so disrupts the acidification of blood and fatigue so that the neophyte can not only work harder, but longer.</description>
+        <description>Hemoglobin is the molecule used by humans to carry oxygen and carbon dioxide, a complex protein with four groups called Heme that use iron to bond to O2 and CO2 and transport it. The Haemastamen is an organ inserted right into a main blood vessel that acts as a filter to the Eritrocites that the neophyte produces, and modifies them to have a better version of hemoglobin, which causes superior O2 carrying capacity and brigher red blood due to it. It also changes the affinity so that the heme groups won't get polluted with carbon monoxide and similar. The improved affinity for O2 allows for more nutrition while the affinity for CO2 allows in its elimination, and so disrupts the acidification of blood and fatigue so that the neophyte can not only work harder, but longer.</description>
         <iconPath>UI/Icons/Genes/HaemastamenIcon</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>BEWH_Biscopea</prerequisite>
@@ -211,7 +197,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_CatalepseanNode</defName>
         <label>catalepsean node</label>
-        <description>Installed in the brain stem, the Catalepsean node periodically tests for stress hormones and is able to detect a forceful lack of sleep in the neophyte, then, using its nervous connections as a node, it cuts off certain parts of the brain so that sleep is simulated to allow for longer wake periods. While dangerous to use for prolongued (by Astartes standards, more than 300 hors) periods, it allows the neophyte to stay alert during an extended siege or defense and was instrumental in the defense of Terra in the Horus invasion. Its one of the reasons why astartes can win fights against humans even while very outnumbered, they just don't care about a war of atrition. Once the catalepsean node is installed, there is a requirement to start hypno-therapy to "calibrate" it.</description>
+        <description>Installed in the brain stem, the Catalepsean node periodically tests for stress hormones and is able to detect a forceful lack of sleep in the neophyte, then, using its nervous connections as a node, it cuts off certain parts of the brain so that sleep is simulated to allow for longer wake periods. While dangerous to use for prolongued periods, it allows the neophyte to stay alert during an extended siege or defense and was instrumental in the defense of Terra in the Horus invasion. Its one of the reasons why astartes can win fights against humans even while very outnumbered, they just don't care about a war of atrition. Once the catalepsean node is installed, there is a requirement to start hypno-therapy to "calibrate" it.</description>
         <iconPath>UI/Icons/Genes/CatalepseanNodeIcon</iconPath>
         <displayOrderInCategory>6</displayOrderInCategory>
         <prerequisite>BEWH_LarramansOrgan</prerequisite>
@@ -242,7 +228,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_Preomnor</defName>
         <label>preomnor</label>
-        <description>The Preomnor (Pre, meaning before and Omnor from Omni, everything) is a small sack placed between the stomach and the esophagus, and as its name implies it allows to eat almost anything without consequences, even straight up poison that is isolated and stored in Betche's glands. It works by a combination of specific and non-specific enzymes and tailored antigens to neutralize any danger that the ingested material poses to the neophyte. While often overlooked, the Preomnor is a miracle of imperial material science and one of the most complex organs.</description>
+        <description>The Preomnor pre, meaning before and Omnor from Omni, everything, is a small sack placed between the stomach and the esophagus, and as its name implies it allows to eat almost anything without consequences, even straight up poison that is isolated and stored in Betcher's glands. It works by a combination of specific and non-specific enzymes and tailored antigens to neutralize any danger that the ingested material poses to the neophyte. While often overlooked, the Preomnor is a miracle of imperial material science and one of the most complex organs.</description>
         <iconPath>UI/Icons/Genes/PreomnorIcon</iconPath>
         <displayOrderInCategory>7</displayOrderInCategory>
         <prerequisite>BEWH_CatalepseanNode</prerequisite>
@@ -280,7 +266,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_Multi-lung</defName>
         <label>multi-lung</label>
-        <description>The multi lung is but a bag, similar in composition to a lung but with similar to the preomnor enzymes and filters. Implanted just under the lungs to be able to fully use the diaphragm, the multi-lung is routed to a sphincter in the trachea so that it can be used alongside the other lungs (which of course have also been improved by the biscopea) to feed the now higher oxygen requirements due to the Haemastamen, but also so that it can close it, forcing all air input to come through it in case the neophyte is in a dangerous atmosphere and the air needs to be filtered.</description>
+        <description>The multi lung is but a bag, similar in composition to a lung but with similar enzymes and filters to the preomnor. Implanted just under the lungs to be able to fully use the diaphragm, the multi-lung is routed to a sphincter in the trachea so that it can be used alongside the other lungs to feed the now higher oxygen requirements due to the Haemastamen, but also so that it can close it, forcing all air input to come through it, in case the neophyte is in a dangerous atmosphere and the air needs to be filtered.</description>
         <iconPath>UI/Icons/Genes/Multi-LungIcon</iconPath>
         <displayOrderInCategory>9</displayOrderInCategory>
         <prerequisite>BEWH_Omophagea</prerequisite>
@@ -323,7 +309,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_LymansEar</defName>
         <label>lyman's ear</label>
-        <description>The Lyman's ear is an inner ear implant that allows the carrier to modify their sound perception by applying digital filters, for example doing frequency sweeps and looking for known patterns. This is used by some chapters for secret codes in frequencies that only they can hear and know to look for. As the implant sits in the inner ear, is also has mechanical control of the complex bone structure that is used for balance and is interfered with so that the neophyte can not only be immune to motion sickes (alongside the occulobe helping with that) but also be able to work flawlessly on low or even zero gravity environments. The Lyman's ear in particular is one of the most mechanically complex implants and one of the few that have a digital component, it is good then that only one is implanted on the neophyte, as an electronic attack could render them deaf if they didnt still have a normal, fully organic ear. It is also very useful against certain heretics who enjoy sound too much and use it as a weapon.</description>
+        <description>The Lyman's ear is an inner ear implant that allows the carrier to modify their sound perception by applying digital filters, for example doing frequency sweeps and looking for known patterns. This is used by some chapters for secret codes in frequencies that only they can hear and know to look for. As the implant sits in the inner ear, is also has mechanical control of the complex bone structure that is used for balance, and is interfered with so that the neophyte can not only be immune to motion sickes but also be able to work flawlessly on low or even zero gravity environments. The Lyman's ear in particular is one of the most mechanically complex implants and one of the few that have a digital component, it is good then that only one is implanted on the neophyte, as an electronic attack could render them deaf if they didnt still have a normal, fully organic ear.</description>
         <iconPath>UI/Icons/Genes/LymansEarIcon</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <prerequisite>BEWH_Occulobe</prerequisite>
@@ -362,7 +348,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_Melanochrome</defName>
         <label>melanochrome</label>
-        <description>The Melanochrome, (Melano from melanin, a substance used as protection against the sun, and chrome from color) is another hormonal secretor that uses the lynphatic system as transport for its hormones. Designed to improve the radiation protection of the neophyte by assisting in the creation of more or less melanin (For example, giving the sons of Vulcan their black color and the angels their pale skin, both of which are mutations of the melanochrome) in case of high radiation exposure but also it is designed to capture certain metals from the diet and use them in the formation of skin cells to protect against other types of radiation, these metals are usually ingested through their Astartes specific meals and are comprised of heavy metals like lead and gold, taking particular care in not using ferro-magnetic ones.</description>
+        <description>The Melanochrome, melano from melanin, a substance used as protection against the sun, and chrome from color, is another hormonal secretor that uses the lynphatic system as transport for its hormones. Designed to improve the radiation protection of the neophyte by assisting in the creation of more or less melanin (For example, giving the sons of Vulcan their black color and the angels their pale skin, both of which are mutations of the melanochrome) in case of high radiation exposure but also it is designed to capture certain metals from the diet and use them in the formation of skin cells to protect against other types of radiation, these metals are usually ingested through their Astartes specific meals and are comprised of heavy metals like lead and gold, taking particular care in not using ferro-magnetic ones.</description>
         <iconPath>UI/Icons/Genes/MelanochromeIcon</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
         <prerequisite>BEWH_Sus-anMembrane</prerequisite>
@@ -446,7 +432,7 @@
     <GeneDef ParentName="SpaceMarineParent">
         <defName>BEWH_BetchersGland</defName>
         <label>betcher's gland</label>
-        <description>The Betcher's gland is copmrised of 2 glands that work in tandem, implanted on different parts of the mouth depending on preference, they are able to turn saliva into a corrosive acid using similar processes to the stomach glands, but with stronger acids ingested through the Astartes specific diet and stored after being processed by the pre-omnor. This saliva is strong enough to melt steel or even be used in combat, blinding or even killing an enemy by spitting in his head, but it is usually used as a last resort as it also hurts the mouth of the neophyte and the healing takes quite a while, sometimes even rendering them mute. The most used case is to digest harshers substances in survival situations, the betcher's gland can output its acid back into the preomnor to help digestion of things like cellulose from grass or bark for emergency carbohydrates. Some chapters forgo this function and instead use them to store specifically tailored poisons to which they are completely immune and drink in their diet, so that it can be later used either in combat or in capture situations.</description>
+        <description>The Betcher's gland is copmrised of 2 glands that work in tandem, implanted on different parts of the mouth depending on preference, they are able to turn saliva into a corrosive acid using similar processes to the stomach glands, but with stronger acids ingested through the Astartes specific diet and stored after being processed by the preomnor. This saliva is strong enough to melt steel or even be used in combat, blinding or even killing an enemy by spitting in his head, but it is usually used as a last resort as it also hurts the mouth of the neophyte and the healing takes quite a while, sometimes even rendering them mute. The most used case is to digest harshers substances in survival situations, the betcher's gland can output its acid back into the preomnor to help digestion of things like cellulose from grass or bark for emergency carbohydrates. Some chapters forgo this function and instead use them to store specifically tailored poisons to which they are completely immune and drink in their diet, so that it can be later used either in combat or in capture situations.</description>
         <iconPath>UI/Icons/Genes/BetchersGlandIcon</iconPath>
         <displayOrderInCategory>17</displayOrderInCategory>
         <prerequisite>BEWH_Mucranoid</prerequisite>
@@ -608,8 +594,8 @@
         <defName>BEWH_IotaPsyker</defName>
         <label>iota psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
-        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>20</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/GenePsykerIota</iconPath>
+        <displayOrderInCategory>23</displayOrderInCategory>
         <statFactors>
             <PsychicSensitivity>1.15</PsychicSensitivity>
             <MeditationFocusGain>1.05</MeditationFocusGain>
@@ -632,7 +618,7 @@
         <label>epsilon psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
         <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>21</displayOrderInCategory>
+        <displayOrderInCategory>22</displayOrderInCategory>
         <statFactors>
             <PsychicSensitivity>1.3</PsychicSensitivity>
             <MeditationFocusGain>1.15</MeditationFocusGain>
@@ -654,8 +640,8 @@
         <defName>BEWH_DeltaPsyker</defName>
         <label>delta psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
-        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>22</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/GenePsykerDelta</iconPath>
+        <displayOrderInCategory>21</displayOrderInCategory>
         <statFactors>
             <PsychicSensitivity>2</PsychicSensitivity>
             <MeditationFocusGain>1.4</MeditationFocusGain>
@@ -677,8 +663,8 @@
         <defName>BEWH_BetaPsyker</defName>
         <label>beta psyker</label>
         <description>Carriers of this gene are able to unlock their true psychic potential.</description>
-        <iconPath>UI/Icons/Genes/GenePsyker</iconPath>
-        <displayOrderInCategory>23</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/GenePsykerBeta</iconPath>
+        <displayOrderInCategory>20</displayOrderInCategory>
         <statFactors>
             <PsychicSensitivity>3.5</PsychicSensitivity>
             <MeditationFocusGain>2</MeditationFocusGain>
