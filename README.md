@@ -167,7 +167,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Stop aging after the age of 21
 
-    *Pawns with this gene can have a surgery done on them that initiates progenoid gland growths that once complete, allows them to harvest a germ-cell, this can be done every 3rd day, these germ-cells can then be used to make genepacks containing a space marine gene-seed. This means every year you should have enough gene-seeds to make a new space marine.
+    *Pawns with this gene can have a surgery done on them that harvest a genepack with a gene-seed of your choice, this can be done every 3rd day. This means every year you should have enough gene-seeds to make a new space marine.
    
 19. Black Carapace
     
