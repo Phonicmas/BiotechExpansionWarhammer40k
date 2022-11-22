@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="VFECore.PatchOperationToggableSequence">
+		<enabled>False</enabled>
+		<mods>
+			<li>Warhammer 40k - Genes and Psycasts</li>
+			<li>Chaos (Warhammer 40k) Unofficial 1.4</li>
+		</mods>
+		<label>Change Chaos Marine Geneseed:</label>
+		<operations>
+			<!-- Chaos Space Marine-->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name = "CHMarineBase"]/techHediffsRequired</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name = "CHMarineBase"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<BEWH_SpaceMarine>1</BEWH_SpaceMarine>
+							<BEWH_PrimarisSpaceMarine>0</BEWH_PrimarisSpaceMarine>
+							<BEWH_SpaceMarinePsyker>0</BEWH_SpaceMarinePsyker>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -55,7 +55,6 @@
         <description>It is both the first and the easiest of the gene-seed that is implanted on a neophyte, allowing not only to survive the loss of his original heart but to exceed its performance in combat, and survive low oxygen environments in case of a hull breach. While it occupies little space in the chest cavity (because the neophyte at this point is not a hulking mass) it is still a very efficient organ compared to its baseline counterpart, its design almost a work of art by the Emperor. The first prototype of the secondary heart was used in the Proto-Legionaires primordial strain and it was one of the few organs that were already stable, its simplicity combined with its performance make the secondary heart a drastical boost without much of a risk, if at all, such is its low risk of implantation that it is usually implanted with the ossmodula and the biscopea at the same time.</description>
         <iconPath>UI/Icons/Genes/SecondaryHeartIcon</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
-        <sterilize>true</sterilize>
         <statOffsets>
             <MaxHitPoints>20</MaxHitPoints>
         </statOffsets>
@@ -89,6 +88,7 @@
         <displayOrderInCategory>2</displayOrderInCategory>
         <prerequisite>BEWH_SecondaryHeart</prerequisite>
         <bodyType>Hulk</bodyType>
+        <sterilize>true</sterilize>
         <statOffsets>
             <MaxHitPoints>40</MaxHitPoints>
             <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
