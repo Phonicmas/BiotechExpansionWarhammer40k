@@ -8,7 +8,7 @@
     <label>space marine</label>
     <description>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification. These men, untouched by plague or any natural disease are able to suffer wounds that would kill any ordinary man and still live to fight another day.</description>
     <descriptionShort>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification.</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarineXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
@@ -41,7 +41,7 @@
     <label>primaris space marine</label>
     <description>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification. These men, untouched by plague or any natural disease are able to suffer wounds that would kill any ordinary man and still live to fight another day. These primaris stand above and are stronger than the standard space marine.</description>
     <descriptionShort>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarinePrimarisXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.5</combatPowerFactor>
     <genes>
@@ -77,7 +77,7 @@
     <label>space marine psyker</label>
     <description>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification. These men, untouched by plague or any natural disease are able to suffer wounds that would kill any ordinary man and still live to fight another day. These space marine carries the psyker gene giving them unatural abilities.</description>
     <descriptionShort>Barely human, but instead superhuman; having been made superior in all respects to a normal man by a harsh regime of genetic modification. These space marine carries the psyker gene giving them unatural abilities.</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarinePsykerXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.5</combatPowerFactor>
     <genes>
@@ -111,7 +111,7 @@
     <label>thousand sons</label>
     <description>???</description>
     <descriptionShort>???</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarineTzeentchXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.5</combatPowerFactor>
     <genes>
@@ -145,7 +145,7 @@
     <label>deathguard</label>
     <description>???</description>
     <descriptionShort>???</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarineNurgleXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
@@ -178,7 +178,7 @@
     <label>emperor's children</label>
     <description>???</description>
     <descriptionShort>???</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarineSlaaneshXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
@@ -211,7 +211,7 @@
     <label>world eaters</label>
     <description>???</description>
     <descriptionShort>???</descriptionShort>
-    <iconPath>UI/Xenotypes/Placeholder</iconPath>
+    <iconPath>UI/Xenotypes/SpaceMarineKhorneXenoIcon</iconPath>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
