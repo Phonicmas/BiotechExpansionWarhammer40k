@@ -485,6 +485,11 @@
             </points>
         </biologicalAgeTickFactorFromAgeCurve>
         <minAgeActive>18</minAgeActive>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <hediffToWholeBody>BEWH_ProgenoidGlandsGrowth</hediffToWholeBody>
+            </li>
+        </modExtensions>
     </GeneDef>
 
     <!-- Black Carapace -->

@@ -63,7 +63,6 @@
     <Compile Include="HediffCompPropertiesGeneScramble.cs" />
     <Compile Include="HediffCompGeneScramble.cs" />
     <Compile Include="GeneDefModExtension.cs" />
-    <Compile Include="ProgenoidWorkerClass.cs" />
     <Compile Include="ProgenoidRemovalWorkerClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

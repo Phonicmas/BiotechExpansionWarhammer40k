@@ -41,7 +41,7 @@ namespace BEWH
             Hediff hediff = pawn.health.hediffSet.hediffs.Find((Predicate<Hediff>)(x => x.def == this.recipe.removesHediff && x.Part == part && x.Visible));
             if (hediff == null)
                 return;
-            pawn.health.RemoveHediff(hediff);
+            hediff.Severity = 0.001f;
             this.OnSurgerySuccess(pawn, part, billDoer, ingredients, bill);
             return;
         }

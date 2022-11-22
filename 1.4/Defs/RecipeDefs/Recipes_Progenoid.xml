@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Initiate Progenoid Growth -->
-
-    <RecipeDef ParentName="SurgeryFlesh">
-        <defName>BEWH_InitiateProgenoidGrowth</defName>
-        <label>initiate progenoid glands growth</label>
-        <description>Initiate growth in progenoid glands, allowing them to generate cells for future making of new gene-seeds.</description>
-        <workerClass>BEWH.GeneProgenoidWorkerClass</workerClass>
-        <jobString>initiating cell making in progenoid glands</jobString>
-        <workAmount>1500</workAmount>
-        <hideBodyPartNames>true</hideBodyPartNames>
-        <addsHediff>BEWH_ProgenoidGlandsGrowth</addsHediff>
-        <targetsBodyPart>false</targetsBodyPart>
-        <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-            </li>
-        </modExtensions>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>MedicineUltratech</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-    </RecipeDef>
-
     <!-- Make geneseed base -->
 
     <RecipeDef Abstract="True" Name="MakeGeneseed" ParentName="SurgeryFlesh">
@@ -40,6 +10,7 @@
         <workAmount>2200</workAmount>
         <hideBodyPartNames>true</hideBodyPartNames>
         <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
+        <addsHediff>BEWH_ProgenoidGlandsGrowth</addsHediff>
         <targetsBodyPart>false</targetsBodyPart>
         <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
         <ingredients Inherit="true">
@@ -48,7 +19,7 @@
                     <thingDefs>
                         <li>MedicineUltratech</li>
                     </thingDefs>
-                </filter>
+                </filter>   
                 <count>1</count>
             </li>
         </ingredients>

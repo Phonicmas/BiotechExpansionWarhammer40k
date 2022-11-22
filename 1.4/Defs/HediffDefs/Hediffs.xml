@@ -9,7 +9,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Your progenoid glands are currently producing germ cells for new gene-seeds.</description>
 		<everCurableByItem>false</everCurableByItem>
-		<initialSeverity>0.01</initialSeverity>
+		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
@@ -22,7 +22,7 @@
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0.33</severityPerDay>
+				<severityPerDay>0.333</severityPerDay>
 			</li>
 		</comps>
 	</HediffDef>
@@ -120,7 +120,8 @@
 		<defName>BEWH_IotaPsyker</defName>
 		<label>Iota Psyker</label>
 		<labelNoun>Iota Psyker</labelNoun>
-		<description>???</description>
+		<description>Iota Psyker</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 			<li>
 				<label>Iota Psyker</label>
@@ -135,8 +136,9 @@
 		<defName>BEWH_EpsilonPsyker</defName>
 		<label>Epsilon Psyker</label>
 		<labelNoun>Epsilon Psyker</labelNoun>
-		<description>???</description>
+		<description>Epsilon Psyker</description>
 		<everCurableByItem>false</everCurableByItem>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 			<li>
 				<label>Epsilon Psyker</label>
@@ -151,8 +153,9 @@
 		<defName>BEWH_DeltaPsyker</defName>
 		<label>Delta Psyker</label>
 		<labelNoun>Delta Psyker</labelNoun>
-		<description>???</description>
+		<description>Delta Psyker</description>
 		<everCurableByItem>false</everCurableByItem>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 			<li>
 				<label>Delta Psyker</label>
@@ -167,8 +170,9 @@
 		<defName>BEWH_BetaPsyker</defName>
 		<label>Beta Psyker</label>
 		<labelNoun>Beta Psyker</labelNoun>
-		<description>???</description>
+		<description>Beta Psyker</description>
 		<everCurableByItem>false</everCurableByItem>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 			<li>
 				<label>Beta Psyker</label>
