@@ -12,14 +12,46 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/PawnKindDef[@Name = "CHMarineBase"]/techHediffsRequired</xpath>
 			</li>
+			<!-- 1 -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/PawnKindDef[@Name = "CHMarineBase"]</xpath>
+				<xpath>Defs/PawnKindDef[defName = "DGMarine"]</xpath>
 				<value>
 					<xenotypeSet>
 						<xenotypeChances>
 							<BEWH_SpaceMarine>1</BEWH_SpaceMarine>
-							<BEWH_PrimarisSpaceMarine>0</BEWH_PrimarisSpaceMarine>
-							<BEWH_SpaceMarinePsyker>0</BEWH_SpaceMarinePsyker>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+			<!-- 1 -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName = "ECMarine"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<BEWH_SpaceMarine>1</BEWH_SpaceMarine>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+			<!-- 1 -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName = "TSMarine"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<BEWH_SpaceMarinePsyker>1</BEWH_SpaceMarinePsyker>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+			<!-- 1 -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName = "WEMarine"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<BEWH_SpaceMarine>1</BEWH_SpaceMarine>
 						</xenotypeChances>
 					</xenotypeSet>
 				</value>

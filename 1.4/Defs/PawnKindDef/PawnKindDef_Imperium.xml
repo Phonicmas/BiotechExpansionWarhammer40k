@@ -137,9 +137,6 @@
                 <range>8~16</range>
             </li>
         </skills>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_SpaceMarine>1</BEWH_SpaceMarine>
@@ -160,6 +157,9 @@
             <li>Apparel_ArmorCataphract</li>
             <li>Apparel_ArmorHelmetCataphract</li>
         </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -254,6 +254,9 @@
             <li>Apparel_ArmorCataphractPrestige</li>
             <li>Apparel_ArmorHelmetCataphractPrestige</li>
         </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>

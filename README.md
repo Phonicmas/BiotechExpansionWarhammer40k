@@ -3,8 +3,8 @@
 ## Suggestions
 https://forms.gle/5YpXFs7UgMokhvYa7
 
-## Future Things?:
-1. Make more trees for the different psychic disciplines or for different psychic tiers?
+## Future Things? (Not ordered)
+1. Make more trees for the different psychic disciplines and god specific paths?
 2. Phariah genes (blanks)?
 3. Event? (big baddie coming to hurt you)
 4. Different tiers of psychic potential
@@ -12,28 +12,24 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 6. Marks of chaos? (genes?)
 7. Astropaths & navigators?
 8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
-9. A path for each chaos god (except khorne obviously)
-10. Genestealer?
+9. Genestealer?
 
-## To do
+## To do (Not ordered)
 1. Fix psytrainer quest reward giving access without psyker gene.
-2. Add actual secondary heart to secondary heart - meaning second blood pumping source? - PAUSED
-3. Make psyker spawn with psycasts (vanilla)
-4. Fix culture/ideo part
-5. Factoin; Caravans, visits ect. title system from royalty
-
+2. Make secondary heart carriers survive losing main heart.
+3. Fix culture/ideo part - try make it the same ideo for all imperial factions.
+4. Factoin; Caravans, visits ect. title system from royalty.
+5. Chaos genes.
 
 ## Genes
-
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
 
+### Base Space Marine
 1. Secondary Heart
 
     *Multiplies blood pumping by 1.4
     
     *Increase max health points by 20
-    
-    *Makes you sterile and sets fertility to 0
 
     *Suppresses: Kind and slowpoke
     
@@ -50,6 +46,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Suppresses: Delicate and wimp
     
     *If Body Size Genes is installed increases size by 1.15
+
+    *Makes you sterile and sets fertility to 0
     
 3. Biscopea
 
@@ -176,16 +174,9 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     *Increases move speed by 1.5 when power armor is worn (Marine, Recon, Cataphract)
 
     *Reduces pain by about 35%
-    
-20. Psyker
 
-    *Multiplies psychic sensitivity by 1.3
-    
-    *Multiplies medidation focus gain by 1.15
-    
-    *Multiplies entropy recovery rate by 1.2
-    
-21. Sinew Coil
+### Primaris Space Marine    
+1. Sinew Coil
     
     *Increases carrying capacity by 100
     
@@ -195,7 +186,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Gives immunity to staggering
     
-22. Magnificat
+2. Magnificat
 
     *Multiplies aiming by 0.8
     
@@ -209,13 +200,64 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *If Body Size Genes is installed increases size by 1.2
     
-23. Belisarian Furnace
+3. Belisarian Furnace
     
     *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
+
+### Psyker
+1. Iota Psyker
+
+    *Multiplies psychic sensitivity by 1.15
     
+    *Multiplies medidation focus gain by 1.05
+    
+    *Multiplies entropy recovery rate by 1.05   
+
+2. Epsilon Psyker
+
+    *Multiplies psychic sensitivity by 1.3
+    
+    *Multiplies medidation focus gain by 1.15
+    
+    *Multiplies entropy recovery rate by 1.2   
+
+3. Delta Psyker
+
+    *Multiplies psychic sensitivity by 2
+    
+    *Multiplies medidation focus gain by 1.4
+    
+    *Multiplies entropy recovery rate by 1.7   
+
+4. Beta Psyker
+
+    *Multiplies psychic sensitivity by 3.5
+    
+    *Multiplies medidation focus gain by 2
+    
+    *Multiplies entropy recovery rate by 2.5               
+
+### Chaos
+1. Mark of Khorne
+
+    *
+
+2. Mark of Nurgle
+
+    *
+
+3. Mark of Tzeentch
+
+    *
+
+4. Mark of Slaanesh
+
+    *
+
+### Mutations
+20 different mutations genes with different maluses.    
 
 ## Psychis paths
-
 ### Chaos psyker
 
    *Doombolt - Does low-medium damage with high pen
@@ -262,6 +304,11 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    
    *Bone Breaker - Does low damage and applies manipulation and move speed malus
   
+## Toggable Patches
+    *Restore fertility to space marines
+    *Remove the prerequisites of the genes
+    *If spencers mods are installed, replaces his geneseeds with my geneseed
+
 ## Other things
     *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs) 
     *Mod contains a faction containing all three above mentioned xenotypes.
