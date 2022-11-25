@@ -189,7 +189,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 2. Magnificat
 
-    *Multiplies aiming by 0.8
+    *Multiplies aiming time by 0.8
     
     *Multiplies melee cooldown by 0.8
     
@@ -241,42 +241,165 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 ### Chaos
 1. Mark of Khorne
 
-    *
+    *Decreases aiming time by 20%
+    
+    *Decreases melee cooldown by 20%
+    
+    *Decreases ranged cooldown by 20%
+
+    *Multiplies melee hit chance by 1.3
+    
+    *Multiplies melee damage by 1.45
+
+    *Increase shooting by 5
+
+    *Increase melee by 5
+
+    *Gives you a cool khorne mark!
 
 2. Mark of Nurgle
 
-    *
+    *Increases max health points by 115
+
+    *Increases sharp armor by 65%
+    
+    *Increases blunt armor by 65%
+    
+    *Increases heat armor by 65%
+
+    *Multiplies incoming damage by 0.8
+    
+    *Multiplies stagger duration by 0.6
+
+    *Gives you a cool nurgle mark!
 
 3. Mark of Tzeentch
 
-    *
+    *Increase psychic sensitivity by 80%
+    
+    *Increase medidation focus gain by 40%
+    
+    *Increase entropy recovery rate by 55% 
+
+    *Increase Intellectual by 10
+
+    *Gives you a cool tzeentch mark!
 
 4. Mark of Slaanesh
 
-    *
+    *Increase melee dodge chance by 25
+
+    *Decreases mental break chance by 10%
+
+    *Multiplies movespeed by 2.1
+
+    *Increase social by 10
+
+    *Gives you a cool slaanesh mark!
 
 5. Mark of Chaos
 
-    *
+    *All bonuses of the above marks but at aproximately 1/4th of their original value.
+
+    *Gives you a cool chaos mark!
 
 6. Daemon Mutation
 
-    *
+    *Increase toxic enviroment resistance by 300%
+
+    *Increase toxic resistance by 300%
+
+    *Makes pawn sterile and sets fertility to x0%
+
+    *Multiplies aiming time by 0.7
+
+    *Multiplies melee cooldown by 0.7
+
+    *Multiplies ranged cooldown by 0.7
+
+    *Multiplies food poisoning chance by 0%
+
+    *Doesn't mind raw food
+
+    *Multiplies immunity gain speed by 4
+
+    *Multiplies blood pumping by 1.5
+
+    *Multiplies blood filtration by 1.5
+
+    *Multiplies sight by 1.5
+    
+    *Multiplies hearing by 1.5
+    
+    *Multiplies eating by 1.5
+
+    *Multiplies talking by 1.5
+
+    *Gives immunity to wide collection of diseases and illneses
+
+    *Stops aging after 20
+
+    *Increases shooting by 4
+
+    *Increases melee by 4
 
 6. Daemon Wings
 
-    *
+    *Gives ability to fly to a location within 50 range in sight
+
+    *Increase carrying capacity by 200
+
+    *Multiplies movespeed by 1.55
+
+    *Gives an awesome pair of wings!
 
 7. Daemon Tail
 
-    *
+    *Increase melee dodge chance by 18
+
+    *Multiplies melee hit chance by 1.6
+
+    *Multiplies melee damage by 1.7
+
+    *Multiplies manipulation by 1.5
+
+    *Gives a tail attack
+
+    *Gives an awesome tail!
 
 8. Daemon Horns
 
-    *
+    *Increase mental break chance by 20%
+
+    *Multiplies rest fall by 0.1
+
+    *Supresses some bad traits
+
+    *Gives a horn attack
+
+    *Give an awesome pair of horns
 
 9. Daemon Hide
 
+    *Increases max health points by 220
+
+    *Increases sharp armor by 90%
+    
+    *Increases blunt armor by 90%
+    
+    *Increases heat armor by 90%
+
+    *Multiplies incoming damage by 0.55
+    
+    *Multiplies stagger duration by 0
+
+    *Multiplies healing factor by 8
+
+    *Increase max comfy temperature by 110
+
+    *Decrease min comfy temperature by 110
+
+    *Multiplies pain gained by 0.3
 
 
 ### Mutations

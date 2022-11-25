@@ -31,9 +31,9 @@
         <displayOrderInCategory>1</displayOrderInCategory>
         <aggroMentalBreakSelectionChanceFactor>999</aggroMentalBreakSelectionChanceFactor>
         <statOffsets>
-            <AimingDelayFactor>-0.3</AimingDelayFactor>
-            <MeleeWeapon_CooldownMultiplier>-0.3</MeleeWeapon_CooldownMultiplier>
-            <RangedCooldownFactor>-0.3</RangedCooldownFactor>
+            <AimingDelayFactor>-0.2</AimingDelayFactor>
+            <MeleeWeapon_CooldownMultiplier>-0.2</MeleeWeapon_CooldownMultiplier>
+            <RangedCooldownFactor>-0.2</RangedCooldownFactor>
         </statOffsets>
         <statFactors>
             <MeleeHitChance>1.3</MeleeHitChance>
@@ -45,9 +45,14 @@
             </li>
         </modExtensions>
         <aptitudes>
-            <Shooting>8</Shooting>
-            <Melee>8</Melee>
+            <Shooting>5</Shooting>
+            <Melee>5</Melee>
         </aptitudes>
+        <graphicData>
+            <layer>PostTattoo</layer>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/KhorneMark/KhorneMark</graphicPath>
+            <drawOffsetSouth>(0, -0.02, -0.45)</drawOffsetSouth>
+        </graphicData>
         <exclusionTags>
             <li>ChaosMark</li>
         </exclusionTags>
@@ -76,6 +81,11 @@
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Nurgle</backgroundPathXenogenes>
             </li>
         </modExtensions>
+        <graphicData>
+            <layer>PostTattoo</layer>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/NurgleMark/NurgleMark</graphicPath>
+            <drawOffsetSouth>(0, -0.02, -0.45)</drawOffsetSouth>
+        </graphicData>
         <exclusionTags>
             <li>ChaosMark</li>
         </exclusionTags>
@@ -104,11 +114,19 @@
                 <degree>-2</degree>
             </li>
         </suppressedTraits>
+        <aptitudes>
+            <Intellectual>10</Intellectual>
+        </aptitudes>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Tzeentch</backgroundPathXenogenes>
             </li>
         </modExtensions>
+        <graphicData>
+            <layer>PostTattoo</layer>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/TzeentchMark/TzeentchMark</graphicPath>
+            <drawOffsetSouth>(0, -0.02, -0.45)</drawOffsetSouth>
+        </graphicData>
         <exclusionTags>
             <li>ChaosMark</li>
         </exclusionTags>
@@ -129,11 +147,19 @@
         <statFactors>
             <MoveSpeed>2.1</MoveSpeed>
         </statFactors>
+        <aptitudes>
+            <Social>10</Social>
+        </aptitudes>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Slaanesh</backgroundPathXenogenes>
             </li>
         </modExtensions>
+        <graphicData>
+            <layer>PostTattoo</layer>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/SlaaneshMark/SlaaneshMark</graphicPath>
+            <drawOffsetSouth>(0, -0.02, -0.45)</drawOffsetSouth>
+        </graphicData>
         <exclusionTags>
             <li>ChaosMark</li>
         </exclusionTags>
@@ -148,7 +174,7 @@
         <iconPath>UI/Icons/Genes/UndividedIcon</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <statOffsets>
-            <MaxHitPoints>115</MaxHitPoints>
+            <MaxHitPoints>25</MaxHitPoints>
             <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
             <ArmorRating_Heat>0.15</ArmorRating_Heat>
@@ -157,9 +183,9 @@
             <PsychicEntropyRecoveryRate>0.12</PsychicEntropyRecoveryRate>
             <MeleeDodgeChance>6</MeleeDodgeChance>
             <MentalBreakThreshold>-0.025</MentalBreakThreshold>
-            <AimingDelayFactor>-0.08</AimingDelayFactor>
-            <MeleeWeapon_CooldownMultiplier>-0.08</MeleeWeapon_CooldownMultiplier>
-            <RangedCooldownFactor>-0.08</RangedCooldownFactor>
+            <AimingDelayFactor>-0.05</AimingDelayFactor>
+            <MeleeWeapon_CooldownMultiplier>-0.05</MeleeWeapon_CooldownMultiplier>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
         </statOffsets>
         <statFactors>
             <IncomingDamageFactor>0.95</IncomingDamageFactor>
@@ -177,6 +203,11 @@
             <Shooting>2</Shooting>
             <Melee>2</Melee>
         </aptitudes>
+        <graphicData>
+            <layer>PostTattoo</layer>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/ChaosMark/ChaosMark</graphicPath>
+            <drawOffsetSouth>(0, -0.02, -0.45)</drawOffsetSouth>
+        </graphicData>
         <exclusionTags>
             <li>ChaosMark</li>
         </exclusionTags>
@@ -200,7 +231,6 @@
         <statOffsets>
             <ToxicEnvironmentResistance>3</ToxicEnvironmentResistance>
             <ToxicResistance>3</ToxicResistance>
-            <MentalBreakThreshold>0.2</MentalBreakThreshold>
         </statOffsets>
         <statFactors>
             <Fertility>0</Fertility>
@@ -364,7 +394,7 @@
         <capMods>
             <li>
                 <capacity>Manipulation</capacity>
-                <postFactor>1.35</postFactor>
+                <postFactor>1.5</postFactor>
             </li>
         </capMods>
         <exclusionTags>
@@ -436,6 +466,14 @@
                 <def>Immunity</def>
                 <degree>-1</degree>
             </li>
+            <li>
+                <def>NaturalMood</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>NaturalMood</def>
+                <degree>-2</degree>
+            </li>
         </suppressedTraits>
         <exclusionTags>
             <li>Headbone</li>
@@ -471,7 +509,7 @@
         <defName>BEWH_KhorneColor</defName>
         <label>khorne mutation</label>
         <description>This pawn's pigment and body have been mutated to better reflect their patron god.</description>
-        <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
+        <iconPath>UI/Icons/Genes/BodyTypeKhorne</iconPath>
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
@@ -490,7 +528,7 @@
         <defName>BEWH_NurleColor</defName>
         <label>nurgle mutation</label>
         <description>This pawn's pigment and body have been mutated to better reflect their patron god.</description>
-        <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
+        <iconPath>UI/Icons/Genes/BodyTypeNurgle</iconPath>
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
@@ -509,7 +547,7 @@
         <defName>BEWH_TzeencthColor</defName>
         <label>tzeentch mutation</label>
         <description>This pawn's pigment and body have been mutated to better reflect their patron god.</description>
-        <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
+        <iconPath>UI/Icons/Genes/BodyTypeTzeentch</iconPath>
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
@@ -528,7 +566,7 @@
         <defName>BEWH_SlaaneshColor</defName>
         <label>slaanesh mutation</label>
         <description>This pawn's pigment and body have been mutated to better reflect their patron god.</description>
-        <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
+        <iconPath>UI/Icons/Genes/BodyTypeSlaanesh</iconPath>
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
@@ -547,7 +585,7 @@
         <defName>BEWH_UndividedColor</defName>
         <label>undivided mutation</label>
         <description>This pawn's pigment have been mutated to better reflect their patron gods.</description>
-        <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
+        <iconPath>UI/Icons/Genes/BodyTypeChaos</iconPath>
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
