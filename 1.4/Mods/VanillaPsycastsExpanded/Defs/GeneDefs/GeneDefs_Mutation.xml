@@ -10,7 +10,7 @@
     </GeneCategoryDef>
 
     <GeneDef Name="MutationParent" Abstract="True">
-        <displayCategory>BEWHMutation</displayCategory>
+        <!--<displayCategory>BEWHMutation</displayCategory>-->
         <label>mutation</label>
         <description>Mutated by warp energies.</description>
         <iconPath>UI/Icons/Genes/MutationGeneIcon</iconPath>

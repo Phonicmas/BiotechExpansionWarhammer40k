@@ -28,7 +28,7 @@
         </suppressedTraits>
         <aggroMentalBreakSelectionChanceFactor>999</aggroMentalBreakSelectionChanceFactor>
         <exclusionTags>
-            <li>PsychicAbility</li>
+            <li>Psyker</li>
         </exclusionTags>
     </GeneDef>
 

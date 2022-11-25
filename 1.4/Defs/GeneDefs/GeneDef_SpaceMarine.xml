@@ -112,6 +112,9 @@
                 <postFactor>1.4</postFactor>
             </li>
         </capMods>
+        <aptitudes>
+            <Melee>8</Melee>
+        </aptitudes>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <caravanCarryingFactor>1.5</caravanCarryingFactor>
@@ -129,6 +132,9 @@
         <iconPath>UI/Icons/Genes/HaemastamenIcon</iconPath>
         <displayOrderInCategory>4</displayOrderInCategory>
         <prerequisite>BEWH_Biscopea</prerequisite>
+        <statFactors>
+            <MoveSpeed>1.45</MoveSpeed>
+        </statFactors>
         <capMods>
             <li>
                 <capacity>BloodPumping</capacity>
@@ -280,6 +286,9 @@
                 <postFactor>1.5</postFactor>
             </li>
         </capMods>
+        <aptitudes>
+            <Shooting>8</Shooting>
+        </aptitudes>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -464,8 +473,8 @@
             </points>
         </biologicalAgeTickFactorFromAgeCurve>
         <customEffectDescriptions>
-			<li>Allows you to harvest these progenoids glands for other space marine genes ever 3rd day.</li>			
-		</customEffectDescriptions>
+            <li>Allows you to harvest these progenoids glands for other space marine genes ever 3rd day.</li>
+        </customEffectDescriptions>
         <minAgeActive>18</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
@@ -514,7 +523,7 @@
         <statFactors>
             <MeleeDamageFactor>1.55</MeleeDamageFactor>
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
-            <StaggerDurationFactor>0.5</StaggerDurationFactor>
+            <StaggerDurationFactor>0</StaggerDurationFactor>
         </statFactors>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">

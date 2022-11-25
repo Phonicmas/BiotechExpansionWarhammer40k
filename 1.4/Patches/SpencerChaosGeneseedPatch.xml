@@ -12,7 +12,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/PawnKindDef[@Name = "CHMarineBase"]/techHediffsRequired</xpath>
 			</li>
-			<!-- 1 -->
+			<!-- Deathguard -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[defName = "DGMarine"]</xpath>
 				<value>
@@ -23,7 +23,7 @@
 					</xenotypeSet>
 				</value>
 			</li>
-			<!-- 1 -->
+			<!-- Emperor's Children -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[defName = "ECMarine"]</xpath>
 				<value>
@@ -34,7 +34,7 @@
 					</xenotypeSet>
 				</value>
 			</li>
-			<!-- 1 -->
+			<!-- Thousand Sons -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[defName = "TSMarine"]</xpath>
 				<value>
@@ -45,7 +45,7 @@
 					</xenotypeSet>
 				</value>
 			</li>
-			<!-- 1 -->
+			<!-- World Eaters -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[defName = "WEMarine"]</xpath>
 				<value>

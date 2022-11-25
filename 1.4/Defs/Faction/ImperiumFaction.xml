@@ -97,6 +97,13 @@
                 </options>
             </li>
         </pawnGroupMakers>
+        <!-- Traders -->
+        <visitorTraderKinds>
+            <li>BEWH_ImperiumTraderCaravan</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>BEWH_ImperiumTraderBase</li>
+        </baseTraderKinds>
     </FactionDef>
 
 </Defs>

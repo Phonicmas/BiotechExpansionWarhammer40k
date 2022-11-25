@@ -20,6 +20,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 3. Fix culture/ideo part - try make it the same ideo for all imperial factions.
 4. Factoin; Caravans, visits ect. title system from royalty.
 5. Chaos genes.
+6. Daemon Prince aestetic genes.
 
 ## Genes
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
@@ -254,6 +255,30 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *
 
+5. Mark of Chaos
+
+    *
+
+6. Daemon Mutation
+
+    *
+
+6. Daemon Wings
+
+    *
+
+7. Daemon Tail
+
+    *
+
+8. Daemon Horns
+
+    *
+
+9. Daemon Hide
+
+
+
 ### Mutations
 20 different mutations genes with different maluses.    
 
@@ -307,7 +332,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 ## Toggable Patches
     *Restore fertility to space marines
     *Remove the prerequisites of the genes
-    *If spencers mods are installed, replaces his geneseeds with my geneseed
+    *If spencers mods are installed, replaces his geneseeds with my geneseed. Additionally if VPE is isntalled thousand sons uses chaos path.
 
 ## Other things
     *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs) 
