@@ -86,6 +86,12 @@
                 <def>Wimp</def>
             </li>
         </suppressedTraits>
+        <modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<bodyScaleFactor>(1.15, 1.15)</bodyScaleFactor>
+				<headScaleFactor>(1.15, 1.15)</headScaleFactor>
+			</li>
+		</modExtensions>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -561,6 +567,12 @@
             <RangedCooldownFactor>0.8</RangedCooldownFactor>
             <MeleeHitChance>1.4</MeleeHitChance>
         </statFactors>
+        <modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<bodyScaleFactor>(1.1, 1.1)</bodyScaleFactor>
+				<headScaleFactor>(1.1, 1.1)</headScaleFactor>
+			</li>
+		</modExtensions>
         <minAgeActive>13</minAgeActive>
     </GeneDef>
 

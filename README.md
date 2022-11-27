@@ -18,9 +18,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 1. Fix psytrainer quest reward giving access without psyker gene.
 2. Make secondary heart carriers survive losing main heart.
 3. Fix culture/ideo part - try make it the same ideo for all imperial factions.
-4. Factoin; Caravans, visits ect. title system from royalty.
-5. Chaos genes.
-6. Daemon Prince aestetic genes.
+4. Faction; title system from royalty.
 
 ## Genes
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.

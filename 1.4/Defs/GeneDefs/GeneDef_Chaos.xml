@@ -222,7 +222,7 @@
         <label>Daemon Mutation</label>
         <description>This pawn has been genetically modified beyond their human shell as a result of their chaos dedication.</description>
         <iconPath>UI/Icons/Genes/DaemonicMutationIcon</iconPath>
-        <marketValueFactor>3</marketValueFactor>
+        <marketValueFactor>2</marketValueFactor>
         <displayOrderInCategory>6</displayOrderInCategory>
         <geneClass>Gene_Clotting</geneClass>
         <dontMindRawFood>true</dontMindRawFood>
@@ -303,6 +303,8 @@
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Undivided</backgroundPathXenogenes>
+                <bodyScaleFactor>(1.3, 1.3)</bodyScaleFactor>
+				<headScaleFactor>(1.3, 1.3)</headScaleFactor>
             </li>
         </modExtensions>
     </GeneDef>
