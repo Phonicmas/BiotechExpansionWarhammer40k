@@ -75,7 +75,7 @@
     <HediffDef ParentName="PsycastHediffBase">
         <defName>BEWH_Shrouding</defName>
         <label>shrouded</label>
-        <description>???</description>
+        <description>Psychically obscured vision</description>
         <stages>
             <li>
                 <statFactors>
@@ -97,7 +97,7 @@
     <HediffDef ParentName="PsycastHediffBase">
         <defName>BEWH_NullZone</defName>
         <label>null zone</label>
-        <description>???</description>
+        <description>Psychically weakened will</description>
         <stages>
             <li>
                 <statFactors>

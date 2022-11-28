@@ -335,13 +335,14 @@
     <iconPath>Abilities/Psyker/ShroudingIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <castTime>300</castTime>
-    <durationTime>2400</durationTime>
+    <durationTime>4800</durationTime>
     <durationTimeStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
     </durationTimeStatFactors>
     <hasAoE>true</hasAoE>
     <targetMode>Location</targetMode>
     <radius>14.9</radius>
+    <range>20.9</range>
     <castFleck>VFEP_PsycastAreaEffectSlow</castFleck>
     <targetingParametersForAoE>
       <canTargetPawns>true</canTargetPawns>
@@ -376,7 +377,7 @@
     <defName>BEWH_Nightshroud</defName>
     <label>nightshroud</label>
     <description>The psyker reaches into his enemies' minds, obscuring himself and his companions from their sight. However this invisibility is broken upon attacking.</description>
-    <iconPath>Abilities/Psyker/BoneBreakerIcon</iconPath>
+    <iconPath>Abilities/Psyker/NightshroudIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <castTime>300</castTime>
     <hasAoE>true</hasAoE>
@@ -423,6 +424,7 @@
     <hasAoE>true</hasAoE>
     <targetMode>Location</targetMode>
     <radius>18.9</radius>
+    <range>30.9</range>
     <castFleck>VFEP_PsycastAreaEffectSlow</castFleck>
     <targetingParametersForAoE>
       <canTargetPawns>true</canTargetPawns>
