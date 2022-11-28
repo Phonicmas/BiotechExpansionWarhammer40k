@@ -51,4 +51,60 @@
         <hediffClass>VanillaPsycastsExpanded.Hediff_Overshield</hediffClass>
     </HediffDef>
 
+    <!-- Nightshroud -->
+
+    <HediffDef>
+        <defName>BEWH_Nightshroud</defName>
+        <label>nightshrouded</label>
+        <description>Psychically-induced invisibility.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+            <li>
+                <compClass>VanillaPsycastsExpanded.Nightstalker.HediffComp_DissapearsOnAttack</compClass>
+            </li>
+            <li>
+                <compClass>HediffComp_Invisibility</compClass>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- Shrouding -->
+
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>BEWH_Shrouding</defName>
+        <label>shrouded</label>
+        <description>???</description>
+        <stages>
+            <li>
+                <statFactors>
+                    <AimingDelayFactor>1.4</AimingDelayFactor>
+                    <RangedCooldownFactor>1.4</RangedCooldownFactor>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Null Zone -->
+
+    <HediffDef ParentName="PsycastHediffBase">
+        <defName>BEWH_NullZone</defName>
+        <label>null zone</label>
+        <description>???</description>
+        <stages>
+            <li>
+                <statFactors>
+                    <PsychicSensitivity>0.1</PsychicSensitivity>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
 </Defs>

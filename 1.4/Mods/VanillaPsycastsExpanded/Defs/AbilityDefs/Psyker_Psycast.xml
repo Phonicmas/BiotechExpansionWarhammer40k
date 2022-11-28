@@ -10,8 +10,8 @@
     <iconPath>Abilities/Psyker/SmiteIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>30</castTime>
-    <range>45</range>
-    <radius>3</radius>
+    <range>45.9</range>
+    <radius>3.9</radius>
     <targetMode>Pawn</targetMode>
     <castSound>BEWH_Smite</castSound>
     <rangeStatFactors>
@@ -46,11 +46,14 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>
-        <level>1</level>
+        <level>2</level>
         <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>55</entropyGain>
         <psychic>true</psychic>
+        <prerequisites>
+          <li>BEWH_Nightshroud</li>
+        </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
         <hediff>BEWH_MightOfHeroes</hediff>
@@ -80,7 +83,7 @@
     <castTime>15</castTime>
     <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
     <durationTime>7500</durationTime>
-    <range>20</range>
+    <range>20.9</range>
     <cooldownTime>300</cooldownTime>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
@@ -187,7 +190,7 @@
     <iconPath>Abilities/Psyker/ForceBarrierIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
     <targetMode>Self</targetMode>
-    <radius>30</radius>
+    <radius>30.9</radius>
     <hasAoE>true</hasAoE>
     <castTime>30</castTime>
     <durationTime>1800</durationTime>
@@ -208,12 +211,12 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>
-        <level>3</level>
+        <level>4</level>
         <order>3</order>
         <psyfocusCost>0.15</psyfocusCost>
         <entropyGain>67</entropyGain>
         <prerequisites>
-          <li>BEWH_MightOfHeroes</li>
+          <li>BEWH_Nightshroud</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Hediff">
@@ -231,19 +234,19 @@
     <iconPath>Abilities/Psyker/StonebaneIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
-    <range>30</range>
-    <radius>1</radius>
+    <range>30.9</range>
+    <radius>1.9</radius>
     <targetMode>Thing</targetMode>
     <castSound>BEWH_Doombolt</castSound>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>
-        <level>3</level>
+        <level>4</level>
         <order>2</order>
         <psyfocusCost>0.03</psyfocusCost>
         <entropyGain>20</entropyGain>
         <prerequisites>
-          <li>BEWH_MachineCurse</li>
+          <li>BEWH_Shrouding</li>
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -260,11 +263,11 @@
     <description>The psyker splits the air apart as bright arcs of soul-lightning destroys anything in its path.</description>
     <iconPath>Abilities/Psyker/ScourgingIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
-    <range>35</range>
+    <range>35.9</range>
     <rangeStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
     </rangeStatFactors>
-    <radius>7</radius>
+    <radius>7.9</radius>
     <targetMode>Location</targetMode>
     <castTime>30</castTime>
     <castSound>VPE_Explosion</castSound>
@@ -300,7 +303,7 @@
     <description>The psyker focuses his might and will into the blows he rains down on his enemies pulping flesh and breaking bones.</description>
     <iconPath>Abilities/Psyker/BoneBreakerIcon</iconPath>
     <targetMode>Pawn</targetMode>
-    <range>35</range>
+    <range>35.9</range>
     <castTime>15</castTime>
     <durationTime>3600</durationTime>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
@@ -308,7 +311,7 @@
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>
-        <level>3</level>
+        <level>2</level>
         <order>1</order>
         <psyfocusCost>0.05</psyfocusCost>
         <entropyGain>47</entropyGain>
@@ -323,10 +326,129 @@
     </modExtensions>
   </VFECore.Abilities.AbilityDef>
 
-  <!-- ??? -->
+  <!-- Shrouding -->
 
-  <!-- ??? -->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_Shrouding</defName>
+    <label>shrouding</label>
+    <description>The Psyker clouds the minds of his foes by creating a ghostly shadow only they can see, causing their aim to sway true.</description>
+    <iconPath>Abilities/Psyker/ShroudingIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>300</castTime>
+    <durationTime>2400</durationTime>
+    <durationTimeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </durationTimeStatFactors>
+    <hasAoE>true</hasAoE>
+    <targetMode>Location</targetMode>
+    <radius>14.9</radius>
+    <castFleck>VFEP_PsycastAreaEffectSlow</castFleck>
+    <targetingParametersForAoE>
+      <canTargetPawns>true</canTargetPawns>
+      <canTargetHumans>true</canTargetHumans>
+      <canTargetAnimals>false</canTargetAnimals>
+      <canTargetMechs>false</canTargetMechs>
+      <canTargetSelf>false</canTargetSelf>
+      <canTargetBuildings>false</canTargetBuildings>
+      <mustBeSameFaction>false</mustBeSameFaction>
+    </targetingParametersForAoE>
+    <castSound>VPE_Obscure_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>2</level>
+        <order>2</order>
+        <psyfocusCost>0.075</psyfocusCost>
+        <entropyGain>52</entropyGain>
+        <prerequisites>
+          <li>BEWH_MachineCurse</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_Shrouding</hediff>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
-  <!-- ??? -->
+  <!-- Nightshroud -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_Nightshroud</defName>
+    <label>nightshroud</label>
+    <description>The psyker reaches into his enemies' minds, obscuring himself and his companions from their sight. However this invisibility is broken upon attacking.</description>
+    <iconPath>Abilities/Psyker/BoneBreakerIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>300</castTime>
+    <hasAoE>true</hasAoE>
+    <targetMode>Self</targetMode>
+    <radius>8.9</radius>
+    <castFleck>VFEP_PsycastAreaEffectSlow</castFleck>
+    <targetingParametersForAoE>
+      <canTargetPawns>true</canTargetPawns>
+      <canTargetHumans>true</canTargetHumans>
+      <canTargetAnimals>false</canTargetAnimals>
+      <canTargetMechs>false</canTargetMechs>
+      <canTargetSelf>true</canTargetSelf>
+      <canTargetBuildings>false</canTargetBuildings>
+      <mustBeSameFaction>true</mustBeSameFaction>
+    </targetingParametersForAoE>
+    <castSound>VPE_Obscure_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>1</level>
+        <order>3</order>
+        <psyfocusCost>0.1</psyfocusCost>
+        <entropyGain>36</entropyGain>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_Nightshroud</hediff>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+
+  <!-- Null Zone -->
+
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>BEWH_NullZone</defName>
+    <label>null zone</label>
+    <description>This power removes the mystical properties of any enemy within range, making their psychic abilities nearly useless.</description>
+    <iconPath>Abilities/Psyker/NullZoneIcon</iconPath>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <castTime>300</castTime>
+    <durationTime>1200</durationTime>
+    <durationTimeStatFactors>
+      <PsychicSensitivity>1.5</PsychicSensitivity>
+    </durationTimeStatFactors>
+    <hasAoE>true</hasAoE>
+    <targetMode>Location</targetMode>
+    <radius>18.9</radius>
+    <castFleck>VFEP_PsycastAreaEffectSlow</castFleck>
+    <targetingParametersForAoE>
+      <canTargetPawns>true</canTargetPawns>
+      <canTargetHumans>true</canTargetHumans>
+      <canTargetAnimals>false</canTargetAnimals>
+      <canTargetMechs>false</canTargetMechs>
+      <canTargetSelf>false</canTargetSelf>
+      <canTargetBuildings>false</canTargetBuildings>
+      <mustBeSameFaction>false</mustBeSameFaction>
+    </targetingParametersForAoE>
+    <castSound>VPE_Obscure_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>BEWH_Psyker</path>
+        <level>4</level>
+        <order>1</order>
+        <psyfocusCost>0.12</psyfocusCost>
+        <entropyGain>87</entropyGain>
+        <prerequisites>
+          <li>BEWH_BoneBreaker</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>BEWH_NullZone</hediff>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
 
 </Defs>

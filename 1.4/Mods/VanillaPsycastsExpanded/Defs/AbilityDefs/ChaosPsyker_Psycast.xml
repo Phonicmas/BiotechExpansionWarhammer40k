@@ -12,8 +12,8 @@
     <iconPath>Abilities/ChaosPsyker/DoomboltIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
-    <range>30</range>
-    <radius>1</radius>
+    <range>30.9</range>
+    <radius>1.9</radius>
     <targetMode>Pawn</targetMode>
     <castSound>BEWH_Doombolt</castSound>
     <rangeStatFactors>
@@ -113,7 +113,7 @@
     <castTime>15</castTime>
     <durationTime>36000</durationTime>
     <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
-    <range>20</range>
+    <range>20.9</range>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_ChaosPsyker</path>
@@ -145,8 +145,8 @@
     <iconPath>Abilities/ChaosPsyker/BoltOfChangeIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>20</castTime>
-    <range>30</range>
-    <radius>1</radius>
+    <range>30.9</range>
+    <radius>1.9</radius>
     <power>1</power>
     <powerStatFactors>
       <PsychicSensitivity>2</PsychicSensitivity>
@@ -182,8 +182,8 @@
     <iconPath>Abilities/ChaosPsyker/StormofChangeIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Skyfallers</abilityClass>
     <castTime>40</castTime>
-    <range>30</range>
-    <radius>12</radius>
+    <range>30.9</range>
+    <radius>12.9</radius>
     <power>2</power>
     <powerStatFactors>
       <PsychicSensitivity>5</PsychicSensitivity>
@@ -222,7 +222,7 @@
     <castTime>15</castTime>
     <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
     <durationTime>7500</durationTime>
-    <range>20</range>
+    <range>20.9</range>
     <cooldownTime>300</cooldownTime>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
@@ -255,7 +255,7 @@
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castTime>15</castTime>
     <range>24.9</range>
-    <radius>3</radius>
+    <radius>3.9</radius>
     <targetMode>Pawn</targetMode>
     <castSound>VPE_EyeBlast_Cast</castSound>
     <modExtensions>
@@ -354,7 +354,7 @@
     <castSound>BEWH_NoSound</castSound>
     <durationTime>24000</durationTime>
     <targetMode>Humanlike</targetMode>
-    <range>47</range>
+    <range>47.9</range>
     <cooldownTime>600</cooldownTime>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
@@ -384,8 +384,8 @@
     <iconPath>Abilities/ChaosPsyker/RotBurstIcon</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
     <castTime>40</castTime>
-    <range>30</range>
-    <radius>15</radius>
+    <range>30.9</range>
+    <radius>15.9</radius>
     <targetMode>Self</targetMode>
     <castSound>VPE_ConsumeBodies_Cast</castSound>
     <castFleck>PsycastPsychicEffect</castFleck>

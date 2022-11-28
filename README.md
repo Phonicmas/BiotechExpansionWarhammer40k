@@ -13,12 +13,14 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 7. Astropaths & navigators?
 8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 9. Genestealer?
+10. Make a standalone psycast?
 
 ## To do (Not ordered)
 1. Fix psytrainer quest reward giving access without psyker gene.
 2. Make secondary heart carriers survive losing main heart.
 3. Fix culture/ideo part - try make it the same ideo for all imperial factions.
 4. Faction; title system from royalty.
+5. Make Daemon mutation make the carrier immortal by essentially respawning them.
 
 ## Genes
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
@@ -44,7 +46,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Suppresses: Delicate and wimp
     
-    *If Body Size Genes is installed increases size by 1.15
+    *Multipliesb body size by 1.15
 
     *Makes you sterile and sets fertility to 0
     
@@ -170,7 +172,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies incoming damage by 0.95
     
-    *Increases move speed by 1.5 when power armor is worn (Marine, Recon, Cataphract)
+    *Increases move speed by 2 when power armor is worn (Marine, Recon, Cataphract) or Spencers7w power armor
 
     *Reduces pain by about 35%
 
@@ -197,7 +199,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies melee hit chance by 1.4
     
-    *If Body Size Genes is installed increases size by 1.2
+    *Multiplies body size by 1.1
     
 3. Belisarian Furnace
     
@@ -341,6 +343,8 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
     *Increases melee by 4
 
+    *Multiplies body size by 1.2
+
 6. Daemon Wings
 
     *Gives ability to fly to a location within 50 range in sight
@@ -449,6 +453,12 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Scourging - Does medium-high damage with high pen in an area
    
    *Bone Breaker - Does low damage and applies manipulation and move speed malus
+
+   *Null Zone - 
+
+   *Nightshround - 
+
+   *Shrouding - 
   
 ## Toggable Patches
     *Restore fertility to space marines
