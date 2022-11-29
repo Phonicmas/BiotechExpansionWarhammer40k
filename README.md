@@ -456,17 +456,17 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Nightshround - Makes self and allies in an area invisble untill they attack
    
    *Shrouding - Makes enemies in an area suffer debuffs to aiming and sight
-  
-## Toggable Patches
 
-    *Restore fertility to space marines
-    
-    *Remove the prerequisites of the genes
-    
-    *If spencers mods are installed, replaces his geneseeds with my geneseed. Additionally if VPE is isntalled thousand sons uses chaos path.
+## Toggable patches
 
+   *Restore fertility to space marines
+
+   *Remove the prerequisites of the genes
+   
+   *If spencers mods are installed, replaces his geneseeds with my geneseed. Additionally if VPE is isntalled thousand sons uses chaos path. 
+    
 ## Other things
 
-    *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs) 
-    
-    *Mod contains a faction containing all three above mentioned xenotypes.
+   *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
+   
+   *Mod contains a faction containing all three above mentioned xenotypes.  
