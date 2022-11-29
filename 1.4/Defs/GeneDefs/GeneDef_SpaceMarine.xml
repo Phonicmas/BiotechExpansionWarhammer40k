@@ -87,11 +87,11 @@
             </li>
         </suppressedTraits>
         <modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<bodyScaleFactor>(1.15, 1.15)</bodyScaleFactor>
-				<headScaleFactor>(1.15, 1.15)</headScaleFactor>
-			</li>
-		</modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.15, 1.15)</bodyScaleFactor>
+                <headScaleFactor>(1.15, 1.15)</headScaleFactor>
+            </li>
+        </modExtensions>
         <minAgeActive>12</minAgeActive>
     </GeneDef>
 
@@ -224,8 +224,8 @@
         <displayOrderInCategory>7</displayOrderInCategory>
         <prerequisite>BEWH_CatalepseanNode</prerequisite>
         <dontMindRawFood>true</dontMindRawFood>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
         <statFactors>
-            <FoodPoisonChance>0</FoodPoisonChance>
             <RawNutritionFactor>2</RawNutritionFactor>
         </statFactors>
         <minAgeActive>16</minAgeActive>
@@ -261,6 +261,10 @@
         <iconPath>UI/Icons/Genes/Multi-LungIcon</iconPath>
         <displayOrderInCategory>9</displayOrderInCategory>
         <prerequisite>BEWH_Omophagea</prerequisite>
+        <immuneToToxGasExposure>true</immuneToToxGasExposure>
+        <customEffectDescriptions>
+            <li>Tox gas immunity</li>
+        </customEffectDescriptions>
         <statOffsets>
             <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
         </statOffsets>
@@ -568,11 +572,11 @@
             <MeleeHitChance>1.4</MeleeHitChance>
         </statFactors>
         <modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<bodyScaleFactor>(1.1, 1.1)</bodyScaleFactor>
-				<headScaleFactor>(1.1, 1.1)</headScaleFactor>
-			</li>
-		</modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.1, 1.1)</bodyScaleFactor>
+                <headScaleFactor>(1.1, 1.1)</headScaleFactor>
+            </li>
+        </modExtensions>
         <minAgeActive>13</minAgeActive>
     </GeneDef>
 

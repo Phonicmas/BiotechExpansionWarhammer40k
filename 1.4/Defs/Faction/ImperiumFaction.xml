@@ -89,11 +89,36 @@
                 <!-- Base defense, mainly ranged with melee mix-ins -->
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <BEWH_SpaceMarineRanged>10</BEWH_SpaceMarineRanged>
+                    <BEWH_SpaceMarineRanged>14</BEWH_SpaceMarineRanged>
                     <BEWH_SpaceMarineMelee>10</BEWH_SpaceMarineMelee>
                     <BEWH_SpaceMarinePsyker>4</BEWH_SpaceMarinePsyker>
                     <BEWH_PrimarisSpaceMarineMelee>4</BEWH_PrimarisSpaceMarineMelee>
                     <BEWH_PrimarisSpaceMarineRanged>4</BEWH_PrimarisSpaceMarineRanged>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <BEWH_ImperiumTrader>1</BEWH_ImperiumTrader>
+                </traders>
+                <carriers>
+                    <Muffalo>10</Muffalo>
+                </carriers>
+                <guards>
+                    <Villager>3</Villager>
+                    <BEWH_SpaceMarineRanged>12</BEWH_SpaceMarineRanged>
+                    <BEWH_SpaceMarineMelee>6</BEWH_SpaceMarineMelee>
+                    <BEWH_PrimarisSpaceMarineRanged>2</BEWH_PrimarisSpaceMarineRanged>
+                    <BEWH_PrimarisSpaceMarineMelee>2</BEWH_PrimarisSpaceMarineMelee>
+                    <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <BEWH_SpaceMarineRanged>10</BEWH_SpaceMarineRanged>
+                    <BEWH_SpaceMarineMelee>6</BEWH_SpaceMarineMelee>
+                    <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
                 </options>
             </li>
         </pawnGroupMakers>
@@ -104,6 +129,9 @@
         <baseTraderKinds>
             <li>BEWH_ImperiumTraderBase</li>
         </baseTraderKinds>
+        <disallowedRaidAgeRestrictions>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Children</li>
+        </disallowedRaidAgeRestrictions>
     </FactionDef>
 
 </Defs>
