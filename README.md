@@ -7,13 +7,11 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 1. Make more trees for the different psychic disciplines and god specific paths?
 2. Phariah genes (blanks)?
 3. Event? (big baddie coming to hurt you)
-4. Different tiers of psychic potential
-5. Persona traits?
-6. Marks of chaos? (genes?)
-7. Astropaths & navigators?
-8. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
-9. Genestealer?
-10. Make a standalone psycast?
+4. Persona traits?
+5. Astropaths & navigators?
+6. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
+7. Genestealer?
+8. Make a standalone psycast?
 
 ## To do (Not ordered)
 1. Fix psytrainer quest reward giving access without psyker gene.
