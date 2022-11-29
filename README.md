@@ -434,23 +434,39 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    
 ### Sanctioned psyker
    *Smite - Does low-medium damage with high pen
+   
    *Machine Curse - Cripples mech by a lot   
+   
    *Stonebane - Does insanely high damge to buildings  
+   
    *Gates of Infinity - Teleport to anywhere on the current map   
+   
    *Might of Heroes - Increases melee damage, melee hit chance and move speed   
+   
    *Weaken Resolve - Makes all enemies in an area flee  
+   
    *Force Barrier - Protecs caster an everyone in an area from bullets 
+   
    *Scourging - Does medium-high damage with high pen in an area
+   
    *Bone Breaker - Does low damage and applies manipulation and move speed malus
+   
    *Null Zone - Almost nullifies psychic sensitivity in an area
+   
    *Nightshround - Makes self and allies in an area invisble untill they attack
+   
    *Shrouding - Makes enemies in an area suffer debuffs to aiming and sight
   
 ## Toggable Patches
+
     *Restore fertility to space marines
+    
     *Remove the prerequisites of the genes
+    
     *If spencers mods are installed, replaces his geneseeds with my geneseed. Additionally if VPE is isntalled thousand sons uses chaos path.
 
 ## Other things
+
     *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs) 
+    
     *Mod contains a faction containing all three above mentioned xenotypes.
