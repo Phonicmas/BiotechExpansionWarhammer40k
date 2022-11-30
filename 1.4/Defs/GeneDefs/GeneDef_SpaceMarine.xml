@@ -489,6 +489,7 @@
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <hediffToWholeBody>BEWH_ProgenoidGlandsGrowth</hediffToWholeBody>
+                <diseaseProgressionFactor>0.35</diseaseProgressionFactor>
             </li>
         </modExtensions>
     </GeneDef>
