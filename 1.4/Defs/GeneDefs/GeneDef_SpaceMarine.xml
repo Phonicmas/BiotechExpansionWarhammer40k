@@ -109,7 +109,7 @@
             <MaxHitPoints>30</MaxHitPoints>
         </statOffsets>
         <statFactors>
-            <MeleeDamageFactor>1.25</MeleeDamageFactor>
+            <MeleeDamageFactor>1.7</MeleeDamageFactor>
             <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
         <capMods>
@@ -124,6 +124,7 @@
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <caravanCarryingFactor>1.5</caravanCarryingFactor>
+                <noSkillLoss>Melee</noSkillLoss>
             </li>
         </modExtensions>
         <minAgeActive>12</minAgeActive>
@@ -299,6 +300,11 @@
         <aptitudes>
             <Shooting>8</Shooting>
         </aptitudes>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <noSkillLoss>Shooting</noSkillLoss>
+            </li>
+        </modExtensions>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -465,6 +471,9 @@
             <li>Plague</li>
             <li>WoundInfection</li>
             <li>LungRot</li>
+            <li>GutWorms</li>
+            <li>MuscleParasites</li>
+            <li>LungRotExposure</li>
         </makeImmuneTo>
         <hediffGiversCannotGive>
             <li>Carcinoma</li>
@@ -476,6 +485,8 @@
             <li>Alzheimers</li>
             <li>Asthma</li>
             <li>HeartArteryBlockage</li>
+            <li>Cirrhosis</li>
+            <li>DrugOverdose</li>
         </hediffGiversCannotGive>
         <biologicalAgeTickFactorFromAgeCurve>
             <points>
@@ -532,7 +543,7 @@
             <CarryingCapacity>100</CarryingCapacity>
         </statOffsets>
         <statFactors>
-            <MeleeDamageFactor>1.55</MeleeDamageFactor>
+            <MeleeDamageFactor>1.45</MeleeDamageFactor>
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <StaggerDurationFactor>0</StaggerDurationFactor>
         </statFactors>

@@ -396,7 +396,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>MedicineUltratech</li>
+                        <li>MedicineIndustrial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>

@@ -55,7 +55,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Increase carrying capacity by 100
     
-    *Multiplies melee damage by 1.35
+    *Multiplies melee damage by 1.7
    
     *Reduces staggering by 50%
 
@@ -203,6 +203,14 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 3. Belisarian Furnace
     
     *Adds ability that increases consciousness by 20%, multiplies incoming damage by 0.5, multiplies natural healing factor by a lot and multiplies pain threshold by 10
+
+### Custodes & Primarchs
+1. Custodes
+    * 
+
+
+2. Primarch
+
 
 ### Psyker
 1. Iota Psyker
@@ -468,6 +476,6 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
 ## Other things
 
-   *Mod contains 3 xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs)
+   *Mod contains xenotypes; Space Marine, Primaris Space Marine and Space Marine Psyker (Librarian or whatever chaos calls theirs), Chaos Space Marine (One for each god & undivided) and Daemon Prince (One for each god & undivided)
    
    *Mod contains a faction containing all three above mentioned xenotypes.  

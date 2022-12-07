@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneDefCustomDescription.cs" />
     <Compile Include="BlackCarapaceSpeedUp.cs" />
     <Compile Include="RemembranceProperties.cs" />
     <Compile Include="Remembrance.cs" />

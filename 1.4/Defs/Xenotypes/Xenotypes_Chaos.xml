@@ -176,6 +176,9 @@
 
   <XenotypeDef Name="DaemonPrince Base" Abstract="True">
     <inheritable>false</inheritable>
+    <canGenerateAsCombatant>false</canGenerateAsCombatant>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <!--<soundDefOnImplant>soundDefHere</soundDefOnImplant>--> <!-- Add sound def here for when daemon asecension is aquired -->
     <combatPowerFactor>3</combatPowerFactor>
     <genes>
       <li>BEWH_DaemonMutation</li>

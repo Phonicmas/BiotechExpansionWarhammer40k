@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Custodes Genes -->
+
+    <!-- Custodes -->
+
+    <GeneDef>
+        <defName>BEWH_Custodes</defName>
+        <label>custodes</label>
+        <description>custodes</description>
+        <displayCategory>BEWHSpaceMarine</displayCategory>
+        <displayOrderInCategory>98</displayOrderInCategory>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <biostatCpx>50</biostatCpx>
+        <biostatMet>15</biostatMet>
+        <biostatArc>10</biostatArc>
+        <iconPath>UI/Icons/Genes/GenePsykerIota</iconPath>
+        <geneClass>Gene_Clotting</geneClass>
+        <dontMindRawFood>true</dontMindRawFood>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <immuneToToxGasExposure>true</immuneToToxGasExposure>
+
+        <statOffsets>
+            <MaxHitPoints>850</MaxHitPoints>
+            <ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+            <ArmorRating_Heat>1.30</ArmorRating_Heat>
+            <CarryingCapacity>760</CarryingCapacity>
+            <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
+            <ToxicResistance>2</ToxicResistance>
+            <MentalBreakThreshold>-1</MentalBreakThreshold>
+            <ComfyTemperatureMin>-200</ComfyTemperatureMin>
+            <ComfyTemperatureMax>200</ComfyTemperatureMax>
+            <MeleeDodgeChance>60</MeleeDodgeChance>
+        </statOffsets>
+
+        <statFactors>
+            <PsychicSensitivity>0</PsychicSensitivity>
+            <Fertility>0</Fertility>
+            <Mass>3</Mass>
+            <InjuryHealingFactor>20</InjuryHealingFactor>
+            <MoveSpeed>2</MoveSpeed>
+            <RestFallRateFactor>0.05</RestFallRateFactor>
+            <MeleeDamageFactor>6</MeleeDamageFactor>
+            <AimingDelayFactor>0.2</AimingDelayFactor>
+            <MeleeWeapon_CooldownMultiplier>0.2</MeleeWeapon_CooldownMultiplier>
+            <RangedCooldownFactor>0.2</RangedCooldownFactor>
+            <MeleeHitChance>4</MeleeHitChance>
+            <StaggerDurationFactor>0</StaggerDurationFactor>
+            <IncomingDamageFactor>0.35</IncomingDamageFactor>
+            <RawNutritionFactor>4</RawNutritionFactor>
+            <GlobalLearningFactor>3.5</GlobalLearningFactor>
+            <ImmunityGainSpeed>8</ImmunityGainSpeed>
+        </statFactors>
+
+        <capMods>
+            <li>
+                <capacity>Consciousness</capacity>
+                <postFactor>3.5</postFactor>
+            </li>
+            <li>
+                <capacity>BloodPumping</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Manipulation</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Breathing</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Sight</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Hearing</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>BloodFiltration</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Eating</capacity>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>Talking</capacity>
+                <postFactor>5</postFactor>
+            </li>
+        </capMods>
+
+        <suppressedTraits>
+            <li>
+                <def>Industriousness</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Industriousness</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Beauty</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Beauty</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Immunity</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Nerves</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Nerves</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Kind</def>
+            </li>
+            <li>
+                <def>SpeedOffset</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Delicate</def>
+            </li>
+            <li>
+                <def>Wimp</def>
+            </li>
+        </suppressedTraits>
+
+        <aptitudes>
+            <Shooting>16</Shooting>
+            <Melee>16</Melee>
+            <Intellectual>16</Intellectual>
+        </aptitudes>
+
+        <makeImmuneTo>
+            <li>Flu</li>
+            <li>Malaria</li>
+            <li>SleepingSickness</li>
+            <li>Plague</li>
+            <li>WoundInfection</li>
+            <li>LungRot</li>
+            <li>GutWorms</li>
+            <li>MuscleParasites</li>
+            <li>LungRotExposure</li>
+        </makeImmuneTo>
+        <hediffGiversCannotGive>
+            <li>Carcinoma</li>
+            <li>HeartAttack</li>
+            <li>BadBack</li>
+            <li>Frail</li>
+            <li>Cataract</li>
+            <li>Dementia</li>
+            <li>Alzheimers</li>
+            <li>Asthma</li>
+            <li>HeartArteryBlockage</li>
+            <li>Cirrhosis</li>
+            <li>DrugOverdose</li>
+        </hediffGiversCannotGive>
+
+        <biologicalAgeTickFactorFromAgeCurve>
+            <points>
+                <li>(21, 0)</li>
+            </points>
+        </biologicalAgeTickFactorFromAgeCurve>
+
+        <marketValueFactor>20</marketValueFactor>
+        <minAgeActive>6</minAgeActive>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <!--<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Imperium</backgroundPathXenogenes>-->
+                <diseaseProgressionFactor>0</diseaseProgressionFactor>
+                <bodyScaleFactor>(1.2, 1.2)</bodyScaleFactor>
+                <headScaleFactor>(1.2, 1.2)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <!-- Primarch Genes -->
+
+    <!-- Primarch -->
+
+    <GeneDef>
+        <defName>BEWH_Primarch</defName>
+        <label>primarch</label>
+        <description>primarch</description>
+        <displayCategory>BEWHSpaceMarine</displayCategory>
+        <displayOrderInCategory>99</displayOrderInCategory>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <biostatCpx>70</biostatCpx>
+        <biostatMet>15</biostatMet>
+        <biostatArc>20</biostatArc>
+        <iconPath>UI/Icons/Genes/GenePsykerIota</iconPath>
+        <statFactors>
+            <PsychicSensitivity>1</PsychicSensitivity>
+        </statFactors>
+        <capMods>
+            <li>
+                <capacity>Consciousness</capacity>
+                <postFactor>3</postFactor>
+            </li>
+        </capMods>
+        <marketValueFactor>35</marketValueFactor>
+        <minAgeActive>6</minAgeActive>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <!--<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Imperium</backgroundPathXenogenes>-->
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>
