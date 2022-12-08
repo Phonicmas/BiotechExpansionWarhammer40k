@@ -323,6 +323,14 @@
                 <postFactor>1.8</postFactor>
             </li>
         </capMods>
+        <aptitudes>
+            <Social>2</Social>
+        </aptitudes>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <noSkillLoss>Social</noSkillLoss>
+            </li>
+        </modExtensions>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
 
@@ -357,7 +365,7 @@
         <displayOrderInCategory>13</displayOrderInCategory>
         <prerequisite>BEWH_Sus-anMembrane</prerequisite>
         <statOffsets>
-            <MaxHitPoints>40</MaxHitPoints>
+            <MaxHitPoints>60</MaxHitPoints>
         </statOffsets>
         <minAgeActive>16</minAgeActive>
     </GeneDef>
@@ -514,13 +522,6 @@
         <iconPath>UI/Icons/Genes/BlackCarapaceIcon</iconPath>
         <displayOrderInCategory>19</displayOrderInCategory>
         <prerequisite>BEWH_ProgenoidGlands</prerequisite>
-        <conditionalStatAffecters>
-            <li Class="BEWH.ConditionalStatAffecter_PowerArmor">
-                <statOffsets>
-                    <MoveSpeed>2</MoveSpeed>
-                </statOffsets>
-            </li>
-        </conditionalStatAffecters>
         <statFactors>
             <IncomingDamageFactor>0.95</IncomingDamageFactor>
         </statFactors>

@@ -171,7 +171,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies incoming damage by 0.95
     
-    *Increases move speed by 2 when power armor is worn (Marine, Recon, Cataphract) or Spencers7w power armor
+    *Removes move speed malus when in armor
 
     *Reduces pain by about 35%
 
@@ -206,11 +206,12 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
 
 ### Custodes & Primarchs
 1. Custodes
-    * 
-
+    
+    *Too many things to list, check it ingame.
 
 2. Primarch
 
+    *Too many things to list, check it ingame.
 
 ### Psyker
 1. Iota Psyker
@@ -442,6 +443,7 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
    *Rot Burst - Explosion on self that damages enemies around (plan to make it apply nurgle rot debuff)  
    
 ### Sanctioned psyker
+
    *Smite - Does low-medium damage with high pen
    
    *Machine Curse - Cripples mech by a lot   

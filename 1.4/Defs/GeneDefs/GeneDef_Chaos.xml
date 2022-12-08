@@ -6,7 +6,7 @@
     <GeneCategoryDef>
         <defName>BEWHChaos</defName>
         <label>chaos</label>
-        <displayPriorityInXenotype>538</displayPriorityInXenotype>
+        <displayPriorityInXenotype>537</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <!-- Parent Gene -->
@@ -227,6 +227,7 @@
         <geneClass>Gene_Clotting</geneClass>
         <dontMindRawFood>true</dontMindRawFood>
         <sterilize>true</sterilize>
+        <selectionWeight>0.1</selectionWeight>
         <aggroMentalBreakSelectionChanceFactor>999</aggroMentalBreakSelectionChanceFactor>
         <statOffsets>
             <ToxicEnvironmentResistance>3</ToxicEnvironmentResistance>

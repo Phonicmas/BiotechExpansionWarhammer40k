@@ -57,8 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneDefCustomDescription.cs" />
-    <Compile Include="BlackCarapaceSpeedUp.cs" />
+    <Compile Include="BEWHMod.cs" />
+    <Compile Include="BEWHDefOf.cs" />
+    <Compile Include="HarmonyPatchDescription.cs" />
+    <Compile Include="HarmonyPatchCarapace.cs" />
     <Compile Include="RemembranceProperties.cs" />
     <Compile Include="Remembrance.cs" />
     <Compile Include="HediffCompPropertiesGeneScramble.cs" />

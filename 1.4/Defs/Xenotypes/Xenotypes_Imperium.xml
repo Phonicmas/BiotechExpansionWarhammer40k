@@ -104,4 +104,21 @@
     </genes>
   </XenotypeDef>
 
+  <!-- Custodes -->
+
+  <XenotypeDef>
+    <defName>BEWH_Custodes</defName>
+    <label>custodes</label>
+    <description>Created by the Master of Mankind personally, these beings are what primarch are to a space marine, beings of immense power and skill.</description>
+    <descriptionShort>Created by the Master of Mankind personally, these beings are what primarch are to a space marine, beings of immense power and skill.</descriptionShort>
+    <iconPath>UI/Xenotypes/CustodesXenoIcon</iconPath>
+    <inheritable>false</inheritable>
+    <combatPowerFactor>5</combatPowerFactor>
+    <canGenerateAsCombatant>false</canGenerateAsCombatant>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes>
+      <li>BEWH_Custodes</li>
+    </genes>
+  </XenotypeDef>
+
 </Defs>

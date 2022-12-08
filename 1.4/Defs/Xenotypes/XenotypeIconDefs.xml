@@ -42,6 +42,11 @@
     </XenotypeIconDef>
 
     <XenotypeIconDef>
+        <defName>BEWH_Custodes</defName>
+        <texPath>UI/Xenotypes/CustodesXenoIcon</texPath>
+    </XenotypeIconDef>
+
+    <XenotypeIconDef>
         <defName>BEWH_DPUndivided</defName>
         <texPath>UI/Xenotypes/DaemonPrinceUndividedXenoIcon</texPath>
     </XenotypeIconDef>

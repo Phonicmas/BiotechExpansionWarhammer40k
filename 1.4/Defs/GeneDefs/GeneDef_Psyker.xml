@@ -6,7 +6,7 @@
     <GeneCategoryDef>
         <defName>BEWHSpaceMarinePsyker</defName>
         <label>psyker</label>
-        <displayPriorityInXenotype>539</displayPriorityInXenotype>
+        <displayPriorityInXenotype>538</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <!-- Parent Gene -->

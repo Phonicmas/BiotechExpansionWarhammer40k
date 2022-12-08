@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Gene Category -->
+
+    <GeneCategoryDef>
+        <defName>BEWHMankindsFinest</defName>
+        <label>mandkinds finest</label>
+        <displayPriorityInXenotype>539</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
     <!-- Custodes Genes -->
 
     <!-- Custodes -->
@@ -8,18 +16,27 @@
     <GeneDef>
         <defName>BEWH_Custodes</defName>
         <label>custodes</label>
-        <description>custodes</description>
-        <displayCategory>BEWHSpaceMarine</displayCategory>
-        <displayOrderInCategory>98</displayOrderInCategory>
+        <description>CUSTODESCODE1234567890Created by the Master of Mankind personally, these beings are what primarch are to a space marine, beings of immense power and skill.</description>        <!-- CUSTODESCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
+        <customEffectDescriptions>
+            <li>CUSTOMSTART12345Considerably boosts most aspects of the pawnCUSTOMEND67890</li>            <!-- CUSTOMSTART12345 AND CUSTOMEND67890 IS REQUIRED NO MATTER WHAT TRANSLATIONS, WRITE BETWEEN THEM -->
+        </customEffectDescriptions>
+        <displayCategory>BEWHMankindsFinest</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <biostatCpx>50</biostatCpx>
         <biostatMet>15</biostatMet>
         <biostatArc>10</biostatArc>
-        <iconPath>UI/Icons/Genes/GenePsykerIota</iconPath>
+        <iconPath>UI/Icons/Genes/CustodesIcon</iconPath>
+        <bodyType>Hulk</bodyType>
         <geneClass>Gene_Clotting</geneClass>
         <dontMindRawFood>true</dontMindRawFood>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
         <immuneToToxGasExposure>true</immuneToToxGasExposure>
+        <painFactor>0.01</painFactor>
+        <sterilize>true</sterilize>
+        <preventPermanentWounds>true</preventPermanentWounds>
+        <overdoseChanceFactor>0</overdoseChanceFactor>
+        <selectionWeight>0.1</selectionWeight>
 
         <statOffsets>
             <MaxHitPoints>850</MaxHitPoints>
@@ -175,10 +192,9 @@
         </biologicalAgeTickFactorFromAgeCurve>
 
         <marketValueFactor>20</marketValueFactor>
-        <minAgeActive>6</minAgeActive>
+        <minAgeActive>3</minAgeActive>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <!--<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Imperium</backgroundPathXenogenes>-->
                 <diseaseProgressionFactor>0</diseaseProgressionFactor>
                 <bodyScaleFactor>(1.2, 1.2)</bodyScaleFactor>
                 <headScaleFactor>(1.2, 1.2)</headScaleFactor>
@@ -190,12 +206,12 @@
 
     <!-- Primarch -->
 
-    <GeneDef>
+    <!--<GeneDef>
         <defName>BEWH_Primarch</defName>
         <label>primarch</label>
-        <description>primarch</description>
-        <displayCategory>BEWHSpaceMarine</displayCategory>
-        <displayOrderInCategory>99</displayOrderInCategory>
+        <description>PRIMARCHCODE1234567890</description>
+        <displayCategory>BEWHMankindsFinest</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <biostatCpx>70</biostatCpx>
         <biostatMet>15</biostatMet>
@@ -211,12 +227,7 @@
             </li>
         </capMods>
         <marketValueFactor>35</marketValueFactor>
-        <minAgeActive>6</minAgeActive>
-        <modExtensions>
-            <li Class="VanillaGenesExpanded.GeneExtension">
-                <!--<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Imperium</backgroundPathXenogenes>-->
-            </li>
-        </modExtensions>
-    </GeneDef>
+        <minAgeActive>3</minAgeActive>
+    </GeneDef>-->
 
 </Defs>
