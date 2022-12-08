@@ -586,8 +586,8 @@
         </statFactors>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
-                <bodyScaleFactor>(1.1, 1.1)</bodyScaleFactor>
-                <headScaleFactor>(1.1, 1.1)</headScaleFactor>
+                <bodyScaleFactor>(1.05, 1.05)</bodyScaleFactor>
+                <headScaleFactor>(1.05, 1.05)</headScaleFactor>
             </li>
         </modExtensions>
         <minAgeActive>13</minAgeActive>

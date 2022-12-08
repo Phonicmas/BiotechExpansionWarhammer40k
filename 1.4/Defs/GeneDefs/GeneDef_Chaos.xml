@@ -304,8 +304,8 @@
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Undivided</backgroundPathXenogenes>
-                <bodyScaleFactor>(1.2, 1.2)</bodyScaleFactor>
-				<headScaleFactor>(1.2, 1.2)</headScaleFactor>
+                <bodyScaleFactor>(1.24, 1.24)</bodyScaleFactor>
+				<headScaleFactor>(1.24, 1.24)</headScaleFactor>
             </li>
         </modExtensions>
     </GeneDef>

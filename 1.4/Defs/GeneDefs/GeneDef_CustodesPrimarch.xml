@@ -55,7 +55,7 @@
         <statFactors>
             <PsychicSensitivity>0</PsychicSensitivity>
             <Fertility>0</Fertility>
-            <Mass>3</Mass>
+            <Mass>4</Mass>
             <InjuryHealingFactor>20</InjuryHealingFactor>
             <MoveSpeed>2</MoveSpeed>
             <RestFallRateFactor>0.05</RestFallRateFactor>
@@ -155,9 +155,9 @@
         </suppressedTraits>
 
         <aptitudes>
-            <Shooting>16</Shooting>
-            <Melee>16</Melee>
-            <Intellectual>16</Intellectual>
+            <Shooting>14</Shooting>
+            <Melee>14</Melee>
+            <Intellectual>14</Intellectual>
         </aptitudes>
 
         <makeImmuneTo>
@@ -196,8 +196,10 @@
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <diseaseProgressionFactor>0</diseaseProgressionFactor>
-                <bodyScaleFactor>(1.2, 1.2)</bodyScaleFactor>
-                <headScaleFactor>(1.2, 1.2)</headScaleFactor>
+                <caravanCarryingFactor>3</caravanCarryingFactor>
+                <noSkillLoss>Melee</noSkillLoss>
+                <bodyScaleFactor>(1.22, 1.22)</bodyScaleFactor>
+                <headScaleFactor>(1.22, 1.22)</headScaleFactor>
             </li>
         </modExtensions>
     </GeneDef>
@@ -206,28 +208,196 @@
 
     <!-- Primarch -->
 
-    <!--<GeneDef>
+    <GeneDef>
         <defName>BEWH_Primarch</defName>
         <label>primarch</label>
-        <description>PRIMARCHCODE1234567890</description>
+        <description>PRIMARCHCODE1234567890Bred to be perfect generals, warriors and statesmen; larger, stronger, faster, and smarter than any normal Human could ever hope to be. They possessed a potent charisma and martial prowess that made them like the mythical gods of old, untouchable by disease, old age or supposedly the petty failings of lesser men.</description>        <!-- PRIMARCHCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
+        <customEffectDescriptions>
+            <li>CUSTOMSTART12345Massively boosts most aspects of the pawnCUSTOMEND67890</li>            <!-- CUSTOMSTART12345 AND CUSTOMEND67890 IS REQUIRED NO MATTER WHAT TRANSLATIONS, WRITE BETWEEN THEM -->
+        </customEffectDescriptions>
         <displayCategory>BEWHMankindsFinest</displayCategory>
         <displayOrderInCategory>2</displayOrderInCategory>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <biostatCpx>70</biostatCpx>
         <biostatMet>15</biostatMet>
         <biostatArc>20</biostatArc>
-        <iconPath>UI/Icons/Genes/GenePsykerIota</iconPath>
+        <iconPath>UI/Icons/Genes/PrimarchIcon</iconPath>
+        <bodyType>Hulk</bodyType>
+        <geneClass>Gene_Clotting</geneClass>
+        <dontMindRawFood>true</dontMindRawFood>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <immuneToToxGasExposure>true</immuneToToxGasExposure>
+        <painFactor>0.001</painFactor>
+        <sterilize>true</sterilize>
+        <preventPermanentWounds>true</preventPermanentWounds>
+        <overdoseChanceFactor>0</overdoseChanceFactor>
+        <selectionWeight>0</selectionWeight>
+
+        <statOffsets>
+            <PsychicSensitivity>3</PsychicSensitivity>
+            <MaxHitPoints>1770</MaxHitPoints>
+            <ArmorRating_Blunt>1.80</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.80</ArmorRating_Sharp>
+            <ArmorRating_Heat>1.80</ArmorRating_Heat>
+            <CarryingCapacity>1580</CarryingCapacity>
+            <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
+            <ToxicResistance>2</ToxicResistance>
+            <MentalBreakThreshold>-1</MentalBreakThreshold>
+            <ComfyTemperatureMin>-200</ComfyTemperatureMin>
+            <ComfyTemperatureMax>200</ComfyTemperatureMax>
+            <MeleeDodgeChance>90</MeleeDodgeChance>
+        </statOffsets>
+
         <statFactors>
-            <PsychicSensitivity>1</PsychicSensitivity>
+            <Fertility>0</Fertility>
+            <Mass>6</Mass>
+            <InjuryHealingFactor>40</InjuryHealingFactor>
+            <MoveSpeed>3.5</MoveSpeed>
+            <RestFallRateFactor>0.005</RestFallRateFactor>
+            <MeleeDamageFactor>14</MeleeDamageFactor>
+            <AimingDelayFactor>0.1</AimingDelayFactor>
+            <MeleeWeapon_CooldownMultiplier>0.1</MeleeWeapon_CooldownMultiplier>
+            <RangedCooldownFactor>0.1</RangedCooldownFactor>
+            <MeleeHitChance>12</MeleeHitChance>
+            <StaggerDurationFactor>0</StaggerDurationFactor>
+            <IncomingDamageFactor>0.2</IncomingDamageFactor>
+            <RawNutritionFactor>4</RawNutritionFactor>
+            <GlobalLearningFactor>5</GlobalLearningFactor>
+            <ImmunityGainSpeed>12</ImmunityGainSpeed>
         </statFactors>
+
         <capMods>
             <li>
                 <capacity>Consciousness</capacity>
-                <postFactor>3</postFactor>
+                <postFactor>5</postFactor>
+            </li>
+            <li>
+                <capacity>BloodPumping</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Manipulation</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Breathing</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Sight</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Hearing</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>BloodFiltration</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Eating</capacity>
+                <postFactor>8</postFactor>
+            </li>
+            <li>
+                <capacity>Talking</capacity>
+                <postFactor>8</postFactor>
             </li>
         </capMods>
-        <marketValueFactor>35</marketValueFactor>
+
+        <suppressedTraits>
+            <li>
+                <def>Industriousness</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Industriousness</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Beauty</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Beauty</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Immunity</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Nerves</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Nerves</def>
+                <degree>-2</degree>
+            </li>
+            <li>
+                <def>Kind</def>
+            </li>
+            <li>
+                <def>SpeedOffset</def>
+                <degree>-1</degree>
+            </li>
+            <li>
+                <def>Delicate</def>
+            </li>
+            <li>
+                <def>Wimp</def>
+            </li>
+        </suppressedTraits>
+
+        <aptitudes>
+            <Shooting>18</Shooting>
+            <Melee>18</Melee>
+            <Social>12</Social>
+            <Intellectual>18</Intellectual>
+        </aptitudes>
+
+        <makeImmuneTo>
+            <li>Flu</li>
+            <li>Malaria</li>
+            <li>SleepingSickness</li>
+            <li>Plague</li>
+            <li>WoundInfection</li>
+            <li>LungRot</li>
+            <li>GutWorms</li>
+            <li>MuscleParasites</li>
+            <li>LungRotExposure</li>
+        </makeImmuneTo>
+        <hediffGiversCannotGive>
+            <li>Carcinoma</li>
+            <li>HeartAttack</li>
+            <li>BadBack</li>
+            <li>Frail</li>
+            <li>Cataract</li>
+            <li>Dementia</li>
+            <li>Alzheimers</li>
+            <li>Asthma</li>
+            <li>HeartArteryBlockage</li>
+            <li>Cirrhosis</li>
+            <li>DrugOverdose</li>
+        </hediffGiversCannotGive>
+
+        <biologicalAgeTickFactorFromAgeCurve>
+            <points>
+                <li>(21, 0)</li>
+            </points>
+        </biologicalAgeTickFactorFromAgeCurve>
+
+        <marketValueFactor>50</marketValueFactor>
         <minAgeActive>3</minAgeActive>
-    </GeneDef>-->
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <diseaseProgressionFactor>0</diseaseProgressionFactor>
+                <caravanCarryingFactor>5</caravanCarryingFactor>
+                <noSkillLoss>Melee</noSkillLoss>
+                <bodyScaleFactor>(1.3, 1.3)</bodyScaleFactor>
+                <headScaleFactor>(1.3, 1.3)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
 
 </Defs>

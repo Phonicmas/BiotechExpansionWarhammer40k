@@ -240,12 +240,12 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Lord Commander -->
+    <!-- Lord Commander - Primarch -->
 
     <PawnKindDef ParentName="SpaceMarineBase">
         <defName>BEWH_LordCommander</defName>
-        <label>Lord Commander</label>
-        <combatPower>400</combatPower>
+        <label>primarch</label>
+        <combatPower>2000</combatPower>
         <factionLeader>true</factionLeader>
         <weaponTags>
             <li>SpacerGun</li>
@@ -269,7 +269,7 @@
         </skills>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_PrimarisSpaceMarine>1</BEWH_PrimarisSpaceMarine>
+                <BEWH_Primarch>1</BEWH_Primarch>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>

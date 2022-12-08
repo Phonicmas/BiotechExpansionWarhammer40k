@@ -121,4 +121,21 @@
     </genes>
   </XenotypeDef>
 
+  <!-- Primarch -->
+
+  <XenotypeDef>
+    <defName>BEWH_Primarch</defName>
+    <label>primarch</label>
+    <description>Bred to be perfect generals, warriors and statesmen; larger, stronger, faster, and smarter than any normal Human could ever hope to be. They possessed a potent charisma and martial prowess that made them like the mythical gods of old, untouchable by disease, old age or supposedly the petty failings of lesser men.</description>
+    <descriptionShort>Bred to be perfect generals, warriors and statesmen; larger, stronger, faster, and smarter than any normal Human could ever hope to be. They possessed a potent charisma and martial prowess that made them like the mythical gods of old, untouchable by disease, old age or supposedly the petty failings of lesser men.</descriptionShort>
+    <iconPath>UI/Xenotypes/PrimarchXenoIcon</iconPath>
+    <inheritable>false</inheritable>
+    <combatPowerFactor>10</combatPowerFactor>
+    <canGenerateAsCombatant>false</canGenerateAsCombatant>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes>
+      <li>BEWH_Primarch</li>
+    </genes>
+  </XenotypeDef>
+
 </Defs>

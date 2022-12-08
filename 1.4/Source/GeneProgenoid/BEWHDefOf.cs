@@ -15,6 +15,8 @@ namespace BEWH
     public static class BEWHDefOf
     {
         public static GeneDef BEWH_BlackCarapace;
+        public static GeneDef BEWH_Custodes;
+        public static GeneDef BEWH_Primarch;
 
         static BEWHDefOf()
         {
