@@ -16,7 +16,7 @@
     <GeneDef>
         <defName>BEWH_Custodes</defName>
         <label>custodes</label>
-        <description>CUSTODESCODE1234567890Created by the Master of Mankind personally, these beings are what primarch are to a space marine, beings of immense power and skill.</description>        <!-- CUSTODESCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
+        <description>FINESTCODE1234567890Created by the Master of Mankind personally, these beings are what primarch are to a space marine, beings of immense power and skill.</description>        <!-- FINESTCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
         <customEffectDescriptions>
             <li>CUSTOMSTART12345Considerably boosts most aspects of the pawnCUSTOMEND67890</li>            <!-- CUSTOMSTART12345 AND CUSTOMEND67890 IS REQUIRED NO MATTER WHAT TRANSLATIONS, WRITE BETWEEN THEM -->
         </customEffectDescriptions>
@@ -211,7 +211,7 @@
     <GeneDef>
         <defName>BEWH_Primarch</defName>
         <label>primarch</label>
-        <description>PRIMARCHCODE1234567890Bred to be perfect generals, warriors and statesmen; larger, stronger, faster, and smarter than any normal Human could ever hope to be. They possessed a potent charisma and martial prowess that made them like the mythical gods of old, untouchable by disease, old age or supposedly the petty failings of lesser men.</description>        <!-- PRIMARCHCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
+        <description>FINESTCODE1234567890Bred to be perfect generals, warriors and statesmen; larger, stronger, faster, and smarter than any normal Human could ever hope to be. They possessed a potent charisma and martial prowess that made them like the mythical gods of old, untouchable by disease, old age or supposedly the petty failings of lesser men.</description>        <!-- FINESTCODE1234567890 IS REQUIRED NO MATTER WHAT TRANSLATIONS -->
         <customEffectDescriptions>
             <li>CUSTOMSTART12345Massively boosts most aspects of the pawnCUSTOMEND67890</li>            <!-- CUSTOMSTART12345 AND CUSTOMEND67890 IS REQUIRED NO MATTER WHAT TRANSLATIONS, WRITE BETWEEN THEM -->
         </customEffectDescriptions>

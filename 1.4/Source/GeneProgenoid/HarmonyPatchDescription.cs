@@ -16,7 +16,7 @@ namespace BEWH
     {
         public static void Postfix(ref string __result)
         {
-            if (__result.Contains("CUSTODESCODE1234567890") || __result.Contains("PRIMARCHCODE12345678901"))
+            if (__result.Contains("FINESTCODE1234567890"))
             {
                 StringBuilder sb = new StringBuilder();
 
@@ -30,7 +30,7 @@ namespace BEWH
                 String customTemp = __result.Substring(s1, s2-s1);
                 customTemp = customTemp.Replace("CUSTOMSTART12345", "");
                 String wip = __result.Remove(removalIndex - 17); //17 is the amount of prefix color that also needs to be removed
-                wip = wip.Replace("CUSTODESCODE1234567890", "");
+                wip = wip.Replace("FINESTCODE1234567890", "");
 
                 sb.Append(wip);
                 sb.AppendLineTagged(("Effects".Translate().CapitalizeFirst() + ":").Colorize(ColoredText.TipSectionTitleColor));
