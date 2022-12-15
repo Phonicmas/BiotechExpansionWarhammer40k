@@ -138,4 +138,21 @@
     </genes>
   </XenotypeDef>
 
+  <!-- Pariah -->
+
+  <XenotypeDef>
+    <defName>BEWH_Pariah</defName>
+    <label>pariah</label>
+    <description>With no presence in the warp these beings are resistant to psychic attack.</description>
+    <descriptionShort>With no presence in the warp these beings are resistant to psychic attack.</descriptionShort>
+    <iconPath>UI/Xenotypes/PariahXenoIcon</iconPath>
+    <inheritable>false</inheritable>
+    <combatPowerFactor>1.2</combatPowerFactor>
+    <genes>
+      <li>BEWH_UpsilonPariah</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Add more of each such that every gene can occur??? -->
+
 </Defs>

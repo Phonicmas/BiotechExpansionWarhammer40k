@@ -17,6 +17,9 @@ namespace BEWH
         public static GeneDef BEWH_BlackCarapace;
         public static GeneDef BEWH_Custodes;
         public static GeneDef BEWH_Primarch;
+        public static GeneDef BEWH_SigmaPariah;
+        public static GeneDef BEWH_UpsilonPariah;
+        public static GeneDef BEWH_OmegaPariah;
 
         static BEWHDefOf()
         {

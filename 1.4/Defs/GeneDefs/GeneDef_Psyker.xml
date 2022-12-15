@@ -29,6 +29,7 @@
         <aggroMentalBreakSelectionChanceFactor>999</aggroMentalBreakSelectionChanceFactor>
         <exclusionTags>
             <li>Psyker</li>
+            <li>Phariah</li>
         </exclusionTags>
     </GeneDef>
 

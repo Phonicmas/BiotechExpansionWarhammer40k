@@ -116,6 +116,9 @@
       <li>Self</li>
       <li>Location</li>
     </targetModes>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
     <targetingParametersList>
       <li>
         <canTargetSelf>True</canTargetSelf>
@@ -159,7 +162,7 @@
     <castTime>15</castTime>
     <castSound>VPE_WordOfFear_Cast</castSound>
     <durationTimeStatFactors>
-      <PsychicSensitivity>1</PsychicSensitivity>
+      <PsychicSensitivity>0.25</PsychicSensitivity>
     </durationTimeStatFactors>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
@@ -195,8 +198,11 @@
     <castTime>30</castTime>
     <durationTime>1800</durationTime>
     <durationTimeStatFactors>
-      <PsychicSensitivity>1</PsychicSensitivity>
+      <PsychicSensitivity>0.5</PsychicSensitivity>
     </durationTimeStatFactors>
+    <rangeStatFactors>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+    </rangeStatFactors>
     <castSound>VPE_ShieldAnimals_Cast</castSound>
     <targetingParametersForAoE>
       <canTargetSelf>True</canTargetSelf>
@@ -238,6 +244,9 @@
     <radius>1.9</radius>
     <targetMode>Thing</targetMode>
     <castSound>BEWH_Doombolt</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>0.3</PsychicSensitivity>
+    </rangeStatFactors>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>
@@ -308,6 +317,9 @@
     <durationTime>3600</durationTime>
     <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <castSound>BEWH_NoSound</castSound>
+    <rangeStatFactors>
+      <PsychicSensitivity>0.3</PsychicSensitivity>
+    </rangeStatFactors>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>BEWH_Psyker</path>

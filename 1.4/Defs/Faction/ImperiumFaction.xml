@@ -105,12 +105,12 @@
                     <Muffalo>10</Muffalo>
                 </carriers>
                 <guards>
-                    <Villager>3</Villager>
                     <BEWH_SpaceMarineRanged>12</BEWH_SpaceMarineRanged>
                     <BEWH_SpaceMarineMelee>6</BEWH_SpaceMarineMelee>
                     <BEWH_PrimarisSpaceMarineRanged>2</BEWH_PrimarisSpaceMarineRanged>
                     <BEWH_PrimarisSpaceMarineMelee>2</BEWH_PrimarisSpaceMarineMelee>
                     <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
+                    <!--<Grimworld_OgrynColonist MayRequire="Grimworld.Ogryns">1</Grimworld_OgrynColonist>-->
                 </guards>
             </li>
             <li>

@@ -52,6 +52,11 @@
     </XenotypeIconDef>
 
     <XenotypeIconDef>
+        <defName>BEWH_Pariah</defName>
+        <texPath>UI/Xenotypes/PariahXenoIcon</texPath>
+    </XenotypeIconDef>
+
+    <XenotypeIconDef>
         <defName>BEWH_DPUndivided</defName>
         <texPath>UI/Xenotypes/DaemonPrinceUndividedXenoIcon</texPath>
     </XenotypeIconDef>

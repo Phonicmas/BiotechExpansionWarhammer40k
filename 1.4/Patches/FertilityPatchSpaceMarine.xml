@@ -7,6 +7,7 @@
         </mods>
         <label>Restore space marine fertility:</label>
         <operations>
+            <!-- Space Marine -->
             <li Class="PatchOperationRemove">
                 <xpath>Defs/GeneDef[defName = "BEWH_Ossmodula"]/statFactors</xpath>
             </li>
