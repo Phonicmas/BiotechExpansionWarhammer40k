@@ -13,6 +13,7 @@
         <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>90</configurationListOrderPriority>
         <canSiege>false</canSiege>
+        <hidden>true</hidden>
         <canStageAttacks>true</canStageAttacks>
         <permanentEnemy>true</permanentEnemy>
         <leaderTitle>Chaos Lord</leaderTitle>
