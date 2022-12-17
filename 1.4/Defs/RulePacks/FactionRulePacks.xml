@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Name of faction -->
+    <!-- Name of Imperium Faction -->
 
     <RulePackDef>
         <defName>BEWH_FactionNameMaker</defName>
@@ -26,6 +26,17 @@
                     <path>NameBanks/BEWH_SettlementNames</path>
                 </li>
             </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- Name of Chaos Faction -->
+
+    <RulePackDef>
+        <defName>BEWH_FactionChaosNameMaker</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->Chaos</li>
+            </rulesStrings>
         </rulePack>
     </RulePackDef>
 

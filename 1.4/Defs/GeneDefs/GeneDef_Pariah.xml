@@ -41,7 +41,7 @@
         <defName>BEWH_SigmaPariah</defName>
         <label>sigma pariah</label>
         <description>Carriers of this gene have reduced psychic sensitivity and reduces the psychic sensitivity of others nearby.</description>
-        <iconPath>UI/Xenotypes/PariahXenoIcon</iconPath>
+        <iconPath>UI/Icons/Genes/PariahSigma</iconPath>
         <displayOrderInCategory>3</displayOrderInCategory>
         <marketValueFactor>2</marketValueFactor>
         <statFactors>
@@ -67,13 +67,13 @@
         <defName>BEWH_UpsilonPariah</defName>
         <label>upsilon pariah</label>
         <description>Carriers of this gene have greatly reduced psychic sensitivity and reduces the psychic sensitivity of others nearby.</description>
-        <iconPath>UI/Xenotypes/PariahXenoIcon</iconPath>
+        <iconPath>UI/Icons/Genes/PariahUpsilon</iconPath>
         <displayOrderInCategory>2</displayOrderInCategory>
         <marketValueFactor>2</marketValueFactor>
         <statFactors>
-            <PsychicSensitivity>0.3</PsychicSensitivity>
-            <MeditationFocusGain>0.3</MeditationFocusGain>
-            <PsychicEntropyRecoveryRate>0.3</PsychicEntropyRecoveryRate>
+            <PsychicSensitivity>0.2</PsychicSensitivity>
+            <MeditationFocusGain>0.2</MeditationFocusGain>
+            <PsychicEntropyRecoveryRate>0.2</PsychicEntropyRecoveryRate>
         </statFactors>
         <customEffectDescriptions>
             <li>Greatly reduces psychic sensitivity of nearby pawns and self.</li>
@@ -93,7 +93,7 @@
         <defName>BEWH_OmegaPariah</defName>
         <label>omega pariah</label>
         <description>Carriers of this gene have no psychic sensitivity and nullifies the psychic sensitivity of others nearby.</description>
-        <iconPath>UI/Xenotypes/PariahXenoIcon</iconPath>
+        <iconPath>UI/Icons/Genes/PariahOmega</iconPath>
         <displayOrderInCategory>1</displayOrderInCategory>
         <marketValueFactor>2</marketValueFactor>
         <statFactors>

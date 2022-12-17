@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Thousand Sons -->
+  <!-- Choas Marine Base -->
 
-  <!--<XenotypeDef>
-    <defName>BEWH_ThousandSons</defName>
-    <label>thousand sons</label>
-    <description>A once proud astartes, now led down the road of chaos, this one follows Tzeentch, the changer of ways.</description>
-    <descriptionShort>Tzeentch follower.</descriptionShort>
-    <iconPath>UI/Xenotypes/SpaceMarineTzeentchXenoIcon</iconPath>
+  <XenotypeDef Name="ChaosMarineBase" Abstract="True">
+    <canGenerateAsCombatant>false</canGenerateAsCombatant>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
     <inheritable>false</inheritable>
     <combatPowerFactor>1.5</combatPowerFactor>
     <genes>
@@ -31,154 +28,82 @@
       <li>BEWH_BetchersGland</li>
       <li>BEWH_ProgenoidGlands</li>
       <li>BEWH_BlackCarapace</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Thousand Sons -->
+
+  <XenotypeDef ParentName="ChaosMarineBase">
+    <defName>BEWH_TzeentchMarine</defName>
+    <label>tzeentch marine</label>
+    <description>A once proud astartes, now led down the road of chaos, this one follows Tzeentch, the changer of ways.</description>
+    <descriptionShort>Tzeentch follower.</descriptionShort>
+    <iconPath>UI/Xenotypes/SpaceMarineTzeentchXenoIcon</iconPath>
+    <genes>
       <li>BEWH_Psyker</li>
       <li>BEWH_TzeentchMark</li>
     </genes>
-  </XenotypeDef>-->
+  </XenotypeDef>
 
   <!-- Deathguard -->
 
-  <!--<XenotypeDef>
-    <defName>BEWH_Deathguard</defName>
-    <label>deathguard</label>
+  <XenotypeDef ParentName="ChaosMarineBase">
+    <defName>BEWH_NurgleMarine</defName>
+    <label>nurgle marine</label>
     <description>A once proud astartes, now led down the road of chaos, this one follows Nurgle, the plague father.</description>
     <descriptionShort>Nurgle follower.</descriptionShort>
     <iconPath>UI/Xenotypes/SpaceMarineNurgleXenoIcon</iconPath>
-    <inheritable>false</inheritable>
-    <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
-      <li>BEWH_SecondaryHeart</li>
-      <li>BEWH_Ossmodula</li>
-      <li>BEWH_Biscopea</li>
-      <li>BEWH_Haemastamen</li>
-      <li>BEWH_LarramansOrgan</li>
-      <li>BEWH_CatalepseanNode</li>
-      <li>BEWH_Preomnor</li>
-      <li>BEWH_Omophagea</li>
-      <li>BEWH_Multi-lung</li>
-      <li>BEWH_Occulobe</li>
-      <li>BEWH_LymansEar</li>
-      <li>BEWH_Sus-anMembrane</li>
-      <li>BEWH_Melanochrome</li>
-      <li>BEWH_OoliticKidney</li>
-      <li>BEWH_Neuroglottis</li>
-      <li>BEWH_Mucranoid</li>
-      <li>BEWH_BetchersGland</li>
-      <li>BEWH_ProgenoidGlands</li>
-      <li>BEWH_BlackCarapace</li>
       <li>BEWH_NurgleMark</li>
     </genes>
-  </XenotypeDef>-->
+  </XenotypeDef>
 
   <!-- Emperor's Children -->
 
-  <!--<XenotypeDef>
-    <defName>BEWH_EmperorsChildren</defName>
-    <label>emperor's children</label>
+  <XenotypeDef ParentName="ChaosMarineBase">
+    <defName>BEWH_SlaaneshMarine</defName>
+    <label>slaanesh marine</label>
     <description>A once proud astartes, now led down the road of chaos, this one follows Slaanesh the lord of pleasure.</description>
     <descriptionShort>Slanesh follower.</descriptionShort>
     <iconPath>UI/Xenotypes/SpaceMarineSlaaneshXenoIcon</iconPath>
-    <inheritable>false</inheritable>
-    <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
-      <li>BEWH_SecondaryHeart</li>
-      <li>BEWH_Ossmodula</li>
-      <li>BEWH_Biscopea</li>
-      <li>BEWH_Haemastamen</li>
-      <li>BEWH_LarramansOrgan</li>
-      <li>BEWH_CatalepseanNode</li>
-      <li>BEWH_Preomnor</li>
-      <li>BEWH_Omophagea</li>
-      <li>BEWH_Multi-lung</li>
-      <li>BEWH_Occulobe</li>
-      <li>BEWH_LymansEar</li>
-      <li>BEWH_Sus-anMembrane</li>
-      <li>BEWH_Melanochrome</li>
-      <li>BEWH_OoliticKidney</li>
-      <li>BEWH_Neuroglottis</li>
-      <li>BEWH_Mucranoid</li>
-      <li>BEWH_BetchersGland</li>
-      <li>BEWH_ProgenoidGlands</li>
-      <li>BEWH_BlackCarapace</li>
       <li>BEWH_SlaaneshMark</li>
     </genes>
-  </XenotypeDef>-->
+  </XenotypeDef>
 
   <!-- World Eaters -->
 
-  <!--<XenotypeDef>
-    <defName>BEWH_WorldEaters</defName>
-    <label>world eaters</label>
+  <XenotypeDef ParentName="ChaosMarineBase">
+    <defName>BEWH_KhorneMarine</defName>
+    <label>khorne marine</label>
     <description>A once proud astartes, now led down the road of chaos, this one follows Khorne the blood god.</description>
     <descriptionShort>Khorne follower.</descriptionShort>
     <iconPath>UI/Xenotypes/SpaceMarineKhorneXenoIcon</iconPath>
-    <inheritable>false</inheritable>
-    <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
-      <li>BEWH_SecondaryHeart</li>
-      <li>BEWH_Ossmodula</li>
-      <li>BEWH_Biscopea</li>
-      <li>BEWH_Haemastamen</li>
-      <li>BEWH_LarramansOrgan</li>
-      <li>BEWH_CatalepseanNode</li>
-      <li>BEWH_Preomnor</li>
-      <li>BEWH_Omophagea</li>
-      <li>BEWH_Multi-lung</li>
-      <li>BEWH_Occulobe</li>
-      <li>BEWH_LymansEar</li>
-      <li>BEWH_Sus-anMembrane</li>
-      <li>BEWH_Melanochrome</li>
-      <li>BEWH_OoliticKidney</li>
-      <li>BEWH_Neuroglottis</li>
-      <li>BEWH_Mucranoid</li>
-      <li>BEWH_BetchersGland</li>
-      <li>BEWH_ProgenoidGlands</li>
-      <li>BEWH_BlackCarapace</li>
       <li>BEWH_KhorneMark</li>
     </genes>
-  </XenotypeDef>-->
+  </XenotypeDef>
 
   <!-- Chaos Marine -->
 
-  <!--<XenotypeDef>
+  <XenotypeDef ParentName="ChaosMarineBase">
     <defName>BEWH_ChaosMarine</defName>
     <label>chaos marine</label>
     <description>A once proud astartes, now led down the road of chaos, this one follows no specific god but instead accepts them all.</description>
     <descriptionShort>chaos follower.</descriptionShort>
     <iconPath>UI/Xenotypes/SpaceMarineChaosXenoIcon</iconPath>
-    <inheritable>false</inheritable>
-    <combatPowerFactor>1.25</combatPowerFactor>
     <genes>
-      <li>BEWH_SecondaryHeart</li>
-      <li>BEWH_Ossmodula</li>
-      <li>BEWH_Biscopea</li>
-      <li>BEWH_Haemastamen</li>
-      <li>BEWH_LarramansOrgan</li>
-      <li>BEWH_CatalepseanNode</li>
-      <li>BEWH_Preomnor</li>
-      <li>BEWH_Omophagea</li>
-      <li>BEWH_Multi-lung</li>
-      <li>BEWH_Occulobe</li>
-      <li>BEWH_LymansEar</li>
-      <li>BEWH_Sus-anMembrane</li>
-      <li>BEWH_Melanochrome</li>
-      <li>BEWH_OoliticKidney</li>
-      <li>BEWH_Neuroglottis</li>
-      <li>BEWH_Mucranoid</li>
-      <li>BEWH_BetchersGland</li>
-      <li>BEWH_ProgenoidGlands</li>
-      <li>BEWH_BlackCarapace</li>
       <li>BEWH_UndividedMark</li>
     </genes>
-  </XenotypeDef>-->
+  </XenotypeDef>
 
   <!-- Daemon Prince Base -->
 
-  <XenotypeDef Name="DaemonPrince Base" Abstract="True">
+  <XenotypeDef Name="DaemonPrinceBase" Abstract="True">
     <inheritable>false</inheritable>
     <canGenerateAsCombatant>false</canGenerateAsCombatant>
     <factionlessGenerationWeight>0</factionlessGenerationWeight>
-    <!--<soundDefOnImplant>soundDefHere</soundDefOnImplant>--> <!-- Add sound def here for when daemon asecension is aquired -->
+    <!--<soundDefOnImplant>soundDefHere</soundDefOnImplant>-->    <!-- Add sound def here for when daemon asecension is aquired -->
     <combatPowerFactor>3</combatPowerFactor>
     <genes>
       <li>BEWH_DaemonMutation</li>
@@ -194,7 +119,7 @@
 
   <!-- Daemon Prince Undivided -->
 
-  <XenotypeDef ParentName="DaemonPrince Base">
+  <XenotypeDef ParentName="DaemonPrinceBase">
     <defName>BEWH_DPUndivided</defName>
     <label>undivided daemon prince</label>
     <description>Undivided daemon prince.</description>
@@ -208,7 +133,7 @@
 
   <!-- Daemon Prince Khorne -->
 
-  <XenotypeDef ParentName="DaemonPrince Base">
+  <XenotypeDef ParentName="DaemonPrinceBase">
     <defName>BEWH_DPKhorne</defName>
     <label>khorne daemon prince</label>
     <description>khorne daemon prince.</description>
@@ -222,7 +147,7 @@
 
   <!-- Daemon Prince Nurgle -->
 
-  <XenotypeDef ParentName="DaemonPrince Base">
+  <XenotypeDef ParentName="DaemonPrinceBase">
     <defName>BEWH_DPNurgle</defName>
     <label>nurgle daemon prince</label>
     <description>Nurgle daemon prince.</description>
@@ -236,7 +161,7 @@
 
   <!-- Daemon Prince Tzeentch -->
 
-  <XenotypeDef ParentName="DaemonPrince Base">
+  <XenotypeDef ParentName="DaemonPrinceBase">
     <defName>BEWH_DPTzeentch</defName>
     <label>tzeentch daemon prince</label>
     <description>Tzeentch daemon prince.</description>
@@ -250,7 +175,7 @@
 
   <!-- Daemon Prince Slaanesh -->
 
-  <XenotypeDef ParentName="DaemonPrince Base">
+  <XenotypeDef ParentName="DaemonPrinceBase">
     <defName>BEWH_DPSlaanesh</defName>
     <label>slaanesh daemon prince</label>
     <description>Slaanesh daemon prince.</description>
