@@ -121,6 +121,10 @@
         <aptitudes>
             <Melee>8</Melee>
         </aptitudes>
+        <passionMod>
+            <skill>Melee</skill>
+            <modType>AddOneLevel</modType>
+        </passionMod>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <caravanCarryingFactor>1.5</caravanCarryingFactor>
@@ -300,6 +304,10 @@
         <aptitudes>
             <Shooting>8</Shooting>
         </aptitudes>
+        <passionMod>
+            <skill>Shooting</skill>
+            <modType>AddOneLevel</modType>
+        </passionMod>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <noSkillLoss>Shooting</noSkillLoss>

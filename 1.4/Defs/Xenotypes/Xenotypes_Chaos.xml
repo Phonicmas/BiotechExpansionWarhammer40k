@@ -170,6 +170,7 @@
     <genes>
       <li>BEWH_TzeentchMark</li>
       <li>BEWH_TzeencthColor</li>
+      <li>BEWH_DeltaPsyker</li>
     </genes>
   </XenotypeDef>
 

@@ -3,7 +3,7 @@
 
     <!-- Space Marine Base -->
 
-    <PawnKindDef Name="SpaceMarineBase" Abstract="True">
+    <PawnKindDef Name="SpaceMarineBasePawn" Abstract="True">
         <race>Human</race>
         <defaultFactionType>BEWH_ImperiumFaction</defaultFactionType>
         <initialWillRange>300~400</initialWillRange>
@@ -83,7 +83,7 @@
 
     <!-- Space Marine Ranged -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_SpaceMarineRanged</defName>
         <label>Tactical Marine</label>
         <combatPower>200</combatPower>
@@ -116,7 +116,7 @@
 
     <!-- Space Marine Melee -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_SpaceMarineMelee</defName>
         <label>Tactical Marine</label>
         <combatPower>200</combatPower>
@@ -146,7 +146,7 @@
 
     <!-- Primaris Space Marine Ranged -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_PrimarisSpaceMarineRanged</defName>
         <label>Tactical Primaris Marine</label>
         <combatPower>300</combatPower>
@@ -179,7 +179,7 @@
 
     <!-- Primaris Space Marine Melee -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_PrimarisSpaceMarineMelee</defName>
         <label>Tactical Primaris Marine</label>
         <combatPower>300</combatPower>
@@ -209,7 +209,7 @@
 
     <!-- Space Marine Psyker -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_SpaceMarinePsyker</defName>
         <label>Librarian</label>
         <combatPower>280</combatPower>
@@ -242,7 +242,7 @@
 
     <!-- Lord Commander - Primarch -->
 
-    <PawnKindDef ParentName="SpaceMarineBase">
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_LordCommander</defName>
         <label>primarch</label>
         <combatPower>2000</combatPower>

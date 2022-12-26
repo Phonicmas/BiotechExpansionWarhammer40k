@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Space Marine Base -->
+    <!-- Daemon Prince Base -->
 
-    <PawnKindDef Name="ChaosMarineBasePawn" Abstract="True">
+    <PawnKindDef Name="DaemonPrincePawnBase" Abstract="True">
         <race>Human</race>
         <defaultFactionType>BEWH_ChaosFactionHidden</defaultFactionType>
-        <initialWillRange>300~400</initialWillRange>
-        <initialResistanceRange>300~400</initialResistanceRange>
+        <initialWillRange>3000~4000</initialWillRange>
+        <initialResistanceRange>3000~4000</initialResistanceRange>
         <acceptArrestChanceFactor>0</acceptArrestChanceFactor>
         <invNutrition>2.55</invNutrition>
         <backstoryCryptosleepCommonality>1.0</backstoryCryptosleepCommonality>
-        <fixedGender>Male</fixedGender>
-        <minGenerationAge>19</minGenerationAge>
-        <maxGenerationAge>21</maxGenerationAge>
+        <minGenerationAge>31</minGenerationAge>
+        <maxGenerationAge>8417</maxGenerationAge>
         <itemQuality>Good</itemQuality>
         <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
         <requiredWorkTags>Violent</requiredWorkTags>
@@ -32,31 +31,9 @@
         </gearHealthRange>
         <weaponMoney>10000~10000</weaponMoney>
         <apparelMoney>
-            <min>2000</min>
-            <max>9000</max>
+            <min>0</min>
+            <max>0</max>
         </apparelMoney>
-        <apparelTags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
-            <li>IndustrialMilitaryBasic</li>
-            <li>IndustrialMilitaryAdvanced</li>
-        </apparelTags>
-        <apparelDisallowTags>
-            <li>Western</li>
-        </apparelDisallowTags>
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <specificApparelRequirements Inherit="False">
-            <li>
-                <bodyPartGroup>Torso</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Synthread</stuff>
-            </li>
-            <li>
-                <bodyPartGroup>Legs</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Synthread</stuff>
-            </li>
-        </specificApparelRequirements>
         <inventoryOptions>
             <subOptionsChooseOne>
                 <li>
@@ -75,9 +52,6 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
-        <techHediffsRequired>
-            <li>DeathAcidifier</li>
-        </techHediffsRequired>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -85,16 +59,16 @@
             </li>
             <li>
                 <skill>Melee</skill>
-                <range>8~16</range>
+                <range>16~20</range>
             </li>
         </skills>
-        <combatPower>200</combatPower>
+        <combatPower>1000</combatPower>
     </PawnKindDef>
 
     <!-- Undivided -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
-        <defName>BEWH_ChaosMarineUndivided</defName>
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DPUndivided</defName>
         <label>Chaos Marine</label>
         <apparelColor>(20,20,20)</apparelColor>
         <weaponTags>
@@ -110,101 +84,74 @@
         </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_ChaosMarine>1</BEWH_ChaosMarine>
+                <BEWH_DPUndivided>1</BEWH_DPUndivided>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
 
     <!-- Khorne -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
-        <defName>BEWH_ChaosMarineKhorne</defName>
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DPKhorne</defName>
         <label>Khorne Marine</label>
         <apparelColor>(110,0,0)</apparelColor>
         <weaponTags>
             <li>UltratechMelee</li>
         </weaponTags>
-        <apparelRequired>
-            <li>Apparel_PowerArmor</li>
-            <li>Apparel_PowerArmorHelmet</li>
-        </apparelRequired>
         <forcedTraits>
             <li>Brawler</li>
         </forcedTraits>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_KhorneMarine>1</BEWH_KhorneMarine>
+                <BEWH_DPKhorne>1</BEWH_DPKhorne>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
 
     <!-- Nurgle -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
-        <defName>BEWH_ChaosMarineNurgle</defName>
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DPNurgle</defName>
         <label>Nurgle Marine</label>
         <apparelColor>(65,75,0)</apparelColor>
         <weaponTags>
-            <li>SpacerGun</li>
             <li>UltratechMelee</li>
         </weaponTags>
-        <apparelRequired>
-            <li>Apparel_PowerArmor</li>
-            <li>Apparel_PowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_NurgleMarine>1</BEWH_NurgleMarine>
+                <BEWH_DPNurgle>1</BEWH_DPNurgle>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
 
     <!-- Slaanesh -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
-        <defName>BEWH_ChaosMarineSlaanesh</defName>
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DPSlaanesh</defName>
         <label>Slaanesh Marine</label>
         <apparelColor>(170,0,75)</apparelColor>
         <weaponTags>
-            <li>SpacerGun</li>
             <li>UltratechMelee</li>
         </weaponTags>
-        <apparelRequired>
-            <li>Apparel_PowerArmor</li>
-            <li>Apparel_PowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_SlaaneshMarine>1</BEWH_SlaaneshMarine>
+                <BEWH_DPSlaanesh>1</BEWH_DPSlaanesh>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
 
     <!-- Tzeentch -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
-        <defName>BEWH_ChaosMarineTzeentch</defName>
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DPTzeentch</defName>
         <label>Tzeentch Marine</label>
         <apparelColor>(0,60,155)</apparelColor>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
         </weaponTags>
-        <apparelRequired>
-            <li>Apparel_ArmorMarinePrestige</li>
-            <li>Apparel_ArmorMarineHelmetPrestige</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_TzeentchMarine>1</BEWH_TzeentchMarine>
+                <BEWH_DPTzeentch>1</BEWH_DPTzeentch>
             </xenotypeChances>
         </xenotypeSet>
     </PawnKindDef>
