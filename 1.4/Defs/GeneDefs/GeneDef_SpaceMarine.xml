@@ -260,7 +260,7 @@
     <!-- Multi-lung -->
 
     <GeneDef ParentName="SpaceMarineParent">
-        <defName>BEWH_Multi-lung</defName>
+        <defName>BEWH_MultiLung</defName>
         <label>multi-lung</label>
         <description>The multi lung is but a bag, similar in composition to a lung but with similar enzymes and filters to the preomnor. Implanted just under the lungs to be able to fully use the diaphragm, the multi-lung is routed to a sphincter in the trachea so that it can be used alongside the other lungs to feed the now higher oxygen requirements due to the Haemastamen, but also so that it can close it, forcing all air input to come through it, in case the neophyte is in a dangerous atmosphere and the air needs to be filtered.</description>
         <iconPath>UI/Icons/Genes/Multi-LungIcon</iconPath>
@@ -290,7 +290,7 @@
         <description>The occulobe is implanted on the base of the frontal lobe, with a direct access to the occular nerves to which it's attached and connected directly, giving access to the retina inputs and functioning in two different ways: One is to modify the growth of the eye with hormonal therapy, giving the neophyte better sight and more compact, efficient retinal cells. The other is to allow the optical input to be directly transmitted and translated in the brain for optical hypno-therapy.</description>
         <iconPath>UI/Icons/Genes/OcculobeIcon</iconPath>
         <displayOrderInCategory>10</displayOrderInCategory>
-        <prerequisite>BEWH_Multi-lung</prerequisite>
+        <prerequisite>BEWH_MultiLung</prerequisite>
         <ignoreDarkness>true</ignoreDarkness>
         <statFactors>
             <AimingDelayFactor>0.85</AimingDelayFactor>
@@ -345,7 +345,7 @@
     <!-- Sus-an Membrane -->
 
     <GeneDef ParentName="SpaceMarineParent">
-        <defName>BEWH_Sus-anMembrane</defName>
+        <defName>BEWH_SusAnMembrane</defName>
         <label>sus-an membrane</label>
         <description>Carriers possess an organ within the their cranium, this organ eventually produces a membrane comprised of genetically-engineered neural tissue that merges with the recipient's cerebrum, that allows them to enter a state of suspended animation, the organ will shut down all biological and psychic functions</description>
         <iconPath>UI/Icons/Genes/Sus-anMembraneIcon</iconPath>
@@ -371,7 +371,7 @@
         <description>The Melanochrome, melano from melanin, a substance used as protection against the sun, and chrome from color, is another hormonal secretor that uses the lynphatic system as transport for its hormones. Designed to improve the radiation protection of the neophyte by assisting in the creation of more or less melanin (For example, giving the sons of Vulcan their black color and the angels their pale skin, both of which are mutations of the melanochrome) in case of high radiation exposure but also it is designed to capture certain metals from the diet and use them in the formation of skin cells to protect against other types of radiation, these metals are usually ingested through their Astartes specific meals and are comprised of heavy metals like lead and gold, taking particular care in not using ferro-magnetic ones.</description>
         <iconPath>UI/Icons/Genes/MelanochromeIcon</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
-        <prerequisite>BEWH_Sus-anMembrane</prerequisite>
+        <prerequisite>BEWH_SusAnMembrane</prerequisite>
         <statOffsets>
             <MaxHitPoints>60</MaxHitPoints>
         </statOffsets>

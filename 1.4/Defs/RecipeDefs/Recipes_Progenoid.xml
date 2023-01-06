@@ -3,316 +3,36 @@
 
     <!-- Make geneseed base -->
 
-    <RecipeDef Abstract="True" Name="MakeGeneseed" ParentName="SurgeryFlesh">
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>BEWH_AstartesPack</defName>
+        <label>Make astartes genepack</label>
+        <description>Remove fully grown germ cells from progenoid glands to make all gene-seeds of an astartes.</description>
         <workerClass>BEWH.GeneProgenoidRemovalWorkerClass</workerClass>
         <jobString>creating gene-seed from progenoid glands</jobString>
         <successfullyRemovedHediffMessage>{0} has successfully created gene-seed from {1}'s progenoid glands.</successfullyRemovedHediffMessage>
         <workAmount>2200</workAmount>
         <hideBodyPartNames>true</hideBodyPartNames>
         <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
-        <addsHediff>BEWH_ProgenoidGlandsGrowth</addsHediff>
         <targetsBodyPart>false</targetsBodyPart>
-        <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+        <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
         <ingredients Inherit="true">
             <li>
                 <filter>
                     <thingDefs>
                         <li>MedicineUltratech</li>
                     </thingDefs>
-                </filter>   
+                </filter>
                 <count>1</count>
             </li>
         </ingredients>
     </RecipeDef>
 
-    <!-- Secondary Heart-->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_SecondaryHeart</defName>
-        <label>Make secondary heart genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_SecondaryHeart</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Ossmodula -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Ossmodula</defName>
-        <label>Make ossmodula genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires secondary heart to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Ossmodula</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Biscopea -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Biscopea</defName>
-        <label>Make biscopea genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires ossmodula to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Biscopea</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Haemastamen -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Haemastamen</defName>
-        <label>Make haemastamen genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires biscopea to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Haemastamen</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Larraman's Organ  -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_LarramansOrgan</defName>
-        <label>Make larraman's organ genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires haemastamen to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_LarramansOrgan</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Catalepsean Node -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_CatalepseanNode</defName>
-        <label>Make catalepsean node genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires larraman's organ to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_CatalepseanNode</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Preomnor -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Preomnor</defName>
-        <label>Make preomnor genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires catalepsean node to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Preomnor</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Omophagea -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Omophagea</defName>
-        <label>Make omophagea genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires preomnor to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Omophagea</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Multi-lung -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Multi-lung</defName>
-        <label>Make multi-lung genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires omophagea to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Multi-lung</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Occulobe -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Occulobe</defName>
-        <label>Make occulobe genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires multi-lung to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Occulobe</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Lyman's Ear -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_LymansEar</defName>
-        <label>Make lyman's ear genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires occulobe to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_LymansEar</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Sus-an Membrane -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Sus-anMembrane</defName>
-        <label>Make sus-an membrane genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires lyman's ear to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Sus-anMembrane</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Melanochrome -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Melanochrome</defName>
-        <label>Make melanochrome genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires sus-an membrane to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Melanochrome</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Oolitic Kidney -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_OoliticKidney</defName>
-        <label>Make oolitic kidney genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires melanochrome to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_OoliticKidney</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Neuroglottis -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Neuroglottis</defName>
-        <label>Make neuroglottis genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires oolitic kidney to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Neuroglottis</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Mucranoid -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_Mucranoid</defName>
-        <label>Make mucranoid genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires neuroglottis to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_Mucranoid</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Betcher's Gland -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_BetchersGland</defName>
-        <label>Make betcher's gland genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires mucranoid to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_BetchersGland</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Progenoid Glands -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_ProgenoidGlands</defName>
-        <label>Make progenoid glands genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires betcher's gland to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_ProgenoidGlands</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Black Carapace -->
-
-    <RecipeDef ParentName="MakeGeneseed">
-        <defName>BEWH_BlackCarapace</defName>
-        <label>Make black carapace genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a gene-seed genepack. Requires progenoid glands to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_ProgenoidGlands</requiredGeneAny>
-                <wantedGene>BEWH_BlackCarapace</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
     <!-- Make primaris geneseed base -->
 
-    <RecipeDef Abstract="True" Name="MakePrimarisGeneseed" ParentName="SurgeryFlesh">
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>BEWH_PrimarisPack</defName>
+        <label>Make primaris genepack</label>
+        <description>Remove fully grown germ cells from progenoid glands to make all gene-seeds of a primaris.</description>
         <workerClass>BEWH.GeneProgenoidRemovalWorkerClass</workerClass>
         <jobString>creating primaris gene-seed from progenoid glands</jobString>
         <successfullyRemovedHediffMessage>{0} has successfully created primaris gene-seed from {1}'s progenoid glands.</successfullyRemovedHediffMessage>
@@ -320,7 +40,7 @@
         <hideBodyPartNames>true</hideBodyPartNames>
         <removesHediff>BEWH_ProgenoidGlandsGrowth</removesHediff>
         <targetsBodyPart>false</targetsBodyPart>
-        <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+        <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
         <ingredients Inherit="true">
             <li>
                 <filter>
@@ -331,51 +51,6 @@
                 <count>3</count>
             </li>
         </ingredients>
-    </RecipeDef>
-
-    <!-- Sinew Coil -->
-
-    <RecipeDef ParentName="MakePrimarisGeneseed">
-        <defName>BEWH_SinewCoil</defName>
-        <label>Make sinew coil genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_SinewCoil</requiredGeneAny>
-                <wantedGene>BEWH_SinewCoil</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Magnificat -->
-
-    <RecipeDef ParentName="MakePrimarisGeneseed">
-        <defName>BEWH_Magnificat</defName>
-        <label>Make magnificat genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_Magnificat</requiredGeneAny>
-                <wantedGene>BEWH_Magnificat</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Belisarian Furnace -->
-
-    <RecipeDef ParentName="MakePrimarisGeneseed">
-        <defName>BEWH_BelisarianFurnace</defName>
-        <label>Make belisarian furnace genepack</label>
-        <description>Remove fully grown germ cells from progenoid glands to make a primaris gene-seed genepack. Requires black carapace to install this gene.</description>
-        <modExtensions>
-            <li Class="BEWH.GeneProgenoidDefExtension">
-                <requiredGeneAny>BEWH_BelisarianFurnace</requiredGeneAny>
-                <wantedGene>BEWH_BelisarianFurnace</wantedGene>
-                <requriedSeverity>1</requriedSeverity>
-            </li>
-        </modExtensions>
     </RecipeDef>
 
     <!-- Stasis Resurrection -->

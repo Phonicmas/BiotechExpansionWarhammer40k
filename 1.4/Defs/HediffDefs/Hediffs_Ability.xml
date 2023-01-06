@@ -9,8 +9,8 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Your progenoid glands are currently producing germ cells for new gene-seeds.</description>
 		<everCurableByItem>false</everCurableByItem>
-		<initialSeverity>0.001</initialSeverity>
-		<maxSeverity>1</maxSeverity>
+		<initialSeverity>0.004	</initialSeverity>
+		<maxSeverity>2</maxSeverity>
 		<stages>
 			<li>
 				<label>Growing</label>
@@ -22,7 +22,7 @@
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0.333</severityPerDay>
+				<severityPerDay>0.0166</severityPerDay>
 			</li>
 		</comps>
 	</HediffDef>

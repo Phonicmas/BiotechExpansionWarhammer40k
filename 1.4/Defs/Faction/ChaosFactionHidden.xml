@@ -56,18 +56,59 @@
             </points>
         </maxPawnCostPerTotalPointsCurve>
         <pawnGroupMakers>
+            <!-- Undivided Fight -->
             <li>
-            <!-- Marine Fight -->
                 <kindDef>Combat</kindDef>
                 <commonality>100</commonality>
                 <options>
-                    <BEWH_ChaosMarineUndivided>10</BEWH_ChaosMarineUndivided>
-                    <BEWH_ChaosMarineKhorne>2</BEWH_ChaosMarineKhorne>
-                    <BEWH_ChaosMarineNurgle>2</BEWH_ChaosMarineNurgle>
-                    <BEWH_ChaosMarineSlaanesh>2</BEWH_ChaosMarineSlaanesh>
-                    <BEWH_ChaosMarineTzeentch>2</BEWH_ChaosMarineTzeentch>
+                    <BEWH_ChaosMarineUndivided>100</BEWH_ChaosMarineUndivided>
+                    <BEWH_DPUndivided>1</BEWH_DPUndivided>
                 </options>
             </li>
+            <!-- Khorne Fight -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <BEWH_ChaosMarineKhorne>100</BEWH_ChaosMarineKhorne>
+                    <BEWH_DPKhorne>1</BEWH_DPKhorne>
+                </options>
+            </li>
+            <!-- Nurgle Fight -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <BEWH_ChaosMarineNurgle>100</BEWH_ChaosMarineNurgle>
+                    <BEWH_DPNurgle>1</BEWH_DPNurgle>
+                </options>
+            </li>
+            <!-- Slaanesh Fight -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <BEWH_ChaosMarineSlaanesh>100</BEWH_ChaosMarineSlaanesh>
+                    <BEWH_DPSlaanesh>1</BEWH_DPSlaanesh>
+                </options>
+            </li>
+            <!-- Tzeentch Fight -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <BEWH_ChaosMarineTzeentch>100</BEWH_ChaosMarineTzeentch>
+                    <BEWH_DPTzeentch>1</BEWH_DPTzeentch>
+                </options>
+            </li>
+            <!-- Cultist Fight -->
+            <!--<li>
+                <kindDef>Combat</kindDef>
+                <commonality>500</commonality>
+                <options>
+                    <BEWH_Cultist>1</BEWH_Cultist>
+                </options>
+            </li>-->
         </pawnGroupMakers>
     </FactionDef>
 

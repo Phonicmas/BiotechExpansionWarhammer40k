@@ -72,6 +72,8 @@
         </comps>
     </HediffDef>
 
+    <!-- Sigma Pariah Effecter -->
+
     <HediffDef>
         <defName>BEWH_SigmaPariahEffecter</defName>
         <hediffClass>HediffWithComps</hediffClass>
@@ -89,7 +91,7 @@
                     <PsychicSensitivity>0.55</PsychicSensitivity>
                     <PsychicEntropyRecoveryRate>0.55</PsychicEntropyRecoveryRate>
                 </statFactors>
-                <painOffset>0.5</painOffset>
+                <painOffset>0.1</painOffset>
             </li>
         </stages>
         <comps>
@@ -125,7 +127,7 @@
                     <PsychicSensitivity>0.3</PsychicSensitivity>
                     <PsychicEntropyRecoveryRate>0.3</PsychicEntropyRecoveryRate>
                 </statFactors>
-                <painOffset>0.5</painOffset>
+                <painOffset>0.2</painOffset>
             </li>
         </stages>
         <comps>
@@ -135,7 +137,7 @@
         </comps>
     </HediffDef>
 
-    <!-- Omega Pariah Effect-->
+    <!-- Omega Pariah Effecter-->
 
     <HediffDef>
         <defName>BEWH_OmegaPariahEffecter</defName>
@@ -161,7 +163,7 @@
                     <PsychicSensitivity>0</PsychicSensitivity>
                     <PsychicEntropyRecoveryRate>0</PsychicEntropyRecoveryRate>
                 </statFactors>
-                <painOffset>0.5</painOffset>
+                <painOffset>0.4</painOffset>
             </li>
         </stages>
         <comps>

@@ -5,7 +5,7 @@
 
 	<ThoughtDef>
 		<defName>BEWH_Acquiescence</defName>
-		<durationDays>300</durationDays>
+		<durationDays>1</durationDays>
 		<stages>
 			<li>
 				<label>Acquiescence</label>
@@ -19,7 +19,7 @@
 
 	<ThoughtDef>
 		<defName>BEWH_Mindscourge</defName>
-		<durationDays>300</durationDays>
+		<durationDays>1</durationDays>
 		<stages>
 			<li>
 				<label>Mindscourge</label>

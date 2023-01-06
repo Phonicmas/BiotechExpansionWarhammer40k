@@ -5,21 +5,23 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 
 ## Future Things? (Not ordered)
 1. Make more trees for the different psychic disciplines and god specific paths - WILL DO
-2. Phariah genes (blanks) - WILL DO
+2. Make a standalone psycast mod - WILL DO
 3. Event? (big baddie coming to hurt you)
 4. Persona traits?
 5. Astropaths & navigators?
 6. Black carapace works and overwrites warcasket trait from VFE pirates - allowing work.
 7. Genestealer?
-8. Make a standalone psycast?
 
 ## To do (Not ordered)
-1. Fix psytrainer quest reward giving access without psyker gene. (Unsure how to without going too much into existing code and messing with it)
-2. Make secondary heart carriers survive losing main heart.
-3. Fix culture/ideo part - try make it the same ideo for all imperial factions.
-4. Faction; title system from royalty.
-5. Make Daemon mutation make the carrier immortal by essentially respawning them.
-6. Make custom code to remove/prevent hediffs from getting applied.
+1. Make secondary heart carriers survive losing main heart.
+2. Faction; title system from royalty.
+3. Make Daemon mutation make the carrier immortal by essentially respawning them.
+4. Make custom code to remove/prevent hediffs from getting applied.
+
+## Fixes to do
+1. Psytrainer quest reward giving access without psyker gene. (Unsure how to without going too much into existing code and messing with it)
+2. Culture/ideo part - try make it the same ideo for all imperial factions.
+3. Can make geneseeds multiple times when queuing them up
 
 ## Genes
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.
@@ -244,7 +246,38 @@ First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4
     
     *Multiplies medidation focus gain by 2
     
-    *Multiplies entropy recovery rate by 2.5               
+    *Multiplies entropy recovery rate by 2.5      
+
+### Phariah
+1. Sigma
+
+    *Multiplies psychic sensitivity by 0.55
+    
+    *Multiplies medidation focus gain by 0.55
+    
+    *Multiplies entropy recovery rate by 0.55  
+
+    *Reduces psychic sensitivity of nearby pawns
+
+2. Upsilon
+
+    *Multiplies psychic sensitivity by 0.2
+    
+    *Multiplies medidation focus gain by 0.2
+    
+    *Multiplies entropy recovery rate by 0.2 
+
+    *Greatly reduces psychic sensitivity of nearby pawns and self
+
+3. Omega
+
+    *Multiplies psychic sensitivity by 0
+    
+    *Multiplies medidation focus gain by 0
+    
+    *Multiplies entropy recovery rate by 0
+
+    *Nullifies psychic sensitivity of nearby pawns and self
 
 ### Chaos
 1. Mark of Khorne
