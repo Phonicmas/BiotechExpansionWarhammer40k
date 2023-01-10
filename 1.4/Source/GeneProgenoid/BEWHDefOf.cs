@@ -44,6 +44,9 @@ namespace BEWH
         public static GeneDef BEWH_Magnificat;
         public static GeneDef BEWH_BelisarianFurnace;
 
+        public static RecipeDef BEWH_AstartesPack;
+        public static RecipeDef BEWH_PrimarisPack;
+
         static BEWHDefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(BEWHDefOf));

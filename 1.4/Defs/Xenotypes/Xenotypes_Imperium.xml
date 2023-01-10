@@ -31,7 +31,6 @@
     </genes>
   </XenotypeDef>
 
-
   <!-- Space Marine -->
 
   <XenotypeDef ParentName="SpaceMarineBase">

@@ -17,11 +17,12 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 2. Faction; title system from royalty.
 3. Make Daemon mutation make the carrier immortal by essentially respawning them.
 4. Make custom code to remove/prevent hediffs from getting applied.
+5. Make progenoid glands give an additional harvest of gene-seeds when a pawn dies.
+6. Make it use weapons and armor from other mods if they are present.
 
 ## Fixes to do
 1. Psytrainer quest reward giving access without psyker gene. (Unsure how to without going too much into existing code and messing with it)
 2. Culture/ideo part - try make it the same ideo for all imperial factions.
-3. Can make geneseeds multiple times when queuing them up
 
 ## Genes
 First 19 gene-seed have a complexity of 2, all 3 primaris have a complexity of 4 and requires 1 archite capsule.

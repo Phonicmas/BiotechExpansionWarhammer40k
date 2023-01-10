@@ -68,9 +68,28 @@ namespace BEWH
                 genedef = PrimarisPack();
             }
             genepack.Initialize(genedef);
+            ClearQueue(pawn);
             if (GenPlace.TryPlaceThing(((Thing)genepack), pawn.PositionHeld, pawn.MapHeld, ThingPlaceMode.Near))
                 return;
             Log.Error("Could not drop item near " + (object)pawn.PositionHeld);
+        }
+
+        private void ClearQueue(Pawn pawn)
+        {
+            BillStack bills = pawn.health.surgeryBills;
+            for (int i = 1; i < bills.Count; i++)
+            {
+                if (bills[i].recipe.defName == "BEWH_AstartesPack")
+                {
+                    bills.Delete(bills[i]);
+                    i--;
+                }
+                if (bills[i].recipe.defName == "BEWH_PrimarisPack")
+                {
+                    bills.Delete(bills[i]);
+                    i--;
+                }
+            }
         }
 
         private List<GeneDef> AstartesPack()

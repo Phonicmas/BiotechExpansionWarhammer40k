@@ -29,7 +29,7 @@
                 <xpath>Defs/GeneDef[defName = "BEWH_Omophagea"]/prerequisite</xpath>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>Defs/GeneDef[defName = "BEWH_Multi-lung"]/prerequisite</xpath>
+                <xpath>Defs/GeneDef[defName = "BEWH_MultiLung"]/prerequisite</xpath>
             </li>
             <li Class="PatchOperationRemove">
                 <xpath>Defs/GeneDef[defName = "BEWH_Occulobe"]/prerequisite</xpath>
@@ -38,7 +38,7 @@
                 <xpath>Defs/GeneDef[defName = "BEWH_LymansEar"]/prerequisite</xpath>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>Defs/GeneDef[defName = "BEWH_Sus-anMembrane"]/prerequisite</xpath>
+                <xpath>Defs/GeneDef[defName = "BEWH_SusAnMembrane"]/prerequisite</xpath>
             </li>
             <li Class="PatchOperationRemove">
                 <xpath>Defs/GeneDef[defName = "BEWH_Melanochrome"]/prerequisite</xpath>
