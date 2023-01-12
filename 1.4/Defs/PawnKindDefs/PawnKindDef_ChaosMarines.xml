@@ -81,17 +81,17 @@
         <skills>
             <li>
                 <skill>Shooting</skill>
-                <range>8~16</range>
+                <range>14~16</range>
             </li>
             <li>
                 <skill>Melee</skill>
-                <range>8~16</range>
+                <range>14~16</range>
             </li>
         </skills>
         <combatPower>200</combatPower>
     </PawnKindDef>
 
-    <!-- Undivided -->
+    <!-- Undivided Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
         <defName>BEWH_ChaosMarineUndivided</defName>
@@ -115,7 +115,41 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Khorne -->
+    <!-- Undivided Marine Psyker -->
+
+    <PawnKindDef ParentName="ChaosMarineBasePawn">
+        <defName>BEWH_ChaosMarineUndividedPsyker</defName>
+        <label>Chaos Marine</label>
+        <apparelColor>(20,20,20)</apparelColor>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>Apparel_ArmorMarinePrestige</li>
+            <li>Apparel_ArmorMarineHelmetPrestige</li>
+        </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~13</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~13</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosMarine>1</BEWH_ChaosMarine>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+    <!-- Khorne Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
         <defName>BEWH_ChaosMarineKhorne</defName>
@@ -131,6 +165,12 @@
         <forcedTraits>
             <li>Brawler</li>
         </forcedTraits>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>18~20</range>
+            </li>
+        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_KhorneMarine>1</BEWH_KhorneMarine>
@@ -138,7 +178,7 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Nurgle -->
+    <!-- Nurgle Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
         <defName>BEWH_ChaosMarineNurgle</defName>
@@ -162,7 +202,41 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Slaanesh -->
+    <!-- Nurgle Marine Psyker -->
+
+    <PawnKindDef ParentName="ChaosMarineBasePawn">
+        <defName>BEWH_ChaosMarineNurglePsyker</defName>
+        <label>Nurgle Marine</label>
+        <apparelColor>(65,75,0)</apparelColor>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>Apparel_ArmorMarinePrestige</li>
+            <li>Apparel_ArmorMarineHelmetPrestige</li>
+        </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~13</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~13</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_NurgleMarine>1</BEWH_NurgleMarine>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+    <!-- Slaanesh Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
         <defName>BEWH_ChaosMarineSlaanesh</defName>
@@ -186,7 +260,41 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Tzeentch -->
+    <!-- Slaanesh Marine Psyker -->
+
+    <PawnKindDef ParentName="ChaosMarineBasePawn">
+        <defName>BEWH_ChaosMarineSlaaneshPsyker</defName>
+        <label>Slaanesh Marine</label>
+        <apparelColor>(170,0,75)</apparelColor>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>Apparel_ArmorMarinePrestige</li>
+            <li>Apparel_ArmorMarineHelmetPrestige</li>
+        </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~13</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~13</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_SlaaneshMarine>1</BEWH_SlaaneshMarine>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+    <!-- Tzeentch Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
         <defName>BEWH_ChaosMarineTzeentch</defName>
@@ -202,6 +310,39 @@
         <disallowedTraits>
             <li>Brawler</li>
         </disallowedTraits>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_TzeentchMarine>1</BEWH_TzeentchMarine>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+    <!-- Tzeentch Marine Psyker -->
+
+    <PawnKindDef ParentName="ChaosMarineBasePawn">
+        <defName>BEWH_ChaosMarineTzeentchPsyker</defName>
+        <label>Tzeentch Psyker</label>
+        <apparelColor>(0,60,155)</apparelColor>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>Apparel_ArmorMarinePrestige</li>
+            <li>Apparel_ArmorMarineHelmetPrestige</li>
+        </apparelRequired>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~13</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~13</range>
+            </li>
+        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_TzeentchMarine>1</BEWH_TzeentchMarine>

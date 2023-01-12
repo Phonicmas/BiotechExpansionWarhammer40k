@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Gene Category -->
-
-    <GeneCategoryDef>
-        <defName>BEWHMutation</defName>
-        <label>mutations</label>
-        <displayPriorityInXenotype>-666</displayPriorityInXenotype>
-    </GeneCategoryDef>
+    <!-- Parent Gene -->
 
     <GeneDef Name="MutationParent" Abstract="True">
-        <!--<displayCategory>BEWHMutation</displayCategory>-->
         <label>mutation</label>
         <description>Mutated by warp energies.</description>
         <iconPath>UI/Icons/Genes/MutationGeneIcon</iconPath>

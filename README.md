@@ -19,6 +19,7 @@ https://forms.gle/5YpXFs7UgMokhvYa7
 4. Make custom code to remove/prevent hediffs from getting applied.
 5. Make progenoid glands give an additional harvest of gene-seeds when a pawn dies.
 6. Make it use weapons and armor from other mods if they are present.
+7. Acquire daemon, primarch & custodes genes through ????
 
 ## Fixes to do
 1. Psytrainer quest reward giving access without psyker gene. (Unsure how to without going too much into existing code and messing with it)

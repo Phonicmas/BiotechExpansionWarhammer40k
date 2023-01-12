@@ -185,8 +185,9 @@
     <range>30.9</range>
     <radius>12.9</radius>
     <power>2</power>
+    <cooldownTime>360</cooldownTime>
     <powerStatFactors>
-      <PsychicSensitivity>5</PsychicSensitivity>
+      <PsychicSensitivity>2</PsychicSensitivity>
     </powerStatFactors>
     <targetMode>Location</targetMode>
     <castSound>VPE_Explosion</castSound>

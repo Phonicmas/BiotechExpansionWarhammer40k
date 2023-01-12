@@ -62,6 +62,7 @@
                 <commonality>100</commonality>
                 <options>
                     <BEWH_ChaosMarineUndivided>100</BEWH_ChaosMarineUndivided>
+                    <BEWH_ChaosMarineUndividedPsyker>10</BEWH_ChaosMarineUndividedPsyker>
                     <BEWH_DPUndivided>1</BEWH_DPUndivided>
                 </options>
             </li>
@@ -80,6 +81,7 @@
                 <commonality>100</commonality>
                 <options>
                     <BEWH_ChaosMarineNurgle>100</BEWH_ChaosMarineNurgle>
+                    <BEWH_ChaosMarineNurglePsyker>10</BEWH_ChaosMarineNurglePsyker>
                     <BEWH_DPNurgle>1</BEWH_DPNurgle>
                 </options>
             </li>
@@ -89,6 +91,7 @@
                 <commonality>100</commonality>
                 <options>
                     <BEWH_ChaosMarineSlaanesh>100</BEWH_ChaosMarineSlaanesh>
+                    <BEWH_ChaosMarineSlaaneshPsyker>10</BEWH_ChaosMarineSlaaneshPsyker>
                     <BEWH_DPSlaanesh>1</BEWH_DPSlaanesh>
                 </options>
             </li>
@@ -98,6 +101,7 @@
                 <commonality>100</commonality>
                 <options>
                     <BEWH_ChaosMarineTzeentch>100</BEWH_ChaosMarineTzeentch>
+                    <BEWH_ChaosMarineTzeentchPsyker>50</BEWH_ChaosMarineTzeentchPsyker>
                     <BEWH_DPTzeentch>1</BEWH_DPTzeentch>
                 </options>
             </li>
